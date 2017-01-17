@@ -3,9 +3,9 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 @Component({
-  templateUrl: 'autres.html'
+  templateUrl: 'identifier.html'
 })
-export class AutrePage {
+export class IdentifierPage {
 
   constructor(public navCtrl: NavController) {
 
