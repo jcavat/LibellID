@@ -6,6 +6,10 @@ import { HomePage } from '../pages/home/home';
 import {AutrePage} from '../pages/autres/autres'
 import {IdentifierPage} from '../pages/identifier/identifier';
 import {PromenadesPage} from '../pages/promenades/promenades';
+import {AidePage} from '../pages/aide/aide';
+import {FichesInfoPage} from '../pages/fichesInfo/fichesInfo';
+import {SaisieObservationPage} from '../pages/saisieObservation/saisieObservation';
+import {PopoverIdentifier} from '../pages/identifier/popoverIdentifier';
 
 @NgModule({
   declarations: [
@@ -13,7 +17,11 @@ import {PromenadesPage} from '../pages/promenades/promenades';
     HomePage,
     AutrePage,
     IdentifierPage,
-    PromenadesPage
+    PromenadesPage,
+    AidePage,
+    FichesInfoPage,
+    SaisieObservationPage,
+    PopoverIdentifier
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -24,7 +32,11 @@ import {PromenadesPage} from '../pages/promenades/promenades';
     HomePage,
     AutrePage,
     IdentifierPage,
-    PromenadesPage
+    PromenadesPage,
+    AidePage,
+    FichesInfoPage,
+    SaisieObservationPage,
+    PopoverIdentifier
   ],
   providers: []
 })

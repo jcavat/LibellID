@@ -11,19 +11,19 @@
         <img src="img/s_sanguineum2.jpg"/>
     </ion-card>
     <ion-list inset>
-        <button ion-item>
+        <button ion-item [navPush]="fichesInfoPage">
             <ion-thumbnail item-left>
                 <img src="img/thumbnail-infos.png">
             </ion-thumbnail>
             Fiches infos
         </button>
-        <button ion-item>
+        <button ion-item [navPush]="saisieObservationPage">
             <ion-thumbnail item-left>
                 <img src="img/thumbnail-observation.png">
             </ion-thumbnail>
             Saisir une observation
         </button>
-        <button ion-item>
+        <button ion-item [navPush]="aidePage">
             <ion-thumbnail item-left>
                 <img src="img/thumbnail-aide.png">
             </ion-thumbnail>
