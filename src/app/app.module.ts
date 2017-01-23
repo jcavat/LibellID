@@ -1,15 +1,19 @@
+
 import { NgModule } from '@angular/core';
 import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 
+import { GlobalService } from './globalService';
 import { HomePage } from '../pages/home/home';
 import {AutrePage} from '../pages/autres/autres'
 import {IdentifierPage} from '../pages/identifier/identifier';
-import {PromenadesPage} from '../pages/promenades/promenades';
+import {PromenadesCartePage} from '../pages/promenades/promenadesCarte/promenadesCarte';
+import {PromenadesListePage} from '../pages/promenades/promenadesListe/promenadesListe';
 import {AidePage} from '../pages/aide/aide';
 import {FichesInfoPage} from '../pages/fichesInfo/fichesInfo';
 import {SaisieObservationPage} from '../pages/saisieObservation/saisieObservation';
 import {PopoverIdentifier} from '../pages/identifier/popoverIdentifier';
+import {PopoverPromenades} from '../pages/promenades/popoverPromenades';
 
 @NgModule({
   declarations: [
@@ -17,11 +21,13 @@ import {PopoverIdentifier} from '../pages/identifier/popoverIdentifier';
     HomePage,
     AutrePage,
     IdentifierPage,
-    PromenadesPage,
+    PromenadesCartePage,
+    PromenadesListePage,
     AidePage,
     FichesInfoPage,
     SaisieObservationPage,
-    PopoverIdentifier
+    PopoverIdentifier,
+    PopoverPromenades
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -32,12 +38,16 @@ import {PopoverIdentifier} from '../pages/identifier/popoverIdentifier';
     HomePage,
     AutrePage,
     IdentifierPage,
-    PromenadesPage,
+    PromenadesCartePage,
+    PromenadesListePage,
     AidePage,
     FichesInfoPage,
     SaisieObservationPage,
-    PopoverIdentifier
+    PopoverIdentifier,
+    PopoverPromenades
   ],
-  providers: []
+  providers: [
+    GlobalService
+  ]
 })
 export class AppModule {}
