@@ -19,7 +19,7 @@ import {PromenadesListePage} from './promenadesListe/promenadesListe';
 export class PopoverPromenades {
   constructor(public viewCtrl: ViewController, public globalService:GlobalService, public navCtrl: NavController) {}
   close() {
-    this.navCtrl.setRoot(HomePage);
+    /*this.navCtrl.setRoot(HomePage);*/
     if(this.globalService.affiCarte){
       this.navCtrl.push(PromenadesCartePage);
     }else{

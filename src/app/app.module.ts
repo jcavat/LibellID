@@ -4,6 +4,7 @@ import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { GlobalService } from './globalService';
+import {JsonService} from '../providers/json-service';
 import { HomePage } from '../pages/home/home';
 import {AutrePage} from '../pages/autres/autres'
 import {IdentifierPage} from '../pages/identifier/identifier';
@@ -14,6 +15,7 @@ import {FichesInfoPage} from '../pages/fichesInfo/fichesInfo';
 import {SaisieObservationPage} from '../pages/saisieObservation/saisieObservation';
 import {PopoverIdentifier} from '../pages/identifier/popoverIdentifier';
 import {PopoverPromenades} from '../pages/promenades/popoverPromenades';
+import {FicheLibellulePage} from '../pages/ficheLibellule/ficheLibellule';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import {PopoverPromenades} from '../pages/promenades/popoverPromenades';
     FichesInfoPage,
     SaisieObservationPage,
     PopoverIdentifier,
-    PopoverPromenades
+    PopoverPromenades,
+    FicheLibellulePage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -44,10 +47,12 @@ import {PopoverPromenades} from '../pages/promenades/popoverPromenades';
     FichesInfoPage,
     SaisieObservationPage,
     PopoverIdentifier,
-    PopoverPromenades
+    PopoverPromenades,
+    FicheLibellulePage
   ],
   providers: [
-    GlobalService
+    GlobalService,
+    JsonService
   ]
 })
 export class AppModule {}

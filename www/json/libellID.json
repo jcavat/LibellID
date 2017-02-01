@@ -1,0 +1,161 @@
+{
+  "libellules": [
+    {
+      "nomCommun": "Aeshne affine",
+      "nomLatin": "Aeshna affinis",
+      "photoEnTete": "photo.png",
+      "criteres": {
+        "critere1": 0,
+        "critere2": 1,
+        "critere3": 1,
+        "critere4": 0,
+        "critere5": 1,
+        "critere6": 0,
+        "critere7": 0,
+        "critere8": 1
+      },
+      "photo1": "photo1.jpg",
+      "photo2": "photo2.jpg",
+      "description": "Lorem Ipsum blabla bla",
+      "habitats": [
+        "mares",
+        "étangs",
+        "bassins artificiels",
+        "bras morts, partie lente des grands cours d'eau"
+      ],
+      "comportement": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+      "volDebut": 3,
+      "volFin": 10,
+      "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
+      "carteRepartition": "carte.jpg"
+  },
+  {
+    "nomCommun": "Aeshne bleue",
+    "nomLatin": "Aeshna cyanea",
+    "photoEnTete": "photo.png",
+    "criteres": {
+      "critere1": 0,
+      "critere2": 1,
+      "critere3": 1,
+      "critere4": 0,
+      "critere5": 1,
+      "critere6": 0,
+      "critere7": 0,
+      "critere8": 1
+    },
+    "photo1": "photo1.jpg",
+    "photo2": "photo2.jpg",
+    "description": "Lorem Ipsum blabla bla",
+    "habitats": [
+      "mares",
+      "étangs",
+      "bassins artificiels",
+      "bras morts, partie lente des grands cours d'eau"
+    ],
+    "comportement": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+    "volDebut": 3,
+    "volFin": 10,
+    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
+    "carteRepartition": "carte.jpg"
+},
+{
+  "nomCommun": "Aeshne mixte",
+  "nomLatin": "Aeshna mixta",
+  "photoEnTete": "photo.png",
+  "criteres": {
+    "critere1": 0,
+    "critere2": 1,
+    "critere3": 1,
+    "critere4": 0,
+    "critere5": 1,
+    "critere6": 0,
+    "critere7": 0,
+    "critere8": 1
+  },
+  "photo1": "photo1.jpg",
+  "photo2": "photo2.jpg",
+  "description": "Lorem Ipsum blabla bla",
+  "habitats": [
+    "mares",
+    "étangs",
+    "bassins artificiels",
+    "bras morts, partie lente des grands cours d'eau"
+  ],
+  "comportement": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+  "volDebut": 3,
+  "volFin": 10,
+  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
+  "carteRepartition": "carte.jpg"
+},
+{
+  "nomCommun": "Anax empereur",
+  "nomLatin": "Anax imperator",
+  "photoEnTete": "photo.png",
+  "criteres": {
+    "critere1": 0,
+    "critere2": 1,
+    "critere3": 1,
+    "critere4": 0,
+    "critere5": 1,
+    "critere6": 0,
+    "critere7": 0,
+    "critere8": 1
+  },
+  "photo1": "photo1.jpg",
+  "photo2": "photo2.jpg",
+  "description": "Lorem Ipsum blabla bla",
+  "habitats": [
+    "mares",
+    "étangs",
+    "bassins artificiels",
+    "bras morts, partie lente des grands cours d'eau"
+  ],
+  "comportement": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+  "volDebut": 3,
+  "volFin": 10,
+  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
+  "carteRepartition": "carte.jpg"
+}
+  ],
+  "promenades": [
+    {
+      "id": 1,
+      "nom": "Jardin botanique",
+      "duree": "1h",
+      "diversite": 2,
+      "niveau": 1,
+      "longueur": 5.3,
+      "description": "Lorem ipsum blabla bla blabla blablabla bla",
+      "especes": [
+        {
+          "nom": "Anax empereur",
+          "periodeDebut": 4,
+          "periodeFin": 10
+        },
+        {
+          "nom": "Agrion porte-coupe",
+          "periodeDebut": 4.5,
+          "periodeFin": 10
+        },
+        {
+          "nom": "Agrion jouvencelle",
+          "periodeDebut": 4,
+          "periodeFin": 9
+        },
+        {
+          "nom": "Agrion élégant",
+          "periodeDebut": 4.5,
+          "periodeFin": 9.5
+        },
+        {
+          "nom": "Naïade au corps vert",
+          "periodeDebut": 5,
+          "periodeFin": 9
+        }
+      ],
+      "photo1": "photo1.jpg",
+      "photo2": "photo2.jpg",
+      "KML": "jardinBotanique.kml"
+    }
+  ]
+}
