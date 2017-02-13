@@ -14,8 +14,10 @@
         "critere7": 0,
         "critere8": 1
       },
-      "photo1": "photo1.jpg",
-      "photo2": "photo2.jpg",
+      "photos": [
+          "photo1.jpg",
+          "photo2.jpg"
+      ],
       "description": "Lorem Ipsum blabla bla",
       "habitats": [
         "mares",
@@ -24,8 +26,20 @@
         "bras morts, partie lente des grands cours d'eau"
       ],
       "comportement": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-      "volDebut": 3,
-      "volFin": 10,
+      "vol": [
+          0,
+          0,
+          0,
+          0.3,
+          0.6,
+          1,
+          1,
+          1,
+          1,
+          0.6,
+          0.3,
+          0
+      ],
       "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
       "carteRepartition": "carte.jpg"
   },
@@ -43,8 +57,10 @@
       "critere7": 0,
       "critere8": 1
     },
-    "photo1": "photo1.jpg",
-    "photo2": "photo2.jpg",
+    "photos": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
     "description": "Lorem Ipsum blabla bla",
     "habitats": [
       "mares",
@@ -53,8 +69,20 @@
       "bras morts, partie lente des grands cours d'eau"
     ],
     "comportement": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-    "volDebut": 3,
-    "volFin": 10,
+    "vol": [
+        0,
+        0,
+        0,
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3,
+        0
+    ],
     "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
     "carteRepartition": "carte.jpg"
 },
@@ -72,8 +100,10 @@
     "critere7": 0,
     "critere8": 1
   },
-  "photo1": "photo1.jpg",
-  "photo2": "photo2.jpg",
+  "photos": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
   "description": "Lorem Ipsum blabla bla",
   "habitats": [
     "mares",
@@ -82,8 +112,20 @@
     "bras morts, partie lente des grands cours d'eau"
   ],
   "comportement": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-  "volDebut": 3,
-  "volFin": 10,
+  "vol": [
+      0,
+      0,
+      0,
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3,
+      0
+  ],
   "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
   "carteRepartition": "carte.jpg"
 },
@@ -101,8 +143,10 @@
     "critere7": 0,
     "critere8": 1
   },
-  "photo1": "photo1.jpg",
-  "photo2": "photo2.jpg",
+  "photos": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
   "description": "Lorem Ipsum blabla bla",
   "habitats": [
     "mares",
@@ -111,8 +155,20 @@
     "bras morts, partie lente des grands cours d'eau"
   ],
   "comportement": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-  "volDebut": 3,
-  "volFin": 10,
+  "vol": [
+      0,
+      0,
+      0,
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3,
+      0
+  ],
   "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
   "carteRepartition": "carte.jpg"
 }
@@ -153,8 +209,10 @@
           "periodeFin": 9
         }
       ],
-      "photo1": "photo1.jpg",
-      "photo2": "photo2.jpg",
+      "photos":[
+          "photo1.jpg",
+          "photo2.jpg"
+      ],
       "KML": "jardinBotanique.kml"
     }
   ]

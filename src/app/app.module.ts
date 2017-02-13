@@ -4,7 +4,7 @@ import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { GlobalService } from './globalService';
-import {JsonService} from '../providers/json-service';
+import {JsonDataService} from '../providers/jsonDataService';
 import { HomePage } from '../pages/home/home';
 import {AutrePage} from '../pages/autres/autres'
 import {IdentifierPage} from '../pages/identifier/identifier';
@@ -16,6 +16,7 @@ import {SaisieObservationPage} from '../pages/saisieObservation/saisieObservatio
 import {PopoverIdentifier} from '../pages/identifier/popoverIdentifier';
 import {PopoverPromenades} from '../pages/promenades/popoverPromenades';
 import {FicheLibellulePage} from '../pages/ficheLibellule/ficheLibellule';
+import {FicheLibelluleOngletAccueilPage} from '../pages/ficheLibellule/ficheLibelluleOnglets/ficheLibelluleOngletAccueil/ficheLibelluleOngletAccueil';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import {FicheLibellulePage} from '../pages/ficheLibellule/ficheLibellule';
     SaisieObservationPage,
     PopoverIdentifier,
     PopoverPromenades,
-    FicheLibellulePage
+    FicheLibellulePage,
+    FicheLibelluleOngletAccueilPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -48,11 +50,12 @@ import {FicheLibellulePage} from '../pages/ficheLibellule/ficheLibellule';
     SaisieObservationPage,
     PopoverIdentifier,
     PopoverPromenades,
-    FicheLibellulePage
+    FicheLibellulePage,
+    FicheLibelluleOngletAccueilPage
   ],
   providers: [
     GlobalService,
-    JsonService
+    JsonDataService
   ]
 })
 export class AppModule {}

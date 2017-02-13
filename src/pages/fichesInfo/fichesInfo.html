@@ -8,7 +8,7 @@
 
 <ion-content>
     <ion-list>
-        <ion-item *ngFor="let libellule of json" (click)="openPage(libellule)">
+        <ion-item *ngFor="let libellule of libellulesData" (click)="openPage(libellule)">
             <ion-avatar item-left>
                 <img src="img/{{libellule.photoEnTete}} ">
             </ion-avatar>
