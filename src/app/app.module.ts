@@ -8,6 +8,7 @@ import {JsonDataService} from '../providers/jsonDataService';
 import { HomePage } from '../pages/home/home';
 import {AutrePage} from '../pages/autres/autres'
 import {IdentifierPage} from '../pages/identifier/identifier';
+import {PromenadesPage} from '../pages/promenades/promenades';
 import {PromenadesCartePage} from '../pages/promenades/promenadesCarte/promenadesCarte';
 import {PromenadesListePage} from '../pages/promenades/promenadesListe/promenadesListe';
 import {AidePage} from '../pages/aide/aide';
@@ -17,6 +18,11 @@ import {PopoverIdentifier} from '../pages/identifier/popoverIdentifier';
 import {PopoverPromenades} from '../pages/promenades/popoverPromenades';
 import {FicheLibellulePage} from '../pages/ficheLibellule/ficheLibellule';
 import {FicheLibelluleOngletAccueilPage} from '../pages/ficheLibellule/ficheLibelluleOnglets/ficheLibelluleOngletAccueil/ficheLibelluleOngletAccueil';
+import {FicheLibelluleOngletPhotosPage} from '../pages/ficheLibellule/ficheLibelluleOnglets/ficheLibelluleOngletPhotos/ficheLibelluleOngletPhotos';
+import {FicheLibelluleOngletInfosPage} from '../pages/ficheLibellule/ficheLibelluleOnglets/ficheLibelluleOngletInfos/ficheLibelluleOngletInfos';
+import {FicheLibelluleOngletDistributionPage} from '../pages/ficheLibellule/ficheLibelluleOnglets/ficheLibelluleOngletDistribution/ficheLibelluleOngletDistribution';
+
+
 
 @NgModule({
   declarations: [
@@ -24,6 +30,7 @@ import {FicheLibelluleOngletAccueilPage} from '../pages/ficheLibellule/ficheLibe
     HomePage,
     AutrePage,
     IdentifierPage,
+    PromenadesPage,
     PromenadesCartePage,
     PromenadesListePage,
     AidePage,
@@ -32,7 +39,10 @@ import {FicheLibelluleOngletAccueilPage} from '../pages/ficheLibellule/ficheLibe
     PopoverIdentifier,
     PopoverPromenades,
     FicheLibellulePage,
-    FicheLibelluleOngletAccueilPage
+    FicheLibelluleOngletAccueilPage,
+    FicheLibelluleOngletPhotosPage,
+    FicheLibelluleOngletInfosPage,
+    FicheLibelluleOngletDistributionPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -43,6 +53,7 @@ import {FicheLibelluleOngletAccueilPage} from '../pages/ficheLibellule/ficheLibe
     HomePage,
     AutrePage,
     IdentifierPage,
+    PromenadesPage,
     PromenadesCartePage,
     PromenadesListePage,
     AidePage,
@@ -51,7 +62,10 @@ import {FicheLibelluleOngletAccueilPage} from '../pages/ficheLibellule/ficheLibe
     PopoverIdentifier,
     PopoverPromenades,
     FicheLibellulePage,
-    FicheLibelluleOngletAccueilPage
+    FicheLibelluleOngletAccueilPage,
+    FicheLibelluleOngletPhotosPage,
+    FicheLibelluleOngletInfosPage,
+    FicheLibelluleOngletDistributionPage
   ],
   providers: [
     GlobalService,

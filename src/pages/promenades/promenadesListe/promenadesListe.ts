@@ -1,27 +1,30 @@
 import { Component } from '@angular/core';
 
-import { NavController, NavParams,ToastController, PopoverController } from 'ionic-angular';
-import { File } from 'ionic-native';
-import { PopoverPromenades } from '../popoverPromenades';
+import { NavController, NavParams } from 'ionic-angular';
+import {JsonDataService} from '../../../providers/jsonDataService';
+
+
 
 @Component({
   templateUrl: 'promenadesListe.html'
 })
 export class PromenadesListePage {
+    private promenadesData: any;
 
-  constructor(public navCtrl: NavController,public toastCtrl : ToastController, public popoverCtrl: PopoverController) {
-
+  constructor(public navCtrl: NavController,public jsonDataService: JsonDataService) {
+      this.loadData();
   }
 
-  presentPopover(myEvent){
-      let popover = this.popoverCtrl.create(PopoverPromenades);
-      popover.present({
-          ev: myEvent
-      });
+  private loadData():void{
+      let that = this;
+       this.jsonDataService.getPromenades().then(function(val){
+           that.promenadesData = val;
+       }).catch(function(err){
+           alert("Un problème est survenu")
+        });
   }
-
-  ionViewDidLoad(){
-
-  }
+  /*private openPage(libell):void{
+      this.navCtrl.push(PromenadeDetail, {libellule: libell});
+  }*/
 
 }

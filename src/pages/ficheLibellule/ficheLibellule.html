@@ -1,16 +1,15 @@
-<ion-header>
+<!--<ion-header>
   <ion-navbar color="primary">
     <ion-title>
       {{libellule.nomCommun}}
     </ion-title>
   </ion-navbar>
-</ion-header>
+</ion-header>-->
 
-<ion-content>
-    <ion-tabs>
-        <ion-tab [root]="ficheLibelluleOngletAccueilPage" tabTitle="Test"></ion-tab>
-        <!--<ion-tab [root]=""></ion-tab>
-        <ion-tab [root]=""></ion-tab>
-        <ion-tab [root]=""></ion-tab>-->
+
+    <ion-tabs tabsHighlight="true">
+        <ion-tab [root]="ficheLibelluleOngletAccueilPage" [rootParams]="libellule" tabTitle="Critères" ></ion-tab>
+        <ion-tab [root]="ficheLibelluleOngletPhotosPage" [rootParams]="libellule" tabTitle="Photos"></ion-tab>
+        <ion-tab [root]="ficheLibelluleOngletInfosPage" [rootParams]="libellule" tabTitle="Infos"></ion-tab>
+        <ion-tab [root]="ficheLibelluleOngletDistributionPage" [rootParams]="libellule" tabTitle="Répartition"></ion-tab>
     </ion-tabs>
-</ion-content>

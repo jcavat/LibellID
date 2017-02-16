@@ -3,14 +3,28 @@
     <ion-title>
       Promenades
     </ion-title>
-    <ion-buttons end>
-        <button ion-button icon-only (click)="presentPopover($event)">
-            <ion-icon name="more"></ion-icon>
-        </button>
-    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
-
+    <ion-list>
+        <ion-item *ngFor="let promenade of promenadesData">
+            <ion-avatar item-left>
+                <img src="img/{{promenade.photos[1]}} ">
+            </ion-avatar>
+            <table class="promenadeItem">
+                <tr>
+                    <td colspan="2" class="promenadeTitre">{{promenade.id}}. {{promenade.nom}}</td>
+                </tr>
+                <tr>
+                    <td class="promenadeDuree">
+                        <ion-icon name="time"></ion-icon> {{promenade.duree}}
+                    </td>
+                    <td class="promenadeDiversite">
+                        Diversité {{promenade.diversite}}/4
+                    </td>
+                </tr>
+            </table>
+        </ion-item>
+    </ion-list>
 </ion-content>

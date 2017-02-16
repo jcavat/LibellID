@@ -22167,12 +22167,53 @@ sub {
   }
 }
 
-#map {
-  height: 100%;
+.nomLatin {
+  text-align: center;
+}
+
+.tableCriteres {
   width: 100%;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 2px;
+}
+
+.tableCriteres tr, .tableCriteres td {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.tableCriteres td {
+  padding: 3px;
+  width: 50%;
+}
+
+.tableVol {
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.periodeVol {
+  width: 11%;
+}
+
+.periodeVol span {
+  width: 100%;
+  height: 100%;
 }
 
 #map {
   height: 100%;
   width: 100%;
+}
+
+.promenadeItem {
+  width: 100%;
+}
+
+.promenadeDuree, .promenadeDiversite {
+  width: 50%;
 }

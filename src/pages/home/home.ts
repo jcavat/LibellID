@@ -4,10 +4,7 @@ import { NavController } from 'ionic-angular';
 
 import { AutrePage } from '../autres/autres';
 import { IdentifierPage } from '../identifier/identifier';
-import {PromenadesCartePage} from '../promenades/promenadesCarte/promenadesCarte';
-import {PromenadesListePage} from '../promenades/promenadesListe/promenadesListe';
-import { GlobalService } from '../../app/globalService'
-
+import {PromenadesPage} from '../promenades/promenades';
 
 @Component({
   selector: 'page-home',
@@ -17,16 +14,10 @@ export class HomePage {
 
     autrePage = AutrePage;
     identifierPage = IdentifierPage;
+    promenadesPage = PromenadesPage;
 
-  constructor(public navCtrl: NavController, public globalService: GlobalService) {
+  constructor(public navCtrl: NavController) {
 
   }
 
-  private afficherPromenade(){
-    if(this.globalService.affiCarte){
-      this.navCtrl.push(PromenadesCartePage);
-    }else{
-      this.navCtrl.push(PromenadesListePage);
-    }
-  }
 }

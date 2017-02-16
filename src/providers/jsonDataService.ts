@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+ import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 
@@ -16,14 +16,14 @@ export class JsonDataService {
   }
 
   public getLibellules(){
-    let p: any;
+    let l: any;
     let that = this;
     if (this.singleInstanceJsonData) {
-        p = new Promise(function(resolve,reject){
+        l = new Promise(function(resolve,reject){
             resolve(that.singleInstanceJsonData.libellules);
         });
     }else{
-        p = new Promise(function(resolve,reject){
+        l = new Promise(function(resolve,reject){
             that.http.get('./json/libellID.json')
                 .map(res => res.json())
                 .subscribe(data => {
@@ -32,22 +32,47 @@ export class JsonDataService {
             });
         });
     }
-    return p;
+    return l;
   }
 
-  public getPromenadess(){
-      if (this.singleInstanceJsonData) {
-        return Promise.resolve(this.singleInstanceJsonData.promenades);
-      }
+  public getCriteres(){
+    let c: any;
+    let that = this;
+    if (this.singleInstanceJsonData) {
+        c = new Promise(function(resolve,reject){
+            resolve(that.singleInstanceJsonData.criteres);
+        });
+    }else{
+        c = new Promise(function(resolve,reject){
+            that.http.get('./json/libellID.json')
+                .map(res => res.json())
+                .subscribe(data => {
+                    that.singleInstanceJsonData = data;
+                    resolve(that.singleInstanceJsonData.criteres) ;
+            });
+        });
+    }
+    return c;
+  }
 
-      return new Promise(resolve => {
-        this.http.get('./json/libellID.json')
-          .map(res => res.json())
-          .subscribe(data => {
-              this.singleInstanceJsonData = data;
-              resolve(this.singleInstanceJsonData.promenades);
-          });
-      });
+  public getPromenades(){
+    let p: any;
+    let that = this;
+    if (this.singleInstanceJsonData) {
+        p = new Promise(function(resolve,reject){
+            resolve(that.singleInstanceJsonData.promenades);
+        });
+    }else{
+        p = new Promise(function(resolve,reject){
+            that.http.get('./json/libellID.json')
+                .map(res => res.json())
+                .subscribe(data => {
+                    that.singleInstanceJsonData = data;
+                    resolve(that.singleInstanceJsonData.promenades) ;
+            });
+        });
+    }
+    return p;
   }
 
 }

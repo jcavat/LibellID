@@ -1,9 +1,6 @@
 import { Component } from '@angular/core';
 
-import { NavController, NavParams, ToastController } from 'ionic-angular';
-
-import { Http } from '@angular/http';
-import 'rxjs/add/operator/map';
+import { NavController, NavParams } from 'ionic-angular';
 
 import {JsonDataService} from '../../providers/jsonDataService';
 import {FicheLibellulePage} from '../ficheLibellule/ficheLibellule';
@@ -14,7 +11,7 @@ import {FicheLibellulePage} from '../ficheLibellule/ficheLibellule';
 export class FichesInfoPage {
   private libellulesData: any;
 
-  constructor(public navCtrl: NavController, public jsonDataService: JsonDataService, public http: Http) {
+  constructor(public navCtrl: NavController, public jsonDataService: JsonDataService) {
       this.loadData();
   }
   private loadData():void{
@@ -24,7 +21,7 @@ export class FichesInfoPage {
        }).catch(function(err){
            alert("Un problème est survenu")
         });
-  } 
+  }
   private openPage(libell):void{
       this.navCtrl.push(FicheLibellulePage, {libellule: libell});
   }

@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      {{libellule.nomCommun}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+    <p>{{libellule.description}}</p>
+    <h4>Habitats</h4>
+    <ul>
+        <li *ngFor="let habitat of libellule.habitats">{{habitat}}</li>
+    </ul>
+    <h4>Comportement et période de vol</h4>
+    <p>{{libellule.comportement}}</p>
+    <table class="tableVol">
+        <tr>
+            <td>mars</td>
+            <td>avr.</td>
+            <td>mai</td>
+            <td>juin</td>
+            <td>juil.</td>
+            <td>août</td>
+            <td>sept.</td>
+            <td>oct.</td>
+            <td>nov.</td>
+        </tr>
+        <tr>
+            <td class="periodeVol" *ngFor="let p of libellule.vol" [ngStyle]="{'background-color': 'rgba(144,238,144,'+ (p) +')'}">
+                &nbsp;
+            </td>
+        </tr>
+    </table>
+    <p class="anecdote">{{libellule.anecdote}}</p>
+    <h4>Menace</h4>
+    <p class="menace">{{libellule.menace}}</p>
+    <h4>Pour en savoir plus</h4>
+    <span class="liens" *ngFor="let lien of libellule.liens"><a href="{{lien.lien}}">{{lien.valeur}}</a><br></span>
+</ion-content>

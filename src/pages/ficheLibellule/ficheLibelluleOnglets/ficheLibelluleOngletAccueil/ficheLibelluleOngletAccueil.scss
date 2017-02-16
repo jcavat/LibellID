@@ -1,0 +1,29 @@
+.photoEnTete{
+
+}
+.nomLatin{
+    text-align: center;
+}
+.partager{
+
+}
+.transmettre{
+
+}
+
+.tableCriteres{
+    width : 100%;
+    border-width : 2px;
+    border-color : black;
+    border-style : solid;
+    border-radius : 2px;
+    tr, td{
+        border-width : 1px;
+        border-color : black;
+        border-style : solid;
+    }
+    td{
+        padding : 3px;
+        width : 50%;
+    }
+}
