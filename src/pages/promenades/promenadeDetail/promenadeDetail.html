@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      {{promenade.nom}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <span>CARTE / IMAGE</span>
+    {{promenade.id}}. {{promenade.nom}}
+    <table class="tableDetail">
+        <tr>
+            <td>Niveau <img class="imgNiveauDiversite" src="img/diversite-{{promenade.niveau}}.png"></td>
+            <td>Diversite <img class="imgNiveauDiversite" src="img/diversite-{{promenade.diversite}}.png"></td>
+        </tr>
+        <tr>
+            <td>{{promenade.longueur}} km</td>
+            <td><ion-icon name="time"></ion-icon> {{promenade.duree}}</td>
+        </tr>
+    </table>
+    <p>
+        {{promenade.description}}
+    </p>
+    <button ion-button>C'est parti</button>
+    <h4>Espèces à découvrir</h4>
+    <ul>
+        <li *ngFor="let e of promenade.especes">{{e.nom}} : {{mois[e.periodeDebut+1]}} à {{mois[e.periodeFin+1]}}</li>
+    </ul>
+
+</ion-content>

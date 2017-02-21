@@ -14,15 +14,15 @@ export class PromenadesCartePage {
   }
 
   ionViewDidLoad(){
-    var layer = ga.layer.create('ch.astra.ivs-nat');
+    var layer = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
     var map = new ga.Map({
       target: 'map',
-      layers: [layer],
       view: new ol.View({
-        resolution: 100,
+        resolution: 200,
         center: [500106.8,118142.5]
       })
     });
+    map.addLayer(layer);
   }
 
 }

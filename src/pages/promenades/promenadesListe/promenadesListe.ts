@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 import { NavController, NavParams } from 'ionic-angular';
 import {JsonDataService} from '../../../providers/jsonDataService';
-
-
+import {PromenadeDetailPage} from '../promenadeDetail/promenadeDetail';
 
 @Component({
   templateUrl: 'promenadesListe.html'
@@ -23,8 +22,8 @@ export class PromenadesListePage {
            alert("Un problème est survenu")
         });
   }
-  /*private openPage(libell):void{
-      this.navCtrl.push(PromenadeDetail, {libellule: libell});
-  }*/
+  private openPage(p):void{
+      this.navCtrl.push(PromenadeDetailPage, {promenade: p});
+  }
 
 }

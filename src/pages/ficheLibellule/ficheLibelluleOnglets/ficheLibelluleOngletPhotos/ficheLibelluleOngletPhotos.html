@@ -6,7 +6,9 @@
   </ion-navbar>
 </ion-header>
 <ion-content padding>
-    <span *ngFor="let photo of libellule.photos">
-        <img src="img/{{photo}}"><br>
-    </span>
+    <ion-slides>
+        <ion-slide *ngFor="let photo of libellule.photos">
+            <img src="img/{{photo}}"><br>
+        </ion-slide>
+    </ion-slides>
 </ion-content>

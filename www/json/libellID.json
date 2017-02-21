@@ -27,7 +27,6 @@
       ],
       "comportement": "Lorem Ipsum blabla bla blablabla bla bla blabla",
       "vol": [
-          0,
           0.3,
           0.6,
           1,
@@ -78,7 +77,6 @@
     ],
     "comportement": "Lorem Ipsum blabla bla blablabla bla bla blabla",
     "vol": [
-        0,
         0.3,
         0.6,
         1,
@@ -129,7 +127,6 @@
   ],
   "comportement": "Lorem Ipsum blabla bla blablabla bla bla blabla",
   "vol": [
-      0,
       0.3,
       0.6,
       1,
@@ -180,7 +177,6 @@
   ],
   "comportement": "Lorem Ipsum blabla bla blablabla bla bla blabla",
   "vol": [
-      0,
       0.3,
       0.6,
       1,
@@ -222,7 +218,7 @@
         },
         {
           "nom": "Agrion porte-coupe",
-          "periodeDebut": 4.5,
+          "periodeDebut": 4,
           "periodeFin": 10
         },
         {
@@ -232,8 +228,8 @@
         },
         {
           "nom": "Agrion élégant",
-          "periodeDebut": 4.5,
-          "periodeFin": 9.5
+          "periodeDebut": 4,
+          "periodeFin": 9
         },
         {
           "nom": "Naïade au corps vert",
@@ -246,7 +242,89 @@
           "photo2.jpg"
       ],
       "KML": "jardinBotanique.kml"
+  },
+  {
+    "id": 2,
+    "nom": "Promenade",
+    "duree": "1h30",
+    "diversite": 4,
+    "niveau": 1,
+    "longueur": 5.3,
+    "description": "Lorem ipsum blabla bla blabla blablabla bla",
+    "especes": [
+      {
+        "nom": "Anax empereur",
+        "periodeDebut": 4,
+        "periodeFin": 10
+      },
+      {
+        "nom": "Agrion porte-coupe",
+        "periodeDebut": 4,
+        "periodeFin": 10
+      },
+      {
+        "nom": "Agrion jouvencelle",
+        "periodeDebut": 4,
+        "periodeFin": 9
+      },
+      {
+        "nom": "Agrion élégant",
+        "periodeDebut": 4,
+        "periodeFin": 9
+      },
+      {
+        "nom": "Naïade au corps vert",
+        "periodeDebut": 5,
+        "periodeFin": 9
+      }
+    ],
+    "photos":[
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "KML": "jardinBotanique.kml"
+},
+{
+  "id": 3,
+  "nom": "Promenade",
+  "duree": "2h",
+  "diversite": 3,
+  "niveau": 1,
+  "longueur": 5.3,
+  "description": "Lorem ipsum blabla bla blabla blablabla bla",
+  "especes": [
+    {
+      "nom": "Anax empereur",
+      "periodeDebut": 4,
+      "periodeFin": 10
+    },
+    {
+      "nom": "Agrion porte-coupe",
+      "periodeDebut": 4,
+      "periodeFin": 10
+    },
+    {
+      "nom": "Agrion jouvencelle",
+      "periodeDebut": 4,
+      "periodeFin": 9
+    },
+    {
+      "nom": "Agrion élégant",
+      "periodeDebut": 4,
+      "periodeFin": 9
+    },
+    {
+      "nom": "Naïade au corps vert",
+      "periodeDebut": 5,
+      "periodeFin": 9
     }
+  ],
+  "photos":[
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "KML": "jardinBotanique.kml"
+}
 ],
 "criteres": [
     "Critère n°1",

@@ -8,10 +8,10 @@
 
 <ion-content>
     <ion-list>
-        <ion-item *ngFor="let promenade of promenadesData">
-            <ion-avatar item-left>
+        <ion-item *ngFor="let promenade of promenadesData" (click)="openPage(promenade)">
+            <ion-thumbnail item-left>
                 <img src="img/{{promenade.photos[1]}} ">
-            </ion-avatar>
+            </ion-thumbnail>
             <table class="promenadeItem">
                 <tr>
                     <td colspan="2" class="promenadeTitre">{{promenade.id}}. {{promenade.nom}}</td>
@@ -21,7 +21,7 @@
                         <ion-icon name="time"></ion-icon> {{promenade.duree}}
                     </td>
                     <td class="promenadeDiversite">
-                        Diversité {{promenade.diversite}}/4
+                        Diversité <img class="imgDiversite" src="img/diversite-{{promenade.diversite}}.png">
                     </td>
                 </tr>
             </table>

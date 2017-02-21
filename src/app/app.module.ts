@@ -11,11 +11,10 @@ import {IdentifierPage} from '../pages/identifier/identifier';
 import {PromenadesPage} from '../pages/promenades/promenades';
 import {PromenadesCartePage} from '../pages/promenades/promenadesCarte/promenadesCarte';
 import {PromenadesListePage} from '../pages/promenades/promenadesListe/promenadesListe';
+import {PromenadeDetailPage} from '../pages/promenades/promenadeDetail/promenadeDetail';
 import {AidePage} from '../pages/aide/aide';
 import {FichesInfoPage} from '../pages/fichesInfo/fichesInfo';
 import {SaisieObservationPage} from '../pages/saisieObservation/saisieObservation';
-import {PopoverIdentifier} from '../pages/identifier/popoverIdentifier';
-import {PopoverPromenades} from '../pages/promenades/popoverPromenades';
 import {FicheLibellulePage} from '../pages/ficheLibellule/ficheLibellule';
 import {FicheLibelluleOngletAccueilPage} from '../pages/ficheLibellule/ficheLibelluleOnglets/ficheLibelluleOngletAccueil/ficheLibelluleOngletAccueil';
 import {FicheLibelluleOngletPhotosPage} from '../pages/ficheLibellule/ficheLibelluleOnglets/ficheLibelluleOngletPhotos/ficheLibelluleOngletPhotos';
@@ -33,11 +32,10 @@ import {FicheLibelluleOngletDistributionPage} from '../pages/ficheLibellule/fich
     PromenadesPage,
     PromenadesCartePage,
     PromenadesListePage,
+    PromenadeDetailPage,
     AidePage,
     FichesInfoPage,
     SaisieObservationPage,
-    PopoverIdentifier,
-    PopoverPromenades,
     FicheLibellulePage,
     FicheLibelluleOngletAccueilPage,
     FicheLibelluleOngletPhotosPage,
@@ -45,7 +43,9 @@ import {FicheLibelluleOngletDistributionPage} from '../pages/ficheLibellule/fich
     FicheLibelluleOngletDistributionPage
   ],
   imports: [
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp,{
+        tabsHideOnSubPages: true
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -56,11 +56,10 @@ import {FicheLibelluleOngletDistributionPage} from '../pages/ficheLibellule/fich
     PromenadesPage,
     PromenadesCartePage,
     PromenadesListePage,
+    PromenadeDetailPage,
     AidePage,
     FichesInfoPage,
     SaisieObservationPage,
-    PopoverIdentifier,
-    PopoverPromenades,
     FicheLibellulePage,
     FicheLibelluleOngletAccueilPage,
     FicheLibelluleOngletPhotosPage,

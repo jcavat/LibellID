@@ -22167,8 +22167,13 @@ sub {
   }
 }
 
-.nomLatin {
+.contenuCentre {
+  width: 100%;
   text-align: center;
+}
+
+.photoEnTete {
+  width: 65%;
 }
 
 .tableCriteres {
@@ -22205,6 +22210,18 @@ sub {
   height: 100%;
 }
 
+.imgNiveauDiversite {
+  height: 50%;
+}
+
+.tableDetail {
+  width: 100%;
+}
+
+.tableDetail td {
+  width: 50%;
+}
+
 #map {
   height: 100%;
   width: 100%;
@@ -22216,4 +22233,13 @@ sub {
 
 .promenadeDuree, .promenadeDiversite {
   width: 50%;
+}
+
+.promenadeTitre {
+  font-size: 1.2em;
+  margin-bottom: 5%;
+}
+
+.imgDiversite {
+  height: 50%;
 }
