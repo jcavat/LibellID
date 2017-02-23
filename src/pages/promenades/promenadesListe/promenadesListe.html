@@ -6,7 +6,7 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content>
+<ion-content padding>
     <ion-list>
         <ion-item *ngFor="let promenade of promenadesData" (click)="openPage(promenade)">
             <ion-thumbnail item-left>
@@ -14,7 +14,7 @@
             </ion-thumbnail>
             <table class="promenadeItem">
                 <tr>
-                    <td colspan="2" class="promenadeTitre">{{promenade.id}}. {{promenade.nom}}</td>
+                    <td colspan="2" class="promenadeTitre">{{promenade.nom}}</td>
                 </tr>
                 <tr>
                     <td class="promenadeDuree">

@@ -6,9 +6,9 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content>
+<ion-content padding>
     <span>CARTE / IMAGE</span>
-    {{promenade.id}}. {{promenade.nom}}
+    {{promenade.nom}}
     <table class="tableDetail">
         <tr>
             <td>Niveau <img class="imgNiveauDiversite" src="img/diversite-{{promenade.niveau}}.png"></td>
@@ -22,10 +22,12 @@
     <p>
         {{promenade.description}}
     </p>
-    <button ion-button>C'est parti</button>
     <h4>Espèces à découvrir</h4>
     <ul>
         <li *ngFor="let e of promenade.especes">{{e.nom}} : {{mois[e.periodeDebut+1]}} à {{mois[e.periodeFin+1]}}</li>
     </ul>
+
+
+    <button ion-button block>C'est parti</button>
 
 </ion-content>
