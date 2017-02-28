@@ -8,7 +8,7 @@ import {PromenadeDetailPage} from '../promenadeDetail/promenadeDetail';
   templateUrl: 'promenadesListe.html'
 })
 export class PromenadesListePage {
-    private promenadesData: any;
+    private walksData: any;
 
   constructor(public navCtrl: NavController,public jsonDataService: JsonDataService) {
       this.loadData();
@@ -16,14 +16,14 @@ export class PromenadesListePage {
 
   private loadData():void{
       let that = this;
-       this.jsonDataService.getPromenades().then(function(val){
-           that.promenadesData = val;
+       this.jsonDataService.getWalks().then(function(val){
+           that.walksData = val;
        }).catch(function(err){
            alert("Un problème est survenu")
         });
   }
-  private openPage(p):void{
-      this.navCtrl.push(PromenadeDetailPage, {promenade: p});
+  private openPage(w):void{
+      this.navCtrl.push(PromenadeDetailPage, {walk: w});
   }
 
 }

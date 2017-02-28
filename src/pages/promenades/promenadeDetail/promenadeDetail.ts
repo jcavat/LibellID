@@ -6,10 +6,10 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'promenadeDetail.html'
 })
 export class PromenadeDetailPage {
-    private promenade: any;
-    private mois = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+    private walk: any;
+    private months = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
 
   constructor(public navCtrl: NavController,public navParams: NavParams) {
-      this.promenade = navParams.get('promenade');
+      this.walk = navParams.get('walk');
   }
 }

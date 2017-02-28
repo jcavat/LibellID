@@ -9,21 +9,21 @@ import {FicheLibellulePage} from '../ficheLibellule/ficheLibellule';
   templateUrl: 'fichesInfo.html'
 })
 export class FichesInfoPage {
-  private libellulesData: any;
+  private dragonfliesData: any;
 
   constructor(public navCtrl: NavController, public jsonDataService: JsonDataService) {
       this.loadData();
   }
   private loadData():void{
       let that = this;
-       this.jsonDataService.getLibellules().then(function(val){
-           that.libellulesData = val;
+       this.jsonDataService.getDragonflies().then(function(val){
+           that.dragonfliesData = val;
        }).catch(function(err){
            alert("Un problème est survenu")
         });
   }
-  private openPage(libell):void{
-      this.navCtrl.push(FicheLibellulePage, {libellule: libell});
+  private openPage(d):void{
+      this.navCtrl.push(FicheLibellulePage, {dragonfly: d});
   }
 
 }

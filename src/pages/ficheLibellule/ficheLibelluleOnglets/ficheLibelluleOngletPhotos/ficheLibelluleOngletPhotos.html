@@ -1,14 +1,14 @@
 <ion-header>
   <ion-navbar color="primary">
     <ion-title>
-      {{libellule.nomCommun}}
+      {{dragonfly.commonName}}
     </ion-title>
   </ion-navbar>
 </ion-header>
 <ion-content padding>
     <ion-slides>
-        <ion-slide *ngFor="let photo of libellule.photos">
-            <img src="img/{{photo}}"><br>
+        <ion-slide *ngFor="let picture of dragonfly.pictures">
+            <img src="img/{{picture}}"><br>
         </ion-slide>
     </ion-slides>
 </ion-content>

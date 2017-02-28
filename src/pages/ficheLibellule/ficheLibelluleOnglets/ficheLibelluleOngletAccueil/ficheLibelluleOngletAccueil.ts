@@ -10,10 +10,10 @@ import {JsonDataService} from '../../../../providers/jsonDataService';
   templateUrl: 'ficheLibelluleOngletAccueil.html'
 })
 export class FicheLibelluleOngletAccueilPage {
-  private libellule: any;
+  private dragonfly: any;
   private criteres: any;
   constructor(public navCtrl: NavController, public navParams: NavParams, public jsonDataService: JsonDataService) {
-      this.libellule = navParams.data;
+      this.dragonfly  = navParams.data;
       this.loadData();
   }
   private loadData():void{

@@ -1,10 +1,10 @@
 {
-  "libellules": [
+  "dragonflies": [
     {
-      "nomCommun": "Aeshne affine",
-      "nomLatin": "Aeshna affinis",
-      "photoEnTete": "photo.png",
-      "criteres": [
+      "commonName": "Aeshne affine",
+      "latinName": "Aeshna affinis",
+      "headerPicture": "photo.png",
+      "criteria": [
         0,
         1,
         1,
@@ -14,7 +14,7 @@
         0,
         0
       ],
-      "photos": [
+      "pictures": [
           "photo1.jpg",
           "photo2.jpg"
       ],
@@ -25,8 +25,8 @@
         "bassins artificiels",
         "bras morts, partie lente des grands cours d'eau"
       ],
-      "comportement": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-      "vol": [
+      "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+      "flyPeriod": [
           0.3,
           0.6,
           1,
@@ -37,24 +37,24 @@
           0.3
       ],
       "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-      "menace": "Menacé, ou pas",
-      "liens":[
+      "threat": "Menacé, ou pas",
+      "links":[
           {
-              "lien": "http://www.google.ch",
-              "valeur": "Google"
+              "link": "http://www.google.ch",
+              "value": "Google"
           },
           {
-              "lien": "http://www.wikipedia.org",
-              "valeur": "Wikipedia"
+              "link": "http://www.wikipedia.org",
+              "value": "Wikipedia"
           }
       ],
-      "carteRepartition": "carte.png"
+      "distributionMap": "carte.png"
   },
   {
-    "nomCommun": "Aeshne bleue",
-    "nomLatin": "Aeshna cyanea",
-    "photoEnTete": "photo.png",
-    "criteres": [
+    "commonName": "Aeshne bleue",
+    "latinName": "Aeshna cyanea",
+    "headerPicture": "photo.png",
+    "criteria": [
       0,
       1,
       1,
@@ -64,7 +64,7 @@
       0,
       0
     ],
-    "photos": [
+    "pictures": [
         "photo1.jpg",
         "photo2.jpg"
     ],
@@ -75,8 +75,8 @@
       "bassins artificiels",
       "bras morts, partie lente des grands cours d'eau"
     ],
-    "comportement": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-    "vol": [
+    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+    "flyPeriod": [
         0.3,
         0.6,
         1,
@@ -87,24 +87,24 @@
         0.3
     ],
     "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-    "menace": "Menacé, ou pas",
-    "liens":[
+    "threat": "Menacé, ou pas",
+    "links":[
         {
-            "lien": "http://www.google.ch",
-            "valeur": "Google"
+            "link": "http://www.google.ch",
+            "value": "Google"
         },
         {
-            "lien": "http://www.wikipedia.org",
-            "valeur": "Wikipedia"
+            "link": "http://www.wikipedia.org",
+            "value": "Wikipedia"
         }
     ],
-    "carteRepartition": "carte.png"
+    "distributionMap": "carte.png"
 },
 {
-  "nomCommun": "Aeshne mixte",
-  "nomLatin": "Aeshna mixta",
-  "photoEnTete": "photo.png",
-  "criteres": [
+  "commonName": "Aeshne mixte",
+  "latinName": "Aeshna mixta",
+  "headerPicture": "photo.png",
+  "criteria": [
     0,
     1,
     1,
@@ -114,7 +114,7 @@
     0,
     0
   ],
-  "photos": [
+  "pictures": [
       "photo1.jpg",
       "photo2.jpg"
   ],
@@ -125,8 +125,8 @@
     "bassins artificiels",
     "bras morts, partie lente des grands cours d'eau"
   ],
-  "comportement": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-  "vol": [
+  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+  "flyPeriod": [
       0.3,
       0.6,
       1,
@@ -137,24 +137,24 @@
       0.3
   ],
   "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-  "menace": "Menacé, ou pas",
-  "liens":[
+  "threat": "Menacé, ou pas",
+  "links":[
       {
-          "lien": "http://www.google.ch",
-          "valeur": "Google"
+          "link": "http://www.google.ch",
+          "value": "Google"
       },
       {
-          "lien": "http://www.wikipedia.org",
-          "valeur": "Wikipedia"
+          "link": "http://www.wikipedia.org",
+          "value": "Wikipedia"
       }
   ],
-  "carteRepartition": "carte.png"
+  "distributionMap": "carte.png"
 },
 {
-  "nomCommun": "Anax empereur",
-  "nomLatin": "Anax imperator",
-  "photoEnTete": "photo.png",
-  "criteres": [
+  "commonName": "Anax empereur",
+  "latinName": "Anax imperator",
+  "headerPicture": "photo.png",
+  "criteria": [
     0,
     1,
     1,
@@ -164,7 +164,7 @@
     0,
     0
   ],
-  "photos": [
+  "pictures": [
       "photo1.jpg",
       "photo2.jpg"
   ],
@@ -175,8 +175,8 @@
     "bassins artificiels",
     "bras morts, partie lente des grands cours d'eau"
   ],
-  "comportement": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-  "vol": [
+  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+  "flyPeriod": [
       0.3,
       0.6,
       1,
@@ -187,21 +187,21 @@
       0.3
   ],
   "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-  "menace": "Menacé, ou pas",
-  "liens":[
+  "threat": "Menacé, ou pas",
+  "links":[
       {
-          "lien": "http://www.google.ch",
-          "valeur": "Google"
+          "link": "http://www.google.ch",
+          "value": "Google"
       },
       {
-          "lien": "http://www.wikipedia.org",
-          "valeur": "Wikipedia"
+          "link": "http://www.wikipedia.org",
+          "value": "Wikipedia"
       }
   ],
-  "carteRepartition": "carte.png"
+  "distributionMap": "carte.png"
   }
 ],
-  "promenades": [
+  "walks": [
     {
       "id": 1,
       "nom": "Jardin botanique",

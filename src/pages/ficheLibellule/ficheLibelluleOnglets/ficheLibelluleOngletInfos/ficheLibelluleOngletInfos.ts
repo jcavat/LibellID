@@ -9,9 +9,9 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'ficheLibelluleOngletInfos.html'
 })
 export class FicheLibelluleOngletInfosPage {
-  private libellule: any;
+  private dragonfly: any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-      this.libellule = navParams.data;
+      this.dragonfly = navParams.data;
   }
 
 

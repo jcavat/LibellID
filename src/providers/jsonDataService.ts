@@ -15,24 +15,24 @@ export class JsonDataService {
 
   }
 
-  public getLibellules(){
-    let l: any;
+  public getDragonflies(){
+    let d: any;
     let that = this;
     if (this.singleInstanceJsonData) {
-        l = new Promise(function(resolve,reject){
-            resolve(that.singleInstanceJsonData.libellules);
+        d = new Promise(function(resolve,reject){
+            resolve(that.singleInstanceJsonData.dragonflies);
         });
     }else{
-        l = new Promise(function(resolve,reject){
+        d = new Promise(function(resolve,reject){
             that.http.get('./json/libellID.json')
                 .map(res => res.json())
                 .subscribe(data => {
                     that.singleInstanceJsonData = data;
-                    resolve(that.singleInstanceJsonData.libellules) ;
+                    resolve(that.singleInstanceJsonData.dragonflies) ;
             });
         });
     }
-    return l;
+    return d;
   }
 
   public getCriteres(){
@@ -55,24 +55,24 @@ export class JsonDataService {
     return c;
   }
 
-  public getPromenades(){
-    let p: any;
+  public getWalks(){
+    let w: any;
     let that = this;
     if (this.singleInstanceJsonData) {
-        p = new Promise(function(resolve,reject){
-            resolve(that.singleInstanceJsonData.promenades);
+        w = new Promise(function(resolve,reject){
+            resolve(that.singleInstanceJsonData.walks);
         });
     }else{
-        p = new Promise(function(resolve,reject){
+        w = new Promise(function(resolve,reject){
             that.http.get('./json/libellID.json')
                 .map(res => res.json())
                 .subscribe(data => {
                     that.singleInstanceJsonData = data;
-                    resolve(that.singleInstanceJsonData.promenades) ;
+                    resolve(that.singleInstanceJsonData.walks) ;
             });
         });
     }
-    return p;
+    return w;
   }
 
 }

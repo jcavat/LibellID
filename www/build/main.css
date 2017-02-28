@@ -22177,22 +22177,31 @@ sub {
 }
 
 .tableCriteres {
-  width: 100%;
-  border-width: 2px;
-  border-color: black;
-  border-style: solid;
-  border-radius: 2px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.tableCriteres tr, .tableCriteres td {
-  border-width: 1px;
-  border-color: black;
-  border-style: solid;
+.tableCriteres th, .tableCriteres td {
+  border-bottom: 1px solid #ddd;
+  height: 2em;
+  text-align: left;
+  padding-left: 5px;
 }
 
-.tableCriteres td {
-  padding: 3px;
-  width: 50%;
+.tableCriteres tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+img.img-map-distribution {
+  position: absolute;
+  width: 90%;
+  margin: 0 auto;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border: 2px solid #c8c8c8;
+  border-radius: 5px;
 }
 
 .tableVol {
@@ -22208,6 +22217,14 @@ sub {
 .periodeVol span {
   width: 100%;
   height: 100%;
+}
+
+ion-thumbnail.thumbnail-dragonfly-list {
+  width: 10rem;
+}
+
+ion-thumbnail.thumbnail-dragonfly-list img {
+  width: 100% !important;
 }
 
 .imgNiveauDiversite {

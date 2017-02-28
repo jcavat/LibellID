@@ -12,15 +12,15 @@ import {FicheLibelluleOngletDistributionPage} from './ficheLibelluleOnglets/fich
   templateUrl: 'ficheLibellule.html'
 })
 export class FicheLibellulePage {
-  private libellule: any;
+  private dragonfly: any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-      this.libellule = navParams.get('libellule');
+      this.dragonfly = navParams.get('dragonfly');
   }
   ficheLibelluleOngletAccueilPage = FicheLibelluleOngletAccueilPage;
   ficheLibelluleOngletPhotosPage = FicheLibelluleOngletPhotosPage;
   ficheLibelluleOngletInfosPage = FicheLibelluleOngletInfosPage;
   ficheLibelluleOngletDistributionPage = FicheLibelluleOngletDistributionPage;
-  
+
 
 
 }
