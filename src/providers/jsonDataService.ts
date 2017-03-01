@@ -24,7 +24,7 @@ export class JsonDataService {
         });
     }else{
         l = new Promise(function(resolve,reject){
-            that.http.get('./json/libellID.json')
+            that.http.get('assets/json/libellID.json')
                 .map(res => res.json())
                 .subscribe(data => {
                     that.singleInstanceJsonData = data;
@@ -44,7 +44,7 @@ export class JsonDataService {
         });
     }else{
         c = new Promise(function(resolve,reject){
-            that.http.get('./json/libellID.json')
+            that.http.get('assets/json/libellID.json')
                 .map(res => res.json())
                 .subscribe(data => {
                     that.singleInstanceJsonData = data;
@@ -64,7 +64,7 @@ export class JsonDataService {
         });
     }else{
         p = new Promise(function(resolve,reject){
-            that.http.get('./json/libellID.json')
+            that.http.get('assets/json/libellID.json')
                 .map(res => res.json())
                 .subscribe(data => {
                     that.singleInstanceJsonData = data;
