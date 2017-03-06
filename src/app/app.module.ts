@@ -5,21 +5,21 @@ import { MyApp } from './app.component';
 
 import { GlobalService } from './globalService';
 import {JsonDataService} from '../providers/jsonDataService';
-import { HomePage } from '../pages/home/home';
-import {AutrePage} from '../pages/autres/autres'
-import {IdentifierPage} from '../pages/identifier/identifier';
-import {PromenadesPage} from '../pages/promenades/promenades';
-import {PromenadesCartePage} from '../pages/promenades/promenadesCarte/promenadesCarte';
-import {PromenadesListePage} from '../pages/promenades/promenadesListe/promenadesListe';
-import {PromenadeDetailPage} from '../pages/promenades/promenadeDetail/promenadeDetail';
-import {AidePage} from '../pages/aide/aide';
-import {FichesInfoPage} from '../pages/fichesInfo/fichesInfo';
-import {SaisieObservationPage} from '../pages/saisieObservation/saisieObservation';
-import {FicheLibellulePage} from '../pages/ficheLibellule/ficheLibellule';
-import {FicheLibelluleOngletAccueilPage} from '../pages/ficheLibellule/ficheLibelluleOnglets/ficheLibelluleOngletAccueil/ficheLibelluleOngletAccueil';
-import {FicheLibelluleOngletPhotosPage} from '../pages/ficheLibellule/ficheLibelluleOnglets/ficheLibelluleOngletPhotos/ficheLibelluleOngletPhotos';
-import {FicheLibelluleOngletInfosPage} from '../pages/ficheLibellule/ficheLibelluleOnglets/ficheLibelluleOngletInfos/ficheLibelluleOngletInfos';
-import {FicheLibelluleOngletDistributionPage} from '../pages/ficheLibellule/ficheLibelluleOnglets/ficheLibelluleOngletDistribution/ficheLibelluleOngletDistribution';
+import { HomePage } from '../pages/home/home.component';
+import {OtherPage} from '../pages/other/other.component'
+import {IdentifyPage} from '../pages/identify/identify.component';
+import {WalksPage} from '../pages/walks/walks.component';
+import {WalksMapPage} from '../pages/walks/walks-map/walks-map.component';
+import {WalksListPage} from '../pages/walks/walks-list/walks-list.component';
+import {WalkDetailPage} from '../pages/walks/walk-detail/walk-detail.component';
+import {HelpPage} from '../pages/help/help.component';
+import {InfoSheetPage} from '../pages/info-sheet/info-sheet.component';
+import {ObservationInputPage} from '../pages/observation-input/observation-input.component';
+import {DragonflyPage} from '../pages/dragonfly/dragonfly.component';
+import {DragonflyHomeTabPage} from '../pages/dragonfly/dragonflyTabs/dragonfly-home-tab/dragonfly-home-tab.component';
+import {DragonflyPicturesTabPage} from '../pages/dragonfly/dragonflyTabs/dragonfly-pictures-tab/dragonfly-pictures-tab.component';
+import {DragonflyInfoTabPage} from '../pages/dragonfly/dragonflyTabs/dragonfly-info-tab/dragonfly-info-tab.component';
+import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonflyTabs/dragonfly-distribution-tab/dragonfly-distribution-tab.component';
 
 
 
@@ -27,20 +27,20 @@ import {FicheLibelluleOngletDistributionPage} from '../pages/ficheLibellule/fich
   declarations: [
     MyApp,
     HomePage,
-    AutrePage,
-    IdentifierPage,
-    PromenadesPage,
-    PromenadesCartePage,
-    PromenadesListePage,
-    PromenadeDetailPage,
-    AidePage,
-    FichesInfoPage,
-    SaisieObservationPage,
-    FicheLibellulePage,
-    FicheLibelluleOngletAccueilPage,
-    FicheLibelluleOngletPhotosPage,
-    FicheLibelluleOngletInfosPage,
-    FicheLibelluleOngletDistributionPage
+    OtherPage,
+    IdentifyPage,
+    WalksPage,
+    WalksMapPage,
+    WalksListPage,
+    WalkDetailPage,
+    HelpPage,
+    InfoSheetPage,
+    ObservationInputPage,
+    DragonflyPage,
+    DragonflyHomeTabPage,
+    DragonflyPicturesTabPage,
+    DragonflyInfoTabPage,
+    DragonflyDistributionTabPage
   ],
   imports: [
     IonicModule.forRoot(MyApp,{
@@ -51,20 +51,20 @@ import {FicheLibelluleOngletDistributionPage} from '../pages/ficheLibellule/fich
   entryComponents: [
     MyApp,
     HomePage,
-    AutrePage,
-    IdentifierPage,
-    PromenadesPage,
-    PromenadesCartePage,
-    PromenadesListePage,
-    PromenadeDetailPage,
-    AidePage,
-    FichesInfoPage,
-    SaisieObservationPage,
-    FicheLibellulePage,
-    FicheLibelluleOngletAccueilPage,
-    FicheLibelluleOngletPhotosPage,
-    FicheLibelluleOngletInfosPage,
-    FicheLibelluleOngletDistributionPage
+    OtherPage,
+    IdentifyPage,
+    WalksPage,
+    WalksMapPage,
+    WalksListPage,
+    WalkDetailPage,
+    HelpPage,
+    InfoSheetPage,
+    ObservationInputPage,
+    DragonflyPage,
+    DragonflyHomeTabPage,
+    DragonflyPicturesTabPage,
+    DragonflyInfoTabPage,
+    DragonflyDistributionTabPage
   ],
   providers: [
     GlobalService,

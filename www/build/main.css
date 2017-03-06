@@ -22167,32 +22167,6 @@ sub {
   }
 }
 
-.contenuCentre {
-  width: 100%;
-  text-align: center;
-}
-
-.photoEnTete {
-  width: 65%;
-}
-
-.tableCriteres {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.tableCriteres th, .tableCriteres td {
-  border-bottom: 1px solid #ddd;
-  height: 2em;
-  text-align: left;
-  padding-left: 5px;
-}
-
-.tableCriteres tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
 img.img-map-distribution {
   position: absolute;
   width: 90%;
@@ -22204,17 +22178,43 @@ img.img-map-distribution {
   border-radius: 5px;
 }
 
-.tableVol {
+.centerContent {
+  width: 100%;
+  text-align: center;
+}
+
+.headerPicture {
+  width: 65%;
+}
+
+.tableCriteria {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tableCriteria th, .tableCriteria td {
+  border-bottom: 1px solid #ddd;
+  height: 2em;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.tableCriteria tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tablefly {
   width: 100%;
   text-align: center;
   border: 1px solid black;
 }
 
-.periodeVol {
+.flyPeriod {
   width: 11%;
 }
 
-.periodeVol span {
+.flyPeriod span {
   width: 100%;
   height: 100%;
 }
@@ -22239,24 +22239,24 @@ ion-thumbnail.thumbnail-dragonfly-list img {
   width: 50%;
 }
 
-#map {
-  height: 100%;
+.walkItem {
   width: 100%;
 }
 
-.promenadeItem {
-  width: 100%;
-}
-
-.promenadeDuree, .promenadeDiversite {
+.walkDuration, .walkDiversity {
   width: 50%;
 }
 
-.promenadeTitre {
+.walkTitle {
   font-size: 1.2em;
   margin-bottom: 5%;
 }
 
-.imgDiversite {
+.imgDiversity {
   height: 50%;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
 }
