@@ -3,7 +3,7 @@ import { Platform } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { HomePage } from '../pages/home/home.component';
-import {JsonDataService} from '../providers/jsonDataService';
+import {JsonDataService} from '../providers/data-json.service';
 
 
 @Component({

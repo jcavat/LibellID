@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 
 import { NavController, NavParams} from 'ionic-angular';
+import {HomePage} from '../../home/home.component';
+
 declare var cordova: any;
 declare var ga,ol: any;
 
@@ -9,8 +11,8 @@ declare var ga,ol: any;
 })
 export class WalksMapPage {
 
-  constructor(public navCtrl: NavController) {
-
+  constructor(private navCtrl: NavController) {
+      
   }
 
   ionViewDidLoad(){

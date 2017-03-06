@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
 
+import {Walk} from '../../../app/classes/walk/walk.class';
 import { NavController, NavParams } from 'ionic-angular';
-import {JsonDataService} from '../../../providers/jsonDataService';
+import {JsonDataService} from '../../../providers/data-json.service';
 import {WalkDetailPage} from '../walk-detail/walk-detail.component';
+import {HomePage} from '../../home/home.component';
 
 @Component({
   templateUrl: 'walks-list.component.html'
@@ -10,14 +12,15 @@ import {WalkDetailPage} from '../walk-detail/walk-detail.component';
 export class WalksListPage {
     private walksData: any;
 
-  constructor(public navCtrl: NavController,public jsonDataService: JsonDataService) {
+  constructor(private navCtrl: NavController,private jsonDataService: JsonDataService) {
       this.loadData();
+
   }
 
   private loadData():void{
       let that = this;
-       this.jsonDataService.getWalks().then(function(val){
-           that.walksData = val;
+       this.jsonDataService.walks().then(function(val){
+           that.walksData = val as Walk[];
        }).catch(function(err){
            alert("Un problème est survenu")
         });

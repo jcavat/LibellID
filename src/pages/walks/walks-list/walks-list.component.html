@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar color="primary">
+  <ion-navbar color="primary" class="show-back-button">
     <ion-title>
       Promenades
     </ion-title>
@@ -10,18 +10,18 @@
     <ion-list>
         <ion-item *ngFor="let walk of walksData" (click)="openPage(walk)">
             <ion-thumbnail item-left>
-                <img src="img/{{walk.photos[1]}} ">
+                <img src="assets/img/{{walk.pictures[1]}} ">
             </ion-thumbnail>
             <table class="walkItem">
                 <tr>
-                    <td colspan="2" class="walkTitle">{{walk.id}}. {{walk.nom}}</td>
+                    <td colspan="2" class="walkTitle">{{walk.id}}. {{walk.name}}</td>
                 </tr>
                 <tr>
                     <td class="walkDuration">
-                        <ion-icon name="time"></ion-icon> {{walk.duree}}
+                        <ion-icon name="time"></ion-icon> {{walk.duration}}
                     </td>
                     <td class="walkDiversity">
-                        Diversité <img class="imgDiversity" src="img/diversite-{{walk.diversite}}.png">
+                        Diversité <img class="imgDiversity" src="assets/img/diversite-{{walk.diversity}}.png">
                     </td>
                 </tr>
             </table>

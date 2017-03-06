@@ -10,7 +10,7 @@
     <ion-list>
         <ion-item *ngFor="let dragonfly of dragonfliesData" (click)="openPage(dragonfly)">
             <ion-thumbnail item-left class="thumbnail-dragonfly-list">
-                <img src="img/{{dragonfly.headerPicture}} ">
+                <img src="assets/img/{{dragonfly.headerPicture}} ">
             </ion-thumbnail>
             <h2>{{dragonfly.commonName}} </h2>
             <p>{{dragonfly.latinName}}</p>

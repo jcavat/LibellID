@@ -11,11 +11,11 @@ import {HelpPage} from '../help/help.component';
 })
 export class OtherPage {
 
-    infoSheetPage = InfoSheetPage;
-    observationInputPage = ObservationInputPage;
-    helpPage = HelpPage;
+    private infoSheetPage = InfoSheetPage;
+    private observationInputPage = ObservationInputPage;
+    private helpPage = HelpPage;
 
-  constructor(public navCtrl: NavController) {
+  constructor(private navCtrl: NavController) {
 
   }
 

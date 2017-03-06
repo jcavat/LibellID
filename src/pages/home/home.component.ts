@@ -12,11 +12,11 @@ import {WalksPage} from '../walks/walks.component';
 })
 export class HomePage {
 
-    otherPage = OtherPage;
-    identifyPage = IdentifyPage;
-    promenadesPage = WalksPage;
+    private otherPage = OtherPage;
+    private identifyPage = IdentifyPage;
+    private promenadesPage = WalksPage;
 
-  constructor(public navCtrl: NavController) {
+  constructor(private navCtrl: NavController) {
 
   }
 

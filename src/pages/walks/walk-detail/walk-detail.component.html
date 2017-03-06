@@ -1,22 +1,22 @@
 <ion-header>
   <ion-navbar color="primary">
     <ion-title>
-      {{walk.nom}}
+      {{walk.name}}
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
     <span>CARTE / IMAGE</span>
-    {{walk.id}}. {{walk.nom}}
+    {{walk.id}}. {{walk.name}}
     <table class="tableDetail">
         <tr>
-            <td>Niveau <img class="imgNiveauDiversite" src="img/diversite-{{walk.niveau}}.png"></td>
-            <td>Diversite <img class="imgNiveauDiversite" src="img/diversite-{{walk.diversite}}.png"></td>
+            <td>Niveau <img class="imgDifficultyDiversity" src="assets/img/diversite-{{walk.difficulty}}.png"></td>
+            <td>Diversite <img class="imgDifficultyDiversity" src="assets/img/diversite-{{walk.diversity}}.png"></td>
         </tr>
         <tr>
-            <td>{{walk.longueur}} km</td>
-            <td><ion-icon name="time"></ion-icon> {{walk.duree}}</td>
+            <td>{{walk.length}} km</td>
+            <td><ion-icon name="time"></ion-icon> {{walk.duration}}</td>
         </tr>
     </table>
     <p>
@@ -24,7 +24,7 @@
     </p>
     <h4>Espèces à découvrir</h4>
     <ul>
-        <li *ngFor="let e of walk.especes">{{e.nom}} : {{months[e.periodeDebut+1]}} à {{months[e.periodeFin+1]}}</li>
+        <li *ngFor="let e of walk.species">{{e.name}} : {{months[e.flyFrom+1]}} à {{months[e.flyTo+1]}}</li>
     </ul>
 
 

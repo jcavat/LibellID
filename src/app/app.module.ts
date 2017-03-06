@@ -4,7 +4,7 @@ import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { GlobalService } from './globalService';
-import {JsonDataService} from '../providers/jsonDataService';
+import {JsonDataService} from '../providers/data-json.service';
 import { HomePage } from '../pages/home/home.component';
 import {OtherPage} from '../pages/other/other.component'
 import {IdentifyPage} from '../pages/identify/identify.component';
@@ -16,10 +16,10 @@ import {HelpPage} from '../pages/help/help.component';
 import {InfoSheetPage} from '../pages/info-sheet/info-sheet.component';
 import {ObservationInputPage} from '../pages/observation-input/observation-input.component';
 import {DragonflyPage} from '../pages/dragonfly/dragonfly.component';
-import {DragonflyHomeTabPage} from '../pages/dragonfly/dragonflyTabs/dragonfly-home-tab/dragonfly-home-tab.component';
-import {DragonflyPicturesTabPage} from '../pages/dragonfly/dragonflyTabs/dragonfly-pictures-tab/dragonfly-pictures-tab.component';
-import {DragonflyInfoTabPage} from '../pages/dragonfly/dragonflyTabs/dragonfly-info-tab/dragonfly-info-tab.component';
-import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonflyTabs/dragonfly-distribution-tab/dragonfly-distribution-tab.component';
+import {DragonflyHomeTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-home-tab/dragonfly-home-tab.component';
+import {DragonflyPicturesTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-pictures-tab/dragonfly-pictures-tab.component';
+import {DragonflyInfoTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-info-tab/dragonfly-info-tab.component';
+import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-distribution-tab/dragonfly-distribution-tab.component';
 
 
 

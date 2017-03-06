@@ -7,7 +7,7 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class HelpPage {
 
-  constructor(public navCtrl: NavController) {
+  constructor(private navCtrl: NavController) {
 
   }
 

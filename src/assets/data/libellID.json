@@ -204,129 +204,129 @@
   "walks": [
     {
       "id": 1,
-      "nom": "Jardin botanique",
-      "duree": "1h",
-      "diversite": 2,
-      "niveau": 1,
-      "longueur": 5.3,
+      "name": "Jardin botanique",
+      "duration": "1h",
+      "diversity": 2,
+      "difficulty": 1,
+      "length": 5.3,
       "description": "Lorem ipsum blabla bla blabla blablabla bla",
-      "especes": [
+      "species": [
         {
-          "nom": "Anax empereur",
-          "periodeDebut": 4,
-          "periodeFin": 10
+          "name": "Anax empereur",
+          "flyFrom": 4,
+          "flyTo": 10
         },
         {
-          "nom": "Agrion porte-coupe",
-          "periodeDebut": 4,
-          "periodeFin": 10
+          "name": "Agrion porte-coupe",
+          "flyFrom": 4,
+          "flyTo": 10
         },
         {
-          "nom": "Agrion jouvencelle",
-          "periodeDebut": 4,
-          "periodeFin": 9
+          "name": "Agrion jouvencelle",
+          "flyFrom": 4,
+          "flyTo": 9
         },
         {
-          "nom": "Agrion élégant",
-          "periodeDebut": 4,
-          "periodeFin": 9
+          "name": "Agrion élégant",
+          "flyFrom": 4,
+          "flyTo": 9
         },
         {
-          "nom": "Naïade au corps vert",
-          "periodeDebut": 5,
-          "periodeFin": 9
+          "name": "Naïade au corps vert",
+          "flyFrom": 5,
+          "flyTo": 9
         }
       ],
-      "photos":[
+      "pictures":[
           "photo1.jpg",
           "photo2.jpg"
       ],
-      "KML": "jardinBotanique.kml"
+      "pathKML": "jardinBotanique.kml"
   },
   {
     "id": 2,
-    "nom": "Promenade",
-    "duree": "1h30",
-    "diversite": 4,
-    "niveau": 1,
-    "longueur": 5.3,
+    "name": "Promenade",
+    "duration": "1h30",
+    "diversity": 4,
+    "difficulty": 1,
+    "length": 5.3,
     "description": "Lorem ipsum blabla bla blabla blablabla bla",
-    "especes": [
+    "species": [
       {
-        "nom": "Anax empereur",
-        "periodeDebut": 4,
-        "periodeFin": 10
+        "name": "Anax empereur",
+        "flyFrom": 4,
+        "flyTo": 10
       },
       {
-        "nom": "Agrion porte-coupe",
-        "periodeDebut": 4,
-        "periodeFin": 10
+        "name": "Agrion porte-coupe",
+        "flyFrom": 4,
+        "flyTo": 10
       },
       {
-        "nom": "Agrion jouvencelle",
-        "periodeDebut": 4,
-        "periodeFin": 9
+        "name": "Agrion jouvencelle",
+        "flyFrom": 4,
+        "flyTo": 9
       },
       {
-        "nom": "Agrion élégant",
-        "periodeDebut": 4,
-        "periodeFin": 9
+        "name": "Agrion élégant",
+        "flyFrom": 4,
+        "flyTo": 9
       },
       {
-        "nom": "Naïade au corps vert",
-        "periodeDebut": 5,
-        "periodeFin": 9
+        "name": "Naïade au corps vert",
+        "flyFrom": 5,
+        "flyTo": 9
       }
     ],
-    "photos":[
+    "pictures":[
         "photo1.jpg",
         "photo2.jpg"
     ],
-    "KML": "jardinBotanique.kml"
+    "pathKML": "jardinBotanique.kml"
 },
 {
   "id": 3,
-  "nom": "Promenade",
-  "duree": "2h",
-  "diversite": 3,
-  "niveau": 1,
-  "longueur": 5.3,
+  "name": "Promenade",
+  "duration": "2h",
+  "diversity": 3,
+  "difficulty": 1,
+  "length": 5.3,
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis, turpis non sodales accumsan, felis erat cursus lorem, ornare vulputate risus enim vel orci. Praesent vel tortor volutpat, rhoncus sem lobortis, dapibus nisi. Integer id porttitor justo. Mauris fringilla ipsum blandit libero eleifend, in auctor lectus posuere. Duis felis tortor",
-  "especes": [
+  "species": [
     {
-      "nom": "Anax empereur",
-      "periodeDebut": 4,
-      "periodeFin": 10
+      "name": "Anax empereur",
+      "flyFrom": 4,
+      "flyTo": 10
     },
     {
-      "nom": "Agrion porte-coupe",
-      "periodeDebut": 4,
-      "periodeFin": 10
+      "name": "Agrion porte-coupe",
+      "flyFrom": 4,
+      "flyTo": 10
     },
     {
-      "nom": "Agrion jouvencelle",
-      "periodeDebut": 4,
-      "periodeFin": 9
+      "name": "Agrion jouvencelle",
+      "flyFrom": 4,
+      "flyTo": 9
     },
     {
-      "nom": "Agrion élégant",
-      "periodeDebut": 4,
-      "periodeFin": 9
+      "name": "Agrion élégant",
+      "flyFrom": 4,
+      "flyTo": 9
     },
     {
-      "nom": "Naïade au corps vert",
-      "periodeDebut": 5,
-      "periodeFin": 9
+      "name": "Naïade au corps vert",
+      "flyFrom": 5,
+      "flyTo": 9
     }
   ],
-  "photos":[
+  "pictures":[
       "photo1.jpg",
       "photo2.jpg"
   ],
-  "KML": "jardinBotanique.kml"
+  "pathKML": "jardinBotanique.kml"
 }
 ],
-"criteres": [
+"criteria": [
     "Critère n°1",
     "Critère n°2",
     "Critère n°3",
