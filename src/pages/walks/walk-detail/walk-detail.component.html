@@ -6,7 +6,7 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content>
+<ion-content padding>
     <span>CARTE / IMAGE</span>
     {{walk.id}}. {{walk.nom}}
     <table class="tableDetail">
@@ -22,10 +22,12 @@
     <p>
         {{walk.description}}
     </p>
-    <button ion-button>C'est parti</button>
     <h4>Espèces à découvrir</h4>
     <ul>
         <li *ngFor="let e of walk.especes">{{e.nom}} : {{months[e.periodeDebut+1]}} à {{months[e.periodeFin+1]}}</li>
     </ul>
+
+
+    <button ion-button block>C'est parti</button>
 
 </ion-content>

@@ -1,0 +1,339 @@
+{
+  "dragonflies": [
+    {
+      "commonName": "Aeshne affine",
+      "latinName": "Aeshna affinis",
+      "headerPicture": "photo.png",
+      "criteria": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "pictures": [
+          "photo1.jpg",
+          "photo2.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis, turpis non sodales accumsan, felis erat cursus lorem, ornare vulputate risus enim vel orci. Praesent vel tortor volutpat, rhoncus sem lobortis, dapibus nisi. Integer id porttitor justo. Mauris fringilla ipsum blandit libero eleifend, in auctor lectus posuere. Duis felis tortor",
+      "habitats": [
+        "mares",
+        "étangs",
+        "bassins artificiels",
+        "bras morts, partie lente des grands cours d'eau"
+      ],
+      "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+      "flyPeriod": [
+          0.3,
+          0.6,
+          1,
+          1,
+          1,
+          1,
+          0.6,
+          0.3
+      ],
+      "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
+      "threat": "Menacé, ou pas",
+      "links":[
+          {
+              "link": "http://www.google.ch",
+              "value": "Google"
+          },
+          {
+              "link": "http://www.wikipedia.org",
+              "value": "Wikipedia"
+          }
+      ],
+      "distributionMap": "carte.png"
+  },
+  {
+    "commonName": "Aeshne bleue",
+    "latinName": "Aeshna cyanea",
+    "headerPicture": "photo.png",
+    "criteria": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem Ipsum blabla bla",
+    "habitats": [
+      "mares",
+      "étangs",
+      "bassins artificiels",
+      "bras morts, partie lente des grands cours d'eau"
+    ],
+    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
+    "threat": "Menacé, ou pas",
+    "links":[
+        {
+            "link": "http://www.google.ch",
+            "value": "Google"
+        },
+        {
+            "link": "http://www.wikipedia.org",
+            "value": "Wikipedia"
+        }
+    ],
+    "distributionMap": "carte.png"
+},
+{
+  "commonName": "Aeshne mixte",
+  "latinName": "Aeshna mixta",
+  "headerPicture": "photo.png",
+  "criteria": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem Ipsum blabla bla",
+  "habitats": [
+    "mares",
+    "étangs",
+    "bassins artificiels",
+    "bras morts, partie lente des grands cours d'eau"
+  ],
+  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
+  "threat": "Menacé, ou pas",
+  "links":[
+      {
+          "link": "http://www.google.ch",
+          "value": "Google"
+      },
+      {
+          "link": "http://www.wikipedia.org",
+          "value": "Wikipedia"
+      }
+  ],
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Anax empereur",
+  "latinName": "Anax imperator",
+  "headerPicture": "photo.png",
+  "criteria": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem Ipsum blabla bla",
+  "habitats": [
+    "mares",
+    "étangs",
+    "bassins artificiels",
+    "bras morts, partie lente des grands cours d'eau"
+  ],
+  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
+  "threat": "Menacé, ou pas",
+  "links":[
+      {
+          "link": "http://www.google.ch",
+          "value": "Google"
+      },
+      {
+          "link": "http://www.wikipedia.org",
+          "value": "Wikipedia"
+      }
+  ],
+  "distributionMap": "carte.png"
+  }
+],
+  "walks": [
+    {
+      "id": 1,
+      "nom": "Jardin botanique",
+      "duree": "1h",
+      "diversite": 2,
+      "niveau": 1,
+      "longueur": 5.3,
+      "description": "Lorem ipsum blabla bla blabla blablabla bla",
+      "especes": [
+        {
+          "nom": "Anax empereur",
+          "periodeDebut": 4,
+          "periodeFin": 10
+        },
+        {
+          "nom": "Agrion porte-coupe",
+          "periodeDebut": 4,
+          "periodeFin": 10
+        },
+        {
+          "nom": "Agrion jouvencelle",
+          "periodeDebut": 4,
+          "periodeFin": 9
+        },
+        {
+          "nom": "Agrion élégant",
+          "periodeDebut": 4,
+          "periodeFin": 9
+        },
+        {
+          "nom": "Naïade au corps vert",
+          "periodeDebut": 5,
+          "periodeFin": 9
+        }
+      ],
+      "photos":[
+          "photo1.jpg",
+          "photo2.jpg"
+      ],
+      "KML": "jardinBotanique.kml"
+  },
+  {
+    "id": 2,
+    "nom": "Promenade",
+    "duree": "1h30",
+    "diversite": 4,
+    "niveau": 1,
+    "longueur": 5.3,
+    "description": "Lorem ipsum blabla bla blabla blablabla bla",
+    "especes": [
+      {
+        "nom": "Anax empereur",
+        "periodeDebut": 4,
+        "periodeFin": 10
+      },
+      {
+        "nom": "Agrion porte-coupe",
+        "periodeDebut": 4,
+        "periodeFin": 10
+      },
+      {
+        "nom": "Agrion jouvencelle",
+        "periodeDebut": 4,
+        "periodeFin": 9
+      },
+      {
+        "nom": "Agrion élégant",
+        "periodeDebut": 4,
+        "periodeFin": 9
+      },
+      {
+        "nom": "Naïade au corps vert",
+        "periodeDebut": 5,
+        "periodeFin": 9
+      }
+    ],
+    "photos":[
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "KML": "jardinBotanique.kml"
+},
+{
+  "id": 3,
+  "nom": "Promenade",
+  "duree": "2h",
+  "diversite": 3,
+  "niveau": 1,
+  "longueur": 5.3,
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis, turpis non sodales accumsan, felis erat cursus lorem, ornare vulputate risus enim vel orci. Praesent vel tortor volutpat, rhoncus sem lobortis, dapibus nisi. Integer id porttitor justo. Mauris fringilla ipsum blandit libero eleifend, in auctor lectus posuere. Duis felis tortor",
+  "especes": [
+    {
+      "nom": "Anax empereur",
+      "periodeDebut": 4,
+      "periodeFin": 10
+    },
+    {
+      "nom": "Agrion porte-coupe",
+      "periodeDebut": 4,
+      "periodeFin": 10
+    },
+    {
+      "nom": "Agrion jouvencelle",
+      "periodeDebut": 4,
+      "periodeFin": 9
+    },
+    {
+      "nom": "Agrion élégant",
+      "periodeDebut": 4,
+      "periodeFin": 9
+    },
+    {
+      "nom": "Naïade au corps vert",
+      "periodeDebut": 5,
+      "periodeFin": 9
+    }
+  ],
+  "photos":[
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "KML": "jardinBotanique.kml"
+}
+],
+"criteres": [
+    "Critère n°1",
+    "Critère n°2",
+    "Critère n°3",
+    "Critère n°4",
+    "Critère n°5",
+    "Critère n°6",
+    "Critère n°7",
+    "Critère n°8"
+]
+}
