@@ -2,29 +2,91 @@ import { Component } from '@angular/core';
 
 import { NavController, NavParams} from 'ionic-angular';
 import {HomePage} from '../../home/home.component';
+import {JsonDataService} from '../../../providers/data-json.service';
+import {Walk} from '../../../app/classes/walk/walk.class';
+import {WalkDetailPage} from '../walk-detail/walk-detail.component';
 
 declare var cordova: any;
-declare var ga,ol: any;
+declare var ol: any;
 
 @Component({
   templateUrl: 'walks-map.component.html'
 })
 export class WalksMapPage {
+  private walksData: Walk[];
+  constructor(private navCtrl: NavController, private jsonDataService: JsonDataService) {
 
-  constructor(private navCtrl: NavController) {
-      
   }
 
-  ionViewDidLoad(){
-    var layer = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
-    var map = new ga.Map({
-      target: 'map',
-      view: new ol.View({
-        resolution: 200,
-        center: [500106.8,118142.5]
-      })
-    });
-    map.addLayer(layer);
+    private loadData(): void{
+      let that = this;
+      let iconStyle = new ol.style.Style({
+        image: new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
+          anchor: [0.5, 1],
+          anchorXUnits: 'fraction',
+          anchorYUnits: 'fraction',
+          src: 'assets/img/position.png'
+        }))
+      });
+        this.jsonDataService.walks().then(function(val){
+           that.walksData = val as Walk[];
+           let features = new Array(that.walksData.length);
+           for(var i = 0; i < that.walksData.length; i++){
+               features[i] = new ol.Feature({
+                   'geometry': new ol.geom.Point(ol.proj.transform([that.walksData[i].coords[1], that.walksData[i].coords[0]],'EPSG:4326', 'EPSG:3857')),
+                   'name': that.walksData[i].name,
+                   'walk': that.walksData[i]
+               });
+               features[i].setStyle(iconStyle);
+
+           }
+           let vectorSource = new ol.source.Vector({
+               features: features
+           });
+           var vector = new ol.layer.Vector({
+               source: vectorSource
+           });
+
+           var map = new ol.Map({
+               target: 'map',
+               view: new ol.View({
+                   center: ol.proj.transform([6.146692,46.204351],'EPSG:4326', 'EPSG:3857'),
+                   zoom: 12
+               }),
+               layers: [
+                   new ol.layer.Tile({
+                       source: new ol.source.OSM()
+                   }),
+                   vector
+               ],
+               controls: ol.control.defaults({
+                   zoom: true,
+                   attribution: false,
+                   rotate: true
+               }).extend([
+                   new ol.control.ScaleLine()
+               ])
+           });
+            map.on('click', function(evt) {
+               var feature = map.forEachFeatureAtPixel(evt.pixel,
+                function(feature) {
+                  return feature;
+                });
+                if (feature) {
+                    that.navCtrl.push(WalkDetailPage, {walk:feature.get('walk')});
+                }
+            });
+            document.getElementById('map').style.height = map.getSize()[1]+'px';
+            map.updateSize();
+        }).catch(function(err){
+            alert("Un problème est survenu")
+        });
+    }
+
+  ionViewDidLoad(): void{
+    //Charger points GPS
+    this.loadData();
+
   }
 
 }

@@ -10,7 +10,7 @@ import {HomePage} from '../../home/home.component';
   templateUrl: 'walks-list.component.html'
 })
 export class WalksListPage {
-    private walksData: any;
+    private walksData: Walk[];
 
   constructor(private navCtrl: NavController,private jsonDataService: JsonDataService) {
       this.loadData();
