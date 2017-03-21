@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { GlobalService } from './globalService';
 import {JsonDataService} from '../providers/data-json.service';
 import { HomePage } from '../pages/home/home.component';
 import {OtherPage} from '../pages/other/other.component'
@@ -12,6 +11,7 @@ import {WalksPage} from '../pages/walks/walks.component';
 import {WalksMapPage} from '../pages/walks/walks-map/walks-map.component';
 import {WalksListPage} from '../pages/walks/walks-list/walks-list.component';
 import {WalkDetailPage} from '../pages/walks/walk-detail/walk-detail.component';
+import {WalkInProgressPage} from '../pages/walks/walk-in-progress/walk-in-progress.component';
 import {HelpPage} from '../pages/help/help.component';
 import {InfoSheetPage} from '../pages/info-sheet/info-sheet.component';
 import {ObservationInputPage} from '../pages/observation-input/observation-input.component';
@@ -33,6 +33,7 @@ import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonfly-tabs/dr
     WalksMapPage,
     WalksListPage,
     WalkDetailPage,
+    WalkInProgressPage,
     HelpPage,
     InfoSheetPage,
     ObservationInputPage,
@@ -57,6 +58,7 @@ import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonfly-tabs/dr
     WalksMapPage,
     WalksListPage,
     WalkDetailPage,
+    WalkInProgressPage,
     HelpPage,
     InfoSheetPage,
     ObservationInputPage,
@@ -67,7 +69,6 @@ import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonfly-tabs/dr
     DragonflyDistributionTabPage
   ],
   providers: [
-    GlobalService,
     JsonDataService
   ]
 })

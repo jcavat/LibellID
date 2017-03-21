@@ -5,6 +5,7 @@ import {HomePage} from '../../home/home.component';
 import {JsonDataService} from '../../../providers/data-json.service';
 import {Walk} from '../../../app/classes/walk/walk.class';
 import {WalkDetailPage} from '../walk-detail/walk-detail.component';
+import { Geolocation } from 'ionic-native';
 
 declare var cordova: any;
 declare var ol: any;
@@ -17,7 +18,9 @@ export class WalksMapPage {
   constructor(private navCtrl: NavController, private jsonDataService: JsonDataService) {
 
   }
-
+    private onSuccessGeolocation(position): void{
+        alert(position.coords.latitude + " - " + position.coords.longitude);
+    }
     private loadData(): void{
       let that = this;
       let iconStyle = new ol.style.Style({
@@ -72,12 +75,40 @@ export class WalksMapPage {
                 function(feature) {
                   return feature;
                 });
-                if (feature) {
+                if (feature && feature.getProperties().name != "position") {
                     that.navCtrl.push(WalkDetailPage, {walk:feature.get('walk')});
                 }
             });
             document.getElementById('map').style.height = map.getSize()[1]+'px';
             map.updateSize();
+            var positionFeature = new ol.Feature({
+                name: "position"
+            });
+            Geolocation.getCurrentPosition({enableHighAccuracy: true}).then(function(resp){
+                positionFeature.setStyle(new ol.style.Style({
+                    image: new ol.style.Circle({
+                        radius: 6,
+                        fill: new ol.style.Fill({
+                            color: '#3399CC'
+                        }),
+                        stroke: new ol.style.Stroke({
+                            color: '#fff',
+                            width: 2
+                        })
+                    })
+                }));
+                positionFeature.setGeometry(new ol.geom.Point(ol.proj.transform([resp.coords.longitude, resp.coords.latitude],'EPSG:4326', 'EPSG:3857')));
+                new ol.layer.Vector({
+                    map: map,
+                    source: new ol.source.Vector({
+                        features: [positionFeature]
+                    })
+                });
+            });
+
+            Geolocation.watchPosition({enableHighAccuracy: true}).subscribe(function(resp){
+                positionFeature.setGeometry(new ol.geom.Point(ol.proj.transform([resp.coords.longitude, resp.coords.latitude],'EPSG:4326', 'EPSG:3857')));
+            });
         }).catch(function(err){
             alert("Un problème est survenu")
         });

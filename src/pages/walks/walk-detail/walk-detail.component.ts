@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 import { NavController, NavParams } from 'ionic-angular';
+import {WalkInProgressPage} from '../walk-in-progress/walk-in-progress.component';
 
 @Component({
   templateUrl: 'walk-detail.component.html'
@@ -11,5 +12,9 @@ export class WalkDetailPage {
 
   constructor(private navCtrl: NavController,private navParams: NavParams) {
       this.walk = navParams.get('walk');
+  }
+
+  private openPage(): void{
+    this.navCtrl.push(WalkInProgressPage, {walk: this.walk});
   }
 }
