@@ -6,10 +6,11 @@
 ## Installation
 ```
 npm install
-npm run ionic:serve --lab
+ionic serve --lab (in browser)
+OR
+ionic run android --livereload (for emulator)
+OR
+ionic run android --device (for connected device)
 ```
-Is that right ?
-
-
 ## License
 
