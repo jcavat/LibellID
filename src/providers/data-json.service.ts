@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
-import {Dragonfly} from '../app/classes/dragonfly/dragonfly.class';
-import {Walk} from '../app/classes/walk/walk.class';
+import {Dragonfly} from '../app/classes/dragonfly/dragonfly';
+import {Walk} from '../app/classes/walk/walk';
 
 import 'rxjs/add/operator/map';
 

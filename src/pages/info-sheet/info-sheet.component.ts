@@ -4,7 +4,7 @@ import { NavController, NavParams } from 'ionic-angular';
 
 import {JsonDataService} from '../../providers/data-json.service';
 import {DragonflyPage} from '../dragonfly/dragonfly.component';
-import {Dragonfly} from '../../app/classes/dragonfly/dragonfly.class';
+import {Dragonfly} from '../../app/classes/dragonfly/dragonfly';
 
 
 @Component({

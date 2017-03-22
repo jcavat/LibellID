@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import {Walk} from '../../../app/classes/walk/walk.class';
+import {Walk} from '../../../app/classes/walk/walk';
 import { NavController, NavParams } from 'ionic-angular';
 import {JsonDataService} from '../../../providers/data-json.service';
 import {WalkDetailPage} from '../walk-detail/walk-detail.component';
@@ -14,7 +14,6 @@ export class WalksListPage {
 
   constructor(private navCtrl: NavController,private jsonDataService: JsonDataService) {
       this.loadData();
-
   }
 
   private loadData():void{

@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams} from 'ionic-angular';
 import {Geolocation} from 'ionic-native';
 import {HomePage} from '../../home/home.component';
-import {Walk} from '../../../app/classes/walk/walk.class';
+import {Walk} from '../../../app/classes/walk/walk';
 
 declare var cordova: any;
 declare var ol: any;
@@ -62,7 +62,7 @@ export class WalkInProgressPage {
         });
         var kml = new ol.layer.Vector({
             source: new ol.source.Vector({
-                url: 'assets/kml/'+this.walkData.pathKML,
+                url: 'assets/data/walks/'+this.walkData.pathKML,
                 format: new ol.format.KML({
                     extractStyles: false
                 })

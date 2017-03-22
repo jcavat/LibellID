@@ -13,7 +13,7 @@ import {HomePage} from '../home/home.component';
 })
 export class WalksPage {
   constructor(private navCtrl: NavController, private navParams: NavParams) {
-    
+
   }
   private walksListPage = WalksListPage;
   private walksMapPage = WalksMapPage;

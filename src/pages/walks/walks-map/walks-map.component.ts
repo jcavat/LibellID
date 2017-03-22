@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams} from 'ionic-angular';
 import {HomePage} from '../../home/home.component';
 import {JsonDataService} from '../../../providers/data-json.service';
-import {Walk} from '../../../app/classes/walk/walk.class';
+import {Walk} from '../../../app/classes/walk/walk';
 import {WalkDetailPage} from '../walk-detail/walk-detail.component';
 import { Geolocation } from 'ionic-native';
 

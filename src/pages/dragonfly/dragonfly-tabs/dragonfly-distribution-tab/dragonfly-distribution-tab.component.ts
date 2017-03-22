@@ -2,7 +2,7 @@
 import { Component } from '@angular/core';
 
 import { NavController, NavParams } from 'ionic-angular';
-import {Dragonfly} from '../../../../app/classes/dragonfly/dragonfly.class';
+import {Dragonfly} from '../../../../app/classes/dragonfly/dragonfly';
 
 @Component({
   templateUrl: 'dragonfly-distribution-tab.component.html'
