@@ -6,9 +6,10 @@ import {JsonDataService} from '../../../providers/data-json.service';
 import {Walk} from '../../../app/classes/walk/walk';
 import {WalkDetailPage} from '../walk-detail/walk-detail.component';
 import { Geolocation } from 'ionic-native';
+import ol from 'openlayers';
 
 declare var cordova: any;
-declare var ol: any;
+
 
 @Component({
   templateUrl: 'walks-map.component.html'
@@ -23,7 +24,7 @@ export class WalksMapPage {
     }
     private loadData(): void{
       let that = this;
-      let iconStyle = new ol.style.Style({
+      let iconStyle: ol.style.Style = new ol.style.Style({
         image: new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
           anchor: [0.5, 1],
           anchorXUnits: 'fraction',
@@ -33,24 +34,24 @@ export class WalksMapPage {
       });
         this.jsonDataService.walks().then(function(val){
            that.walksData = val as Walk[];
-           let features = new Array(that.walksData.length);
+           let features: ol.Feature[] = new Array(that.walksData.length);
            for(var i = 0; i < that.walksData.length; i++){
                features[i] = new ol.Feature({
                    'geometry': new ol.geom.Point(ol.proj.transform([that.walksData[i].coords[1], that.walksData[i].coords[0]],'EPSG:4326', 'EPSG:3857')),
-                   'name': that.walksData[i].name,
+                   'geometryName': that.walksData[i].name,
                    'walk': that.walksData[i]
                });
                features[i].setStyle(iconStyle);
 
            }
-           let vectorSource = new ol.source.Vector({
+           let vectorSource: ol.source.Vector = new ol.source.Vector({
                features: features
            });
-           var vector = new ol.layer.Vector({
+           let vector: ol.layer.Vector = new ol.layer.Vector({
                source: vectorSource
            });
 
-           var map = new ol.Map({
+           let map: ol.Map = new ol.Map({
                target: 'map',
                view: new ol.View({
                    center: ol.proj.transform([6.146692,46.204351],'EPSG:4326', 'EPSG:3857'),
@@ -71,20 +72,20 @@ export class WalksMapPage {
                ])
            });
             map.on('click', function(evt) {
-               var feature = map.forEachFeatureAtPixel(evt.pixel,
-                function(feature) {
+               let feature: ol.Feature = map.forEachFeatureAtPixel(evt.pixel,
+                function(feature: ol.Feature):ol.Feature {
                   return feature;
                 });
-                if (feature && feature.getProperties().name != "position") {
+                if (feature && feature.getGeometryName() != "position") {
                     that.navCtrl.push(WalkDetailPage, {walk:feature.get('walk')});
                 }
             });
             document.getElementById('map').style.height = map.getSize()[1]+'px';
             map.updateSize();
-            var positionFeature = new ol.Feature({
-                name: "position"
+            var positionFeature: ol.Feature = new ol.Feature({
+                geometryName: "position"
             });
-            Geolocation.getCurrentPosition({enableHighAccuracy: true}).then(function(resp){
+            Geolocation.getCurrentPosition({enableHighAccuracy: true}).then(function(resp): void{
                 positionFeature.setStyle(new ol.style.Style({
                     image: new ol.style.Circle({
                         radius: 6,
@@ -106,7 +107,7 @@ export class WalksMapPage {
                 });
             });
 
-            Geolocation.watchPosition({enableHighAccuracy: true}).subscribe(function(resp){
+            Geolocation.watchPosition({enableHighAccuracy: true}).subscribe(function(resp): void{
                 positionFeature.setGeometry(new ol.geom.Point(ol.proj.transform([resp.coords.longitude, resp.coords.latitude],'EPSG:4326', 'EPSG:3857')));
             });
         }).catch(function(err){

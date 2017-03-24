@@ -9,6 +9,7 @@ export class Walk {
     private _species: {name: string, flyFrom: number, flyTo: number}[];
     private _pictures: string[];
     private _pathKML: string;
+    private _pointsKML: string;
     private _coords: number[];
 
     public id(): number{
@@ -40,6 +41,9 @@ export class Walk {
     }
     public pathKML(): string{
         return this._pathKML;
+    }
+    public pointsKML(): string{
+        return this._pointsKML;
     }
     public coords(): number[]{
         return this._coords;

@@ -242,6 +242,7 @@
           "photo2.jpg"
       ],
       "pathKML": "jardinBotanique.kml",
+      "pointsKML": "jardinBotaniquePoints.kml",
       "coords": [46.224421, 6.147599]
   },
   {
@@ -284,6 +285,7 @@
         "photo2.jpg"
     ],
     "pathKML": "jardinBotanique.kml",
+    "pointsKML": "jardinBotaniquePoints.kml",
     "coords": [46.124421, 6.047599]
 },
 {
@@ -326,6 +328,7 @@
       "photo2.jpg"
   ],
   "pathKML": "jardinBotanique.kml",
+  "pointsKML": "jardinBotaniquePoints.kml",
   "coords": [46.324421, 6.247599]
 }
 ],
