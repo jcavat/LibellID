@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { NavController, NavParams} from 'ionic-angular';
+import { NavController, NavParams, AlertController} from 'ionic-angular';
 import {Geolocation} from 'ionic-native';
 import {HomePage} from '../../home/home.component';
 import {Walk} from '../../../app/classes/walk/walk';
@@ -14,14 +14,41 @@ declare var cordova: any;
 })
 export class WalkInProgressPage {
   private walkData: Walk;
-  constructor(private navCtrl: NavController, private navParams: NavParams) {
-
+  private listenerPosition;
+  private closestFeature: ol.Feature;
+  private alertHasShownForFeature: boolean = false;
+  private closestFeatureStyle: ol.style.Style = new ol.style.Style({
+      image: new ol.style.Circle({
+          radius: 10,
+          fill: new ol.style.Fill({
+              color: [247,35,12,0.3]
+          }),
+          stroke: new ol.style.Stroke({
+              color: [247,35,12,0.9],
+              width: 2
+          })
+      })
+  });
+  private defaultFeatureStyle: ol.style.Style = new ol.style.Style({
+      image: new ol.style.Circle({
+          radius: 10,
+          fill: new ol.style.Fill({
+              color: [56,126,245,0.3]
+          }),
+          stroke: new ol.style.Stroke({
+              color: [56,126,245,0.9],
+              width: 2
+          })
+      })
+  });
+  constructor(private navCtrl: NavController, private navParams: NavParams, private alertCtrl: AlertController) {
       this.walkData = this.navParams.get("walk");
   }
 
     private loadData(): void{
-        let mapInProgress: ol.Map = new ol.Map({
 
+        let mapInProgress: ol.Map = new ol.Map({
+            target: 'mapInProgress',
             view: new ol.View({
                 zoom: 16
             }),
@@ -39,34 +66,7 @@ export class WalkInProgressPage {
             ])
         });
         let that = this;
-        Geolocation.getCurrentPosition({enableHighAccuracy: true}).then(function(resp): void{
-            let positionFeature: ol.Feature = new ol.Feature({
-                    geometryName: 'position'
-                }
-            );
-            positionFeature.setStyle(
-                new ol.style.Style({
-                    image: new ol.style.Circle({
-                        radius: 6,
-                        fill: new ol.style.Fill({
-                            color: '#3399CC'
-                        }),
-                        stroke: new ol.style.Stroke({
-                            color: '#fff',
-                            width: 2
-                        })
-                    })
-                })
-            );
-            positionFeature.setGeometry(new ol.geom.Point(ol.proj.transform([resp.coords.longitude, resp.coords.latitude],'EPSG:4326', 'EPSG:3857')));
-            let positionVector: ol.layer.Vector = new ol.layer.Vector({
-                map: mapInProgress,
-                source: new ol.source.Vector({
-                    features: [positionFeature]
-                })
-            });
-            mapInProgress.getView().setCenter(ol.proj.transform([that.walkData.coords[1], that.walkData.coords[0]],'EPSG:4326', 'EPSG:3857'));
-        });
+
         let kmlPath: ol.layer.Vector = new ol.layer.Vector({
             source: new ol.source.Vector({
                 url: 'assets/data/walks/'+this.walkData.pathKML,
@@ -88,35 +88,92 @@ export class WalkInProgressPage {
                     extractStyles: false
                 })
             }),
-            style: new ol.style.Style({
-                image: new ol.style.Circle({
-                    radius: 8,
-                    fill: new ol.style.Fill({
-                        color: [56,126,245,0.3]
-                    }),
-                    stroke: new ol.style.Stroke({
-                        color: [56,126,245,0.9],
-                        width: 2
-                    })
-                })
-            })
+            style: this.defaultFeatureStyle
         });
+
         mapInProgress.addLayer(kmlPath);
         mapInProgress.addLayer(kmlPoints);
         mapInProgress.on('click', function(evt): void{
             let feature: ol.Feature = mapInProgress.forEachFeatureAtPixel(evt.pixel, function(feature: ol.Feature): ol.Feature{
                 return feature;
             });
-            if(feature && feature.getGeometryName() != 'position'){
-                alert(feature.getProperties.name);
+            if(feature && feature.getGeometryName() != 'position' && feature.get('name') != undefined){
+                let alert = that.alertCtrl.create({
+                    title: feature.get('name'),
+                    subTitle: feature.get('description'),
+                    buttons: ['OK']
+                });
+                alert.present();
             }
         });
-        mapInProgress.setTarget('mapInProgress');
 
+        let positionFeature: ol.Feature = new ol.Feature({
+                geometryName: 'position'
+            }
+        );
+        let positionVector: ol.layer.Vector = new ol.layer.Vector({
+            map: mapInProgress,
+            source: new ol.source.Vector({
+                features: [positionFeature]
+            })
+        });
+        mapInProgress.getView().setCenter(ol.proj.transform([that.walkData.coords[1], that.walkData.coords[0]],'EPSG:4326', 'EPSG:3857'));
+        Geolocation.getCurrentPosition({
+            enableHighAccuracy: true
+        }).then(function(resp): void{
+            positionFeature.setStyle(
+                new ol.style.Style({
+                    image: new ol.style.Circle({
+                        radius: 6,
+                        fill: new ol.style.Fill({
+                            color: '#3399CC'
+                        }),
+                        stroke: new ol.style.Stroke({
+                            color: '#fff',
+                            width: 2
+                        })
+                    })
+                })
+            );
+            positionFeature.setGeometry(new ol.geom.Point(ol.proj.transform([resp.coords.longitude, resp.coords.latitude],'EPSG:4326', 'EPSG:3857')));
+        });
+
+        this.listenerPosition = Geolocation.watchPosition({
+            enableHighAccuracy: true
+        }).subscribe(function(resp): void{
+            positionFeature.setGeometry(new ol.geom.Point(ol.proj.transform([resp.coords.longitude, resp.coords.latitude],'EPSG:4326', 'EPSG:3857')));
+            let sourceVector: ol.source.Vector = kmlPoints.getSource();
+            if(that.closestFeature != sourceVector.getClosestFeatureToCoordinate(ol.proj.transform([resp.coords.longitude, resp.coords.latitude],'EPSG:4326', 'EPSG:3857'))){
+                if(that.closestFeature != null)
+                    that.closestFeature.setStyle(that.defaultFeatureStyle);
+                that.closestFeature = sourceVector.getClosestFeatureToCoordinate(ol.proj.transform([resp.coords.longitude, resp.coords.latitude],'EPSG:4326', 'EPSG:3857'));
+                that.alertHasShownForFeature = false;
+            }
+
+            if(that.closestFeature != null){
+                let sphereDistance: ol.Sphere = new ol.Sphere(6378137);
+                if((sphereDistance.haversineDistance([resp.coords.longitude, resp.coords.latitude],ol.proj.transform((that.closestFeature.getGeometry() as ol.geom.Point).getCoordinates(),'EPSG:3857','EPSG:4326'))) < 500000 && !that.alertHasShownForFeature){
+                    let alert = that.alertCtrl.create({
+                        title: that.closestFeature.get('name'),
+                        subTitle: that.closestFeature.get('description'),
+                        buttons: ['OK']
+                    });
+                    alert.present();
+                    that.alertHasShownForFeature = true;
+                    that.closestFeature.setStyle(that.closestFeatureStyle);
+                }
+            }
+        });
+
+        document.getElementById('mapInProgress').style.height = mapInProgress.getSize()[1]+'px';
+        document.getElementById('mapInProgress').style.width = mapInProgress.getSize()[0]+'px';
+        mapInProgress.updateSize();
     }
     ionViewDidLoad(): void{
     //Charger points GPS
         this.loadData();
     }
-
+    ionViewWillLeave(): void{
+        this.listenerPosition.unsubscribe();
+    }
 }

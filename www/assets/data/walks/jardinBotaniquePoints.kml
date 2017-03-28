@@ -95,28 +95,39 @@
 
     <Placemark>
       <name>Jardin d'hiver</name>
-      
+      <description>
+        AA Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis risus vel tellus volutpat pellentesque. Proin porttitor vestibulum erat, vitae pharetra sapien. Aenean bibendum odio non suscipit posuere. Donec sagittis ultrices nisl eu malesuada. Suspendisse eget nibh magna. Mauris porttitor massa a lacus sodales, nec fermentum metus elementum. Aliquam ut tincidunt tortor, id tincidunt felis. Sed pellentesque purus eget leo finibus rhoncus.
+      </description>
       <Point>
         <coordinates>6.14535,46.22609</coordinates>
       </Point>
     </Placemark>
+
     <Placemark>
       <name>Lac</name>
-      
+      <description>
+        BB Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis risus vel tellus volutpat pellentesque. Proin porttitor vestibulum erat, vitae pharetra sapien. Aenean bibendum odio non suscipit posuere. Donec sagittis ultrices nisl eu malesuada. Suspendisse eget nibh magna. Mauris porttitor massa a lacus sodales, nec fermentum metus elementum. Aliquam ut tincidunt tortor, id tincidunt felis. Sed pellentesque purus eget leo finibus rhoncus.
+      </description>
       <Point>
         <coordinates>6.14911,46.2265</coordinates>
       </Point>
     </Placemark>
+
     <Placemark>
       <name>Etangs</name>
-      
+      <description>
+        CC Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis risus vel tellus volutpat pellentesque. Proin porttitor vestibulum erat, vitae pharetra sapien. Aenean bibendum odio non suscipit posuere. Donec sagittis ultrices nisl eu malesuada. Suspendisse eget nibh magna. Mauris porttitor massa a lacus sodales, nec fermentum metus elementum. Aliquam ut tincidunt tortor, id tincidunt felis. Sed pellentesque purus eget leo finibus rhoncus.
+      </description>
       <Point>
         <coordinates>6.14702,46.22506</coordinates>
       </Point>
     </Placemark>
+
     <Placemark>
       <name>Départ</name>
-      
+      <description>
+        DD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis risus vel tellus volutpat pellentesque. Proin porttitor vestibulum erat, vitae pharetra sapien. Aenean bibendum odio non suscipit posuere. Donec sagittis ultrices nisl eu malesuada. Suspendisse eget nibh magna. Mauris porttitor massa a lacus sodales, nec fermentum metus elementum. Aliquam ut tincidunt tortor, id tincidunt felis. Sed pellentesque purus eget leo finibus rhoncus.
+      </description>
       <Point>
         <coordinates>6.1476,46.22444</coordinates>
       </Point>
