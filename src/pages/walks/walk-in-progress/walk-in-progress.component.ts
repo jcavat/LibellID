@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 
-import { NavController, NavParams, AlertController} from 'ionic-angular';
-import {Geolocation} from 'ionic-native';
+import { NavController, NavParams, AlertController, ModalController} from 'ionic-angular';
+import {Geolocation, Network} from 'ionic-native';
 import {HomePage} from '../../home/home.component';
 import {Walk} from '../../../app/classes/walk/walk';
 import ol from 'openlayers';
+import {ModalInfoPoint} from './modal-info-point/modal-info-point.component';
 
 declare var cordova: any;
 
@@ -41,7 +42,7 @@ export class WalkInProgressPage {
           })
       })
   });
-  constructor(private navCtrl: NavController, private navParams: NavParams, private alertCtrl: AlertController) {
+  constructor(private navCtrl: NavController, private navParams: NavParams, private alertCtrl: AlertController, private modalCtrl: ModalController) {
       this.walkData = this.navParams.get("walk");
   }
 
@@ -98,12 +99,8 @@ export class WalkInProgressPage {
                 return feature;
             });
             if(feature && feature.getGeometryName() != 'position' && feature.get('name') != undefined){
-                let alert = that.alertCtrl.create({
-                    title: feature.get('name'),
-                    subTitle: feature.get('description'),
-                    buttons: ['OK']
-                });
-                alert.present();
+                let modal = that.modalCtrl.create(ModalInfoPoint, {point: [feature.get('name'), feature.get('description')]});
+                modal.present();
             }
         });
 
@@ -152,13 +149,11 @@ export class WalkInProgressPage {
 
             if(that.closestFeature != null){
                 let sphereDistance: ol.Sphere = new ol.Sphere(6378137);
+                // Distance = 10m.
                 if((sphereDistance.haversineDistance([resp.coords.longitude, resp.coords.latitude],ol.proj.transform((that.closestFeature.getGeometry() as ol.geom.Point).getCoordinates(),'EPSG:3857','EPSG:4326'))) < 500000 && !that.alertHasShownForFeature){
-                    let alert = that.alertCtrl.create({
-                        title: that.closestFeature.get('name'),
-                        subTitle: that.closestFeature.get('description'),
-                        buttons: ['OK']
-                    });
-                    alert.present();
+                    let modal = that.modalCtrl.create(ModalInfoPoint, {point: [that.closestFeature.get('name'), that.closestFeature.get('description')]});
+                    modal.present();
+
                     that.alertHasShownForFeature = true;
                     that.closestFeature.setStyle(that.closestFeatureStyle);
                 }
@@ -171,9 +166,15 @@ export class WalkInProgressPage {
     }
     ionViewDidLoad(): void{
     //Charger points GPS
-        this.loadData();
+        if(Network.type != 'none'){
+            this.loadData();
+        }else{
+            alert('Vous devez avoir une connexion internet pour afficher la carte.');
+            this.navCtrl.pop();
+        }
     }
     ionViewWillLeave(): void{
-        this.listenerPosition.unsubscribe();
+        if(Network.type != 'none')
+            this.listenerPosition.unsubscribe();
     }
 }

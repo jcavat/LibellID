@@ -12,6 +12,7 @@ import {WalksMapPage} from '../pages/walks/walks-map/walks-map.component';
 import {WalksListPage} from '../pages/walks/walks-list/walks-list.component';
 import {WalkDetailPage} from '../pages/walks/walk-detail/walk-detail.component';
 import {WalkInProgressPage} from '../pages/walks/walk-in-progress/walk-in-progress.component';
+import {ModalInfoPoint} from '../pages/walks/walk-in-progress/modal-info-point/modal-info-point.component';
 import {HelpPage} from '../pages/help/help.component';
 import {InfoSheetPage} from '../pages/info-sheet/info-sheet.component';
 import {ObservationInputPage} from '../pages/observation-input/observation-input.component';
@@ -34,6 +35,7 @@ import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonfly-tabs/dr
     WalksListPage,
     WalkDetailPage,
     WalkInProgressPage,
+    ModalInfoPoint,
     HelpPage,
     InfoSheetPage,
     ObservationInputPage,
@@ -59,6 +61,7 @@ import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonfly-tabs/dr
     WalksListPage,
     WalkDetailPage,
     WalkInProgressPage,
+    ModalInfoPoint,
     HelpPage,
     InfoSheetPage,
     ObservationInputPage,

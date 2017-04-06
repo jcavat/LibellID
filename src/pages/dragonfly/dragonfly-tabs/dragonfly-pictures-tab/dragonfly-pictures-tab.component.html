@@ -1,12 +1,5 @@
-<ion-header>
-  <ion-navbar color="primary">
-    <ion-title>
-      {{dragonfly.commonName}}
-    </ion-title>
-  </ion-navbar>
-</ion-header>
 <ion-content padding>
-    <ion-slides>
+    <ion-slides pager zoom>
         <ion-slide *ngFor="let picture of dragonfly.pictures">
             <img src="assets/img/{{picture}}"><br>
         </ion-slide>

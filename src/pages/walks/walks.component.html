@@ -1,4 +1,11 @@
-<ion-tabs tabsPlacement="top" tabsHighlight="true">
-    <ion-tab [root]="walksListPage" tabTitle="Liste" ></ion-tab>
-    <ion-tab [root]="walksMapPage" tabTitle="Carte"></ion-tab>
-</ion-tabs>
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>Promenades</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <ion-tabs tabsPlacement="top" tabsHighlight="true">
+        <ion-tab [root]="walksListPage" tabTitle="Liste" ></ion-tab>
+        <ion-tab [root]="walksMapPage" tabTitle="Carte"></ion-tab>
+    </ion-tabs>
+</ion-content>

@@ -65,17 +65,21 @@
       0
     ],
     "pictures": [
-        "photo1.jpg",
-        "photo2.jpg"
+        "aeshne-bleue-1.jpg",
+        "aeshne-bleue-2.jpg",
+        "aeshne-bleue-3.jpg",
+        "aeshne-bleue-4.jpg"
     ],
-    "description": "Lorem Ipsum blabla bla",
+    "description": "Grande libellule sombre avec des tâches vertes et bleues qui vole souvent bas et à l’ombre.",
     "habitats": [
-      "mares",
-      "étangs",
-      "bassins artificiels",
-      "bras morts, partie lente des grands cours d'eau"
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
     ],
-    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+    "behavior": "<ul><li>Vole volontiers à l’ombre et au crépuscule</li><li>Peu territoriale: parcourt tout l’étang, vole souvent bas</li><li> Régulièrement observée loin de l’eau</li><li>Pond toujours seule</li><li>Généralement des individus isolés</li><li>Très peu exigeante: s’adapte à tous les milieux, supporte mal la concurrence</li></ul>",
     "flyPeriod": [
         0.3,
         0.6,
@@ -86,16 +90,12 @@
         0.6,
         0.3
     ],
-    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-    "threat": "Menacé, ou pas",
+    "anecdote": "L’aeshne bleue est une libellule peu farouche et tout terrain que l’on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d’altitudes. Curieuse, elle peut s’approcher et fondre sur les observateurs lorsqu’elle chasse.<br><br>Elle pond aussi dans les endroits les plus variés, même a priori peu favorables. Il existe ainsi de nombreux rapports de femelles qui tentent de pondre sur les habits, filets ou bottes de leurs observateurs.",
+    "threat": "L’aeshne bleue n’est pas menacé en Suisse",
     "links":[
         {
             "link": "http://www.google.ch",
-            "value": "Google"
-        },
-        {
-            "link": "http://www.wikipedia.org",
-            "value": "Wikipedia"
+            "value": "Fiche CSCF"
         }
     ],
     "distributionMap": "carte.png"
