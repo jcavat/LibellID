@@ -1,6 +1,25 @@
 page-home {
-    
+
 }
 ion-content{
 
+}
+ion-thumbnail{
+    img{
+        height : 80px!important;
+        width: 100%!important;
+    }
+    width: 30%!important;
+}
+#title-identification{
+    color: #23cdfc;
+    font-weight: bold;
+}
+#title-walks{
+    color: #fec92e;
+    font-weight: bold;
+}
+#title-others{
+    color: #fc591f;
+    font-weight: bold;
 }

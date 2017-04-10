@@ -7,27 +7,24 @@
 </ion-header>
 
 <ion-content>
-    <ion-card>
-        <img src="assets/img/s_sanguineum2.jpg"/>
-    </ion-card>
     <ion-list inset>
         <button ion-item [navPush]="infoSheetPage">
             <ion-thumbnail item-left>
                 <img src="assets/img/thumbnail-infos.png">
             </ion-thumbnail>
-            Fiches infos
+            <span id="title-info">Fiches infos</span>
         </button>
         <button ion-item [navPush]="observationInputPage">
             <ion-thumbnail item-left>
                 <img src="assets/img/thumbnail-observation.png">
             </ion-thumbnail>
-            Saisie d'une observation
+            <span id="title-observation">Saisie d'une observation</span>
         </button>
         <button ion-item [navPush]="helpPage">
             <ion-thumbnail item-left>
                 <img src="assets/img/thumbnail-aide.png">
             </ion-thumbnail>
-            Aide
+            <span id="title-help">Aide</span>
         </button>
     </ion-list>
 </ion-content>

@@ -6,6 +6,7 @@ import {HomePage} from '../../home/home.component';
 import {Walk} from '../../../app/classes/walk/walk';
 import ol from 'openlayers';
 import {ModalInfoPoint} from './modal-info-point/modal-info-point.component';
+import {IdentifyPage} from '../../identify/identify.component';
 
 declare var cordova: any;
 
@@ -14,6 +15,7 @@ declare var cordova: any;
   templateUrl: 'walk-in-progress.component.html'
 })
 export class WalkInProgressPage {
+  private identifyPage = IdentifyPage;
   private walkData: Walk;
   private listenerPosition;
   private closestFeature: ol.Feature;

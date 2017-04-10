@@ -25490,12 +25490,62 @@ img.img-map-distribution {
   margin: 0 10px 2px 0;
 }
 
+ion-thumbnail {
+  width: 30% !important;
+}
+
+ion-thumbnail img {
+  height: 80px !important;
+  width: 100% !important;
+}
+
+#title-identification {
+  color: #23cdfc;
+  font-weight: bold;
+}
+
+#title-walks {
+  color: #fec92e;
+  font-weight: bold;
+}
+
+#title-others {
+  color: #fc591f;
+  font-weight: bold;
+}
+
+ion-popover .popover-content {
+  /*position: absolute!important;
+    top: 10%!important;
+    left: 0!important;
+    right: 5%!important;*/
+}
+
 ion-thumbnail.thumbnail-dragonfly-list {
   width: 10rem;
 }
 
 ion-thumbnail.thumbnail-dragonfly-list img {
   width: 100% !important;
+}
+
+page-home {
+  height: 100%;
+}
+
+#title-info {
+  color: #23cdfc;
+  font-weight: bold;
+}
+
+#title-observation {
+  color: #fec92e;
+  font-weight: bold;
+}
+
+#title-help {
+  color: #fc591f;
+  font-weight: bold;
 }
 
 .imgDifficultyDiversity {
@@ -25524,7 +25574,14 @@ ion-thumbnail.thumbnail-dragonfly-list img {
   visibility: visible !important;
 }
 
-ion-modal {
+#btn-identification {
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  font-size: 2rem;
+}
+
+ion-modal.popup-info {
   position: absolute;
   top: 0;
   right: 0;
@@ -25544,12 +25601,12 @@ ion-modal {
 }
 
 @media (min-height: 500px) {
-  ion-modal ion-backdrop {
+  ion-modal.popup-info ion-backdrop {
     visibility: visible;
   }
 }
 
-ion-modal .modal-wrapper {
+ion-modal.popup-info .modal-wrapper {
   z-index: 10;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -25570,10 +25627,10 @@ ion-modal .modal-wrapper {
   text-align: justify;
 }
 
-ion-modal .modal-wrapper,
-ion-modal .modal-wrapper .ion-page,
-ion-modal .modal-wrapper .ion-page .content,
-ion-modal .modal-wrapper .ion-page .content .scroll-content {
+ion-modal.popup-info .modal-wrapper,
+ion-modal.popup-info .modal-wrapper .ion-page,
+ion-modal.popup-info .modal-wrapper .ion-page .content,
+ion-modal.popup-info .modal-wrapper .ion-page .content .scroll-content {
   contain: content;
   position: relative;
   top: auto;
@@ -25581,7 +25638,7 @@ ion-modal .modal-wrapper .ion-page .content .scroll-content {
   background-color: #f4f4f4;
 }
 
-ion-modal .modal-wrapper .ion-page .content {
+ion-modal.popup-info .modal-wrapper .ion-page .content {
   background-color: #f4f4f4;
 }
 

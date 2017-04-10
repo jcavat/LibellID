@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { NavController, NavParams} from 'ionic-angular';
+import { NavController, NavParams, App} from 'ionic-angular';
 import {HomePage} from '../../home/home.component';
 import {JsonDataService} from '../../../providers/data-json.service';
 import {Walk} from '../../../app/classes/walk/walk';
@@ -16,12 +16,10 @@ declare var cordova: any;
 })
 export class WalksMapPage {
   private walksData: Walk[];
-  constructor(private navCtrl: NavController, private jsonDataService: JsonDataService) {
+  constructor(private navCtrl: NavController, private jsonDataService: JsonDataService, private appCtrl: App) {
 
   }
-    private onSuccessGeolocation(position): void{
-        alert(position.coords.latitude + " - " + position.coords.longitude);
-    }
+
     private loadData(): void{
       let that = this;
       let iconStyle: ol.style.Style = new ol.style.Style({
@@ -76,15 +74,13 @@ export class WalksMapPage {
                 function(feature: ol.Feature):ol.Feature {
                   return feature;
                 });
-                if (feature && feature.getGeometryName() != "position") {
-                    that.navCtrl.push(WalkDetailPage, {walk:feature.get('walk')});
+                if (feature && feature.getGeometryName() != 'position') {
+                    that.appCtrl.getRootNav().push(WalkDetailPage, {walk: feature.get('walk')});
                 }
             });
             document.getElementById('map').style.height = map.getSize()[1]+'px';
             map.updateSize();
-            var positionFeature: ol.Feature = new ol.Feature({
-                geometryName: "position"
-            });
+            var positionFeature: ol.Feature = new ol.Feature();
             Geolocation.getCurrentPosition({enableHighAccuracy: true}).then(function(resp): void{
                 positionFeature.setStyle(new ol.style.Style({
                     image: new ol.style.Circle({
@@ -99,6 +95,7 @@ export class WalksMapPage {
                     })
                 }));
                 positionFeature.setGeometry(new ol.geom.Point(ol.proj.transform([resp.coords.longitude, resp.coords.latitude],'EPSG:4326', 'EPSG:3857')));
+                positionFeature.setGeometryName('position');
                 new ol.layer.Vector({
                     map: map,
                     source: new ol.source.Vector({

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import {Walk} from '../../../app/classes/walk/walk';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, App } from 'ionic-angular';
 import {JsonDataService} from '../../../providers/data-json.service';
 import {WalkDetailPage} from '../walk-detail/walk-detail.component';
 import {HomePage} from '../../home/home.component';
@@ -12,7 +12,7 @@ import {HomePage} from '../../home/home.component';
 export class WalksListPage {
     private walksData: Walk[];
 
-  constructor(private navCtrl: NavController,private jsonDataService: JsonDataService) {
+  constructor(private navCtrl: NavController,private jsonDataService: JsonDataService, private appCtrl: App) {
       this.loadData();
   }
 
@@ -25,7 +25,7 @@ export class WalksListPage {
         });
   }
   private openPage(w):void{
-      this.navCtrl.push(WalkDetailPage, {walk: w});
+      this.appCtrl.getRootNav().push(WalkDetailPage, {walk: w});
   }
 
 }

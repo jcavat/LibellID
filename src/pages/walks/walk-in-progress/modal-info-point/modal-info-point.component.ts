@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Renderer } from '@angular/core';
 import {NavParams, ViewController} from 'ionic-angular';
 
 @Component({
@@ -7,8 +7,9 @@ import {NavParams, ViewController} from 'ionic-angular';
 
 export class ModalInfoPoint{
     private point: String[];
-    constructor(private navParams: NavParams, private viewCtrl: ViewController){
+    constructor(private navParams: NavParams, private viewCtrl: ViewController, private renderer: Renderer){
         this.point = navParams.get('point');
+        this.renderer.setElementClass(viewCtrl.pageRef().nativeElement, 'popup-info', true);
     }
 
     private dismiss(): void{

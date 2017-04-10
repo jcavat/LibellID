@@ -8,26 +8,26 @@
 
 <ion-content>
     <ion-card>
-        <img src="assets/img/s_sanguineum2.jpg"/>
+        <img src="assets/img/photo_menu.jpg"/>
     </ion-card>
     <ion-list inset>
         <button ion-item [navPush]="identifyPage">
             <ion-thumbnail item-left>
                 <img src="assets/img/thumbnail-identifier.png">
             </ion-thumbnail>
-            Identification
+            <span id="title-identification">Identification</span>
         </button>
         <button ion-item [navPush]="promenadesPage">
             <ion-thumbnail item-left>
                 <img src="assets/img/thumbnail-promenades.png">
             </ion-thumbnail>
-            Promenades
+            <span id="title-walks">Promenades</span>
         </button>
         <button ion-item [navPush]="otherPage">
             <ion-thumbnail item-left>
                 <img src="assets/img/thumbnail-autres.png">
             </ion-thumbnail>
-            Autres
+            <span id="title-others">Autres</span>
         </button>
     </ion-list>
 </ion-content>
