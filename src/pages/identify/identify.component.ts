@@ -39,8 +39,17 @@ export class IdentifyPage {
       }
     }
     private getSelectedValues():number[][]{
-      let selectedValues: number[][];
-      
+      let selectedValues: number[][] = [];
+      let tables = document.getElementsByClassName("table-criteria");
+      for(var i = 0; i < tables.length; i++){
+        let selectedValuesPerCriter: number[] = [];
+        let selectedElements = tables[i].getElementsByClassName("selected-value");
+        for(var j = 0; j < selectedElements.length; j++){
+          selectedValuesPerCriter.push((<HTMLTableCellElement>selectedElements[j]).cellIndex);
+        }
+        selectedValues.push(selectedValuesPerCriter);
+      }
+      alert(selectedValues.join("\n"));
       return selectedValues;
     }
 
