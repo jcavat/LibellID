@@ -15,7 +15,7 @@
 }
 
 .tableCriteria{
-    width : 80%;
+    width : 100%;
     margin-left: auto;
     margin-right: auto;
     tr{
@@ -26,6 +26,9 @@
         height: 2em;
         text-align: left;
         padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
     }
     tr:nth-child(even) {background-color: #f2f2f2}
 }

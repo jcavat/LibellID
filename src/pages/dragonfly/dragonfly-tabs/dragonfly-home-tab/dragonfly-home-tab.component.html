@@ -7,8 +7,8 @@
     <p class="observation">Transmettre l'observation</p>
     <table class="tableCriteria">
         <tr *ngFor="let criter of criteria;let i=index">
-            <td>{{criter}}</td>
-            <td>{{dragonfly.criteria[i]}}</td>
+            <td>{{criter.name}}</td>
+            <td><span *ngFor="let value of dragonfly.criteria[i]">{{criter.values[value].name}}<br></span></td>
         </tr>
     </table>
 </ion-content>

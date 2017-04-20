@@ -5,14 +5,19 @@
       "latinName": "Aeshna affinis",
       "headerPicture": "photo.png",
       "criteria": [
-        0,
-        1,
-        1,
-        0,
-        0,
-        1,
-        0,
-        0
+        [2],
+        [1],
+        [0],
+        [1],
+        [2,4,7],
+        [4],
+        [0],
+        [1],
+        [1],
+        [1,2],
+        [0],
+        [0,1],
+        [0,1]
       ],
       "pictures": [
           "photo1.jpg",
@@ -20,10 +25,12 @@
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis, turpis non sodales accumsan, felis erat cursus lorem, ornare vulputate risus enim vel orci. Praesent vel tortor volutpat, rhoncus sem lobortis, dapibus nisi. Integer id porttitor justo. Mauris fringilla ipsum blandit libero eleifend, in auctor lectus posuere. Duis felis tortor",
       "habitats": [
-        "mares",
-        "étangs",
-        "bassins artificiels",
-        "bras morts, partie lente des grands cours d'eau"
+        "pounds-1",
+        "rivers-1",
+        "peatbog-1",
+        "ditch-1",
+        "temp-environment-0",
+        "lake-0"
       ],
       "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
       "flyPeriod": [
@@ -55,14 +62,19 @@
     "latinName": "Aeshna cyanea",
     "headerPicture": "photo.png",
     "criteria": [
-      0,
-      1,
-      1,
-      0,
-      0,
-      1,
-      0,
-      0
+      [2],
+      [1],
+      [0],
+      [1],
+      [2,4,7],
+      [4],
+      [0],
+      [1],
+      [1],
+      [1,2],
+      [0],
+      [0,1],
+      [0,1]
     ],
     "pictures": [
         "aeshne-bleue-1.jpg",
@@ -105,14 +117,19 @@
   "latinName": "Aeshna mixta",
   "headerPicture": "photo.png",
   "criteria": [
-    0,
-    1,
-    1,
-    0,
-    0,
-    1,
-    0,
-    0
+    [2],
+    [1],
+    [0],
+    [1],
+    [2,4,7],
+    [4],
+    [0],
+    [1],
+    [1],
+    [1,2],
+    [0],
+    [0,1],
+    [0,1]
   ],
   "pictures": [
       "photo1.jpg",
@@ -120,10 +137,12 @@
   ],
   "description": "Lorem Ipsum blabla bla",
   "habitats": [
-    "mares",
-    "étangs",
-    "bassins artificiels",
-    "bras morts, partie lente des grands cours d'eau"
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
   ],
   "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
   "flyPeriod": [
@@ -155,14 +174,20 @@
   "latinName": "Anax imperator",
   "headerPicture": "photo.png",
   "criteria": [
-    0,
-    1,
-    1,
-    0,
-    0,
-    1,
-    0,
-    0
+    [2],
+    [1],
+    [0],
+    [1],
+    [2,4,7],
+    [4],
+    [0],
+    [1],
+    [1],
+    [1,2],
+    [2,4],
+    [0],
+    [0,1],
+    [0,1]
   ],
   "pictures": [
       "photo1.jpg",
@@ -333,13 +358,254 @@
 }
 ],
 "criteria": [
-    "Critère n°1",
-    "Critère n°2",
-    "Critère n°3",
-    "Critère n°4",
-    "Critère n°5",
-    "Critère n°6",
-    "Critère n°7",
-    "Critère n°8"
-]
+    {
+      "name": "Taille",
+      "values":[
+        {
+          "name": "Fine et petite",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Large et moyenne",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Fine et grande",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Ouverture des ailes au repos",
+      "values":[
+        {
+          "name": "Non",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Oui",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Couleur des ailes",
+      "values":[
+        {
+          "name": "Transparentes",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Colorées entièrement",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Bande colorée",
+          "icon": "icon.png"
+        },
+        {
+          "name": "4 tâches",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Tache jaune base ailes",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Tache sombre base ailes",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Yeux rouges",
+      "values":[
+        {
+          "name": "Oui",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Non",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Couleurs visibles",
+      "values":[
+        {
+          "name": "Bleu - vert métallique",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Blanc",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Bleu",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Rouge",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Sombre - noir",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Violet - rose",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Jaune",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Vert clair",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Beige",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Brun - brun orangé",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Motifs sur le corps",
+      "values":[
+        {
+          "name": "Unie sauf une petite partie à l'arrière",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Uni",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Unie sauf une petite partie à l'avant",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Rayures",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Dessins",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Case rectangulaire des ailes bicolore",
+      "values":[
+        {
+          "name": "Non",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Bicolore (noir - blanc)",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Extrémité du corps blanche",
+      "values":[
+        {
+          "name": "Oui",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Non",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Pattes rouges",
+      "values":[
+        {
+          "name": "Oui",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Non",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Position observée",
+      "values":[
+        {
+          "name": "Posée, à plat sur une feuille",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Posée, à plat sur le sol",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Accrochée, le corps dirigé vers le bas",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Accrochée, le corps dirigé vers le haut",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Accrochée, le corps horizontal",
+          "icon": "icon.png"
+        },
+        {
+          "name": "En vol",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Vol à l'ombre",
+      "values":[
+        {
+          "name": "Oui",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Non",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Quantité",
+      "values":[
+        {
+          "name": "Un seul",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Nombreux",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Taille du milieu aquatique",
+      "values":[
+        {
+          "name": "Une voiture ou moins",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Plus grand qu'une voiture",
+          "icon": "icon.png"
+        }
+      ]
+    }
+  ]
 }

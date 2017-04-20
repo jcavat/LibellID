@@ -25434,7 +25434,7 @@ img.img-map-distribution {
 }
 
 .tableCriteria {
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -25444,6 +25444,9 @@ img.img-map-distribution {
   height: 2em;
   text-align: left;
   padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .tableCriteria tr:nth-child(even) {
@@ -25519,6 +25522,39 @@ ion-popover .popover-content {
     top: 10%!important;
     left: 0!important;
     right: 5%!important;*/
+}
+
+h6.criter-name {
+  display: block;
+  width: 100%;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  background-color: #23cdfc;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+table {
+  width: 100%;
+  height: 4em;
+  margin-bottom: 0.5em;
+}
+
+table .table-content {
+  height: 4em;
+}
+
+table .table-content td {
+  border: solid 1px black;
+  height: 4em;
+  width: 20%;
+  display: inline-block;
+}
+
+table .table-content .selected-value {
+  background-color: red;
 }
 
 ion-thumbnail.thumbnail-dragonfly-list {

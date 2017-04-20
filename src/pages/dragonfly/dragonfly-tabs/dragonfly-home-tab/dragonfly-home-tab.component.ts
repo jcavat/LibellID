@@ -10,7 +10,7 @@ import {Dragonfly} from '../../../../app/classes/dragonfly/dragonfly';
 })
 export class DragonflyHomeTabPage {
   private dragonfly: Dragonfly;
-  private criteria: String[];
+  private criteria: Object[];
   constructor(private navCtrl: NavController, private navParams: NavParams, private jsonDataService: JsonDataService) {
       this.dragonfly  = navParams.data;
       this.loadData();

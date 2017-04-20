@@ -11,6 +11,13 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content padding>
+  <span *ngFor="let criter of criteria">
+    <h6 class="criter-name">{{criter.name}}</h6>
+    <table>
+      <tr class="table-content">
+        <td *ngFor="let value of criter.values" class="criter-value">{{value.name}}</td>
+      </tr>
+    </table>
+  </span>
 </ion-content>

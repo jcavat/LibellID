@@ -4,3 +4,31 @@ ion-popover .popover-content{
     left: 0!important;
     right: 5%!important;*/
 }
+h6.criter-name{
+  display: block;
+  width: 100%;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  background-color: color($colors, primary);
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+table{
+  width: 100%;
+  height: 4em;
+  .table-content{
+    height: 4em;
+    td{
+      border: solid 1px black;
+      height: 4em;
+      width: 20%;
+      display: inline-block;
+    }
+    .selected-value{
+      background-color: red;
+    }
+  }
+  margin-bottom: 0.5em;
+}
