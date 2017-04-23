@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Fiches infos
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+        <ion-item *ngFor="let dragonfly of dragonfliesData; let i=index" (click)="openPage(dragonfly, this.criteria)">
+            <ion-thumbnail item-left class="thumbnail-dragonfly-list">
+                <img src="assets/img/{{dragonfly.headerPicture}} ">
+            </ion-thumbnail>
+            <h2>{{dragonfly.commonName}} </h2>
+            <p>{{dragonfly.latinName}}</p>
+            <ion-badge item-right>{{this.trueCount(matchedCriteria[i])}}/{{this.criteria.length}}</ion-badge>
+        </ion-item>
+    </ion-list>
+</ion-content>

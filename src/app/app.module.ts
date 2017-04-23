@@ -7,6 +7,7 @@ import {JsonDataService} from '../providers/data-json.service';
 import { HomePage } from '../pages/home/home.component';
 import {OtherPage} from '../pages/other/other.component'
 import {IdentifyPage} from '../pages/identify/identify.component';
+import {IdentifyResultPage} from '../pages/identify/identify-result/identify-result.component';
 import {IdentifyPopover} from '../pages/identify/identify-popover.component';
 import {WalksPage} from '../pages/walks/walks.component';
 import {WalksMapPage} from '../pages/walks/walks-map/walks-map.component';
@@ -32,6 +33,7 @@ import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonfly-tabs/dr
     OtherPage,
     IdentifyPage,
     IdentifyPopover,
+    IdentifyResultPage,
     WalksPage,
     WalksMapPage,
     WalksListPage,
@@ -59,6 +61,7 @@ import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonfly-tabs/dr
     OtherPage,
     IdentifyPage,
     IdentifyPopover,
+    IdentifyResultPage,
     WalksPage,
     WalksMapPage,
     WalksListPage,

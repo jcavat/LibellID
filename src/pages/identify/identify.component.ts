@@ -3,8 +3,7 @@ import { Component } from '@angular/core';
 import { NavController, PopoverController } from 'ionic-angular';
 import {IdentifyPopover} from './identify-popover.component';
 import {JsonDataService} from '../../providers/data-json.service';
-
-
+import {IdentifyResultPage} from './identify-result/identify-result.component';
 
 @Component({
   templateUrl: 'identify.component.html'
@@ -26,19 +25,23 @@ export class IdentifyPage {
              alert("Un problème est survenu")
           });
     }
+
+    private handleClickValue(event:Event):void{
+      let element = <HTMLElement>event.target;
+      if(!element.classList.contains("selected-value")){
+        element.classList.add("selected-value");
+      }else{
+        element.classList.remove("selected-value");
+      }
+    }
     ionViewDidEnter(){
       let tdValues = document.getElementsByClassName("criter-value");
       for(var i = 0; i < tdValues.length; i++){
-        tdValues[i].addEventListener("click", function(){
-          if(!this.classList.contains("selected-value")){
-            this.classList.add("selected-value");
-          }else{
-            this.classList.remove("selected-value");
-          }
-        });
+        tdValues[i].removeEventListener("click", this.handleClickValue);
+        tdValues[i].addEventListener("click", this.handleClickValue);
       }
     }
-    private getSelectedValues():number[][]{
+    private getSelectedValues():void{
       let selectedValues: number[][] = [];
       let tables = document.getElementsByClassName("table-criteria");
       for(var i = 0; i < tables.length; i++){
@@ -49,8 +52,7 @@ export class IdentifyPage {
         }
         selectedValues.push(selectedValuesPerCriter);
       }
-      alert(selectedValues.join("\n"));
-      return selectedValues;
+      this.navCtrl.push(IdentifyResultPage, {criteria: selectedValues});
     }
 
 }
