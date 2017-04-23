@@ -10,7 +10,7 @@ import {ViewController} from 'ionic-angular';
         </ion-item>
         <ion-item>
           <ion-label>Filtrer par lieu</ion-label>
-          <ion-checkbox></ion-checkbox>
+          <ion-checkbox (click)="this.close()"></ion-checkbox>
         </ion-item>
     </ion-list>
   `

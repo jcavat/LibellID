@@ -14,6 +14,7 @@ export class IdentifyResultPage {
   private dragonfliesData: Dragonfly[];
   private criteria: number[][];
   private matchedCriteria: boolean[][] = [];
+  private dragonfliesDataSorted = [];
 
   constructor(private navCtrl: NavController, navParams: NavParams, private jsonDataService: JsonDataService) {
       this.criteria = navParams.get("criteria");
@@ -21,6 +22,7 @@ export class IdentifyResultPage {
   }
   private loadData():void{
       let that = this;
+      let numberOfCriteriaPerDragonfly:number[]
       this.jsonDataService.dragonflies().then(function(val){
            that.dragonfliesData = val as Dragonfly[];
            for(var i = 0; i < that.dragonfliesData.length; i++){
@@ -31,9 +33,13 @@ export class IdentifyResultPage {
                });
              }
              that.matchedCriteria[i] = dragonflyMatchedCriteria;
+             that.dragonfliesDataSorted[i] = [that.dragonfliesData[i], that.trueCount(that.matchedCriteria[i])];
            }
-       }).catch(function(err){
-           alert("Un problème est survenu")
+           that.dragonfliesDataSorted.sort(function(a,b){
+             return b[1]-a[1]
+           });
+       }).catch(function(err:Error){
+           alert("Un problème est survenu\n"+err.name+"\n"+err.message)
       });
   }
 

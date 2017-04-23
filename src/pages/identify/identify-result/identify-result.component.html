@@ -8,13 +8,13 @@
 
 <ion-content>
     <ion-list>
-        <ion-item *ngFor="let dragonfly of dragonfliesData; let i=index" (click)="openPage(dragonfly, this.criteria)">
+        <ion-item *ngFor="let dragonfly of dragonfliesDataSorted; let i=index" (click)="openPage(dragonfly[0], this.criteria)">
             <ion-thumbnail item-left class="thumbnail-dragonfly-list">
-                <img src="assets/img/{{dragonfly.headerPicture}} ">
+                <img src="assets/img/{{dragonfly[0].headerPicture}} ">
             </ion-thumbnail>
-            <h2>{{dragonfly.commonName}} </h2>
-            <p>{{dragonfly.latinName}}</p>
-            <ion-badge item-right>{{this.trueCount(matchedCriteria[i])}}/{{this.criteria.length}}</ion-badge>
+            <h2>{{dragonfly[0].commonName}} </h2>
+            <p>{{dragonfly[0].latinName}}</p>
+            <ion-badge item-right>{{dragonfly[1]}}/{{this.criteria.length}}</ion-badge>
         </ion-item>
     </ion-list>
 </ion-content>

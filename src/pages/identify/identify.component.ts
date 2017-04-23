@@ -54,5 +54,4 @@ export class IdentifyPage {
       }
       this.navCtrl.push(IdentifyResultPage, {criteria: selectedValues});
     }
-
 }
