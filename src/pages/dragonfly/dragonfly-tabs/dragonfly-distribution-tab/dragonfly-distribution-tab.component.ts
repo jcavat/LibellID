@@ -10,7 +10,7 @@ import {Dragonfly} from '../../../../app/classes/dragonfly/dragonfly';
 export class DragonflyDistributionTabPage {
   private dragonfly: Dragonfly;
   constructor(private navCtrl: NavController, private navParams: NavParams) {
-      this.dragonfly = navParams.data;
+      this.dragonfly  = navParams.data.dragonfly;
   }
 
 

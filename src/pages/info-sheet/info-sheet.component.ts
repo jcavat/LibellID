@@ -25,7 +25,7 @@ export class InfoSheetPage {
         });
   }
   private openPage(d):void{
-      this.navCtrl.push(DragonflyPage, {dragonfly: d});
+      this.navCtrl.push(DragonflyPage, {dragonfly: d, criteria: null});
   }
 
 }

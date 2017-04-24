@@ -5,9 +5,9 @@
     </ion-header>
     <ion-content>
         <ion-tabs tabsHighlight="true">
-            <ion-tab [root]="dragonflyHomeTabPage" [rootParams]="dragonfly" tabTitle="Critères" ></ion-tab>
-            <ion-tab [root]="dragonflyPicturesTabPage" [rootParams]="dragonfly" tabTitle="Photos"></ion-tab>
-            <ion-tab [root]="dragonflyInfoTabPage" [rootParams]="dragonfly" tabTitle="Infos"></ion-tab>
-            <ion-tab [root]="dragonflyDistributionTabPage" [rootParams]="dragonfly" tabTitle="Répartition"></ion-tab>
+            <ion-tab [root]="dragonflyHomeTabPage" [rootParams]="{'dragonfly':dragonfly, 'criteria':criteria}" tabTitle="Critères" ></ion-tab>
+            <ion-tab [root]="dragonflyPicturesTabPage" [rootParams]="{'dragonfly':dragonfly}" tabTitle="Photos"></ion-tab>
+            <ion-tab [root]="dragonflyInfoTabPage" [rootParams]="{'dragonfly':dragonfly}" tabTitle="Infos"></ion-tab>
+            <ion-tab [root]="dragonflyDistributionTabPage" [rootParams]="{'dragonfly':dragonfly}" tabTitle="Répartition"></ion-tab>
         </ion-tabs>
     </ion-content>

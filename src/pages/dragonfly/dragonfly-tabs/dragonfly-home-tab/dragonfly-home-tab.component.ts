@@ -11,8 +11,10 @@ import {Dragonfly} from '../../../../app/classes/dragonfly/dragonfly';
 export class DragonflyHomeTabPage {
   private dragonfly: Dragonfly;
   private criteria: Object[];
+  private selectedCriteria: number[][];
   constructor(private navCtrl: NavController, private navParams: NavParams, private jsonDataService: JsonDataService) {
-      this.dragonfly  = navParams.data;
+      this.dragonfly  = navParams.data.dragonfly;
+      this.selectedCriteria = navParams.data.criteria;
       this.loadData();
   }
   private loadData():void{
@@ -21,6 +23,10 @@ export class DragonflyHomeTabPage {
            that.criteria = val;
        }).catch(function(err){
            alert("Un problème est survenu")
-        });
+       });
+  }
+  
+  ionViewDidEnter(){
+
   }
 }

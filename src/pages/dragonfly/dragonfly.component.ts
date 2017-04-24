@@ -15,8 +15,10 @@ import {DragonflyDistributionTabPage} from './dragonfly-tabs/dragonfly-distribut
 })
 export class DragonflyPage {
   private dragonfly: Dragonfly;
+  private criteria: number[][];
   constructor(private navCtrl: NavController, private navParams: NavParams) {
       this.dragonfly = navParams.get('dragonfly');
+      this.criteria = navParams.get('criteria');
   }
   private dragonflyHomeTabPage = DragonflyHomeTabPage;
   private dragonflyPicturesTabPage = DragonflyPicturesTabPage;
