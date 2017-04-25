@@ -1,6 +1,7 @@
-.centerContent{
+.centerContent, .observation{
     width: 100%;
     text-align: center;
+    margin-bottom: 1em;
 }
 
 .headerPicture{
@@ -8,10 +9,7 @@
 }
 
 .share{
-
-}
-.observation{
-
+  display: none;
 }
 
 .tableCriteria{

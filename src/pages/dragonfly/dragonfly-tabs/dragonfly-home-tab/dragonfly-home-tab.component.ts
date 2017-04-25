@@ -1,9 +1,10 @@
 
 import { Component } from '@angular/core';
 
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, App } from 'ionic-angular';
 import {JsonDataService} from '../../../../providers/data-json.service';
 import {Dragonfly} from '../../../../app/classes/dragonfly/dragonfly';
+import {ObservationInputPage} from '../../../observation-input/observation-input.component';
 
 @Component({
   templateUrl: 'dragonfly-home-tab.component.html'
@@ -12,7 +13,7 @@ export class DragonflyHomeTabPage {
   private dragonfly: Dragonfly;
   private criteria: Object[];
   private selectedCriteria: number[][];
-  constructor(private navCtrl: NavController, private navParams: NavParams, private jsonDataService: JsonDataService) {
+  constructor(private navCtrl: NavController, private navParams: NavParams, private jsonDataService: JsonDataService, private appCtrl:App) {
       this.dragonfly  = navParams.data.dragonfly;
       this.selectedCriteria = navParams.data.criteria;
       this.loadData();
@@ -43,6 +44,10 @@ export class DragonflyHomeTabPage {
         }
       }
     }
+  }
+
+  private observationTransmit():void{
+    this.appCtrl.getRootNav().push(ObservationInputPage, {dragonfly:this.dragonfly});
   }
 
   ionViewDidEnter(){
