@@ -25,7 +25,26 @@ export class DragonflyHomeTabPage {
            alert("Un problème est survenu")
        });
   }
-  
+
+  private getStyle(i:number):Object{
+    if(this.selectedCriteria == null){
+      return {};
+    }else{
+      if(this.selectedCriteria[i].length == 0){
+        return {};
+      }else{
+        let that = this;
+        if(this.dragonfly.criteria[i].some(function(v){
+          return that.selectedCriteria[i].indexOf(v) >= 0;
+        })){
+          return {"background-color":"rgb(204, 255, 204)"};
+        }else{
+          return {"background-color":"rgb(255, 194, 179)"};
+        }
+      }
+    }
+  }
+
   ionViewDidEnter(){
 
   }
