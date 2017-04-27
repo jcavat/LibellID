@@ -1,5 +1,5 @@
 <ion-content>
   <h2>{{point[0]}}</h2>
-  <p>{{point[1]}}</p>
+  <p [innerHTML]="point[1]"></p>
   <button ion-button block (click)="dismiss()">Fermer</button>
 </ion-content>
