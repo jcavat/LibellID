@@ -6,6 +6,7 @@
     <p class="share">Partager</p>
     <p class="observation"><button ion-button (click)="observationTransmit()">Transmettre l'observation</button></p>
     <table class="tableCriteria">
+        <tr><th>Critère</th><th>Valeur</th></tr>
         <tr *ngFor="let criter of criteria;let i=index" [ngStyle]="getStyle(i)">
             <td>{{criter.name}}</td>
             <td *ngIf="dragonfly.criteria[i].length>1">

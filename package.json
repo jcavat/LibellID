@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "ionic:serve": "ionic-app-scripts serve",
+    "test": "karma start karma.conf.js"
   },
   "dependencies": {
     "@angular/common": "2.4.8",
@@ -30,6 +31,12 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "1.2.2",
+    "@types/jasmine": "^2.5.47",
+    "concurrently": "^3.2.0",
+    "jasmine": "^2.6.0",
+    "karma": "^1.6.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
     "typescript": "2.2.1"
   },
   "cordovaPlugins": [

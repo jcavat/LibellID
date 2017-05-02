@@ -25456,6 +25456,8 @@ img.img-map-distribution {
 
 .tableCriteria th ul, .tableCriteria td ul {
   padding-left: 1em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
 }
 
 .tableCriteria tr:nth-child(even) {

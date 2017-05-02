@@ -38,9 +38,9 @@ export class DragonflyHomeTabPage {
         if(this.dragonfly.criteria[i].some(function(v){
           return that.selectedCriteria[i].indexOf(v) >= 0;
         })){
-          return {"background-color":"rgb(204, 255, 204)"};
+          return {"background-color":"rgb(216, 254, 200)"};
         }else{
-          return {"background-color":"rgb(255, 194, 179)"};
+          return {"background-color":"rgb(254, 212, 200)"};
         }
       }
     }
