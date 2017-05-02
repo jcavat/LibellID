@@ -11,7 +11,7 @@ h6.criter-name{
   padding-bottom: 0.3em;
   padding-left: 0.3em;
   padding-right: 0.3em;
-  background-color: color($colors, primary);
+  background: linear-gradient(rgb(210,210,210),rgb(240,240,240),rgb(240,240,240),rgb(210,210,210));
   border-radius: 5px;
   margin-bottom: 0;
 }
@@ -23,11 +23,12 @@ table{
     td{
       border: solid 1px black;
       height: 4em;
-      width: 20%;
+      width: 25%;
       display: inline-block;
     }
     .selected-value{
-      background-color: red;
+      border: 5px solid rgb(96,96,96);
+      //border-radius: 5px;
     }
   }
   margin-bottom: 0.5em;

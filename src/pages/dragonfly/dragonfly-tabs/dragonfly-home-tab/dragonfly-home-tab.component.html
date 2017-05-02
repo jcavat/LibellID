@@ -8,7 +8,12 @@
     <table class="tableCriteria">
         <tr *ngFor="let criter of criteria;let i=index" [ngStyle]="getStyle(i)">
             <td>{{criter.name}}</td>
-            <td><span *ngFor="let value of dragonfly.criteria[i]">{{criter.values[value].name}}<br></span></td>
+            <td *ngIf="dragonfly.criteria[i].length>1">
+              <ul><li *ngFor="let value of dragonfly.criteria[i]">{{criter.values[value].name}}</li></ul>
+            </td>
+            <td *ngIf="dragonfly.criteria[i].length <=1">
+              {{criter.values[dragonfly.criteria[i]].name}}
+            </td>
         </tr>
     </table>
 </ion-content>
