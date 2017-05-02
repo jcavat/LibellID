@@ -96,7 +96,10 @@
     <Placemark>
       <name>Jardin d'hiver</name>
       <description>
-        AA Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis risus vel tellus volutpat pellentesque. Proin porttitor vestibulum erat, vitae pharetra sapien. Aenean bibendum odio non suscipit posuere. Donec sagittis ultrices nisl eu malesuada. Suspendisse eget nibh magna. Mauris porttitor massa a lacus sodales, nec fermentum metus elementum. Aliquam ut tincidunt tortor, id tincidunt felis. Sed pellentesque purus eget leo finibus rhoncus.
+        <![CDATA[
+            <p>Avec mes yeux rouges, je suis la naïade au corps vert. Vous pouvez m’apercevoir à fleur d’eau.</p>
+            <img src="assets/img/aeshne-bleue-1.jpg">
+        ]]>
       </description>
       <Point>
         <coordinates>6.14535,46.22609</coordinates>
@@ -106,7 +109,10 @@
     <Placemark>
       <name>Lac</name>
       <description>
-        BB Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis risus vel tellus volutpat pellentesque. Proin porttitor vestibulum erat, vitae pharetra sapien. Aenean bibendum odio non suscipit posuere. Donec sagittis ultrices nisl eu malesuada. Suspendisse eget nibh magna. Mauris porttitor massa a lacus sodales, nec fermentum metus elementum. Aliquam ut tincidunt tortor, id tincidunt felis. Sed pellentesque purus eget leo finibus rhoncus.
+          <![CDATA[
+              <p>Je suis le discret Agrion porte-coupe. Cherchez-moi sur les rives du Léman!</p>
+              <img src="assets/img/aeshne-bleue-1.jpg">
+          ]]>
       </description>
       <Point>
         <coordinates>6.14911,46.2265</coordinates>
@@ -116,7 +122,10 @@
     <Placemark>
       <name>Etangs</name>
       <description>
-        CC Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis risus vel tellus volutpat pellentesque. Proin porttitor vestibulum erat, vitae pharetra sapien. Aenean bibendum odio non suscipit posuere. Donec sagittis ultrices nisl eu malesuada. Suspendisse eget nibh magna. Mauris porttitor massa a lacus sodales, nec fermentum metus elementum. Aliquam ut tincidunt tortor, id tincidunt felis. Sed pellentesque purus eget leo finibus rhoncus.
+          <![CDATA[
+              <p>Trouverez-vous l’Anax empereur, la plus grande libellule d’Europe?</p>
+              <img src="assets/img/aeshne-bleue-1.jpg">
+          ]]>
       </description>
       <Point>
         <coordinates>6.14702,46.22506</coordinates>
@@ -126,12 +135,13 @@
     <Placemark>
       <name>Départ</name>
       <description>
-        DD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis risus vel tellus volutpat pellentesque. Proin porttitor vestibulum erat, vitae pharetra sapien. Aenean bibendum odio non suscipit posuere. Donec sagittis ultrices nisl eu malesuada. Suspendisse eget nibh magna. Mauris porttitor massa a lacus sodales, nec fermentum metus elementum. Aliquam ut tincidunt tortor, id tincidunt felis. Sed pellentesque purus eget leo finibus rhoncus.
+          <![CDATA[
+              <p>En avez-vous vu d’autres durant votre promenade?</p>
+          ]]>
       </description>
       <Point>
         <coordinates>6.1476,46.22444</coordinates>
       </Point>
     </Placemark>
-
  </Document>
 </kml>
