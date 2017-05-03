@@ -54,4 +54,13 @@ export class IdentifyPage {
       }
       this.navCtrl.push(IdentifyResultPage, {criteria: selectedValues});
     }
+    private resetCriteria():void{
+        let tables = document.getElementsByClassName("table-criteria");
+        for(var i = 0; i < tables.length; i++){
+          let elems = tables[i].getElementsByTagName("td");
+          for(var j = 0; j < elems.length; j++){
+            elems[j].classList.remove("selected-value");
+          }
+        }
+    }
 }
