@@ -10,13 +10,25 @@ import {IdentifyResultPage} from './identify-result/identify-result.component';
 })
 export class IdentifyPage {
     private criteria: Object[];
+    private useDate: boolean = true;
+    private usePosition: boolean = true;
     constructor(private navCtrl: NavController, private popoverCtrl: PopoverController, private jsonDataService: JsonDataService) {
       this.loadData();
     }
-    private presentPopover():void{
-        let popover = this.popoverCtrl.create(IdentifyPopover);
-        popover.present();
+    private presentPopover(event):void{
+        let popover = this.popoverCtrl.create(IdentifyPopover,{
+            useDate: this.useDate,
+            usePosition: this.usePosition
+        });
+        popover.present({ev: event});
+        popover.onDidDismiss(data => {
+            if(data != null){
+                this.useDate = data.useDate;
+                this.usePosition = data.usePosition;
+            }
+        });
     }
+
     private loadData():void{
         let that = this;
          this.jsonDataService.criteria().then(function(val){
@@ -33,6 +45,15 @@ export class IdentifyPage {
       }else{
         element.classList.remove("selected-value");
       }
+    }
+    private resetCriteria():void{
+        let tables = document.getElementsByClassName("table-criteria");
+        for(var i = 0; i < tables.length; i++){
+          let elems = tables[i].getElementsByTagName("td");
+          for(var j = 0; j < elems.length; j++){
+            elems[j].classList.remove("selected-value");
+          }
+        }
     }
     ionViewDidEnter(){
       let tdValues = document.getElementsByClassName("criter-value");
@@ -52,15 +73,7 @@ export class IdentifyPage {
         }
         selectedValues.push(selectedValuesPerCriter);
       }
-      this.navCtrl.push(IdentifyResultPage, {criteria: selectedValues});
+      this.navCtrl.push(IdentifyResultPage, {criteria: selectedValues, useDate: this.useDate, usePosition: this.usePosition});
     }
-    private resetCriteria():void{
-        let tables = document.getElementsByClassName("table-criteria");
-        for(var i = 0; i < tables.length; i++){
-          let elems = tables[i].getElementsByTagName("td");
-          for(var j = 0; j < elems.length; j++){
-            elems[j].classList.remove("selected-value");
-          }
-        }
-    }
+
 }

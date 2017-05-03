@@ -1,24 +1,34 @@
 import { Component } from '@angular/core';
-import {ViewController} from 'ionic-angular';
+import {ViewController, NavParams} from 'ionic-angular';
 
 @Component({
   template: `
     <ion-list>
         <ion-item>
           <ion-label>Filtrer par date</ion-label>
-          <ion-checkbox (click)="this.close()"></ion-checkbox>
+          <ion-checkbox (click)="this.dismiss()" [(ngModel)]="this.useDate"></ion-checkbox>
         </ion-item>
         <ion-item>
           <ion-label>Filtrer par lieu</ion-label>
-          <ion-checkbox (click)="this.close()"></ion-checkbox>
+          <ion-checkbox (click)="this.dismiss()" [(ngModel)]="this.usePosition"></ion-checkbox>
         </ion-item>
     </ion-list>
   `
 })
 export class IdentifyPopover {
-  constructor(private viewCtrl: ViewController) {}
+  private useDate: boolean;
+  private usePosition: boolean;
+  constructor(private viewCtrl: ViewController, private navParams: NavParams) {
+      this.useDate = navParams.get('useDate');
+      this.usePosition = navParams.get('usePosition');
+  }
 
-  close() {
-    this.viewCtrl.dismiss();
+  dismiss() {
+    console.log(this.useDate);
+    console.log(this.usePosition);
+    this.viewCtrl.dismiss({
+        useDate: this.useDate,
+        usePosition: this.usePosition
+    });
   }
 }

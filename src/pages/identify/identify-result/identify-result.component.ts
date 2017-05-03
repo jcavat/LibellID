@@ -16,9 +16,13 @@ export class IdentifyResultPage {
   private matchedCriteria: boolean[][] = [];
   private dragonfliesDataSorted = [];
   private criteriaSelected:number = 0;
+  private useDate: boolean;
+  private usePosition: boolean;
 
   constructor(private navCtrl: NavController, navParams: NavParams, private jsonDataService: JsonDataService) {
       this.criteria = navParams.get("criteria");
+      this.useDate = navParams.get("useDate");
+      this.usePosition = navParams.get("usePosition");
       this.loadData();
   }
   private loadData():void{
