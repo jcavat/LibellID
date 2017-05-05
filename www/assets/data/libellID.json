@@ -3,7 +3,7 @@
     {
       "commonName": "Aeshne affine",
       "latinName": "Aeshna affinis",
-      "headerPicture": "photo.png",
+      "headerPicture": "aeshna_affinis.jpg",
       "criteria": [
         [0],
         [1],
@@ -60,7 +60,7 @@
   {
     "commonName": "Aeshne bleue",
     "latinName": "Aeshna cyanea",
-    "headerPicture": "photo.png",
+    "headerPicture": "aeshna_cyanea.jpg",
     "criteria": [
       [1],
       [1],
@@ -113,176 +113,9 @@
     "distributionMap": "carte.png"
 },
 {
-  "commonName": "Aeshne mixte",
-  "latinName": "Aeshna mixta",
-  "headerPicture": "photo.png",
-  "criteria": [
-    [2],
-    [1],
-    [0],
-    [1],
-    [2,4,6],
-    [4],
-    [1],
-    [0],
-    [1],
-    [1,2],
-    [0],
-    [1],
-    [0]
-  ],
-  "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
-  ],
-  "description": "Lorem Ipsum blabla bla",
-  "habitats": [
-    "pounds-1",
-    "rivers-1",
-    "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
-  ],
-  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-  "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
-  ],
-  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-  "threat": "Menacé, ou pas",
-  "links":[
-      {
-          "link": "http://www.google.ch",
-          "value": "Google"
-      },
-      {
-          "link": "http://www.wikipedia.org",
-          "value": "Wikipedia"
-      }
-  ],
-  "distributionMap": "carte.png"
-},
-{
-  "commonName": "Anax empereur",
-  "latinName": "Anax imperator",
-  "headerPicture": "photo.png",
-  "criteria": [
-    [1],
-    [1],
-    [0],
-    [1],
-    [1,3,5],
-    [2],
-    [1],
-    [0],
-    [1],
-    [1],
-    [0],
-    [0,1],
-    [0,1]
-  ],
-  "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
-  ],
-  "description": "Lorem Ipsum blabla bla",
-  "habitats": [
-    "mares",
-    "étangs",
-    "bassins artificiels",
-    "bras morts, partie lente des grands cours d'eau"
-  ],
-  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-  "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
-  ],
-  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-  "threat": "Menacé, ou pas",
-  "links":[
-      {
-          "link": "http://www.google.ch",
-          "value": "Google"
-      },
-      {
-          "link": "http://www.wikipedia.org",
-          "value": "Wikipedia"
-      }
-  ],
-  "distributionMap": "carte.png"
-  },
-  {
-    "commonName": "Aeshnidé",
-    "latinName": "",
-    "headerPicture": "photo.png",
-    "criteria": [
-      [1],
-      [1],
-      [0],
-      [1],
-      [1,3,5],
-      [2],
-      [1],
-      [0],
-      [1],
-      [1],
-      [0],
-      [0,1],
-      [0,1]
-    ],
-    "pictures": [
-        "photo1.jpg",
-        "photo2.jpg"
-    ],
-    "description": "Lorem Ipsum blabla bla",
-    "habitats": [
-      "mares",
-      "étangs",
-      "bassins artificiels",
-      "bras morts, partie lente des grands cours d'eau"
-    ],
-    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-    "flyPeriod": [
-        0.3,
-        0.6,
-        1,
-        1,
-        1,
-        1,
-        0.6,
-        0.3
-    ],
-    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-    "threat": "Menacé, ou pas",
-    "links":[
-        {
-            "link": "http://www.google.ch",
-            "value": "Google"
-        },
-        {
-            "link": "http://www.wikipedia.org",
-            "value": "Wikipedia"
-        }
-    ],
-    "distributionMap": "carte.png"
-},
-{
   "commonName": "Aeshne grande",
   "latinName": "Aeshna grandis",
-  "headerPicture": "photo.png",
+  "headerPicture": "aeshna_grandis.jpg",
   "criteria": [
     [1],
     [1],
@@ -337,7 +170,7 @@
   {
     "commonName": "Aeshne isocèle",
     "latinName": "Aeshna isoceles",
-    "headerPicture": "photo.png",
+    "headerPicture": "aeshna_isoceles.jpg",
     "criteria": [
       [1],
       [1],
@@ -392,7 +225,7 @@
 {
   "commonName": "Aeshne des joncs",
   "latinName": "Aeshna juncea",
-  "headerPicture": "photo.png",
+  "headerPicture": "aeshna_juncea.jpg",
   "criteria": [
     [1],
     [1],
@@ -445,9 +278,178 @@
   "distributionMap": "carte.png"
   },
   {
+  "commonName": "Aeshne mixte",
+  "latinName": "Aeshna mixta",
+  "headerPicture": "aeshna_mixta.jpg",
+  "criteria": [
+    [2],
+    [1],
+    [0],
+    [1],
+    [2,4,6],
+    [4],
+    [1],
+    [0],
+    [1],
+    [1,2],
+    [0],
+    [1],
+    [0]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem Ipsum blabla bla",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
+  "threat": "Menacé, ou pas",
+  "links":[
+      {
+          "link": "http://www.google.ch",
+          "value": "Google"
+      },
+      {
+          "link": "http://www.wikipedia.org",
+          "value": "Wikipedia"
+      }
+  ],
+  "distributionMap": "carte.png"
+},
+
+  {
+    "commonName": "Aeshnidé",
+    "latinName": "",
+    "headerPicture": "aeshnidae.jpg",
+    "criteria": [
+      [1],
+      [1],
+      [0],
+      [1],
+      [1,3,5],
+      [2],
+      [1],
+      [0],
+      [1],
+      [1],
+      [0],
+      [0,1],
+      [0,1]
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem Ipsum blabla bla",
+    "habitats": [
+      "mares",
+      "étangs",
+      "bassins artificiels",
+      "bras morts, partie lente des grands cours d'eau"
+    ],
+    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
+    "threat": "Menacé, ou pas",
+    "links":[
+        {
+            "link": "http://www.google.ch",
+            "value": "Google"
+        },
+        {
+            "link": "http://www.wikipedia.org",
+            "value": "Wikipedia"
+        }
+    ],
+    "distributionMap": "carte.png"
+},
+
+  {
+    "commonName": "Anax empereur",
+    "latinName": "Anax imperator",
+    "headerPicture": "anax_imperator.jpg",
+    "criteria": [
+      [1],
+      [1],
+      [0],
+      [1],
+      [1,3,5],
+      [2],
+      [1],
+      [0],
+      [1],
+      [1],
+      [0],
+      [0,1],
+      [0,1]
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem Ipsum blabla bla",
+    "habitats": [
+      "mares",
+      "étangs",
+      "bassins artificiels",
+      "bras morts, partie lente des grands cours d'eau"
+    ],
+    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
+    "threat": "Menacé, ou pas",
+    "links":[
+        {
+            "link": "http://www.google.ch",
+            "value": "Google"
+        },
+        {
+            "link": "http://www.wikipedia.org",
+            "value": "Wikipedia"
+        }
+    ],
+    "distributionMap": "carte.png"
+    },
+  {
     "commonName": "Anax napolitain",
     "latinName": "Anax parthenope",
-    "headerPicture": "photo.png",
+    "headerPicture": "anax_parthenope.jpg",
     "criteria": [
       [1],
       [1],
@@ -502,7 +504,7 @@
 {
   "commonName": "Aeshne velue",
   "latinName": "Brachytron pratense",
-  "headerPicture": "photo.png",
+  "headerPicture": "brachytron_pratense.jpg",
   "criteria": [
     [1],
     [1],
@@ -557,7 +559,7 @@
   {
     "commonName": "Caloptéryx éclatant",
     "latinName": "Calopteryx splendens",
-    "headerPicture": "photo.png",
+    "headerPicture": "calopteryx_splendens.jpg",
     "criteria": [
       [1],
       [1],
@@ -612,7 +614,7 @@
 {
   "commonName": "Caloptéryx vierge",
   "latinName": "Calopteryx virgo",
-  "headerPicture": "photo.png",
+  "headerPicture": "calopteryx_virgo.jpg",
   "criteria": [
     [1],
     [1],
@@ -667,7 +669,7 @@
   {
     "commonName": "Cordulie bronzée",
     "latinName": "Cordulia aenea",
-    "headerPicture": "photo.png",
+    "headerPicture": "cordulia_aenea.jpg",
     "criteria": [
       [1],
       [1],
@@ -722,7 +724,7 @@
 {
   "commonName": "Cordulie de plaine",
   "latinName": "",
-  "headerPicture": "photo.png",
+  "headerPicture": "cordulie_plaine.png",
   "criteria": [
     [1],
     [1],
@@ -777,7 +779,7 @@
   {
     "commonName": "Groupe des Agrions bleus",
     "latinName": "",
-    "headerPicture": "photo.png",
+    "headerPicture": "agrion_bleu.jpg",
     "criteria": [
       [1],
       [1],
@@ -832,7 +834,7 @@
 {
   "commonName": "Cordulégastre annelé",
   "latinName": "Cordulegaster boltonii",
-  "headerPicture": "photo.png",
+  "headerPicture": "cordulegaster_boltonii.jpg",
   "criteria": [
     [1],
     [1],
@@ -887,7 +889,7 @@
   {
     "commonName": "Cordulégastre",
     "latinName": "Cordulegaster boltonii, Cordulegaster bidentata",
-    "headerPicture": "photo.png",
+    "headerPicture": "cordulegaster.jpg",
     "criteria": [
       [1],
       [1],
@@ -942,7 +944,7 @@
 {
   "commonName": "Crocothémis écarlate",
   "latinName": "Crocothemis erythrea",
-  "headerPicture": "photo.png",
+  "headerPicture": "crocothemis_erythraea.jpg",
   "criteria": [
     [1],
     [1],
@@ -997,7 +999,7 @@
   {
     "commonName": "Naïade au corps vert",
     "latinName": "Erythromma viridulum",
-    "headerPicture": "photo.png",
+    "headerPicture": "erythromma_viridulum.jpg",
     "criteria": [
       [1],
       [1],
@@ -1051,8 +1053,8 @@
 },
 {
   "commonName": "Naïade",
-  "latinName": "Erythroma sp.",
-  "headerPicture": "photo.png",
+  "latinName": "Erythromma sp.",
+  "headerPicture": "erythromma.jpg",
   "criteria": [
     [1],
     [1],
@@ -1107,7 +1109,7 @@
   {
     "commonName": "Leste barbare",
     "latinName": "Lestes barbarus",
-    "headerPicture": "photo.png",
+    "headerPicture": "lestes_barbarus.jpg",
     "criteria": [
       [1],
       [1],
@@ -1162,7 +1164,7 @@
 {
   "commonName": "Leste fiancé",
   "latinName": "Lestes sponsa",
-  "headerPicture": "photo.png",
+  "headerPicture": "lestes_sponsa.jpg",
   "criteria": [
     [1],
     [1],
@@ -1217,7 +1219,7 @@
   {
     "commonName": "Leste vert",
     "latinName": "Chalcolestes viridis",
-    "headerPicture": "photo.png",
+    "headerPicture": "chalcolestes_viridis.jpg",
     "criteria": [
       [1],
       [1],
@@ -1272,7 +1274,7 @@
 {
   "commonName": "Libellule déprimée",
   "latinName": "Libellula depressa",
-  "headerPicture": "photo.png",
+  "headerPicture": "libellula_depressa.jpg",
   "criteria": [
     [1],
     [1],
@@ -1327,7 +1329,7 @@
   {
     "commonName": "Libellule à quatre taches",
     "latinName": "Libellula quadrimaculata",
-    "headerPicture": "photo.png",
+    "headerPicture": "libellula_quadrimaculata.jpg",
     "criteria": [
       [1],
       [1],

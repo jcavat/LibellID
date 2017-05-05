@@ -25431,7 +25431,8 @@ img.img-map-distribution {
 }
 
 .headerPicture {
-  width: 65%;
+  width: 75%;
+  border-radius: 5px;
 }
 
 .share {
@@ -25456,6 +25457,8 @@ img.img-map-distribution {
 
 .tableCriteria th ul, .tableCriteria td ul {
   padding-left: 1em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
 }
 
 .tableCriteria tr:nth-child(even) {
@@ -25530,13 +25533,6 @@ ion-thumbnail img {
   font-weight: bold;
 }
 
-ion-popover .popover-content {
-  /*position: absolute!important;
-    top: 10%!important;
-    left: 0!important;
-    right: 5%!important;*/
-}
-
 h6.criter-name {
   display: block;
   width: 100%;
@@ -25568,6 +25564,7 @@ table .table-content td {
 
 table .table-content .selected-value {
   border: 5px solid #606060;
+  border-radius: 3px;
 }
 
 ion-thumbnail.thumbnail-dragonfly-list {
