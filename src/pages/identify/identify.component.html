@@ -4,7 +4,8 @@
       Identifier
     </ion-title>
     <ion-buttons end>
-        <button ion-button icon-only (click)="presentPopover()">
+        <button ion-button icon-only (click)="resetCriteria()"><ion-icon name="refresh"></ion-icon></button>
+        <button ion-button icon-only (click)="presentPopover($event)">
             <ion-icon name="more"></ion-icon>
         </button>
     </ion-buttons>
@@ -20,5 +21,5 @@
       </tr>
     </table>
   </span>
-  <button ion-button block (click)="getSelectedValues()">Identifier</button>
+  <button ion-button block (click)="getSelectedValues()">Values</button>
 </ion-content>
