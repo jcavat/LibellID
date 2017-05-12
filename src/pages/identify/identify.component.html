@@ -4,7 +4,6 @@
       Identifier
     </ion-title>
     <ion-buttons end>
-        <button ion-button icon-only (click)="resetCriteria()"><ion-icon name="refresh"></ion-icon></button>
         <button ion-button icon-only (click)="presentPopover($event)">
             <ion-icon name="more"></ion-icon>
         </button>
@@ -21,5 +20,16 @@
       </tr>
     </table>
   </span>
-  <button ion-button block (click)="getSelectedValues()">Values</button>
+  <div id="div-btns">
+      <table>
+          <tr>
+              <td>
+                  <button ion-button full icon-left (click)="getSelectedValues()"><ion-icon name="search"> Voir</ion-icon></button>
+              </td>
+              <td>
+                  <button ion-button full icon-left (click)="resetCriteria()"><ion-icon name="refresh"> Recommencer</ion-icon></button>
+              </td>
+          </tr>
+      </table>
+  </div>
 </ion-content>

@@ -1,0 +1,1808 @@
+{
+  "dragonflies": [
+    {
+      "commonName": "Aeshne affine",
+      "latinName": "Aeshna affinis",
+      "headerPicture": "aeshna_affinis.jpg",
+      "criteria": [
+        [0],
+        [1],
+        [1],
+        [1],
+        [2,5,7],
+        [4],
+        [1],
+        [1],
+        [1],
+        [1,2],
+        [0],
+        [0,1],
+        [0,1]
+      ],
+      "pictures": [
+          "photo1.jpg",
+          "photo2.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis, turpis non sodales accumsan, felis erat cursus lorem, ornare vulputate risus enim vel orci. Praesent vel tortor volutpat, rhoncus sem lobortis, dapibus nisi. Integer id porttitor justo. Mauris fringilla ipsum blandit libero eleifend, in auctor lectus posuere. Duis felis tortor",
+      "habitats": [
+        "pounds-1",
+        "rivers-1",
+        "peatbog-1",
+        "ditch-1",
+        "temp-environment-0",
+        "lake-0"
+      ],
+      "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+      "flyPeriod": [
+          0.3,
+          0.6,
+          1,
+          1,
+          1,
+          1,
+          0.6,
+          0.3
+      ],
+      "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+      "threat": "Menacé, ou pas",
+      "links":[
+          {
+              "link": "http://www.google.ch",
+              "value": "Google"
+          },
+          {
+              "link": "http://www.wikipedia.org",
+              "value": "Wikipedia"
+          }
+      ],
+      "distributionMap": "carte.png"
+  },
+  {
+    "commonName": "Aeshne bleue",
+    "latinName": "Aeshna cyanea",
+    "headerPicture": "aeshna_cyanea.jpg",
+    "criteria": [
+      [1],
+      [1],
+      [0],
+      [1],
+      [1,4,7],
+      [4],
+      [0],
+      [0],
+      [1],
+      [1,2],
+      [0],
+      [1],
+      [0,1]
+    ],
+    "pictures": [
+        "aeshne-bleue-1.jpg",
+        "aeshne-bleue-2.jpg",
+        "aeshne-bleue-3.jpg",
+        "aeshne-bleue-4.jpg"
+    ],
+    "description": "Grande libellule sombre avec des tâches vertes et bleues qui vole souvent bas et à l’ombre.",
+    "habitats": [
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
+    ],
+    "behavior": "<ul><li>Vole volontiers à l’ombre et au crépuscule</li><li>Peu territoriale: parcourt tout l’étang, vole souvent bas</li><li> Régulièrement observée loin de l’eau</li><li>Pond toujours seule</li><li>Généralement des individus isolés</li><li>Très peu exigeante: s’adapte à tous les milieux, supporte mal la concurrence</li></ul>",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "L’aeshne bleue est une libellule peu farouche et tout terrain que l’on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d’altitudes. Curieuse, elle peut s’approcher et fondre sur les observateurs lorsqu’elle chasse.<br><br>Elle pond aussi dans les endroits les plus variés, même a priori peu favorables. Il existe ainsi de nombreux rapports de femelles qui tentent de pondre sur les habits, filets ou bottes de leurs observateurs.",
+    "threat": "L’aeshne bleue n’est pas menacée en Suisse",
+    "links":[
+        {
+            "link": "http://www.google.ch",
+            "value": "Fiche CSCF"
+        }
+    ],
+    "distributionMap": "carte.png"
+},
+{
+  "commonName": "Aeshne grande",
+  "latinName": "Aeshna grandis",
+  "headerPicture": "aeshna_grandis.jpg",
+  "criteria": [
+    [1],
+    [1],
+    [0],
+    [1],
+    [1,3,5],
+    [2],
+    [1],
+    [0],
+    [1],
+    [1],
+    [0],
+    [0,1],
+    [0,1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "links":[
+      {
+          "link": "http://www.google.ch",
+          "value": "Google"
+      },
+      {
+          "link": "http://www.wikipedia.org",
+          "value": "Wikipedia"
+      }
+  ],
+  "distributionMap": "carte.png"
+  },
+  {
+    "commonName": "Aeshne isocèle",
+    "latinName": "Aeshna isoceles",
+    "headerPicture": "aeshna_isoceles.jpg",
+    "criteria": [
+      [1],
+      [1],
+      [0],
+      [1],
+      [1,3,5],
+      [2],
+      [1],
+      [0],
+      [1],
+      [1],
+      [0],
+      [0,1],
+      [0,1]
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "habitats": [
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
+    ],
+    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "threat": "Menacé, ou pas",
+    "links":[
+        {
+            "link": "http://www.google.ch",
+            "value": "Google"
+        },
+        {
+            "link": "http://www.wikipedia.org",
+            "value": "Wikipedia"
+        }
+    ],
+    "distributionMap": "carte.png"
+},
+{
+  "commonName": "Aeshne des joncs",
+  "latinName": "Aeshna juncea",
+  "headerPicture": "aeshna_juncea.jpg",
+  "criteria": [
+    [1],
+    [1],
+    [0],
+    [1],
+    [1,3,5],
+    [2],
+    [1],
+    [0],
+    [1],
+    [1],
+    [0],
+    [0,1],
+    [0,1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "links":[
+      {
+          "link": "http://www.google.ch",
+          "value": "Google"
+      },
+      {
+          "link": "http://www.wikipedia.org",
+          "value": "Wikipedia"
+      }
+  ],
+  "distributionMap": "carte.png"
+  },
+  {
+  "commonName": "Aeshne mixte",
+  "latinName": "Aeshna mixta",
+  "headerPicture": "aeshna_mixta.jpg",
+  "criteria": [
+    [2],
+    [1],
+    [0],
+    [1],
+    [2,4,6],
+    [4],
+    [1],
+    [0],
+    [1],
+    [1,2],
+    [0],
+    [1],
+    [0]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "links":[
+      {
+          "link": "http://www.google.ch",
+          "value": "Google"
+      },
+      {
+          "link": "http://www.wikipedia.org",
+          "value": "Wikipedia"
+      }
+  ],
+  "distributionMap": "carte.png"
+},
+
+  {
+    "commonName": "Aeshnidé",
+    "latinName": "",
+    "headerPicture": "aeshnidae.jpg",
+    "criteria": [
+      [1],
+      [1],
+      [0],
+      [1],
+      [1,3,5],
+      [2],
+      [1],
+      [0],
+      [1],
+      [1],
+      [0],
+      [0,1],
+      [0,1]
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "habitats": [
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
+    ],
+    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "threat": "Menacé, ou pas",
+    "links":[
+        {
+            "link": "http://www.google.ch",
+            "value": "Google"
+        },
+        {
+            "link": "http://www.wikipedia.org",
+            "value": "Wikipedia"
+        }
+    ],
+    "distributionMap": "carte.png"
+},
+
+  {
+    "commonName": "Anax empereur",
+    "latinName": "Anax imperator",
+    "headerPicture": "anax_imperator.jpg",
+    "criteria": [
+      [1],
+      [1],
+      [0],
+      [1],
+      [1,3,5],
+      [2],
+      [1],
+      [0],
+      [1],
+      [1],
+      [0],
+      [0,1],
+      [0,1]
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "habitats": [
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
+    ],
+    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "threat": "Menacé, ou pas",
+    "links":[
+        {
+            "link": "http://www.google.ch",
+            "value": "Google"
+        },
+        {
+            "link": "http://www.wikipedia.org",
+            "value": "Wikipedia"
+        }
+    ],
+    "distributionMap": "carte.png"
+    },
+  {
+    "commonName": "Anax napolitain",
+    "latinName": "Anax parthenope",
+    "headerPicture": "anax_parthenope.jpg",
+    "criteria": [
+      [1],
+      [1],
+      [0],
+      [1],
+      [1,3,5],
+      [2],
+      [1],
+      [0],
+      [1],
+      [1],
+      [0],
+      [0,1],
+      [0,1]
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "habitats": [
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
+    ],
+    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "threat": "Menacé, ou pas",
+    "links":[
+        {
+            "link": "http://www.google.ch",
+            "value": "Google"
+        },
+        {
+            "link": "http://www.wikipedia.org",
+            "value": "Wikipedia"
+        }
+    ],
+    "distributionMap": "carte.png"
+},
+{
+  "commonName": "Aeshne velue",
+  "latinName": "Brachytron pratense",
+  "headerPicture": "brachytron_pratense.jpg",
+  "criteria": [
+    [1],
+    [1],
+    [0],
+    [1],
+    [1,3,5],
+    [2],
+    [1],
+    [0],
+    [1],
+    [1],
+    [0],
+    [0,1],
+    [0,1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "links":[
+      {
+          "link": "http://www.google.ch",
+          "value": "Google"
+      },
+      {
+          "link": "http://www.wikipedia.org",
+          "value": "Wikipedia"
+      }
+  ],
+  "distributionMap": "carte.png"
+  },
+  {
+    "commonName": "Caloptéryx éclatant",
+    "latinName": "Calopteryx splendens",
+    "headerPicture": "calopteryx_splendens.jpg",
+    "criteria": [
+      [1],
+      [1],
+      [0],
+      [1],
+      [1,3,5],
+      [2],
+      [1],
+      [0],
+      [1],
+      [1],
+      [0],
+      [0,1],
+      [0,1]
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "habitats": [
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
+    ],
+    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "threat": "Menacé, ou pas",
+    "links":[
+        {
+            "link": "http://www.google.ch",
+            "value": "Google"
+        },
+        {
+            "link": "http://www.wikipedia.org",
+            "value": "Wikipedia"
+        }
+    ],
+    "distributionMap": "carte.png"
+},
+{
+  "commonName": "Caloptéryx vierge",
+  "latinName": "Calopteryx virgo",
+  "headerPicture": "calopteryx_virgo.jpg",
+  "criteria": [
+    [1],
+    [1],
+    [0],
+    [1],
+    [1,3,5],
+    [2],
+    [1],
+    [0],
+    [1],
+    [1],
+    [0],
+    [0,1],
+    [0,1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "links":[
+      {
+          "link": "http://www.google.ch",
+          "value": "Google"
+      },
+      {
+          "link": "http://www.wikipedia.org",
+          "value": "Wikipedia"
+      }
+  ],
+  "distributionMap": "carte.png"
+  },
+  {
+    "commonName": "Cordulie bronzée",
+    "latinName": "Cordulia aenea",
+    "headerPicture": "cordulia_aenea.jpg",
+    "criteria": [
+      [1],
+      [1],
+      [0],
+      [1],
+      [1,3,5],
+      [2],
+      [1],
+      [0],
+      [1],
+      [1],
+      [0],
+      [0,1],
+      [0,1]
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "habitats": [
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
+    ],
+    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "threat": "Menacé, ou pas",
+    "links":[
+        {
+            "link": "http://www.google.ch",
+            "value": "Google"
+        },
+        {
+            "link": "http://www.wikipedia.org",
+            "value": "Wikipedia"
+        }
+    ],
+    "distributionMap": "carte.png"
+},
+{
+  "commonName": "Cordulie de plaine",
+  "latinName": "",
+  "headerPicture": "cordulie_plaine.png",
+  "criteria": [
+    [1],
+    [1],
+    [0],
+    [1],
+    [1,3,5],
+    [2],
+    [1],
+    [0],
+    [1],
+    [1],
+    [0],
+    [0,1],
+    [0,1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "links":[
+      {
+          "link": "http://www.google.ch",
+          "value": "Google"
+      },
+      {
+          "link": "http://www.wikipedia.org",
+          "value": "Wikipedia"
+      }
+  ],
+  "distributionMap": "carte.png"
+  },
+  {
+    "commonName": "Groupe des Agrions bleus",
+    "latinName": "",
+    "headerPicture": "agrion_bleu.jpg",
+    "criteria": [
+      [1],
+      [1],
+      [0],
+      [1],
+      [1,3,5],
+      [2],
+      [1],
+      [0],
+      [1],
+      [1],
+      [0],
+      [0,1],
+      [0,1]
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "habitats": [
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
+    ],
+    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "threat": "Menacé, ou pas",
+    "links":[
+        {
+            "link": "http://www.google.ch",
+            "value": "Google"
+        },
+        {
+            "link": "http://www.wikipedia.org",
+            "value": "Wikipedia"
+        }
+    ],
+    "distributionMap": "carte.png"
+},
+{
+  "commonName": "Cordulégastre annelé",
+  "latinName": "Cordulegaster boltonii",
+  "headerPicture": "cordulegaster_boltonii.jpg",
+  "criteria": [
+    [1],
+    [1],
+    [0],
+    [1],
+    [1,3,5],
+    [2],
+    [1],
+    [0],
+    [1],
+    [1],
+    [0],
+    [0,1],
+    [0,1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "links":[
+      {
+          "link": "http://www.google.ch",
+          "value": "Google"
+      },
+      {
+          "link": "http://www.wikipedia.org",
+          "value": "Wikipedia"
+      }
+  ],
+  "distributionMap": "carte.png"
+  },
+  {
+    "commonName": "Cordulégastre",
+    "latinName": "Cordulegaster boltonii, Cordulegaster bidentata",
+    "headerPicture": "cordulegaster.jpg",
+    "criteria": [
+      [1],
+      [1],
+      [0],
+      [1],
+      [1,3,5],
+      [2],
+      [1],
+      [0],
+      [1],
+      [1],
+      [0],
+      [0,1],
+      [0,1]
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "habitats": [
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
+    ],
+    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "threat": "Menacé, ou pas",
+    "links":[
+        {
+            "link": "http://www.google.ch",
+            "value": "Google"
+        },
+        {
+            "link": "http://www.wikipedia.org",
+            "value": "Wikipedia"
+        }
+    ],
+    "distributionMap": "carte.png"
+},
+{
+  "commonName": "Crocothémis écarlate",
+  "latinName": "Crocothemis erythrea",
+  "headerPicture": "crocothemis_erythraea.jpg",
+  "criteria": [
+    [1],
+    [1],
+    [0],
+    [1],
+    [1,3,5],
+    [2],
+    [1],
+    [0],
+    [1],
+    [1],
+    [0],
+    [0,1],
+    [0,1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "links":[
+      {
+          "link": "http://www.google.ch",
+          "value": "Google"
+      },
+      {
+          "link": "http://www.wikipedia.org",
+          "value": "Wikipedia"
+      }
+  ],
+  "distributionMap": "carte.png"
+  },
+  {
+    "commonName": "Naïade au corps vert",
+    "latinName": "Erythromma viridulum",
+    "headerPicture": "erythromma_viridulum.jpg",
+    "criteria": [
+      [1],
+      [1],
+      [0],
+      [1],
+      [1,3,5],
+      [2],
+      [1],
+      [0],
+      [1],
+      [1],
+      [0],
+      [0,1],
+      [0,1]
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "habitats": [
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
+    ],
+    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "threat": "Menacé, ou pas",
+    "links":[
+        {
+            "link": "http://www.google.ch",
+            "value": "Google"
+        },
+        {
+            "link": "http://www.wikipedia.org",
+            "value": "Wikipedia"
+        }
+    ],
+    "distributionMap": "carte.png"
+},
+{
+  "commonName": "Naïade",
+  "latinName": "Erythromma sp.",
+  "headerPicture": "erythromma.jpg",
+  "criteria": [
+    [1],
+    [1],
+    [0],
+    [1],
+    [1,3,5],
+    [2],
+    [1],
+    [0],
+    [1],
+    [1],
+    [0],
+    [0,1],
+    [0,1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "links":[
+      {
+          "link": "http://www.google.ch",
+          "value": "Google"
+      },
+      {
+          "link": "http://www.wikipedia.org",
+          "value": "Wikipedia"
+      }
+  ],
+  "distributionMap": "carte.png"
+  },
+  {
+    "commonName": "Leste barbare",
+    "latinName": "Lestes barbarus",
+    "headerPicture": "lestes_barbarus.jpg",
+    "criteria": [
+      [1],
+      [1],
+      [0],
+      [1],
+      [1,3,5],
+      [2],
+      [1],
+      [0],
+      [1],
+      [1],
+      [0],
+      [0,1],
+      [0,1]
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "habitats": [
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
+    ],
+    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "threat": "Menacé, ou pas",
+    "links":[
+        {
+            "link": "http://www.google.ch",
+            "value": "Google"
+        },
+        {
+            "link": "http://www.wikipedia.org",
+            "value": "Wikipedia"
+        }
+    ],
+    "distributionMap": "carte.png"
+},
+{
+  "commonName": "Leste fiancé",
+  "latinName": "Lestes sponsa",
+  "headerPicture": "lestes_sponsa.jpg",
+  "criteria": [
+    [1],
+    [1],
+    [0],
+    [1],
+    [1,3,5],
+    [2],
+    [1],
+    [0],
+    [1],
+    [1],
+    [0],
+    [0,1],
+    [0,1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "links":[
+      {
+          "link": "http://www.google.ch",
+          "value": "Google"
+      },
+      {
+          "link": "http://www.wikipedia.org",
+          "value": "Wikipedia"
+      }
+  ],
+  "distributionMap": "carte.png"
+  },
+  {
+    "commonName": "Leste vert",
+    "latinName": "Chalcolestes viridis",
+    "headerPicture": "chalcolestes_viridis.jpg",
+    "criteria": [
+      [1],
+      [1],
+      [0],
+      [1],
+      [1,3,5],
+      [2],
+      [1],
+      [0],
+      [1],
+      [1],
+      [0],
+      [0,1],
+      [0,1]
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "habitats": [
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
+    ],
+    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "threat": "Menacé, ou pas",
+    "links":[
+        {
+            "link": "http://www.google.ch",
+            "value": "Google"
+        },
+        {
+            "link": "http://www.wikipedia.org",
+            "value": "Wikipedia"
+        }
+    ],
+    "distributionMap": "carte.png"
+},
+{
+  "commonName": "Libellule déprimée",
+  "latinName": "Libellula depressa",
+  "headerPicture": "libellula_depressa.jpg",
+  "criteria": [
+    [1],
+    [1],
+    [0],
+    [1],
+    [1,3,5],
+    [2],
+    [1],
+    [0],
+    [1],
+    [1],
+    [0],
+    [0,1],
+    [0,1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "links":[
+      {
+          "link": "http://www.google.ch",
+          "value": "Google"
+      },
+      {
+          "link": "http://www.wikipedia.org",
+          "value": "Wikipedia"
+      }
+  ],
+  "distributionMap": "carte.png"
+  },
+  {
+    "commonName": "Libellule à quatre taches",
+    "latinName": "Libellula quadrimaculata",
+    "headerPicture": "libellula_quadrimaculata.jpg",
+    "criteria": [
+      [1],
+      [1],
+      [0],
+      [1],
+      [1,3,5],
+      [2],
+      [1],
+      [0],
+      [1],
+      [1],
+      [0],
+      [0,1],
+      [0,1]
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "habitats": [
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
+    ],
+    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "threat": "Menacé, ou pas",
+    "links":[
+        {
+            "link": "http://www.google.ch",
+            "value": "Google"
+        },
+        {
+            "link": "http://www.wikipedia.org",
+            "value": "Wikipedia"
+        }
+    ],
+    "distributionMap": "carte.png"
+    }
+],
+  "walks": [
+    {
+      "id": 1,
+      "name": "Jardin botanique",
+      "preview": "walk1-preview.png",
+      "duration": "1h",
+      "diversity": 2,
+      "difficulty": 1,
+      "length": 5.3,
+      "description": "",
+      "species": [
+        {
+          "name": "Anax empereur",
+          "flyFrom": 4,
+          "flyTo": 10
+        },
+        {
+          "name": "Agrion porte-coupe",
+          "flyFrom": 4,
+          "flyTo": 10
+        },
+        {
+          "name": "Naïade au corps vert",
+          "flyFrom": 5,
+          "flyTo": 9
+        }
+      ],
+      "pictures":[
+          "photo1.jpg",
+          "photo2.jpg"
+      ],
+      "pathKML": "jardinBotanique.kml",
+      "pointsKML": "jardinBotaniquePoints.kml",
+      "coords": [46.224421, 6.147599]
+  },
+  {
+    "id": 2,
+    "name": "Promenade",
+    "preview": "walk1-preview.png",
+    "duration": "1h30",
+    "diversity": 4,
+    "difficulty": 1,
+    "length": 5.3,
+    "description": "Lorem ipsum blabla bla blabla blablabla bla",
+    "species": [
+      {
+        "name": "Anax empereur",
+        "flyFrom": 4,
+        "flyTo": 10
+      },
+      {
+        "name": "Agrion porte-coupe",
+        "flyFrom": 4,
+        "flyTo": 10
+      },
+      {
+        "name": "Agrion jouvencelle",
+        "flyFrom": 4,
+        "flyTo": 9
+      },
+      {
+        "name": "Agrion élégant",
+        "flyFrom": 4,
+        "flyTo": 9
+      },
+      {
+        "name": "Naïade au corps vert",
+        "flyFrom": 5,
+        "flyTo": 9
+      }
+    ],
+    "pictures":[
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "pathKML": "jardinBotanique.kml",
+    "pointsKML": "jardinBotaniquePoints.kml",
+    "coords": [46.284421, 6.107599]
+},
+{
+  "id": 3,
+  "name": "Promenade",
+  "preview": "walk1-preview.png",
+  "duration": "2h",
+  "diversity": 3,
+  "difficulty": 1,
+  "length": 5.3,
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis, turpis non sodales accumsan, felis erat cursus lorem, ornare vulputate risus enim vel orci. Praesent vel tortor volutpat, rhoncus sem lobortis, dapibus nisi. Integer id porttitor justo. Mauris fringilla ipsum blandit libero eleifend, in auctor lectus posuere. Duis felis tortor",
+  "species": [
+    {
+      "name": "Anax empereur",
+      "flyFrom": 4,
+      "flyTo": 10
+    },
+    {
+      "name": "Agrion porte-coupe",
+      "flyFrom": 4,
+      "flyTo": 10
+    },
+    {
+      "name": "Agrion jouvencelle",
+      "flyFrom": 4,
+      "flyTo": 9
+    },
+    {
+      "name": "Agrion élégant",
+      "flyFrom": 4,
+      "flyTo": 9
+    },
+    {
+      "name": "Naïade au corps vert",
+      "flyFrom": 5,
+      "flyTo": 9
+    }
+  ],
+  "pictures":[
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "pathKML": "jardinBotanique.kml",
+  "pointsKML": "jardinBotaniquePoints.kml",
+  "coords": [46.244421, 6.247599]
+}
+],
+"criteria": [
+    {
+      "name": "Taille",
+      "values":[
+        {
+          "name": "Fine et petite",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Large et moyenne",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Fine et grande",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Ouverture des ailes au repos",
+      "values":[
+        {
+          "name": "Non",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Oui",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Couleur des ailes",
+      "values":[
+        {
+          "name": "Transparentes",
+          "icon": "criter-color-1.png"
+        },
+        {
+          "name": "Colorées entièrement",
+          "icon": "criter-color-2.png"
+        },
+        {
+          "name": "Bande colorée",
+          "icon": "criter-color-3.png"
+        },
+        {
+          "name": "4 tâches",
+          "icon": "criter-color-4.png"
+        },
+        {
+          "name": "Tache jaune base ailes",
+          "icon": "criter-color-5.png"
+        },
+        {
+          "name": "Tache sombre base ailes",
+          "icon": "criter-color-5.png"
+        }
+      ]
+    },
+    {
+      "name": "Yeux rouges",
+      "values":[
+        {
+          "name": "Oui",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Non",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Couleurs visibles",
+      "values":[
+        {
+          "name": "Bleu - vert métallique",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Blanc",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Bleu",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Rouge",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Sombre - noir",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Violet - rose",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Jaune",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Vert clair",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Beige",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Brun - brun orangé",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Motifs sur le corps",
+      "values":[
+        {
+          "name": "Unie sauf une petite partie à l'arrière",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Uni",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Unie sauf une petite partie à l'avant",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Rayures",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Dessins",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Case rectangulaire des ailes bicolore",
+      "values":[
+        {
+          "name": "Non",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Bicolore (noir - blanc)",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Extrémité du corps blanche",
+      "values":[
+        {
+          "name": "Oui",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Non",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Pattes rouges",
+      "values":[
+        {
+          "name": "Oui",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Non",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Position observée",
+      "values":[
+        {
+          "name": "Posée, à plat sur une feuille",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Posée, à plat sur le sol",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Accrochée, le corps dirigé vers le bas",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Accrochée, le corps dirigé vers le haut",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Accrochée, le corps horizontal",
+          "icon": "icon.png"
+        },
+        {
+          "name": "En vol",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Vol à l'ombre",
+      "values":[
+        {
+          "name": "Oui",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Non",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Quantité",
+      "values":[
+        {
+          "name": "Un seul",
+          "icon": "icon.png"
+        },
+        {
+            "name": "Rares individus",
+            "icon": "icon.png"
+        },
+        {
+          "name": "Nombreux",
+          "icon": "icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Taille du milieu aquatique",
+      "values":[
+        {
+          "name": "Une voiture ou moins",
+          "icon": "icon.png"
+        },
+        {
+          "name": "Plus grand qu'une voiture",
+          "icon": "icon.png"
+        }
+      ]
+    }
+  ]
+}

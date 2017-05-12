@@ -1,79 +1,23 @@
 {
   "dragonflies": [
-    {
-      "commonName": "Aeshne affine",
-      "latinName": "Aeshna affinis",
-      "headerPicture": "aeshna_affinis.jpg",
-      "criteria": [
-        [0],
-        [1],
-        [1],
-        [1],
-        [2,5,7],
-        [4],
-        [1],
-        [1],
-        [1],
-        [1,2],
-        [0],
-        [0,1],
-        [0,1]
-      ],
-      "pictures": [
-          "photo1.jpg",
-          "photo2.jpg"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis, turpis non sodales accumsan, felis erat cursus lorem, ornare vulputate risus enim vel orci. Praesent vel tortor volutpat, rhoncus sem lobortis, dapibus nisi. Integer id porttitor justo. Mauris fringilla ipsum blandit libero eleifend, in auctor lectus posuere. Duis felis tortor",
-      "habitats": [
-        "pounds-1",
-        "rivers-1",
-        "peatbog-1",
-        "ditch-1",
-        "temp-environment-0",
-        "lake-0"
-      ],
-      "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-      "flyPeriod": [
-          0.3,
-          0.6,
-          1,
-          1,
-          1,//fsdfos
-          1,
-          0.6,
-          0.3
-      ],
-      "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-      "threat": "Menacé, ou pas",
-      "links":[
-          {
-              "link": "http://www.google.ch",
-              "value": "Google"
-          },
-          {
-              "link": "http://www.wikipedia.org",
-              "value": "Wikipedia"
-          }
-      ],
-      "distributionMap": "carte.png"
-  },
   {
     "commonName": "Aeshne bleue",
     "latinName": "Aeshna cyanea",
     "headerPicture": "aeshna_cyanea.jpg",
     "criteria": [
-      [1],
+      [2],
       [1],
       [0],
       [1],
-      [1,4,7],
+      [2,4,7],
       [4],
       [0],
-      [0],
+      [1],
       [1],
       [1,2],
-      [0],
-      [1],
+      [2,5],
+      [0,1],
+      [0,1],
       [0,1]
     ],
     "pictures": [
@@ -103,7 +47,7 @@
         0.3
     ],
     "anecdote": "L’aeshne bleue est une libellule peu farouche et tout terrain que l’on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d’altitudes. Curieuse, elle peut s’approcher et fondre sur les observateurs lorsqu’elle chasse.<br><br>Elle pond aussi dans les endroits les plus variés, même a priori peu favorables. Il existe ainsi de nombreux rapports de femelles qui tentent de pondre sur les habits, filets ou bottes de leurs observateurs.",
-    "threat": "L’aeshne bleue n’est pas menacé en Suisse",
+    "threat": "L’aeshne bleue n’est pas menacée en Suisse",
     "links":[
         {
             "link": "http://www.google.ch",
@@ -112,466 +56,23 @@
     ],
     "distributionMap": "carte.png"
 },
-{
-  "commonName": "Aeshne grande",
-  "latinName": "Aeshna grandis",
-  "headerPicture": "aeshna_grandis.jpg",
-  "criteria": [
-    [1],
-    [1],
-    [0],
-    [1],
-    [1,3,5],
-    [2],
-    [1],
-    [0],
-    [1],
-    [1],
-    [0],
-    [0,1],
-    [0,1]
-  ],
-  "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
-  ],
-  "description": "Lorem Ipsum blabla bla",
-  "habitats": [
-    "mares",
-    "étangs",
-    "bassins artificiels",
-    "bras morts, partie lente des grands cours d'eau"
-  ],
-  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-  "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
-  ],
-  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-  "threat": "Menacé, ou pas",
-  "links":[
-      {
-          "link": "http://www.google.ch",
-          "value": "Google"
-      },
-      {
-          "link": "http://www.wikipedia.org",
-          "value": "Wikipedia"
-      }
-  ],
-  "distributionMap": "carte.png"
-  },
-  {
-    "commonName": "Aeshne isocèle",
-    "latinName": "Aeshna isoceles",
-    "headerPicture": "aeshna_isoceles.jpg",
-    "criteria": [
-      [1],
-      [1],
-      [0],
-      [1],
-      [1,3,5],
-      [2],
-      [1],
-      [0],
-      [1],
-      [1],
-      [0],
-      [0,1],
-      [0,1]
-    ],
-    "pictures": [
-        "photo1.jpg",
-        "photo2.jpg"
-    ],
-    "description": "Lorem Ipsum blabla bla",
-    "habitats": [
-      "mares",
-      "étangs",
-      "bassins artificiels",
-      "bras morts, partie lente des grands cours d'eau"
-    ],
-    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-    "flyPeriod": [
-        0.3,
-        0.6,
-        1,
-        1,
-        1,
-        1,
-        0.6,
-        0.3
-    ],
-    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-    "threat": "Menacé, ou pas",
-    "links":[
-        {
-            "link": "http://www.google.ch",
-            "value": "Google"
-        },
-        {
-            "link": "http://www.wikipedia.org",
-            "value": "Wikipedia"
-        }
-    ],
-    "distributionMap": "carte.png"
-},
-{
-  "commonName": "Aeshne des joncs",
-  "latinName": "Aeshna juncea",
-  "headerPicture": "aeshna_juncea.jpg",
-  "criteria": [
-    [1],
-    [1],
-    [0],
-    [1],
-    [1,3,5],
-    [2],
-    [1],
-    [0],
-    [1],
-    [1],
-    [0],
-    [0,1],
-    [0,1]
-  ],
-  "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
-  ],
-  "description": "Lorem Ipsum blabla bla",
-  "habitats": [
-    "mares",
-    "étangs",
-    "bassins artificiels",
-    "bras morts, partie lente des grands cours d'eau"
-  ],
-  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-  "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
-  ],
-  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-  "threat": "Menacé, ou pas",
-  "links":[
-      {
-          "link": "http://www.google.ch",
-          "value": "Google"
-      },
-      {
-          "link": "http://www.wikipedia.org",
-          "value": "Wikipedia"
-      }
-  ],
-  "distributionMap": "carte.png"
-  },
-  {
-  "commonName": "Aeshne mixte",
-  "latinName": "Aeshna mixta",
-  "headerPicture": "aeshna_mixta.jpg",
-  "criteria": [
-    [2],
-    [1],
-    [0],
-    [1],
-    [2,4,6],
-    [4],
-    [1],
-    [0],
-    [1],
-    [1,2],
-    [0],
-    [1],
-    [0]
-  ],
-  "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
-  ],
-  "description": "Lorem Ipsum blabla bla",
-  "habitats": [
-    "pounds-1",
-    "rivers-1",
-    "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
-  ],
-  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-  "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
-  ],
-  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-  "threat": "Menacé, ou pas",
-  "links":[
-      {
-          "link": "http://www.google.ch",
-          "value": "Google"
-      },
-      {
-          "link": "http://www.wikipedia.org",
-          "value": "Wikipedia"
-      }
-  ],
-  "distributionMap": "carte.png"
-},
-
-  {
-    "commonName": "Aeshnidé",
-    "latinName": "",
-    "headerPicture": "aeshnidae.jpg",
-    "criteria": [
-      [1],
-      [1],
-      [0],
-      [1],
-      [1,3,5],
-      [2],
-      [1],
-      [0],
-      [1],
-      [1],
-      [0],
-      [0,1],
-      [0,1]
-    ],
-    "pictures": [
-        "photo1.jpg",
-        "photo2.jpg"
-    ],
-    "description": "Lorem Ipsum blabla bla",
-    "habitats": [
-      "mares",
-      "étangs",
-      "bassins artificiels",
-      "bras morts, partie lente des grands cours d'eau"
-    ],
-    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-    "flyPeriod": [
-        0.3,
-        0.6,
-        1,
-        1,
-        1,
-        1,
-        0.6,
-        0.3
-    ],
-    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-    "threat": "Menacé, ou pas",
-    "links":[
-        {
-            "link": "http://www.google.ch",
-            "value": "Google"
-        },
-        {
-            "link": "http://www.wikipedia.org",
-            "value": "Wikipedia"
-        }
-    ],
-    "distributionMap": "carte.png"
-},
-
-  {
-    "commonName": "Anax empereur",
-    "latinName": "Anax imperator",
-    "headerPicture": "anax_imperator.jpg",
-    "criteria": [
-      [1],
-      [1],
-      [0],
-      [1],
-      [1,3,5],
-      [2],
-      [1],
-      [0],
-      [1],
-      [1],
-      [0],
-      [0,1],
-      [0,1]
-    ],
-    "pictures": [
-        "photo1.jpg",
-        "photo2.jpg"
-    ],
-    "description": "Lorem Ipsum blabla bla",
-    "habitats": [
-      "mares",
-      "étangs",
-      "bassins artificiels",
-      "bras morts, partie lente des grands cours d'eau"
-    ],
-    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-    "flyPeriod": [
-        0.3,
-        0.6,
-        1,
-        1,
-        1,
-        1,
-        0.6,
-        0.3
-    ],
-    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-    "threat": "Menacé, ou pas",
-    "links":[
-        {
-            "link": "http://www.google.ch",
-            "value": "Google"
-        },
-        {
-            "link": "http://www.wikipedia.org",
-            "value": "Wikipedia"
-        }
-    ],
-    "distributionMap": "carte.png"
-    },
-  {
-    "commonName": "Anax napolitain",
-    "latinName": "Anax parthenope",
-    "headerPicture": "anax_parthenope.jpg",
-    "criteria": [
-      [1],
-      [1],
-      [0],
-      [1],
-      [1,3,5],
-      [2],
-      [1],
-      [0],
-      [1],
-      [1],
-      [0],
-      [0,1],
-      [0,1]
-    ],
-    "pictures": [
-        "photo1.jpg",
-        "photo2.jpg"
-    ],
-    "description": "Lorem Ipsum blabla bla",
-    "habitats": [
-      "mares",
-      "étangs",
-      "bassins artificiels",
-      "bras morts, partie lente des grands cours d'eau"
-    ],
-    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-    "flyPeriod": [
-        0.3,
-        0.6,
-        1,
-        1,
-        1,
-        1,
-        0.6,
-        0.3
-    ],
-    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-    "threat": "Menacé, ou pas",
-    "links":[
-        {
-            "link": "http://www.google.ch",
-            "value": "Google"
-        },
-        {
-            "link": "http://www.wikipedia.org",
-            "value": "Wikipedia"
-        }
-    ],
-    "distributionMap": "carte.png"
-},
-{
-  "commonName": "Aeshne velue",
-  "latinName": "Brachytron pratense",
-  "headerPicture": "brachytron_pratense.jpg",
-  "criteria": [
-    [1],
-    [1],
-    [0],
-    [1],
-    [1,3,5],
-    [2],
-    [1],
-    [0],
-    [1],
-    [1],
-    [0],
-    [0,1],
-    [0,1]
-  ],
-  "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
-  ],
-  "description": "Lorem Ipsum blabla bla",
-  "habitats": [
-    "mares",
-    "étangs",
-    "bassins artificiels",
-    "bras morts, partie lente des grands cours d'eau"
-  ],
-  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-  "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
-  ],
-  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-  "threat": "Menacé, ou pas",
-  "links":[
-      {
-          "link": "http://www.google.ch",
-          "value": "Google"
-      },
-      {
-          "link": "http://www.wikipedia.org",
-          "value": "Wikipedia"
-      }
-  ],
-  "distributionMap": "carte.png"
-  },
   {
     "commonName": "Caloptéryx éclatant",
     "latinName": "Calopteryx splendens",
     "headerPicture": "calopteryx_splendens.jpg",
     "criteria": [
+      [0],
+      [0,1],
+      [0,1,2],
       [1],
+      [0,4],
       [1],
       [0],
       [1],
-      [1,3,5],
-      [2],
       [1],
-      [0],
+      [0,1],
+      [0,2,3,5],
       [1],
-      [1],
-      [0],
       [0,1],
       [0,1]
     ],
@@ -579,14 +80,16 @@
         "photo1.jpg",
         "photo2.jpg"
     ],
-    "description": "Lorem Ipsum blabla bla",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
     "habitats": [
-      "mares",
-      "étangs",
-      "bassins artificiels",
-      "bras morts, partie lente des grands cours d'eau"
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
     ],
-    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
     "flyPeriod": [
         0.3,
         0.6,
@@ -597,7 +100,7 @@
         0.6,
         0.3
     ],
-    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
+    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
     "threat": "Menacé, ou pas",
     "links":[
         {
@@ -611,721 +114,6 @@
     ],
     "distributionMap": "carte.png"
 },
-{
-  "commonName": "Caloptéryx vierge",
-  "latinName": "Calopteryx virgo",
-  "headerPicture": "calopteryx_virgo.jpg",
-  "criteria": [
-    [1],
-    [1],
-    [0],
-    [1],
-    [1,3,5],
-    [2],
-    [1],
-    [0],
-    [1],
-    [1],
-    [0],
-    [0,1],
-    [0,1]
-  ],
-  "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
-  ],
-  "description": "Lorem Ipsum blabla bla",
-  "habitats": [
-    "mares",
-    "étangs",
-    "bassins artificiels",
-    "bras morts, partie lente des grands cours d'eau"
-  ],
-  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-  "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
-  ],
-  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-  "threat": "Menacé, ou pas",
-  "links":[
-      {
-          "link": "http://www.google.ch",
-          "value": "Google"
-      },
-      {
-          "link": "http://www.wikipedia.org",
-          "value": "Wikipedia"
-      }
-  ],
-  "distributionMap": "carte.png"
-  },
-  {
-    "commonName": "Cordulie bronzée",
-    "latinName": "Cordulia aenea",
-    "headerPicture": "cordulia_aenea.jpg",
-    "criteria": [
-      [1],
-      [1],
-      [0],
-      [1],
-      [1,3,5],
-      [2],
-      [1],
-      [0],
-      [1],
-      [1],
-      [0],
-      [0,1],
-      [0,1]
-    ],
-    "pictures": [
-        "photo1.jpg",
-        "photo2.jpg"
-    ],
-    "description": "Lorem Ipsum blabla bla",
-    "habitats": [
-      "mares",
-      "étangs",
-      "bassins artificiels",
-      "bras morts, partie lente des grands cours d'eau"
-    ],
-    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-    "flyPeriod": [
-        0.3,
-        0.6,
-        1,
-        1,
-        1,
-        1,
-        0.6,
-        0.3
-    ],
-    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-    "threat": "Menacé, ou pas",
-    "links":[
-        {
-            "link": "http://www.google.ch",
-            "value": "Google"
-        },
-        {
-            "link": "http://www.wikipedia.org",
-            "value": "Wikipedia"
-        }
-    ],
-    "distributionMap": "carte.png"
-},
-{
-  "commonName": "Cordulie de plaine",
-  "latinName": "",
-  "headerPicture": "cordulie_plaine.png",
-  "criteria": [
-    [1],
-    [1],
-    [0],
-    [1],
-    [1,3,5],
-    [2],
-    [1],
-    [0],
-    [1],
-    [1],
-    [0],
-    [0,1],
-    [0,1]
-  ],
-  "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
-  ],
-  "description": "Lorem Ipsum blabla bla",
-  "habitats": [
-    "mares",
-    "étangs",
-    "bassins artificiels",
-    "bras morts, partie lente des grands cours d'eau"
-  ],
-  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-  "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
-  ],
-  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-  "threat": "Menacé, ou pas",
-  "links":[
-      {
-          "link": "http://www.google.ch",
-          "value": "Google"
-      },
-      {
-          "link": "http://www.wikipedia.org",
-          "value": "Wikipedia"
-      }
-  ],
-  "distributionMap": "carte.png"
-  },
-  {
-    "commonName": "Groupe des Agrions bleus",
-    "latinName": "",
-    "headerPicture": "agrion_bleu.jpg",
-    "criteria": [
-      [1],
-      [1],
-      [0],
-      [1],
-      [1,3,5],
-      [2],
-      [1],
-      [0],
-      [1],
-      [1],
-      [0],
-      [0,1],
-      [0,1]
-    ],
-    "pictures": [
-        "photo1.jpg",
-        "photo2.jpg"
-    ],
-    "description": "Lorem Ipsum blabla bla",
-    "habitats": [
-      "mares",
-      "étangs",
-      "bassins artificiels",
-      "bras morts, partie lente des grands cours d'eau"
-    ],
-    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-    "flyPeriod": [
-        0.3,
-        0.6,
-        1,
-        1,
-        1,
-        1,
-        0.6,
-        0.3
-    ],
-    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-    "threat": "Menacé, ou pas",
-    "links":[
-        {
-            "link": "http://www.google.ch",
-            "value": "Google"
-        },
-        {
-            "link": "http://www.wikipedia.org",
-            "value": "Wikipedia"
-        }
-    ],
-    "distributionMap": "carte.png"
-},
-{
-  "commonName": "Cordulégastre annelé",
-  "latinName": "Cordulegaster boltonii",
-  "headerPicture": "cordulegaster_boltonii.jpg",
-  "criteria": [
-    [1],
-    [1],
-    [0],
-    [1],
-    [1,3,5],
-    [2],
-    [1],
-    [0],
-    [1],
-    [1],
-    [0],
-    [0,1],
-    [0,1]
-  ],
-  "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
-  ],
-  "description": "Lorem Ipsum blabla bla",
-  "habitats": [
-    "mares",
-    "étangs",
-    "bassins artificiels",
-    "bras morts, partie lente des grands cours d'eau"
-  ],
-  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-  "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
-  ],
-  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-  "threat": "Menacé, ou pas",
-  "links":[
-      {
-          "link": "http://www.google.ch",
-          "value": "Google"
-      },
-      {
-          "link": "http://www.wikipedia.org",
-          "value": "Wikipedia"
-      }
-  ],
-  "distributionMap": "carte.png"
-  },
-  {
-    "commonName": "Cordulégastre",
-    "latinName": "Cordulegaster boltonii, Cordulegaster bidentata",
-    "headerPicture": "cordulegaster.jpg",
-    "criteria": [
-      [1],
-      [1],
-      [0],
-      [1],
-      [1,3,5],
-      [2],
-      [1],
-      [0],
-      [1],
-      [1],
-      [0],
-      [0,1],
-      [0,1]
-    ],
-    "pictures": [
-        "photo1.jpg",
-        "photo2.jpg"
-    ],
-    "description": "Lorem Ipsum blabla bla",
-    "habitats": [
-      "mares",
-      "étangs",
-      "bassins artificiels",
-      "bras morts, partie lente des grands cours d'eau"
-    ],
-    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-    "flyPeriod": [
-        0.3,
-        0.6,
-        1,
-        1,
-        1,
-        1,
-        0.6,
-        0.3
-    ],
-    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-    "threat": "Menacé, ou pas",
-    "links":[
-        {
-            "link": "http://www.google.ch",
-            "value": "Google"
-        },
-        {
-            "link": "http://www.wikipedia.org",
-            "value": "Wikipedia"
-        }
-    ],
-    "distributionMap": "carte.png"
-},
-{
-  "commonName": "Crocothémis écarlate",
-  "latinName": "Crocothemis erythrea",
-  "headerPicture": "crocothemis_erythraea.jpg",
-  "criteria": [
-    [1],
-    [1],
-    [0],
-    [1],
-    [1,3,5],
-    [2],
-    [1],
-    [0],
-    [1],
-    [1],
-    [0],
-    [0,1],
-    [0,1]
-  ],
-  "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
-  ],
-  "description": "Lorem Ipsum blabla bla",
-  "habitats": [
-    "mares",
-    "étangs",
-    "bassins artificiels",
-    "bras morts, partie lente des grands cours d'eau"
-  ],
-  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-  "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
-  ],
-  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-  "threat": "Menacé, ou pas",
-  "links":[
-      {
-          "link": "http://www.google.ch",
-          "value": "Google"
-      },
-      {
-          "link": "http://www.wikipedia.org",
-          "value": "Wikipedia"
-      }
-  ],
-  "distributionMap": "carte.png"
-  },
-  {
-    "commonName": "Naïade au corps vert",
-    "latinName": "Erythromma viridulum",
-    "headerPicture": "erythromma_viridulum.jpg",
-    "criteria": [
-      [1],
-      [1],
-      [0],
-      [1],
-      [1,3,5],
-      [2],
-      [1],
-      [0],
-      [1],
-      [1],
-      [0],
-      [0,1],
-      [0,1]
-    ],
-    "pictures": [
-        "photo1.jpg",
-        "photo2.jpg"
-    ],
-    "description": "Lorem Ipsum blabla bla",
-    "habitats": [
-      "mares",
-      "étangs",
-      "bassins artificiels",
-      "bras morts, partie lente des grands cours d'eau"
-    ],
-    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-    "flyPeriod": [
-        0.3,
-        0.6,
-        1,
-        1,
-        1,
-        1,
-        0.6,
-        0.3
-    ],
-    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-    "threat": "Menacé, ou pas",
-    "links":[
-        {
-            "link": "http://www.google.ch",
-            "value": "Google"
-        },
-        {
-            "link": "http://www.wikipedia.org",
-            "value": "Wikipedia"
-        }
-    ],
-    "distributionMap": "carte.png"
-},
-{
-  "commonName": "Naïade",
-  "latinName": "Erythromma sp.",
-  "headerPicture": "erythromma.jpg",
-  "criteria": [
-    [1],
-    [1],
-    [0],
-    [1],
-    [1,3,5],
-    [2],
-    [1],
-    [0],
-    [1],
-    [1],
-    [0],
-    [0,1],
-    [0,1]
-  ],
-  "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
-  ],
-  "description": "Lorem Ipsum blabla bla",
-  "habitats": [
-    "mares",
-    "étangs",
-    "bassins artificiels",
-    "bras morts, partie lente des grands cours d'eau"
-  ],
-  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-  "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
-  ],
-  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-  "threat": "Menacé, ou pas",
-  "links":[
-      {
-          "link": "http://www.google.ch",
-          "value": "Google"
-      },
-      {
-          "link": "http://www.wikipedia.org",
-          "value": "Wikipedia"
-      }
-  ],
-  "distributionMap": "carte.png"
-  },
-  {
-    "commonName": "Leste barbare",
-    "latinName": "Lestes barbarus",
-    "headerPicture": "lestes_barbarus.jpg",
-    "criteria": [
-      [1],
-      [1],
-      [0],
-      [1],
-      [1,3,5],
-      [2],
-      [1],
-      [0],
-      [1],
-      [1],
-      [0],
-      [0,1],
-      [0,1]
-    ],
-    "pictures": [
-        "photo1.jpg",
-        "photo2.jpg"
-    ],
-    "description": "Lorem Ipsum blabla bla",
-    "habitats": [
-      "mares",
-      "étangs",
-      "bassins artificiels",
-      "bras morts, partie lente des grands cours d'eau"
-    ],
-    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-    "flyPeriod": [
-        0.3,
-        0.6,
-        1,
-        1,
-        1,
-        1,
-        0.6,
-        0.3
-    ],
-    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-    "threat": "Menacé, ou pas",
-    "links":[
-        {
-            "link": "http://www.google.ch",
-            "value": "Google"
-        },
-        {
-            "link": "http://www.wikipedia.org",
-            "value": "Wikipedia"
-        }
-    ],
-    "distributionMap": "carte.png"
-},
-{
-  "commonName": "Leste fiancé",
-  "latinName": "Lestes sponsa",
-  "headerPicture": "lestes_sponsa.jpg",
-  "criteria": [
-    [1],
-    [1],
-    [0],
-    [1],
-    [1,3,5],
-    [2],
-    [1],
-    [0],
-    [1],
-    [1],
-    [0],
-    [0,1],
-    [0,1]
-  ],
-  "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
-  ],
-  "description": "Lorem Ipsum blabla bla",
-  "habitats": [
-    "mares",
-    "étangs",
-    "bassins artificiels",
-    "bras morts, partie lente des grands cours d'eau"
-  ],
-  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-  "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
-  ],
-  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-  "threat": "Menacé, ou pas",
-  "links":[
-      {
-          "link": "http://www.google.ch",
-          "value": "Google"
-      },
-      {
-          "link": "http://www.wikipedia.org",
-          "value": "Wikipedia"
-      }
-  ],
-  "distributionMap": "carte.png"
-  },
-  {
-    "commonName": "Leste vert",
-    "latinName": "Chalcolestes viridis",
-    "headerPicture": "chalcolestes_viridis.jpg",
-    "criteria": [
-      [1],
-      [1],
-      [0],
-      [1],
-      [1,3,5],
-      [2],
-      [1],
-      [0],
-      [1],
-      [1],
-      [0],
-      [0,1],
-      [0,1]
-    ],
-    "pictures": [
-        "photo1.jpg",
-        "photo2.jpg"
-    ],
-    "description": "Lorem Ipsum blabla bla",
-    "habitats": [
-      "mares",
-      "étangs",
-      "bassins artificiels",
-      "bras morts, partie lente des grands cours d'eau"
-    ],
-    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-    "flyPeriod": [
-        0.3,
-        0.6,
-        1,
-        1,
-        1,
-        1,
-        0.6,
-        0.3
-    ],
-    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-    "threat": "Menacé, ou pas",
-    "links":[
-        {
-            "link": "http://www.google.ch",
-            "value": "Google"
-        },
-        {
-            "link": "http://www.wikipedia.org",
-            "value": "Wikipedia"
-        }
-    ],
-    "distributionMap": "carte.png"
-},
-{
-  "commonName": "Libellule déprimée",
-  "latinName": "Libellula depressa",
-  "headerPicture": "libellula_depressa.jpg",
-  "criteria": [
-    [1],
-    [1],
-    [0],
-    [1],
-    [1,3,5],
-    [2],
-    [1],
-    [0],
-    [1],
-    [1],
-    [0],
-    [0,1],
-    [0,1]
-  ],
-  "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
-  ],
-  "description": "Lorem Ipsum blabla bla",
-  "habitats": [
-    "mares",
-    "étangs",
-    "bassins artificiels",
-    "bras morts, partie lente des grands cours d'eau"
-  ],
-  "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
-  "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
-  ],
-  "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
-  "threat": "Menacé, ou pas",
-  "links":[
-      {
-          "link": "http://www.google.ch",
-          "value": "Google"
-      },
-      {
-          "link": "http://www.wikipedia.org",
-          "value": "Wikipedia"
-      }
-  ],
-  "distributionMap": "carte.png"
-  },
   {
     "commonName": "Libellule à quatre taches",
     "latinName": "Libellula quadrimaculata",
@@ -1333,30 +121,33 @@
     "criteria": [
       [1],
       [1],
-      [0],
+      [0,3,4,5],
       [1],
-      [1,3,5],
-      [2],
-      [1],
-      [0],
-      [1],
+      [4,6,9],
       [1],
       [0],
-      [0,1],
+      [1],
+      [1],
+      [1,2],
+      [2,5],
+      [1],
+      [1],
       [0,1]
     ],
     "pictures": [
         "photo1.jpg",
         "photo2.jpg"
     ],
-    "description": "Lorem Ipsum blabla bla",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
     "habitats": [
-      "mares",
-      "étangs",
-      "bassins artificiels",
-      "bras morts, partie lente des grands cours d'eau"
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
     ],
-    "behavior": "Lorem Ipsum blabla bla blablabla bla bla blabla",
+    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
     "flyPeriod": [
         0.3,
         0.6,
@@ -1367,7 +158,7 @@
         0.6,
         0.3
     ],
-    "anecdote": "Lorem Ipsum blabla bla blablabla bla blabla",
+    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
     "threat": "Menacé, ou pas",
     "links":[
         {
@@ -1386,11 +177,12 @@
     {
       "id": 1,
       "name": "Jardin botanique",
+      "preview": "walk1-preview.png",
       "duration": "1h",
       "diversity": 2,
       "difficulty": 1,
       "length": 5.3,
-      "description": "Lorem ipsum blabla bla blabla blablabla bla",
+      "description": "",
       "species": [
         {
           "name": "Anax empereur",
@@ -1401,16 +193,6 @@
           "name": "Agrion porte-coupe",
           "flyFrom": 4,
           "flyTo": 10
-        },
-        {
-          "name": "Agrion jouvencelle",
-          "flyFrom": 4,
-          "flyTo": 9
-        },
-        {
-          "name": "Agrion élégant",
-          "flyFrom": 4,
-          "flyTo": 9
         },
         {
           "name": "Naïade au corps vert",
@@ -1429,6 +211,7 @@
   {
     "id": 2,
     "name": "Promenade",
+    "preview": "walk1-preview.png",
     "duration": "1h30",
     "diversity": 4,
     "difficulty": 1,
@@ -1467,11 +250,12 @@
     ],
     "pathKML": "jardinBotanique.kml",
     "pointsKML": "jardinBotaniquePoints.kml",
-    "coords": [46.124421, 6.047599]
+    "coords": [46.284421, 6.107599]
 },
 {
   "id": 3,
   "name": "Promenade",
+  "preview": "walk1-preview.png",
   "duration": "2h",
   "diversity": 3,
   "difficulty": 1,
@@ -1510,7 +294,7 @@
   ],
   "pathKML": "jardinBotanique.kml",
   "pointsKML": "jardinBotaniquePoints.kml",
-  "coords": [46.324421, 6.247599]
+  "coords": [46.244421, 6.247599]
 }
 ],
 "criteria": [
@@ -1549,27 +333,27 @@
       "values":[
         {
           "name": "Transparentes",
-          "icon": "icon.png"
+          "icon": "criter-color-1.png"
         },
         {
           "name": "Colorées entièrement",
-          "icon": "icon.png"
+          "icon": "criter-color-2.png"
         },
         {
           "name": "Bande colorée",
-          "icon": "icon.png"
+          "icon": "criter-color-3.png"
         },
         {
           "name": "4 tâches",
-          "icon": "icon.png"
+          "icon": "criter-color-4.png"
         },
         {
           "name": "Tache jaune base ailes",
-          "icon": "icon.png"
+          "icon": "criter-color-5.png"
         },
         {
           "name": "Tache sombre base ailes",
-          "icon": "icon.png"
+          "icon": "criter-color-5.png"
         }
       ]
     },
@@ -1696,6 +480,23 @@
       ]
     },
     {
+        "name": "Zones courantes ou stagnantes",
+        "values": [
+            {
+                "name": "Courant",
+                "icon": "icon.png"
+            },
+            {
+                "name": "Les deux",
+                "icon": "icon.png"
+            },
+            {
+                "name": "Stagnant",
+                "icon": "icon.png"
+            }
+        ]
+    },
+    {
       "name": "Position observée",
       "values":[
         {
@@ -1741,8 +542,8 @@
       "name": "Quantité",
       "values":[
         {
-          "name": "Un seul",
-          "icon": "icon.png"
+            "name": "Rares individus",
+            "icon": "icon.png"
         },
         {
           "name": "Nombreux",

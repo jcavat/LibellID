@@ -94,7 +94,7 @@
     </Style>
 
     <Placemark>
-      <name>Jardin d'hiver</name>
+      <name>Au jardin d'hiver</name>
       <description>
         <![CDATA[
             <p>Avec mes yeux rouges, je suis la naïade au corps vert. Vous pouvez m’apercevoir à fleur d’eau.</p>
@@ -107,7 +107,7 @@
     </Placemark>
 
     <Placemark>
-      <name>Lac</name>
+      <name>Sur les rives du Léman</name>
       <description>
           <![CDATA[
               <p>Je suis le discret Agrion porte-coupe. Cherchez-moi sur les rives du Léman!</p>
@@ -120,7 +120,7 @@
     </Placemark>
 
     <Placemark>
-      <name>Etangs</name>
+      <name>Au bord des étangs</name>
       <description>
           <![CDATA[
               <p>Trouverez-vous l’Anax empereur, la plus grande libellule d’Europe?</p>
@@ -136,7 +136,7 @@
       <name>Départ</name>
       <description>
           <![CDATA[
-              <p>En avez-vous vu d’autres durant votre promenade?</p>
+              <p>Vous allez commencer ce parcours et découvrir des libellules de taille et de couleur variées le long de cet itinéraire au fil des points d'intérêt.<br>Ouvrez l'oeil et n'hésitez pas à lever les yeux de votre téléphone</p>
           ]]>
       </description>
       <Point>

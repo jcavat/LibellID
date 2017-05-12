@@ -6,6 +6,10 @@
     td{
         width: 50%;
     }
+    tr:first-child td{
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+    }
 }
 #carte{
     width: 100%;

@@ -96,6 +96,7 @@ export class WalkInProgressPage {
 
         mapInProgress.addLayer(kmlPath);
         mapInProgress.addLayer(kmlPoints);
+
         mapInProgress.on('click', function(evt): void{
             let feature: ol.Feature = mapInProgress.forEachFeatureAtPixel(evt.pixel, function(feature: ol.Feature): ol.Feature{
                 return feature;

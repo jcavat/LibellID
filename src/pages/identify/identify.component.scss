@@ -27,3 +27,22 @@ table{
   }
   margin-bottom: 0.5em;
 }
+#div-btns{
+    position: fixed;
+    bottom: -$content-padding;
+    left: 0;
+    right: 0;
+    table{
+        width: 100%;
+        margin: 0;
+        tr{
+            width: 100%;
+            margin: 0;
+            td{
+                margin: 0;
+                padding: 0!important;
+                width: 50%;
+            }
+        }
+    }
+}
