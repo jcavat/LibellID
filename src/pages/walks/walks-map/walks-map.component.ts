@@ -5,7 +5,7 @@ import {HomePage} from '../../home/home.component';
 import {JsonDataService} from '../../../providers/data-json.service';
 import {Walk} from '../../../app/classes/walk/walk';
 import {WalkDetailPage} from '../walk-detail/walk-detail.component';
-import { Geolocation } from 'ionic-native';
+import { Geolocation, Network } from 'ionic-native';
 import ol from 'openlayers';
 
 declare var cordova: any;
@@ -113,8 +113,11 @@ export class WalksMapPage {
     }
 
   ionViewDidLoad(): void{
-    //Charger points GPS
-    this.loadData();
+      if(Network.type != 'none'){
+          this.loadData();
+      }else{
+          alert('Vous devez avoir une connexion internet pour afficher la carte.');
+      }
 
   }
 

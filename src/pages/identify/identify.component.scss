@@ -17,7 +17,7 @@ table{
     td{
       border: solid 1px black;
       height: 4em;
-      width: 25%;
+      width: 33.3%;
       display: inline-block;
     }
     .selected-value{
@@ -29,20 +29,38 @@ table{
 }
 #div-btns{
     position: fixed;
-    bottom: -$content-padding;
+    bottom: 0;
     left: 0;
     right: 0;
     table{
         width: 100%;
         margin: 0;
+        border-collapse: collapse;
         tr{
             width: 100%;
-            margin: 0;
+            margin: 0!important;
+            padding: 0!important;
+            padding-bottom: -$content-padding!important;
+            height: auto;
             td{
-                margin: 0;
+                position: fixed;
+                bottom: 0!important;
+                margin: 0!important;
                 padding: 0!important;
                 width: 50%;
+                display: inline-block;
+                button{
+                    margin: 0!important;
+                }
+                .button{font-size: 0.8em;}
+                right: 0;
+            }
+            td:first-child{
+                left: 0;
             }
         }
     }
+}
+#space-btns{
+    height: 3em;
 }

@@ -153,7 +153,7 @@ export class WalkInProgressPage {
             if(that.closestFeature != null){
                 let sphereDistance: ol.Sphere = new ol.Sphere(6378137);
                 // Distance = 10m.
-                if((sphereDistance.haversineDistance([resp.coords.longitude, resp.coords.latitude],ol.proj.transform((that.closestFeature.getGeometry() as ol.geom.Point).getCoordinates(),'EPSG:3857','EPSG:4326'))) < 500000 && !that.alertHasShownForFeature){
+                if((sphereDistance.haversineDistance([resp.coords.longitude, resp.coords.latitude],ol.proj.transform((that.closestFeature.getGeometry() as ol.geom.Point).getCoordinates(),'EPSG:3857','EPSG:4326'))) < 10 && !that.alertHasShownForFeature){
                     let modal = that.modalCtrl.create(ModalInfoPoint, {point: [that.closestFeature.get('name'), that.closestFeature.get('description')]});
                     modal.present();
 

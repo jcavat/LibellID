@@ -1,6 +1,7 @@
 export class Walk {
     private _id: number;
     private _name: string;
+    private _preview: string;
     private _duration: string;
     private _diversity: number;
     private _difficulty: number;
@@ -17,6 +18,9 @@ export class Walk {
     }
     public name(): string{
         return this._name;
+    }
+    public preview(): string{
+        return this._preview;
     }
     public duration(): string{
         return this._duration;
