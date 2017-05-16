@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 
 import {Walk} from '../../../app/classes/walk/walk';
-import { NavController, NavParams, App } from 'ionic-angular';
+import { NavController, NavParams, App, ModalController } from 'ionic-angular';
 import {JsonDataService} from '../../../providers/data-json.service';
 import {WalkDetailPage} from '../walk-detail/walk-detail.component';
 import {HomePage} from '../../home/home.component';
+import {ModalAddWalk} from './modal-add-walk/modal-add-walk.component';
 
 @Component({
   templateUrl: 'walks-list.component.html'
@@ -12,7 +13,7 @@ import {HomePage} from '../../home/home.component';
 export class WalksListPage {
     private walksData: Walk[];
 
-  constructor(private navCtrl: NavController,private jsonDataService: JsonDataService, private appCtrl: App) {
+  constructor(private navCtrl: NavController,private jsonDataService: JsonDataService, private appCtrl: App, private modalCtrl: ModalController) {
       this.loadData();
   }
 
@@ -26,6 +27,10 @@ export class WalksListPage {
   }
   private openPage(w):void{
       this.appCtrl.getRootNav().push(WalkDetailPage, {walk: w});
+  }
+  private openModal():void{
+      let modal = this.modalCtrl.create(ModalAddWalk);
+      modal.present();
   }
 
 }

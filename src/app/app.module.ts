@@ -15,6 +15,7 @@ import {WalksListPage} from '../pages/walks/walks-list/walks-list.component';
 import {WalkDetailPage} from '../pages/walks/walk-detail/walk-detail.component';
 import {WalkInProgressPage} from '../pages/walks/walk-in-progress/walk-in-progress.component';
 import {ModalInfoPoint} from '../pages/walks/walk-in-progress/modal-info-point/modal-info-point.component';
+import {ModalAddWalk} from '../pages/walks/walks-list/modal-add-walk/modal-add-walk.component';
 import {HelpPage} from '../pages/help/help.component';
 import {InfoSheetPage} from '../pages/info-sheet/info-sheet.component';
 import {ObservationInputPage} from '../pages/observation-input/observation-input.component';
@@ -23,8 +24,6 @@ import {DragonflyHomeTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-
 import {DragonflyPicturesTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-pictures-tab/dragonfly-pictures-tab.component';
 import {DragonflyInfoTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-info-tab/dragonfly-info-tab.component';
 import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-distribution-tab/dragonfly-distribution-tab.component';
-
-
 
 @NgModule({
   declarations: [
@@ -40,6 +39,7 @@ import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonfly-tabs/dr
     WalkDetailPage,
     WalkInProgressPage,
     ModalInfoPoint,
+    ModalAddWalk,
     HelpPage,
     InfoSheetPage,
     ObservationInputPage,
@@ -68,6 +68,7 @@ import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonfly-tabs/dr
     WalkDetailPage,
     WalkInProgressPage,
     ModalInfoPoint,
+    ModalAddWalk,
     HelpPage,
     InfoSheetPage,
     ObservationInputPage,

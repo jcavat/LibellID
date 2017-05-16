@@ -40,11 +40,14 @@ export class IdentifyPage {
 
     private handleClickValue(event:Event):void{
       let element = <HTMLElement>event.target;
-      if(!element.classList.contains("selected-value")){
-        element.classList.add("selected-value");
-      }else{
-        element.classList.remove("selected-value");
+      if(element.tagName != "TD"){
+          element = element.parentElement;
       }
+          if(!element.classList.contains("selected-value")){
+            element.classList.add("selected-value");
+          }else{
+            element.classList.remove("selected-value");
+        }
     }
     private resetCriteria():void{
         let tables = document.getElementsByClassName("table-criteria");

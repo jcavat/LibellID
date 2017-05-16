@@ -1,0 +1,15 @@
+<ion-content>
+    <h2>Ajouter une promenade</h2>
+    <p>Explications...</p>
+    <ion-list>
+        <ion-item>
+            <ion-label>Nom</ion-label>
+            <ion-input type="text" [value]="walkName" [(ngModel)]="walkName"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label><ion-icon name="folder"></ion-icon></ion-label>
+            <ion-input type="text" [value]="walkFile" [(ngModel)]="walkFile" readonly (click)="chooseFile()"></ion-input>
+        </ion-item>
+    </ion-list>
+    <button ion-button block (click)="addWalk()">Ajouter</button>
+</ion-content>

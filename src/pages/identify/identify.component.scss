@@ -16,13 +16,18 @@ table{
     height: 4em;
     td{
       border: solid 1px black;
-      height: 4em;
+      //height: 4em;
       width: 33.3%;
       display: inline-block;
+      padding: 3px;
+      img{
+
+      }
     }
     .selected-value{
-      border: 5px solid rgb(96,96,96);
+      border: 4px solid rgb(96,96,96);
       border-radius: 3px;
+      padding: 0;
     }
   }
   margin-bottom: 0.5em;
