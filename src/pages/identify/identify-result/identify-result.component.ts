@@ -63,7 +63,9 @@ export class IdentifyResultPage {
     return numberOfTrue
   }
 
-  private openPage(d, c):void{
-      this.navCtrl.push(DragonflyPage, {dragonfly: d, criteria: c});
+  private openPage(d:Dragonfly, c):void{
+      if(d.commonName.toString() == 'Aeshne bleue'){
+          this.navCtrl.push(DragonflyPage, {dragonfly: d, criteria: c});
+      }
   }
 }

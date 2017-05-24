@@ -14,11 +14,27 @@
 <ion-content padding>
   <span *ngFor="let criter of criteria">
     <h6 class="criter-name">{{criter.name}}</h6>
-    <table class="table-criteria">
-      <tr class="table-content">
-        <td *ngFor="let value of criter.values" class="criter-value"><img src="assets/img/{{value.icon}}"><!--{{value.name}}--></td>
-      </tr>
-    </table>
+    <div *ngIf="criter.values.length > 3" class="scroll-div">
+        <table class="table-criteria">
+          <tr class="table-content">
+            <td *ngFor="let value of criter.values" class="criter-value">
+                <img *ngIf="value.icon != 'icon.png'" src="assets/img/{{value.icon}}" alt="{{value.name}}">
+                <div *ngIf="value.icon == 'icon.png'">{{value.name}}</div>
+            </td>
+          </tr>
+        </table>
+        <!--<div class="scroll-indicator"><ion-icon name="arrow-dropright"></ion-icon></div>-->
+    </div>
+    <div *ngIf="criter.values.length <= 3">
+        <table class="table-criteria">
+          <tr class="table-content">
+            <td *ngFor="let value of criter.values" class="criter-value">
+                <img *ngIf="value.icon != 'icon.png'" src="assets/img/{{value.icon}}" alt="{{value.name}}">
+                <div *ngIf="value.icon == 'icon.png'">{{value.name}}</div>
+            </td>
+          </tr>
+        </table>
+    </div>
   </span>
   <div id="space-btns"></div>
   <div id="div-btns">

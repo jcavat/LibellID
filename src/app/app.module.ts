@@ -24,6 +24,7 @@ import {DragonflyHomeTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-
 import {DragonflyPicturesTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-pictures-tab/dragonfly-pictures-tab.component';
 import {DragonflyInfoTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-info-tab/dragonfly-info-tab.component';
 import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-distribution-tab/dragonfly-distribution-tab.component';
+import { File } from '@ionic-native/file';
 
 @NgModule({
   declarations: [
@@ -79,7 +80,8 @@ import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonfly-tabs/dr
     DragonflyDistributionTabPage
   ],
   providers: [
-    JsonDataService
+    JsonDataService,
+    File
   ]
 })
 export class AppModule {}

@@ -8,7 +8,7 @@
         </ion-item>
         <ion-item>
             <ion-label><ion-icon name="folder"></ion-icon></ion-label>
-            <ion-input type="text" [value]="walkFile" [(ngModel)]="walkFile" readonly (click)="chooseFile()"></ion-input>
+            <ion-input type="text" [value]="walkFile" [(ngModel)]="walkFile" readonly (focus)="chooseFile()"></ion-input>
         </ion-item>
     </ion-list>
     <button ion-button block (click)="addWalk()">Ajouter</button>

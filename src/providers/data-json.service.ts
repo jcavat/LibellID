@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import {Dragonfly} from '../app/classes/dragonfly/dragonfly';
 import {Walk} from '../app/classes/walk/walk';
+import {File} from '@ionic-native/file';
 
 import 'rxjs/add/operator/map';
 
@@ -14,7 +15,7 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class JsonDataService {
   singleInstanceJsonData: any;
-  constructor(public http: Http) {
+  constructor(public http: Http, private file:File) {
 
   }
 
@@ -76,6 +77,17 @@ export class JsonDataService {
         });
     }
     return w;
+  }
+  public addWalk(name:string, path:string):boolean{
+      alert(this.file.dataDirectory);
+      let fileName = path.split("/").pop();
+      let filePath = path.split("/");
+      filePath.pop();
+      alert(filePath.join("/") + " - " + fileName);
+      let p = this.file.copyFile(filePath.join("/"), fileName, this.file.dataDirectory,"");
+      p.then(resp => alert("ok")).catch(err => alert(err.message));
+      this.file.checkFile(this.file.dataDirectory, "Test.txt").then(val => {return val});
+      return true;
   }
 
 }

@@ -24,8 +24,10 @@ export class InfoSheetPage {
            alert("Un problème est survenu")
         });
   }
-  private openPage(d):void{
-      this.navCtrl.push(DragonflyPage, {dragonfly: d, criteria: null});
+  private openPage(d:Dragonfly):void{
+      if (d.latinName.toString() == 'Aeshna cyanea'){
+          this.navCtrl.push(DragonflyPage, {dragonfly: d, criteria: null});
+      }
   }
 
 }
