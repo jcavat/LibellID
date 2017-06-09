@@ -25,7 +25,7 @@ export class InfoSheetPage {
         });
   }
   private openPage(d:Dragonfly):void{
-      if (d.latinName.toString() == 'Aeshna cyanea'){
+      if(!d.description.toString().startsWith('Lorem ipsum')){
           this.navCtrl.push(DragonflyPage, {dragonfly: d, criteria: null});
       }
   }

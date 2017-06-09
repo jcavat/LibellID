@@ -19,6 +19,7 @@
     "@angular/platform-browser-dynamic": "2.4.8",
     "@angular/platform-server": "2.4.8",
     "@ionic-native/file": "^3.9.2",
+    "@ionic-native/vibration": "^3.12.1",
     "@ionic/storage": "2.0.0",
     "@types/cordova-plugin-network-information": "0.0.3",
     "@types/openlayers": "^4.0.1",
@@ -32,6 +33,8 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "1.2.2",
+    "@ionic/cli-plugin-cordova": "1.3.0",
+    "@ionic/cli-plugin-ionic-angular": "1.3.0",
     "@types/jasmine": "^2.5.47",
     "concurrently": "^3.2.0",
     "jasmine": "^2.6.0",

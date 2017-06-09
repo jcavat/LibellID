@@ -8,7 +8,6 @@
 
 <ion-content padding>
     <div id="carte"><img src="assets/img/{{walk.preview}}"></div>
-    {{walk.id}}. {{walk.name}}
     <table class="tableDetail">
         <tr>
             <td>Niveau <img class="imgDifficultyDiversity" src="assets/img/diversite-{{walk.difficulty}}.png"></td>
@@ -24,7 +23,7 @@
     </p>
     <h4>Espèces à découvrir</h4>
     <ul>
-        <li *ngFor="let e of walk.species">{{e.name}} : {{months[e.flyFrom+1]}} à {{months[e.flyTo+1]}}</li>
+        <li *ngFor="let e of walk.species">{{e.name}} : {{months[e.flyFrom-1]}} à {{months[e.flyTo-1]}}</li>
     </ul>
 
 

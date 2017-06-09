@@ -4,6 +4,9 @@
       Identifier
     </ion-title>
     <ion-buttons end>
+        <button ion-button icon-only (click)="displayModalInfo()">
+            <ion-icon name="help"></ion-icon>
+        </button>
         <button ion-button icon-only (click)="presentPopover($event)">
             <ion-icon name="more"></ion-icon>
         </button>
@@ -17,18 +20,17 @@
     <div *ngIf="criter.values.length > 3" class="scroll-div">
         <table class="table-criteria">
           <tr class="table-content">
-            <td *ngFor="let value of criter.values" class="criter-value">
+            <td *ngFor="let value of criter.values" class="criter-value" (press)="pressEvent(value)">
                 <img *ngIf="value.icon != 'icon.png'" src="assets/img/{{value.icon}}" alt="{{value.name}}">
                 <div *ngIf="value.icon == 'icon.png'">{{value.name}}</div>
             </td>
           </tr>
         </table>
-        <!--<div class="scroll-indicator"><ion-icon name="arrow-dropright"></ion-icon></div>-->
     </div>
     <div *ngIf="criter.values.length <= 3">
         <table class="table-criteria">
           <tr class="table-content">
-            <td *ngFor="let value of criter.values" class="criter-value">
+            <td *ngFor="let value of criter.values" class="criter-value" (press)="pressEvent(value)">
                 <img *ngIf="value.icon != 'icon.png'" src="assets/img/{{value.icon}}" alt="{{value.name}}">
                 <div *ngIf="value.icon == 'icon.png'">{{value.name}}</div>
             </td>

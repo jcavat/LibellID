@@ -1,7 +1,7 @@
 export class Dragonfly {
     private _commonName: string;
     private _latinName: string;
-    private _headerPicture: string;
+    private _headerPicture: {url: string, author: string, license: string};
     private _criteria: number[][];
     private _pictures: string[];
     private _description: string;
@@ -18,7 +18,7 @@ export class Dragonfly {
     public latinName(): string{
         return this._latinName;
     }
-    public headerPicture(): string{
+    public headerPicture(): {url: string, author: string, license: string}{
         return this._headerPicture;
     }
     public criteria(): number[][]{

@@ -64,7 +64,7 @@ export class IdentifyResultPage {
   }
 
   private openPage(d:Dragonfly, c):void{
-      if(d.commonName.toString() == 'Aeshne bleue'){
+      if(!d.description.toString().startsWith('Lorem ipsum')){
           this.navCtrl.push(DragonflyPage, {dragonfly: d, criteria: c});
       }
   }

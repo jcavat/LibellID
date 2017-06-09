@@ -5,8 +5,8 @@ h6.criter-name{
   padding-bottom: 0.3em;
   padding-left: 0.3em;
   padding-right: 0.3em;
-  background: linear-gradient(rgb(210,210,210),rgb(240,240,240),rgb(240,240,240),rgb(210,210,210));
-  border-radius: 5px;
+  background: rgba(254,201,46,0.3);
+  //border-radius: 5px;
   margin-bottom: 0;
 }
 div.scroll-div{
@@ -44,9 +44,6 @@ table{
     }
   }
   margin-bottom: 0.5em;
-}
-div.scroll-indicator{
-
 }
 #div-btns{
     position: fixed;

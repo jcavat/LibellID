@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
 
-import { NavController, PopoverController } from 'ionic-angular';
+import { NavController, PopoverController, ModalController } from 'ionic-angular';
 import {IdentifyPopover} from './identify-popover.component';
 import {JsonDataService} from '../../providers/data-json.service';
 import {IdentifyResultPage} from './identify-result/identify-result.component';
+import {IdentifyModalInfo} from './identify-modal-info/identify-modal-info.component';
+import {IdentifyModalCriter} from './identify-modal-criter/identify-modal-criter.component';
+import {Storage} from '@ionic/storage';
 
 @Component({
   templateUrl: 'identify.component.html'
@@ -12,7 +15,7 @@ export class IdentifyPage {
     private criteria: Object[];
     private useDate: boolean = true;
     private usePosition: boolean = true;
-    constructor(private navCtrl: NavController, private popoverCtrl: PopoverController, private jsonDataService: JsonDataService) {
+    constructor(private navCtrl: NavController, private popoverCtrl: PopoverController, private jsonDataService: JsonDataService, private storage: Storage, private modalCtrl: ModalController) {
       this.loadData();
     }
     private presentPopover(event):void{
@@ -58,12 +61,26 @@ export class IdentifyPage {
           }
         }
     }
+    private pressEvent(value:Object):void{
+        let modal = this.modalCtrl.create(IdentifyModalCriter, {value: value});
+        modal.present();
+    }
+    private displayModalInfo():void{
+        let modal = this.modalCtrl.create(IdentifyModalInfo);
+        modal.present();
+    }
     ionViewDidEnter(){
       let tdValues = document.getElementsByClassName("criter-value");
       for(var i = 0; i < tdValues.length; i++){
         tdValues[i].removeEventListener("click", this.handleClickValue);
         tdValues[i].addEventListener("click", this.handleClickValue);
       }
+      this.storage.get('firstTime').then((val)=>{
+          if(val == null || val == undefined || val == true){
+              this.displayModalInfo();
+              this.storage.set('firstTime', false);
+          }
+      });
     }
     private getSelectedValues():void{
       let selectedValues: number[][] = [];

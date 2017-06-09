@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="bluePoly">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19dd2200</color>
+      </PolyStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="redPoly">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>190000bb</color>
+      </PolyStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenPoly">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19007700</color>
+      </PolyStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownPoly">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19004b96</color>
+      </PolyStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="purplePoly">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="blackLine">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="blackPoly">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19000000</color>
+      </PolyStyle>
+    </Style>
+
+    <Placemark>
+      <name>Au jardin d'hiver</name>
+      <description>
+        <![CDATA[
+            <p>Avec mes yeux rouges, je suis la naïade au corps vert. Vous pouvez m’apercevoir à fleur d’eau.</p>
+            <img src="assets/img/walk1pic1.jpg">
+        ]]>
+      </description>
+      <Point>
+        <coordinates>6.14535,46.22609</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Sur les rives du Léman</name>
+      <description>
+          <![CDATA[
+              <p>Je suis le discret Agrion porte-coupe. Cherchez-moi sur les rives du Léman!</p>
+              <img src="assets/img/walk1pic2.png">
+          ]]>
+      </description>
+      <Point>
+        <coordinates>6.14911,46.2265</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Au bord des étangs</name>
+      <description>
+          <![CDATA[
+              <p>Trouverez-vous l’Anax empereur, la plus grande libellule d’Europe?</p>
+              <img src="assets/img/walk1pic3.png">
+          ]]>
+      </description>
+      <Point>
+        <coordinates>6.14702,46.22506</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Départ</name>
+      <description>
+          <![CDATA[
+              <p>Vous allez commencer ce parcours et découvrir des libellules de taille et de couleur variées le long de cet itinéraire au fil des points d'intérêt.<br>Ouvrez l'oeil et n'hésitez pas à lever les yeux de votre téléphone</p>
+          ]]>
+      </description>
+      <Point>
+        <coordinates>6.1476,46.22444</coordinates>
+      </Point>
+    </Placemark>
+ </Document>
+</kml>

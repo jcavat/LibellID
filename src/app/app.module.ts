@@ -8,6 +8,8 @@ import { HomePage } from '../pages/home/home.component';
 import {OtherPage} from '../pages/other/other.component'
 import {IdentifyPage} from '../pages/identify/identify.component';
 import {IdentifyResultPage} from '../pages/identify/identify-result/identify-result.component';
+import {IdentifyModalInfo} from '../pages/identify/identify-modal-info/identify-modal-info.component';
+import {IdentifyModalCriter} from '../pages/identify/identify-modal-criter/identify-modal-criter.component';
 import {IdentifyPopover} from '../pages/identify/identify-popover.component';
 import {WalksPage} from '../pages/walks/walks.component';
 import {WalksMapPage} from '../pages/walks/walks-map/walks-map.component';
@@ -25,6 +27,7 @@ import {DragonflyPicturesTabPage} from '../pages/dragonfly/dragonfly-tabs/dragon
 import {DragonflyInfoTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-info-tab/dragonfly-info-tab.component';
 import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-distribution-tab/dragonfly-distribution-tab.component';
 import { File } from '@ionic-native/file';
+import {IonicStorageModule} from '@ionic/storage';
 
 @NgModule({
   declarations: [
@@ -34,6 +37,8 @@ import { File } from '@ionic-native/file';
     IdentifyPage,
     IdentifyPopover,
     IdentifyResultPage,
+    IdentifyModalInfo,
+    IdentifyModalCriter,
     WalksPage,
     WalksMapPage,
     WalksListPage,
@@ -53,7 +58,8 @@ import { File } from '@ionic-native/file';
   imports: [
     IonicModule.forRoot(MyApp,{
         tabsHideOnSubPages: true
-    })
+    }),
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -63,6 +69,8 @@ import { File } from '@ionic-native/file';
     IdentifyPage,
     IdentifyPopover,
     IdentifyResultPage,
+    IdentifyModalInfo,
+    IdentifyModalCriter,
     WalksPage,
     WalksMapPage,
     WalksListPage,

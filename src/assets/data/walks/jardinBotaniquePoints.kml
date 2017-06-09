@@ -94,54 +94,164 @@
     </Style>
 
     <Placemark>
-      <name>Au jardin d'hiver</name>
-      <description>
-        <![CDATA[
-            <p>Avec mes yeux rouges, je suis la naïade au corps vert. Vous pouvez m’apercevoir à fleur d’eau.</p>
-            <img src="assets/img/walk1pic1.jpg">
-        ]]>
-      </description>
+        <ExtendedData>
+            <Data name="id">
+                <value>5</value>
+            </Data>
+        </ExtendedData>
+        <name>Au jardin d'hiver</name>
+        <description>
+          <![CDATA[
+              <p>Avec mes yeux rouges, je suis la naïade au corps vert. Vous pouvez m’apercevoir à fleur d’eau ou posée sur les nénuphars.</p>
+              <img src="assets/img/walk1pic5.jpg">
+          ]]>
+        </description>
       <Point>
         <coordinates>6.14535,46.22609</coordinates>
       </Point>
     </Placemark>
-
     <Placemark>
-      <name>Sur les rives du Léman</name>
-      <description>
-          <![CDATA[
-              <p>Je suis le discret Agrion porte-coupe. Cherchez-moi sur les rives du Léman!</p>
-              <img src="assets/img/walk1pic2.png">
-          ]]>
-      </description>
+        <ExtendedData>
+            <Data name="id">
+                <value>2</value>
+            </Data>
+        </ExtendedData>
+        <name>Sur les rives du Léman</name>
+        <description>
+            <![CDATA[
+                <p>Si le vent n’est pas fort, vous pourrez peut-être apercevoir au raz de l'eau le discret Agrion porte-coupe.</p>
+                <img src="assets/img/walk1pic2.jpg">
+            ]]>
+        </description>
       <Point>
-        <coordinates>6.14911,46.2265</coordinates>
+        <coordinates>6.14925,46.22611</coordinates>
       </Point>
     </Placemark>
-
     <Placemark>
-      <name>Au bord des étangs</name>
+      <ExtendedData>
+          <Data name="id">
+              <value>1</value>
+          </Data>
+      </ExtendedData>
+      <name>Au bord de l'étang</name>
       <description>
           <![CDATA[
               <p>Trouverez-vous l’Anax empereur, la plus grande libellule d’Europe?</p>
-              <img src="assets/img/walk1pic3.png">
+              <img src="assets/img/walk1pic1.jpg">
           ]]>
       </description>
       <Point>
         <coordinates>6.14702,46.22506</coordinates>
       </Point>
     </Placemark>
-
     <Placemark>
+      <ExtendedData>
+          <Data name="id">
+              <value>D</value>
+          </Data>
+      </ExtendedData>
       <name>Départ</name>
       <description>
           <![CDATA[
-              <p>Vous allez commencer ce parcours et découvrir des libellules de taille et de couleur variées le long de cet itinéraire au fil des points d'intérêt.<br>Ouvrez l'oeil et n'hésitez pas à lever les yeux de votre téléphone</p>
+              <p>Vous allez commencer ce parcours et découvrir des libellules de taille et de couleur variées au fil de points d’observation. Ouvrez l’œil et n’hésitez pas à lever les yeux de votre téléphone.<br>
+            Les libellules volent par beau temps et pas nécessairement toutes à la même saison. N’hésitez pas à revenir.
+            </p>
           ]]>
       </description>
       <Point>
         <coordinates>6.1476,46.22444</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <ExtendedData>
+          <Data name="id">
+              <value>4</value>
+          </Data>
+      </ExtendedData>
+      <name>Au coeur des iris</name>
+      <description>
+          <![CDATA[
+              <p>Je suis la petite nymphe au corps de feu. Cherchez-moi au milieu des iris.
+            </p>
+            <img src="assets/img/walk1pic4.jpg">
+          ]]>
+      </description>
+      <Point>
+        <coordinates>6.14689,46.22647</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <ExtendedData>
+          <Data name="id">
+              <value>6</value>
+          </Data>
+      </ExtendedData>
+      <name>D'un bassin à l'autre</name>
+      <description>
+          <![CDATA[
+              <p>De si petits bassins peuvent abriter des libellules comme ces petites demoiselles bleues qui forment un cœur lorsqu’elles s’accouplent.
+            </p>
+            <img src="assets/img/walk1pic6.jpg">
+          ]]>
+      </description>
+      <Point>
+        <coordinates>6.14556,46.22545</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>7</value>
+            </Data>
+        </ExtendedData>
+        <name>Au fil de l'eau</name>
+        <description>
+            <![CDATA[
+                <p>Vous arrivez le long d’un chapelet de milieux aquatiques. Ouvrez l’œil durant votre progression jusqu’au point d’observation suivant et cherchez des demoiselles bleues si vous n’en avez pas encore vues, elles sont nombreuses par ici.
+              </p>
+              <img src="assets/img/walk1pic6.jpg">
+            ]]>
+        </description>
+      <Point>
+        <coordinates>6.14647,46.22465</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <ExtendedData>
+          <Data name="id">
+              <value>8</value>
+          </Data>
+      </ExtendedData>
+      <name>Le temps des adieux</name>
+      <description>
+          <![CDATA[
+              <p>Vous pouvez encore chercher à apercevoir ici la plupart des libellules que vous avez pu observer durant ce parcours. Peut-être même apercevrez-vous un Leste vert ou une Cordulie bronzée avec leurs reflets métallisés.
+            </p>
+            <img src="assets/img/walk1pic7.jpg">
+          ]]>
+      </description>
+      <Point>
+        <coordinates>6.14681,46.22489</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <ExtendedData>
+          <Data name="id">
+              <value>3</value>
+          </Data>
+      </ExtendedData>
+      <name>Au château de Penthes</name>
+      <description>
+          <![CDATA[
+              <p>Après cette montée, venez découvrir ce petit bassin rond. Au printemps, vous pourrez y apercevoir d'épaisses libellules bleues, les libellules déprimées, et plus tard dans la saison de jolies libellules rouges, les Sympétrums.
+            </p>
+            <img src="assets/img/walk1pic3.jpg">
+          ]]>
+      </description>
+      <Point>
+        <coordinates>6.14167,46.23213</coordinates>
+      </Point>
+    </Placemark>
+
  </Document>
 </kml>
