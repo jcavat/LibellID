@@ -66,7 +66,7 @@ export class WalkInProgressPage {
         this.mapInProgress = new ol.Map({
             target: 'mapInProgress',
             view: new ol.View({
-                zoom: 16
+                zoom: 15
             }),
             layers: [
                 new ol.layer.Tile({
@@ -191,8 +191,6 @@ export class WalkInProgressPage {
             that.positionFeature.setGeometry(new ol.geom.Point(ol.proj.transform([resp.coords.longitude, resp.coords.latitude],'EPSG:4326', 'EPSG:3857')));
             let sourceVector: ol.source.Vector = that.kmlPoints.getSource();
             if(that.closestFeature != sourceVector.getClosestFeatureToCoordinate(ol.proj.transform([resp.coords.longitude, resp.coords.latitude],'EPSG:4326', 'EPSG:3857'))){
-                if(that.closestFeature != null)
-                    that.closestFeature.setStyle(that.defaultFeatureStyle);
                 that.closestFeature = sourceVector.getClosestFeatureToCoordinate(ol.proj.transform([resp.coords.longitude, resp.coords.latitude],'EPSG:4326', 'EPSG:3857'));
                 that.alertHasShownForFeature = false;
             }
@@ -205,7 +203,6 @@ export class WalkInProgressPage {
                     modal.present();
                     that.vibration.vibrate(700);
                     that.alertHasShownForFeature = true;
-                    that.closestFeature.setStyle(that.closestFeatureStyle);
                 }
             }
         });

@@ -41,7 +41,12 @@ export class IdentifyResultPage {
              that.dragonfliesDataSorted[i] = [that.dragonfliesData[i], that.trueCount(that.matchedCriteria[i])];
            }
            that.dragonfliesDataSorted.sort(function(a,b){
-             return b[1]-a[1]
+             if (b[1]-a[1] != 0){
+                return b[1]-a[1];
+
+            }else{
+                return a[0].commonName-b[0].commonName;
+            }
            });
            for(var i = 0; i<that.criteria.length;i++){
                if(that.criteria[i].length != 0){

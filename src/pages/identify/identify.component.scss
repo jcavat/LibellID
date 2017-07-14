@@ -28,13 +28,14 @@ table{
       display: inline-block;
       padding: 3px;
       word-wrap: break-word;
+      background-color: rgba(247,247,247,1);
       div{
           height: 4em;
           width: 100%;
           white-space: normal;
       }
       img{
-
+          margin-bottom: -4px;
       }
     }
     .selected-value{

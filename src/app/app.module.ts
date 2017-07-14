@@ -2,6 +2,8 @@
 import { NgModule } from '@angular/core';
 import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpModule} from '@angular/http';
 
 import {JsonDataService} from '../providers/data-json.service';
 import { HomePage } from '../pages/home/home.component';
@@ -59,7 +61,9 @@ import {IonicStorageModule} from '@ionic/storage';
     IonicModule.forRoot(MyApp,{
         tabsHideOnSubPages: true
     }),
-    IonicStorageModule.forRoot()
+    IonicStorageModule.forRoot(),
+    BrowserModule,
+    HttpModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

@@ -7,6 +7,7 @@ import {IdentifyResultPage} from './identify-result/identify-result.component';
 import {IdentifyModalInfo} from './identify-modal-info/identify-modal-info.component';
 import {IdentifyModalCriter} from './identify-modal-criter/identify-modal-criter.component';
 import {Storage} from '@ionic/storage';
+import {PressDirective} from './press-directive';
 
 @Component({
   templateUrl: 'identify.component.html'
