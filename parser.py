@@ -10,7 +10,7 @@ class Color:
 
 
 #Open JSON File
-with open('src/assets/data/libellID(copie).json') as data_file:    
+with open('src/assets/data/libellID.json') as data_file:    
     data = json.load(data_file)
 
 #Length of criterias
@@ -18,6 +18,7 @@ criterias = data['criteria']
 nbCriterias = len(data['criteria'])
 dragonflieName=""
 dragonflies = data['dragonflies']
+nbError=0
 
 #Verif all number of criterias each dragonflies 
 for dragonflie in dragonflies:
@@ -26,19 +27,20 @@ for dragonflie in dragonflies:
     dragonflieName = str(dragonflie['commonName'].encode('utf-8'))
 
     #verif all number of crietrias each dragonflies as the same of number of total criterias
-    if nbCriterias == nbCriteriasDragonflie:
-        print Color.GREEN+"Dragonflies "+dragonflieName+":\t Number of criterias as ok\r\n"
-    else:
-        print Color.RED+"Dragonflies "+dragonflieName+":\t Warning, number of criterias as not correct\r\n"
-
-    criteriasDragonflie = dragonflie['criteria']
+    if nbCriterias != nbCriteriasDragonflie:
+        print Color.BLUE+"Dragonflies "+dragonflieName+":"+Color.RED+"\t Warning, number of criterias as not correct\r\n"
+        nbError=nbError+1
+    
     #verif all number of value each criterias of dragonflies
+    criteriasDragonflie = dragonflie['criteria']
     for idx,tupleCriteria in enumerate(criteriasDragonflie):
+
         #read tuple and check if the value are correct
         for valCriteria in tupleCriteria:
-            if len(criterias[idx]['values'])>= valCriteria:
-                print Color.GREEN+"print ok"
-            else:
-                print Color.RED+"pas ok"
-        print "\r\n"
-    print "\r\n"
+            if len(criterias[idx]['values'])<= valCriteria:
+                print Color.BLUE+"Dragonflies "+dragonflieName+":"+Color.RED+"\t Warning, value of criteria number "+ Color.YELLOW + str(idx)+ Color.RED +" is too high\r\n"
+                nbError=nbError+1
+if nbError>0:
+    print Color.RED+"They are "+str(nbError)+" warning"
+else:
+    print Color.GREEN+"No warning! :)"
