@@ -31,6 +31,7 @@ import {DragonflyInfoTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-
 import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-distribution-tab/dragonfly-distribution-tab.component';
 import { File } from '@ionic-native/file';
 import {IonicStorageModule} from '@ionic/storage';
+import {Utils} from '../providers/utils';
 
 @NgModule({
   declarations: [
@@ -95,7 +96,8 @@ import {IonicStorageModule} from '@ionic/storage';
   providers: [
     Camera,
     JsonDataService,
-    File
+    File,
+    Utils
   ]
 })
 export class AppModule {}

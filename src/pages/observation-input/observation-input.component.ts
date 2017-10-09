@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { Dragonfly } from '../../app/classes/dragonfly/dragonfly';
 import { Camera } from '@ionic-native/camera';
+import { Utils } from '../../providers/utils';
 
 
 @Component({
@@ -15,6 +16,7 @@ export class ObservationInputPage {
   imageNamePath: string;
   dirName: string;
   defaultPicture: string;
+  date:string;
 
   constructor(private camera: Camera,
               private navCtrl: NavController, 
@@ -25,7 +27,8 @@ export class ObservationInputPage {
     if(this.dragonfly){
       console.log(this.dragonfly.commonName);
     }
-    this.imageFile = "./assets/img/aeshna_affinis.jpg"
+    this.imageFile = "./assets/img/aeshna_affinis.jpg";
+    this.date=Utils.getCurrentDatetime('dd/MM/y')
   }
 
 
