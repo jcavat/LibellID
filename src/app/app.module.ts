@@ -5,6 +5,7 @@ import { MyApp } from './app.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule} from '@angular/http';
 
+import { Camera } from '@ionic-native/camera';
 import {JsonDataService} from '../providers/data-json.service';
 import { HomePage } from '../pages/home/home.component';
 import {OtherPage} from '../pages/other/other.component'
@@ -92,6 +93,7 @@ import {IonicStorageModule} from '@ionic/storage';
     DragonflyDistributionTabPage
   ],
   providers: [
+    Camera,
     JsonDataService,
     File
   ]

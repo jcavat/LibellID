@@ -21,9 +21,9 @@
             <ion-input placeholder="Text Input"></ion-input>
         </ion-item>
 
-        <img src= "./assets/img/aeshna_affinis.jpg" >
+        <img src={{imageFile}} >
 
-        <button ion-button block color="secondary" item-center>
+        <button ion-button block color="secondary" item-center (click)="takePicture()">
             <ion-icon name="camera"></ion-icon>
             &nbsp;Prendre la photo 
         </button>
