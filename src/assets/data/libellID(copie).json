@@ -1,0 +1,2014 @@
+ {
+  "dragonflies": [
+  {
+    "commonName": "Aeschne bleue",
+    "latinName": "Aeshna cyanea",
+    "headerPicture": {
+        "url": "aeshna_cyanea.jpg",
+        "author": "Test",
+        "license": "CC BY"
+    },
+    "criteria": [
+      [6,7],
+      [0],
+      [2],
+      [2,5],
+      [2],
+      [1,2],
+      [0,1],
+      [0,1],
+      [4],
+      [1],
+      [1],
+      [0],
+      [1],
+      [1]
+    ],
+    "pictures": [
+        "aeshne-bleue-1.jpg",
+        "aeshne-bleue-2.jpg",
+        "aeshne-bleue-3.jpg",
+        "aeshne-bleue-4.jpg"
+    ],
+    "description": "Grande libellule d'aspect sombre avec des tâches vertes et bleues qui vole souvent bas et à l'ombre. ",
+    "habitats": [
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
+    ],
+    "behavior": "<ul><li>Vole volontiers à l'ombre</li><li>Parcourt tout l'étang, volant souvent bas</li><li>Régulièrement observée loin de l'eau, dans les lisières et les prairies et près des habitations</li><li>Pond toujours seule</li><li>Généralement des individus isolés, supporte mal la concurrence</li><li>Très peu exigeante: s'adapte à tous les milieux</li></ul>",
+    "flyPeriod": [
+        0,
+        0,
+        0.3,
+        0.6,
+        0.9,
+        0.6,
+        0.6,
+        0.3
+    ],
+    "anecdote": "L'Aeschne bleue est une libellule peu farouche et tout terrain que l'on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d'altitudes. Curieuse, elle peut s'approcher et fondre sur les observateurs lorsqu'elle chasse.<br><br>La larve de l'Aeshne bleue est très efficace pour contrôler la prolifération des moustiques dans les bassins et les petites mares.",
+    "threat": "L'Aeshne bleue n'est pas menacée en Suisse",
+    "distributionMap": "repartition-aeshna-cyanea.png"
+},
+{
+  "commonName": "Aeschne grande",
+  "latinName": "Aeshna grandis",
+  "headerPicture": {
+      "url": "aeshna_grandis.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [14],
+    [2],
+    [2],
+    [2,5],
+    [2],
+    [1,2],
+    [1,2],
+    [0,1],
+    [0],
+    [1],
+    [1],
+    [1],
+    [1],
+    [2]
+  ],
+  "pictures": [
+      "aeshne-bleue-1.jpg",
+      "aeshne-bleue-2.jpg",
+      "aeshne-bleue-3.jpg",
+      "aeshne-bleue-4.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "<ul><li>Vole volontiers à l'ombre et au crépuscule</li><li>Peu territoriale: parcourt tout l'étang, vole souvent bas</li><li> Régulièrement observée loin de l'eau</li><li>Pond toujours seule</li><li>Généralement des individus isolés</li><li>Très peu exigeante: s'adapte à tous les milieux, supporte mal la concurrence</li></ul>",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "L'aeshne bleue est une libellule peu farouche et tout terrain que l'on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d'altitudes. Curieuse, elle peut s'approcher et fondre sur les observateurs lorsqu'elle chasse.<br><br>Elle pond aussi dans les endroits les plus variés, même a priori peu favorables. Il existe ainsi de nombreux rapports de femelles qui tentent de pondre sur les habits, filets ou bottes de leurs observateurs.",
+  "threat": "L'aeshne bleue n'est pas menacée en Suisse",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Aeschne isocèle",
+  "latinName": "Aeshna isoceles",
+  "headerPicture": {
+      "url": "aeshna_isoceles.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [13],
+    [0],
+    [2],
+    [2,5],
+    [2],
+    [1,2],
+    [0,1,2],
+    [0,1],
+    [0],
+    [1],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "aeshne-bleue-1.jpg",
+      "aeshne-bleue-2.jpg",
+      "aeshne-bleue-3.jpg",
+      "aeshne-bleue-4.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "<ul><li>Vole volontiers à l'ombre et au crépuscule</li><li>Peu territoriale: parcourt tout l'étang, vole souvent bas</li><li> Régulièrement observée loin de l'eau</li><li>Pond toujours seule</li><li>Généralement des individus isolés</li><li>Très peu exigeante: s'adapte à tous les milieux, supporte mal la concurrence</li></ul>",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "L'aeshne bleue est une libellule peu farouche et tout terrain que l'on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d'altitudes. Curieuse, elle peut s'approcher et fondre sur les observateurs lorsqu'elle chasse.<br><br>Elle pond aussi dans les endroits les plus variés, même a priori peu favorables. Il existe ainsi de nombreux rapports de femelles qui tentent de pondre sur les habits, filets ou bottes de leurs observateurs.",
+  "threat": "L'aeshne bleue n'est pas menacée en Suisse",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Aeschne des joncs",
+  "latinName": "Aeshna juncea",
+  "headerPicture": {
+      "url": "aeshna_juncea.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [6],
+    [0],
+    [2],
+    [2,5],
+    [2],
+    [1,2],
+    [0,1,2],
+    [0,1],
+    [4],
+    [1],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "aeshne-bleue-1.jpg",
+      "aeshne-bleue-2.jpg",
+      "aeshne-bleue-3.jpg",
+      "aeshne-bleue-4.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "<ul><li>Vole volontiers à l'ombre et au crépuscule</li><li>Peu territoriale: parcourt tout l'étang, vole souvent bas</li><li> Régulièrement observée loin de l'eau</li><li>Pond toujours seule</li><li>Généralement des individus isolés</li><li>Très peu exigeante: s'adapte à tous les milieux, supporte mal la concurrence</li></ul>",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "L'aeshne bleue est une libellule peu farouche et tout terrain que l'on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d'altitudes. Curieuse, elle peut s'approcher et fondre sur les observateurs lorsqu'elle chasse.<br><br>Elle pond aussi dans les endroits les plus variés, même a priori peu favorables. Il existe ainsi de nombreux rapports de femelles qui tentent de pondre sur les habits, filets ou bottes de leurs observateurs.",
+  "threat": "L'aeshne bleue n'est pas menacée en Suisse",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Anax empereur",
+  "latinName": "Anax imperator",
+  "headerPicture": {
+      "url": "anax_imperator.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [5,6],
+    [0],
+    [2],
+    [2,5],
+    [2],
+    [1,2],
+    [0,1,2],
+    [0,1],
+    [0,6]
+  ],
+  "pictures": [
+      "anax_imperator_1.jpg",
+      "anax_imperator_2.jpg",
+      "anax_imperator_3.jpg"
+  ],
+  "description": "La plus grande libellule d'Europe, de couleur bleue principalement et pouvant atteindre 8,5 cm de long.",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-1"
+  ],
+  "behavior": "<ul><li>Se pose rarement</li><li>S'observe généralement en vol nettement au-dessus de la surface de l'eau (entre 2 et 4m de hauteur)</li><li>Mâle très territorial, patrouille inlassablement son territoire</li></ul>",
+  "flyPeriod": [
+      0,
+      0.3,
+      0.9,
+      0.9,
+      0.6,
+      0.3,
+      0,
+      0
+  ],
+  "anecdote": "On peut assister à de bruyants combats aériens lorsque les Anax chassent les intrus de leur territoire. Il n'est pas rare de voir en fin de saison des Anax aux ailes très abîmées par les luttes incessantes.<br><br>Contrairement aux autres Anax, la femelle de l'Anax empereur pont seule, sans surveillance par le mâle. Elle pond dans les plantes affleurant à la surface de l'eau. Lorsqu'elle est en train de pondre, elle se déplace courbée avec l'extrémité du corps vers le bas pour indiquer qu'elle n'est pas disponible pour s'accoupler.",
+  "threat": "L'Anax empereur n'est pas menacé en Suisse",
+  "distributionMap": "repartition-anax-imperator.png"
+},
+{
+  "commonName": "Anax napolitain",
+  "latinName": "Anax parthenope",
+  "headerPicture": {
+      "url": "anax_parthenope.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [6],
+    [0],
+    [2],
+    [2,5],
+    [2],
+    [1,2],
+    [0,1,2],
+    [0,1],
+    [1],
+    [1],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "anax_napolitain_1.jpg",
+      "anax_napolitain_2.jpg"
+  ],
+  "description": "Grande libellule terne aux yeux verts avec une tâche bleu vif sur le corps, juste derrière les ailes.",
+  "habitats": [
+    "pounds-1",
+    "rivers-0",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "<ul><li>Se pose rarement</li><li>Vole devant les ceintures de roseaux ou au-dessus de l'eau ou des plantes flottantes</li><li>Assez farouche, moins facile à voir que l'Anax empereur</li><li>Très agressif envers les autres libellules</li><li>Pond en tandem : le mâle agrippe la femelle derrière la tête pendant la ponte</li></ul>",
+  "flyPeriod": [
+      0,
+      0.3,
+      0.9,
+      0.9,
+      0.6,
+      0.3,
+      0,
+      0
+  ],
+  "anecdote": "L'Anax napolitain aime les eaux stagnantes ensoleillées surtout si elles sont riches en végétation aquatique et entourées d'une ceinture de végétation (roseaux, massettes,…).Encore rare il y a quelques années, l'Anax napolitain est de plus en plus fréquent en Suisse romande sous l'effet du réchauffement climatique.",
+  "threat": "L'aeshne bleue n'est pas menacée en Suisse",
+  "distributionMap": "repartition-anax-parthenope.png"
+},
+{
+  "commonName": "Aeshne velue",
+  "latinName": "Brachytron pratense",
+  "headerPicture": {
+      "url": "brachytron_pratense.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [6],
+    [0],
+    [1,2],
+    [2,5],
+    [2],
+    [0,1,2],
+    [0,1],
+    [0,1],
+    [4],
+    [1],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "aeshne-bleue-1.jpg",
+      "aeshne-bleue-2.jpg",
+      "aeshne-bleue-3.jpg",
+      "aeshne-bleue-4.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "<ul><li>Vole volontiers à l'ombre et au crépuscule</li><li>Peu territoriale: parcourt tout l'étang, vole souvent bas</li><li> Régulièrement observée loin de l'eau</li><li>Pond toujours seule</li><li>Généralement des individus isolés</li><li>Très peu exigeante: s'adapte à tous les milieux, supporte mal la concurrence</li></ul>",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "L'aeshne bleue est une libellule peu farouche et tout terrain que l'on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d'altitudes. Curieuse, elle peut s'approcher et fondre sur les observateurs lorsqu'elle chasse.<br><br>Elle pond aussi dans les endroits les plus variés, même a priori peu favorables. Il existe ainsi de nombreux rapports de femelles qui tentent de pondre sur les habits, filets ou bottes de leurs observateurs.",
+  "threat": "L'aeshne bleue n'est pas menacée en Suisse",
+  "distributionMap": "carte.png"
+},
+  {
+    "commonName": "Caloptéryx éclatant",
+    "latinName": "Calopteryx splendens",
+    "headerPicture": {
+        "url": "calopteryx_splendens.jpg",
+        "author": "Test",
+        "license": "CC BY"
+    },
+    "criteria": [
+      [0,1,16],
+      [2,3],
+      [0],
+      [0,2,3,4,5],
+      [0,1,2],
+      [0,1],
+      [0,1,2],
+      [0,1,2],
+      [0],
+      [1],
+      [1],
+      [1],
+      [1],
+      [1]
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "habitats": [
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
+    ],
+    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "threat": "Menacé, ou pas",
+    "distributionMap": "carte.png"
+},
+{
+  "commonName": "Caloptéryx vierge",
+  "latinName": "Calopteryx virgo",
+  "headerPicture": {
+      "url": "calopteryx_virgo.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [0,1,16],
+    [1,2],
+    [1],
+    [0,2,3,4,5],
+    [0,1,2],
+    [0,1],
+    [0,1],
+    [0,1,2],
+    [0],
+    [1],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Cordulie bronzée",
+  "latinName": "Cordulia aenea",
+  "headerPicture": {
+      "url": "cordulia_aenea.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [0,13,16],
+    [0],
+    [1],
+    [2,5],
+    [2],
+    [1,2],
+    [0,1,2],
+    [0,1],
+    [0],
+    [1],
+    [1],
+    [0],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Cordulies de plaine",
+  "latinName": "",
+  "headerPicture": {
+      "url": "cordulia_aenea.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [0,13,16],
+    [0],
+    [1],
+    [2,5],
+    [2],
+    [1,2],
+    [0,1,2],
+    [0,1],
+    [0],
+    [1],
+    [1],
+    [0],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Agrions bleus",
+  "latinName": "",
+  "headerPicture": {
+      "url": "coenagrion_puella.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [6],
+    [0],
+    [0],
+    [0,2,4],
+    [0],
+    [0,1,2],
+    [0,1,2],
+    [0,1,2],
+    [2,5,6],
+    [1],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Cordulégastre annelé",
+  "latinName": "Cordulegaster boltonii",
+  "headerPicture": {
+      "url": "cordulegaster_boltonii.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [15],
+    [0],
+    [2],
+    [2,5],
+    [2],
+    [0,1],
+    [0,1],
+    [0,1],
+    [4,5],
+    [1],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Cordulégastres",
+  "latinName": "",
+  "headerPicture": {
+      "url": "cordulegaster_boltonii.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [15],
+    [0],
+    [2],
+    [2,5],
+    [2],
+    [0,1],
+    [0,1],
+    [0,1],
+    [4,5],
+    [1],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Crocothémis écarlate",
+  "latinName": "Crocothemis erythrea",
+  "headerPicture": {
+      "url": "crocothemis_erythraea.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [9,10],
+    [0,5],
+    [1],
+    [2,3,4],
+    [2],
+    [1,2],
+    [0,1,2],
+    [0,1,2],
+    [0],
+    [0],
+    [0],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Naïade au corps vert",
+  "latinName": "Erythromma viridulum",
+  "headerPicture": {
+      "url": "erythromma_viridulum.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [6],
+    [0],
+    [0],
+    [0,2,4],
+    [0],
+    [1,2],
+    [0,1,2],
+    [0,1,2],
+    [2],
+    [0],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Naïades",
+  "latinName": "Erythromma viridulum - Erythromma najas",
+  "headerPicture": {
+      "url": "erythromma_viridulum.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [6],
+    [0],
+    [0],
+    [0,2,4],
+    [0],
+    [1,2],
+    [0,1,2],
+    [0,1,2],
+    [2],
+    [0],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Leste barbare",
+  "latinName": "Lestes barbarus",
+  "headerPicture": {
+      "url": "lestes_barbarus.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [0,16],
+    [0],
+    [0],
+    [2,4],
+    [1,2],
+    [1,2],
+    [0,1],
+    [0,1,2],
+    [0],
+    [1],
+    [1],
+    [1],
+    [0],
+    [0,1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Leste fiancé",
+  "latinName": "Lestes sponsa",
+  "headerPicture": {
+      "url": "lestes_sponsa.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [2,6],
+    [0],
+    [0],
+    [2,4],
+    [1,2],
+    [1,2],
+    [0,1],
+    [0,1,2],
+    [2],
+    [1],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Leste vert",
+  "latinName": "Chalcolestes viridis",
+  "headerPicture": {
+      "url": "chalcolestes_viridis.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [0,16],
+    [0],
+    [0],
+    [2,4],
+    [1,2],
+    [1,2],
+    [0,1],
+    [0,1,2],
+    [0],
+    [1],
+    [1],
+    [1],
+    [1],
+    [0,1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Libellule déprimée",
+  "latinName": "Libellula depressa",
+  "headerPicture": {
+      "url": "libellula_depressa.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [4,6],
+    [6],
+    [1],
+    [2],
+    [2],
+    [1,2],
+    [0,1,2],
+    [0,1,2],
+    [0],
+    [1],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+  {
+    "commonName": "Libellule à quatre taches",
+    "latinName": "Libellula quadrimaculata",
+    "headerPicture": {
+        "url": "libellula_quadrimaculata.jpg",
+        "author": "Test",
+        "license": "CC BY"
+    },
+    "criteria": [
+      [3,13,16],
+      [4,5],
+      [1],
+      [2],
+      [2],
+      [1,2],
+      [0,1,2],
+      [0,1,2],
+      [0,3],
+      [1],
+      [1],
+      [1],
+      [1],
+      [1]
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "habitats": [
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
+    ],
+    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "threat": "Menacé, ou pas",
+    "distributionMap": "carte.png"
+    },
+    {
+      "commonName": "Orthetrum à stylets blancs",
+      "latinName": "Orthetrum albistylum",
+      "headerPicture": {
+          "url": "orthetrum_albistylum.jpg",
+          "author": "Test",
+          "license": "CC BY"
+      },
+      "criteria": [
+        [6],
+        [0],
+        [1],
+        [1,2],
+        [2],
+        [1,2],
+        [0,1],
+        [0,1,2],
+        [3],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]
+      ],
+      "pictures": [
+          "photo1.jpg",
+          "photo2.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+      "habitats": [
+        "pounds-1",
+        "rivers-1",
+        "peatbog-1",
+        "ditch-1",
+        "temp-environment-0",
+        "lake-0"
+      ],
+      "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+      "flyPeriod": [
+          0.3,
+          0.6,
+          1,
+          1,
+          1,
+          1,
+          0.6,
+          0.3
+      ],
+      "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+      "threat": "Menacé, ou pas",
+      "distributionMap": "carte.png"
+  },
+  {
+    "commonName": "Orthetrum réticulé",
+    "latinName": "Orthetrum cancellatum",
+    "headerPicture": {
+        "url": "orthetrum_cancellatum.jpg",
+        "author": "Test",
+        "license": "CC BY"
+    },
+    "criteria": [
+      [6],
+      [0],
+      [1],
+      [1,2],
+      [2],
+      [1,2],
+      [0,1,2],
+      [0,1,2],
+      [3],
+      [1],
+      [1],
+      [1],
+      [1],
+      [1]
+    ],
+    "pictures": [
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "habitats": [
+      "pounds-1",
+      "rivers-1",
+      "peatbog-1",
+      "ditch-1",
+      "temp-environment-0",
+      "lake-0"
+    ],
+    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "flyPeriod": [
+        0.3,
+        0.6,
+        1,
+        1,
+        1,
+        1,
+        0.6,
+        0.3
+    ],
+    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "threat": "Menacé, ou pas",
+    "distributionMap": "carte.png"
+},
+{
+  "commonName": "Orthetrum brun",
+  "latinName": "Orthetrum brunneum",
+  "headerPicture": {
+      "url": "orthetrum_brunneum.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [5],
+    [0],
+    [1],
+    [1,2],
+    [2],
+    [0,1,2],
+    [0,1],
+    [0,1,2],
+    [0],
+    [1],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Nymphe au corps de feu",
+  "latinName": "Pyrrhosomma nymphula",
+  "headerPicture": {
+      "url": "pyrrhosoma_nymphula.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [9,11],
+    [0],
+    [0],
+    [0,2,4],
+    [0],
+    [1,2],
+    [0,1],
+    [0,1,2],
+    [3],
+    [0],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Sympetrums rouges",
+  "latinName": "Sympetrum sp.",
+  "headerPicture": {
+      "url": "sympetrum_vulgatum.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [9,11],
+    [0,5],
+    [0],
+    [1,2,3,4],
+    [2],
+    [1,2],
+    [0,1,2],
+    [0,1,2],
+    [0,3],
+    [0,1],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Trithémis pourpré",
+  "latinName": "Trithemis annulata",
+  "headerPicture": {
+      "url": "trithemis_annulata.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [9,11],
+    [0,5],
+    [0],
+    [2,3,4],
+    [2],
+    [1,2],
+    [0,1,2],
+    [0,1,2],
+    [0],
+    [0],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Gomphes",
+  "latinName": "Gomphus sp. - Onychogomphus sp.",
+  "headerPicture": {
+      "url": "gomphus_vulgatissimus.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [15],
+    [0],
+    [1],
+    [1,2,4,5],
+    [2],
+    [0,1,2],
+    [0,1,2],
+    [0,1,2],
+    [5,7],
+    [1],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+{
+  "commonName": "Leste brun",
+  "latinName": "Sympecma fusca",
+  "headerPicture": {
+      "url": "sympecma_fusca.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [25],
+    [0],
+    [0],
+    [0,2,4],
+    [0],
+    [1,2],
+    [0,1],
+    [0,1,2],
+    [0,6],
+    [1],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+      0.3,
+      0.6,
+      1,
+      1,
+      1,
+      1,
+      0.6,
+      0.3
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+}
+],
+  "walks": [
+    {
+      "id": 1,
+      "name": "Jardin botanique",
+      "preview": "walk1-preview1.png",
+      "duration": "1h15",
+      "diversity": 2,
+      "difficulty": 1,
+      "length": 3.1,
+      "description": "",
+      "species": [
+        {
+          "name": "Anax empereur",
+          "flyFrom": 6,
+          "flyTo": 10
+        },
+        {
+          "name": "Agrion",
+          "flyFrom": 5,
+          "flyTo": 9
+        },
+        {
+          "name": "Naïade au corps vert",
+          "flyFrom": 5,
+          "flyTo": 9
+      },
+      {
+        "name": "Sympétrum",
+        "flyFrom": 5,
+        "flyTo": 10
+    },
+    {
+      "name": "Libellule déprimée",
+      "flyFrom": 4,
+      "flyTo": 9
+      },
+      {
+        "name": "Petite nymphe au corps de feu",
+        "flyFrom": 4,
+        "flyTo": 8
+    },
+    {
+      "name": "Leste vert",
+      "flyFrom": 6,
+      "flyTo": 10
+      },
+      {
+        "name": "Cordulie",
+        "flyFrom": 4,
+        "flyTo": 9
+    }
+      ],
+      "pictures":[
+          "photo1.jpg",
+          "photo2.jpg"
+      ],
+      "pathKML": "jardinBotanique.kml",
+      "pointsKML": "jardinBotaniquePoints.kml",
+      "coords": [46.224421, 6.147599]
+  },
+  {
+    "id": 2,
+    "name": "Teppes de Verbois",
+    "preview": "teppes-verbois.png",
+    "duration": "1h15",
+    "diversity": 2,
+    "difficulty": 1,
+    "length": 3.1,
+    "description": "",
+    "species": [
+      {
+        "name": "Anax empereur",
+        "flyFrom": 6,
+        "flyTo": 10
+      },
+      {
+        "name": "Agrion",
+        "flyFrom": 5,
+        "flyTo": 9
+      },
+      {
+        "name": "Naïade au corps vert",
+        "flyFrom": 5,
+        "flyTo": 9
+    },
+    {
+      "name": "Sympétrum",
+      "flyFrom": 5,
+      "flyTo": 10
+  },
+  {
+    "name": "Libellule déprimée",
+    "flyFrom": 4,
+    "flyTo": 9
+    },
+    {
+      "name": "Petite nymphe au corps de feu",
+      "flyFrom": 4,
+      "flyTo": 8
+  },
+  {
+    "name": "Leste vert",
+    "flyFrom": 6,
+    "flyTo": 10
+    },
+    {
+      "name": "Cordulie",
+      "flyFrom": 4,
+      "flyTo": 9
+  }
+    ],
+    "pictures":[
+        "photo1.jpg",
+        "photo2.jpg"
+    ],
+    "pathKML": "teppesAllondon.kml",
+    "pointsKML": "teppesAllondonPoints.kml",
+    "coords": [46.18753, 6.01764]
+}
+],
+"criteria": [
+    {
+      "name": "Couleur(s) principale(s) de la libellule",
+      "values":[
+        {
+          "name": "Vert foncé métallisé",
+          "icon": "vert_fonce.png"
+        },
+        {
+          "name": "Bleu foncé métallisé",
+          "icon": "bleu_fonce.png"
+        },
+        {
+          "name": "Vert foncé métallisé - bleu clair",
+          "icon": "vert_fonce_bleu.png"
+        },
+        {
+          "name": "Vert foncé métallisé - bronze",
+          "icon": "vert_fonce_bronze.png"
+        },
+        {
+          "name": "Beige - noir",
+          "icon": "beige_noir.png"
+        },
+        {
+          "name": "Bleu clair",
+          "icon": "bleu_clair.png"
+        },
+        {
+          "name": "Bleu clair - noir",
+          "icon": "bleu_clair_noir.png"
+        },
+        {
+          "name": "blanc - noir",
+          "icon": "blanc_noir.png"
+        },
+        {
+          "name": "Vert pomme - noir",
+          "icon": "vert_pomme_noir.png"
+        },
+        {
+          "name": "Rouge",
+          "icon": "rouge.png"
+        },
+        {
+          "name": "Rouge écarlate",
+          "icon": "rouge_ecarlatte.png"
+        },
+        {
+          "name": "Rouge - noir",
+          "icon": "rouge_noir.png"
+        },
+        {
+          "name": "Violet - rose",
+          "icon": "violet_rose.png"
+        },
+        {
+          "name": "Brun orangé",
+          "icon": "brun_orange.png"
+        },
+        {
+          "name": "Brun foncé",
+          "icon": "brun_fonce.png"
+        },
+        {
+          "name": "Jaune - noir",
+          "icon": "jaune_noir.png"
+        },
+        {
+          "name": "Sombre - noir",
+          "icon": "noir.png"
+        }
+      ]
+    },
+    {
+      "name": "Couleur des ailes",
+      "values":[
+        {
+          "name": "Transparentes",
+          "icon": "couleur01-01.png"
+        },
+        {
+          "name": "Entièrement sombres",
+          "icon": "couleur02-01.png"
+        },
+        {
+          "name": "Entièrement fumées",
+          "icon": "couleur07-01.png"
+        },
+        {
+          "name": "Bande colorée sombre",
+          "icon": "couleur03-01.png"
+        },
+        {
+          "name": "4 tâches supplémentaires sur les ailes avant et arrière",
+          "icon": "couleur04-01.png"
+        },
+        {
+          "name": "Taches jaunes à la base des ailes arrière",
+          "icon": "couleur05-01.png"
+        },
+        {
+          "name": "Tache sombre base ailes, avant et arrière",
+          "icon": "couleur06-01.png"
+        }
+      ]
+    },
+    {
+      "name": "Taille",
+      "values":[
+        {
+          "name": "Fine et petite (< 5cm)",
+          "icon": "taille-pte-01.png"
+        },
+        {
+          "name": "Large et moyenne (environ 5cm)",
+          "icon": "taille-moyenne-01.png"
+        },
+        {
+          "name": "Fine et grande (> 5cm)",
+          "icon": "taille-gde-01bis.png"
+        }
+      ]
+    },
+    {
+      "name": "Position observée",
+      "values":[
+        {
+          "name": "Posée, à plat sur une feuille",
+          "icon": "position-feuille-01.png"
+        },
+        {
+          "name": "Posée, à plat sur le sol ou sur un support horizontal",
+          "icon": "position-sol-01.png"
+        },
+        {
+          "name": "Accrochée, le corps dirigé vers le bas",
+          "icon": "position-bas-01.png"
+        },
+        {
+          "name": "Accrochée, le corps dirigé vers le haut",
+          "icon": "position-haut-01.png"
+        },
+        {
+          "name": "Accrochée, le corps horizontal",
+          "icon": "position-hor-01.png"
+        },
+        {
+          "name": "En vol constant",
+          "icon": "position-vol-01.png"
+        }
+      ]
+    },
+    {
+      "name": "Ouverture des ailes au repos",
+      "values":[
+        {
+          "name": "Fermées",
+          "icon": "positionailes02-01.png"
+        },
+        {
+          "name": "Partiellement ouvertes",
+          "icon": "positionailes03-01.png"
+        },
+        {
+          "name": "Ouvertes",
+          "icon": "positionailes01-01.png"
+        }
+      ]
+    },
+    {
+        "name": "Zones courantes ou stagnantes",
+        "values": [
+            {
+                "name": "Courant",
+                "icon": "eaux-courantes-01.png"
+            },
+            {
+                "name": "Zones courantes et stagnantes",
+                "icon": "eaux-semi-01.png"
+            },
+            {
+                "name": "Stagnant",
+                "icon": "eaux-stagnantes-01.png"
+            }
+        ]
+    },
+    {
+      "name": "Taille du milieu aquatique",
+      "values":[
+        {
+          "name": "Mare ou ruisseau",
+          "icon": "taillemilieupetitbis-01.png"
+        },
+        {
+          "name": "Étang ou rivière",
+          "icon": "taillemilieumoybis-01.png"
+        },
+        {
+          "name": "Lac ou fleuve",
+          "icon": "taillemilieugd-01.png"
+        }
+      ]
+    },
+    {
+      "name": "Quantité de libellules identiques",
+      "values":[
+      {
+          "name": "Un seul individu",
+          "icon": "nb-ind-seul-01.png"
+      },
+        {
+            "name": "Rares individus",
+            "icon": "nb-ind-rares-01.png"
+        },
+        {
+          "name": "Nombreux",
+          "icon": "nb-ind-nombreux-01.png"
+        }
+      ]
+    },
+    {
+      "name": "Dessins sur le corps",
+      "values":[
+        {
+          "name": "Uni",
+          "icon": "dessins-aucun-01bis.png"
+        },
+        {
+          "name": "Tache plus claire à l'avant",
+          "icon": "dessins-tacheavclaire-01bis.png"
+        },
+        {
+          "name": "Tache plus claire à l'arrière",
+          "icon": "dessins-tachearrclaire-01bis.png"
+        },
+        {
+          "name": "Tache plus foncée à l'arrière",
+          "icon": "dessins-tachearrfoncee-01bis.png"
+        },
+        {
+           "name": "Foncé avec taches claires \"paired\"",
+           "icon": "dessins-taches-01bis.png"
+        },
+        {
+          "name": "Rayures plus ou moins homogènes",
+          "icon": "dessins-rayures-01bis.png"
+        },
+        {
+          "name": "Ligne dorsale foncée",
+          "icon": "dessins-lignefoncee-01bis.png"
+        },
+        {
+          "name": "Ligne dorsale claire",
+          "icon": "dessins-ligneclaire-01bis.png"
+        }
+      ]
+    },
+    {
+      "name": "Yeux rouges à rougeâtres",
+      "values":[
+        {
+          "name": "Oui",
+          "icon": "yeux-rouges.png"
+        },
+        {
+          "name": "Non",
+          "icon": "yeux-rouges-non.png"
+        }
+      ]
+    },
+    {
+      "name": "Pattes rouges à rougeâtres",
+      "values":[
+        {
+          "name": "Oui",
+          "icon": "pattes-rouges.png"
+        },
+        {
+          "name": "Non",
+          "icon": "pattes-rouges-non.png"
+        }
+      ]
+    },
+    {
+      "name": "Vol surtout à l'ombre",
+      "values":[
+        {
+          "name": "Oui",
+          "icon": "oui-01.png"
+        },
+        {
+          "name": "Non",
+          "icon": "non-01.png"
+        }
+      ]
+    },
+    {
+      "name": "Petite zone rectangulaire des ailes bicolore",
+      "values":[
+        {
+          "name": "Bicolore (sombre - blanc)",
+          "icon": "ptero-bicolores-01.png"
+          },
+          {
+            "name": "Non",
+            "icon": "ptero-bicolores-non-01.png"
+          }
+      ]
+    },
+    {
+      "name": "Extrémité du corps blanche",
+      "values":[
+        {
+          "name": "Oui",
+          "icon": "queueblanche-oui-01.png"
+        },
+        {
+          "name": "Non",
+          "icon": "queueblanche-non-01.png"
+        }
+      ]
+    }
+  ]
+}
