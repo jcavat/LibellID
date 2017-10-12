@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.ionicframework.libellulID" version="0.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Libellul'ID</name>
+    <name>Libellul\'ID</name>
     <description>Identifier des libellules et parcourir des itinéraires didactiques</description>
     <author email="hepia@hesge.ch" href="http://hepia.hesge.ch/">hepia</author>
     <content src="index.html" />
@@ -102,5 +102,5 @@
     <allow-navigation href="http://10.136.41.10:8100" />
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
     <plugin name="com.megster.cordova.FileChooser" spec="https://github.com/don/cordova-filechooser.git" />
-    <engine name="android" spec="~6.0.0" />
+    <engine name="android" spec="~5.2.2" />
 </widget>
