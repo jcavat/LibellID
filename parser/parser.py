@@ -11,7 +11,7 @@ class Color:
 
 
 #Open JSON File
-with open('src/assets/data/libellID.json') as data_file:
+with open('./src/assets/data/libellID.json') as data_file:
     data = json.load(data_file)
 
 #Length of criterias

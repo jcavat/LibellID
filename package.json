@@ -6,7 +6,8 @@
   "scripts": {
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve",
-    "test": "karma start karma.conf.js"
+    "test": "karma start karma.conf.js",
+    "parser": "python parser/parser.py"
   },
   "dependencies": {
     "@angular/common": "4.1.2",
@@ -30,6 +31,7 @@
     "ionic-native": "2.9.0",
     "ionicons": "3.0.0",
     "openlayers": "4.2.0",
+    "python-shell": "^0.4.0",
     "rxjs": "5.1.1",
     "sw-toolbox": "3.4.0",
     "typescript": "^2.3.4",
