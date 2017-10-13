@@ -42,6 +42,8 @@ for dragonflie in dragonflies:
                 print(Color.BLUE+"Dragonflies "+dragonflieName+":"+Color.RED+" Warning, criteria "+ Color.YELLOW + str(idx)+'.'+criterias[idx]['name'] + Color.RED +" is too high\r\n")
                 nbError=nbError+1
 if nbError>0:
-    print(Color.RED+"They are "+str(nbError)+" warning")
+    print(Color.RED+"They are "+str(nbError)+" warning in libellID.json")
+    exit(1) #exit with error
 else:
-    print(Color.GREEN+"No warning! :)")
+    print(Color.GREEN+"No warning in libellID.json! :)")
+    exit(0) #exit without any error
