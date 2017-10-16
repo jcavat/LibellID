@@ -9,19 +9,32 @@
 <ion-content padding>
     <ion-list>
         <ion-item>
-            <ion-label color="primary">Nom de la libélule</ion-label>
+            <ion-label color="primary">Espèce-Taxon</ion-label>
             <ion-input placeholder="Text Input"></ion-input>
         </ion-item>
         <ion-item>
-            <ion-label color="primary">Lieu</ion-label>
-            <ion-input placeholder="Text Input"></ion-input>
-        </ion-item>
-        <ion-item>
-            <ion-label color="primary">Commentaire</ion-label>
+            <ion-label color="primary">Utilisateur</ion-label>
             <ion-input placeholder="Text Input"></ion-input>
         </ion-item>
 
-        <img src={{imageFile}} >
+        <ion-item>
+            <ion-label color="primary">Nombre d'individus</ion-label>
+            <ion-input type="number" min="0"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label color="primary">Méthode</ion-label>
+            <ion-input placeholder="Text Input"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label color="primary">Mail Utilisateur</ion-label>
+            <ion-input placeholder="Email Input"></ion-input>
+        </ion-item>
+
+        <div class="centerContent">
+            <img src={{imageFile}} >
+        </div>
 
         <button ion-button block color="secondary" item-center (click)="takePicture()">
             <ion-icon name="camera"></ion-icon>
