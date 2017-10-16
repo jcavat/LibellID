@@ -103,4 +103,5 @@
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
     <plugin name="com.megster.cordova.FileChooser" spec="https://github.com/don/cordova-filechooser.git" />
     <engine name="android" spec="~5.2.2" />
+    <plugin name="cordova-plugin-advanced-http" spec="~1.6.1" />
 </widget>

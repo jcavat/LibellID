@@ -23,6 +23,7 @@
     "@ionic-native/core": "^3.12.1",
     "@ionic-native/file": "^3.9.2",
     "@ionic-native/file-chooser": "^3.12.1",
+    "@ionic-native/http": "^4.3.1",
     "@ionic-native/vibration": "^3.12.1",
     "@ionic/storage": "2.0.0",
     "@types/cordova-plugin-network-information": "0.0.3",
