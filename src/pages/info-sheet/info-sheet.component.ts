@@ -25,9 +25,7 @@ export class InfoSheetPage {
         });
   }
   private openPage(d:Dragonfly):void{
-      if(!d.description.toString().startsWith('Lorem ipsum')){
           this.navCtrl.push(DragonflyPage, {dragonfly: d, criteria: null});
-      }
   }
 
 }

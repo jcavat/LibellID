@@ -69,8 +69,6 @@ export class IdentifyResultPage {
   }
 
   private openPage(d:Dragonfly, c):void{
-      if(!d.description.toString().startsWith('Lorem ipsum')){
-          this.navCtrl.push(DragonflyPage, {dragonfly: d, criteria: c});
-      }
+    this.navCtrl.push(DragonflyPage, {dragonfly: d, criteria: c});
   }
 }
