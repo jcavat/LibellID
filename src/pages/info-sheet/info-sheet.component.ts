@@ -12,12 +12,12 @@ import {Dragonfly} from '../../app/classes/dragonfly/dragonfly';
 })
 export class InfoSheetPage {
   private dragonfliesData: Dragonfly[];
-  private checked:Boolean=false;
 
   constructor(private navCtrl: NavController, private jsonDataService: JsonDataService) {
+    this.loadData();
   }
   ionViewDidLoad() {
-    this.loadData();
+    
   }
 
   private loadData():void{

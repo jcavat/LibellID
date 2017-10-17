@@ -12,6 +12,7 @@ import { HTTP } from '@ionic-native/http';
 })
 export class ObservationInputPage {
   private dragonfly: Dragonfly;
+  private dragonflyName: string;
 
   public imageFile: string;
   imageNamePath: string;
@@ -26,9 +27,11 @@ export class ObservationInputPage {
     this.dragonfly = navParams.get("dragonfly");
   }
   ionViewWillEnter(){
+    this.dragonflyName = "";
     if(this.dragonfly){
-      console.log(this.dragonfly.commonName);
+      this.dragonflyName = this.dragonfly.commonName.toString();
     }
+
     this.imageFile = "./assets/img/camera.png";
     this.date=Utils.getCurrentDatetime('dd/MM/y')
   }
