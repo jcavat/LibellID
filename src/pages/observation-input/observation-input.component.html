@@ -9,32 +9,46 @@
 <ion-content padding>
     <ion-list>
         <ion-item>
-            <ion-label color="primary">Espèce-Taxon</ion-label>
-            <ion-input placeholder="Text Input"></ion-input>
+            <ion-label color="primary">Espèce observée</ion-label>
+            <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label color="primary">Label</ion-label>
+            <ion-input type="text" value="Libellulid" disabled></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label color="primary">Date</ion-label>
+            <ion-input type="text" value="{{date}}" disabled></ion-input>
         </ion-item>
         <ion-item>
             <ion-label color="primary">Utilisateur</ion-label>
-            <ion-input placeholder="Text Input"></ion-input>
+            <ion-input type="text"></ion-input>
         </ion-item>
 
         <ion-item>
+            <ion-label color="primary">Nombre d'individus inconnu</ion-label>
+            <ion-checkbox color="secondary" [(ngModel)]="checked" checked="false" item-right></ion-checkbox>
+          </ion-item>
+        <ion-item *ngIf="!checked">
             <ion-label color="primary">Nombre d'individus</ion-label>
             <ion-input type="number" min="0"></ion-input>
         </ion-item>
 
         <ion-item>
-            <ion-label color="primary">Méthode</ion-label>
-            <ion-input placeholder="Text Input"></ion-input>
+            <ion-label color="primary">Email de l'utilisateur</ion-label>
+            <ion-input type="email"></ion-input>
+            
         </ion-item>
-
+        <ion-label text-wrap small color="danger"> 
+            L'adresse mail de l'utilisateur est nécessaire pour la vérification éventuelle des données, mais ne sera pas utilisé à d'autres fins.
+        </ion-label>
+        
         <ion-item>
-            <ion-label color="primary">Mail Utilisateur</ion-label>
-            <ion-input placeholder="Email Input"></ion-input>
+            <div class="centerContent">
+                <img src={{imageFile}} >
+            </div>
         </ion-item>
-
-        <div class="centerContent">
-            <img src={{imageFile}} >
-        </div>
+        
 
         <button ion-button block color="secondary" item-center (click)="takePicture()">
             <ion-icon name="camera"></ion-icon>

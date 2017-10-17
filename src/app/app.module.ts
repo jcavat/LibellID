@@ -30,6 +30,7 @@ import {DragonflyPicturesTabPage} from '../pages/dragonfly/dragonfly-tabs/dragon
 import {DragonflyInfoTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-info-tab/dragonfly-info-tab.component';
 import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonfly-tabs/dragonfly-distribution-tab/dragonfly-distribution-tab.component';
 import { File } from '@ionic-native/file';
+import { HTTP } from '@ionic-native/http';
 import {IonicStorageModule} from '@ionic/storage';
 import {Utils} from '../providers/utils';
 
@@ -97,6 +98,7 @@ import {Utils} from '../providers/utils';
     Camera,
     JsonDataService,
     File,
+    HTTP,
     Utils
   ]
 })

@@ -4,6 +4,7 @@ import { NavController, NavParams } from 'ionic-angular';
 import { Dragonfly } from '../../app/classes/dragonfly/dragonfly';
 import { Camera } from '@ionic-native/camera';
 import { Utils } from '../../providers/utils';
+import { HTTP } from '@ionic-native/http';
 
 
 @Component({
@@ -20,14 +21,15 @@ export class ObservationInputPage {
 
   constructor(private camera: Camera,
               private navCtrl: NavController, 
-              private navParams: NavParams) {
+              private navParams: NavParams,
+              private http: HTTP) {
     this.dragonfly = navParams.get("dragonfly");
   }
   ionViewWillEnter(){
     if(this.dragonfly){
       console.log(this.dragonfly.commonName);
     }
-    this.imageFile = "./assets/img/aeshna_affinis.jpg";
+    this.imageFile = "./assets/img/camera.png";
     this.date=Utils.getCurrentDatetime('dd/MM/y')
   }
 
@@ -48,6 +50,24 @@ export class ObservationInputPage {
       
     }, (err) => {
     });
+  }
+
+  addObservation(){
+    /*this.http.get('http://ionic.io', {}, {})
+    .then(data => {
+  
+      console.log(data.status);
+      console.log(data.data); // data received by server
+      console.log(data.headers);
+  
+    })
+    .catch(error => {
+  
+      console.log(error.status);
+      console.log(error.error); // error message as string
+      console.log(error.headers);
+  
+    });*/
   }
 
 }
