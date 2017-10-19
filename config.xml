@@ -104,4 +104,7 @@
     <plugin name="com.megster.cordova.FileChooser" spec="https://github.com/don/cordova-filechooser.git" />
     <engine name="android" spec="~5.2.2" />
     <plugin name="cordova-plugin-advanced-http" spec="~1.6.1" />
+    <plugin name="cordova-plugin-geolocation" spec="~2.4.3">
+        <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="To locate you" />
+    </plugin>
 </widget>

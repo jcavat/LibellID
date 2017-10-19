@@ -6,6 +6,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule} from '@angular/http';
 
 import { Camera } from '@ionic-native/camera';
+import { Geolocation } from '@ionic-native/geolocation';
 import {JsonDataService} from '../providers/data-json.service';
 import { HomePage } from '../pages/home/home.component';
 import {OtherPage} from '../pages/other/other.component'
@@ -96,6 +97,7 @@ import {Utils} from '../providers/utils';
   ],
   providers: [
     Camera,
+    Geolocation,
     JsonDataService,
     File,
     HTTP,
