@@ -12,5 +12,10 @@ ionic run android --livereload (for emulator)
 OR
 ionic run android --device (for connected device)
 ```
+## Run parser for libellID.json
+
+`npm run-script parser`
+
+
 ## License
 
