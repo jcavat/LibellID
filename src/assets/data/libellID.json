@@ -1,4 +1,4 @@
- {
+{
   "dragonflies": [
   {
     "commonName": "Aeschne bleue",
@@ -9,7 +9,7 @@
         "license": "CC BY"
     },
     "criteria": [
-      [6,7],
+      [9,11],
       [0],
       [2],
       [2,5],
@@ -17,7 +17,7 @@
       [1,2],
       [0,1],
       [0,1],
-      [4],
+      [4,5],
       [1],
       [1],
       [0],
@@ -41,14 +41,14 @@
     ],
     "behavior": "<ul><li>Vole volontiers à l'ombre</li><li>Parcourt tout l'étang, volant souvent bas</li><li>Régulièrement observée loin de l'eau, dans les lisières et les prairies et près des habitations</li><li>Pond toujours seule</li><li>Généralement des individus isolés, supporte mal la concurrence</li><li>Très peu exigeante: s'adapte à tous les milieux</li></ul>",
     "flyPeriod": [
-        0,
-        0,
-        0.3,
-        0.6,
-        0.9,
-        0.6,
-        0.6,
-        0.3
+        [0,0,0,0],
+        [0,0,0,0],
+        [0.3,0.3,0.3,0.3],
+        [0.6,0.6,0.6,0.9],
+        [0.9,0.9,0.9,0.6],
+        [0.6,0.6,0.6,0.6],
+        [0.6,0.6,0.6,0.3],
+        [0.3,0.3,0,0]
     ],
     "anecdote": "L'Aeschne bleue est une libellule peu farouche et tout terrain que l'on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d'altitudes. Curieuse, elle peut s'approcher et fondre sur les observateurs lorsqu'elle chasse.<br><br>La larve de l'Aeshne bleue est très efficace pour contrôler la prolifération des moustiques dans les bassins et les petites mares.",
     "threat": "L'Aeshne bleue n'est pas menacée en Suisse",
@@ -63,7 +63,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [14],
+    [5],
     [2],
     [2],
     [2,5],
@@ -95,14 +95,14 @@
   ],
   "behavior": "<ul><li>Vole volontiers à l'ombre et au crépuscule</li><li>Peu territoriale: parcourt tout l'étang, vole souvent bas</li><li> Régulièrement observée loin de l'eau</li><li>Pond toujours seule</li><li>Généralement des individus isolés</li><li>Très peu exigeante: s'adapte à tous les milieux, supporte mal la concurrence</li></ul>",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0,0],
+        [0,0,0,0],
+        [0.3,0.3,0.3,0.3],
+        [0.6,0.6,0.6,0.9],
+        [0.9,0.9,0.9,0.6],
+        [0.6,0.6,0.6,0.3],
+        [0.3,0.3,0.3,0],
+        [0,0,0,0]
   ],
   "anecdote": "L'aeshne bleue est une libellule peu farouche et tout terrain que l'on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d'altitudes. Curieuse, elle peut s'approcher et fondre sur les observateurs lorsqu'elle chasse.<br><br>Elle pond aussi dans les endroits les plus variés, même a priori peu favorables. Il existe ainsi de nombreux rapports de femelles qui tentent de pondre sur les habits, filets ou bottes de leurs observateurs.",
   "threat": "L'aeshne bleue n'est pas menacée en Suisse",
@@ -117,7 +117,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [13],
+    [12],
     [0],
     [2],
     [2,5],
@@ -149,14 +149,14 @@
   ],
   "behavior": "<ul><li>Vole volontiers à l'ombre et au crépuscule</li><li>Peu territoriale: parcourt tout l'étang, vole souvent bas</li><li> Régulièrement observée loin de l'eau</li><li>Pond toujours seule</li><li>Généralement des individus isolés</li><li>Très peu exigeante: s'adapte à tous les milieux, supporte mal la concurrence</li></ul>",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0,0],
+        [0.3,0.3,0.6,0.6],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.6,0.6,0.6],
+        [0.3,0.3,0.3,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "L'aeshne bleue est une libellule peu farouche et tout terrain que l'on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d'altitudes. Curieuse, elle peut s'approcher et fondre sur les observateurs lorsqu'elle chasse.<br><br>Elle pond aussi dans les endroits les plus variés, même a priori peu favorables. Il existe ainsi de nombreux rapports de femelles qui tentent de pondre sur les habits, filets ou bottes de leurs observateurs.",
   "threat": "L'aeshne bleue n'est pas menacée en Suisse",
@@ -171,7 +171,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [6],
+    [9],
     [0],
     [2],
     [2,5],
@@ -179,7 +179,7 @@
     [1,2],
     [0,1,2],
     [0,1],
-    [4],
+    [4,5],
     [1],
     [1],
     [1],
@@ -203,14 +203,14 @@
   ],
   "behavior": "<ul><li>Vole volontiers à l'ombre et au crépuscule</li><li>Peu territoriale: parcourt tout l'étang, vole souvent bas</li><li> Régulièrement observée loin de l'eau</li><li>Pond toujours seule</li><li>Généralement des individus isolés</li><li>Très peu exigeante: s'adapte à tous les milieux, supporte mal la concurrence</li></ul>",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0,0],
+        [0,0,0,0],
+        [0.3,0.3,0.3,0.3],
+        [0.6,0.6,0.9,0.9],
+        [0.9,0.9,0.6,0.6],
+        [0.6,0.6,0.3,0.3],
+        [0.3,0.3,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "L'aeshne bleue est une libellule peu farouche et tout terrain que l'on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d'altitudes. Curieuse, elle peut s'approcher et fondre sur les observateurs lorsqu'elle chasse.<br><br>Elle pond aussi dans les endroits les plus variés, même a priori peu favorables. Il existe ainsi de nombreux rapports de femelles qui tentent de pondre sur les habits, filets ou bottes de leurs observateurs.",
   "threat": "L'aeshne bleue n'est pas menacée en Suisse",
@@ -225,7 +225,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [5,6],
+    [8,9],
     [0],
     [2],
     [2,5],
@@ -256,14 +256,14 @@
   ],
   "behavior": "<ul><li>Se pose rarement</li><li>S'observe généralement en vol nettement au-dessus de la surface de l'eau (entre 2 et 4m de hauteur)</li><li>Mâle très territorial, patrouille inlassablement son territoire</li></ul>",
   "flyPeriod": [
-      0,
-      0.3,
-      0.9,
-      0.9,
-      0.6,
-      0.3,
-      0,
-      0
+        [0,0,0,0],
+        [0.3,0.3,0.6,0.6],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.6,0.6],
+        [0.3,0.3,0.3,0.3],
+        [0,0,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "On peut assister à de bruyants combats aériens lorsque les Anax chassent les intrus de leur territoire. Il n'est pas rare de voir en fin de saison des Anax aux ailes très abîmées par les luttes incessantes.<br><br>Contrairement aux autres Anax, la femelle de l'Anax empereur pont seule, sans surveillance par le mâle. Elle pond dans les plantes affleurant à la surface de l'eau. Lorsqu'elle est en train de pondre, elle se déplace courbée avec l'extrémité du corps vers le bas pour indiquer qu'elle n'est pas disponible pour s'accoupler.",
   "threat": "L'Anax empereur n'est pas menacé en Suisse",
@@ -278,7 +278,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [6],
+    [9],
     [0],
     [2],
     [2,5],
@@ -308,21 +308,21 @@
   ],
   "behavior": "<ul><li>Se pose rarement</li><li>Vole devant les ceintures de roseaux ou au-dessus de l'eau ou des plantes flottantes</li><li>Assez farouche, moins facile à voir que l'Anax empereur</li><li>Très agressif envers les autres libellules</li><li>Pond en tandem : le mâle agrippe la femelle derrière la tête pendant la ponte</li></ul>",
   "flyPeriod": [
-      0,
-      0.3,
-      0.9,
-      0.9,
-      0.6,
-      0.3,
-      0,
-      0
+        [0,0,0,0],
+        [0.3,0.3,0.6,0.6],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.6,0.6],
+        [0.3,0.3,0.3,0.3],
+        [0,0,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "L'Anax napolitain aime les eaux stagnantes ensoleillées surtout si elles sont riches en végétation aquatique et entourées d'une ceinture de végétation (roseaux, massettes,…).Encore rare il y a quelques années, l'Anax napolitain est de plus en plus fréquent en Suisse romande sous l'effet du réchauffement climatique.",
   "threat": "L'aeshne bleue n'est pas menacée en Suisse",
   "distributionMap": "repartition-anax-parthenope.png"
 },
 {
-  "commonName": "Aeshne velue",
+  "commonName": "Aeschne velue",
   "latinName": "Brachytron pratense",
   "headerPicture": {
       "url": "brachytron_pratense.jpg",
@@ -330,7 +330,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [6],
+    [9],
     [0],
     [1,2],
     [2,5],
@@ -338,7 +338,7 @@
     [0,1,2],
     [0,1],
     [0,1],
-    [4],
+    [4,5],
     [1],
     [1],
     [1],
@@ -362,14 +362,14 @@
   ],
   "behavior": "<ul><li>Vole volontiers à l'ombre et au crépuscule</li><li>Peu territoriale: parcourt tout l'étang, vole souvent bas</li><li> Régulièrement observée loin de l'eau</li><li>Pond toujours seule</li><li>Généralement des individus isolés</li><li>Très peu exigeante: s'adapte à tous les milieux, supporte mal la concurrence</li></ul>",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0.3,0.3],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.6,0.6],
+        [0.3,0.3,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "L'aeshne bleue est une libellule peu farouche et tout terrain que l'on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d'altitudes. Curieuse, elle peut s'approcher et fondre sur les observateurs lorsqu'elle chasse.<br><br>Elle pond aussi dans les endroits les plus variés, même a priori peu favorables. Il existe ainsi de nombreux rapports de femelles qui tentent de pondre sur les habits, filets ou bottes de leurs observateurs.",
   "threat": "L'aeshne bleue n'est pas menacée en Suisse",
@@ -384,11 +384,11 @@
         "license": "CC BY"
     },
     "criteria": [
-      [0,1,16],
-      [2,3],
+      [0,1],
+      [3],
       [0],
-      [0,2,3,4,5],
-      [0,1,2],
+      [0,2,3,4],
+      [0,1],
       [0,1],
       [0,1,2],
       [0,1,2],
@@ -414,14 +414,14 @@
     ],
     "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
     "flyPeriod": [
-        0.3,
-        0.6,
-        1,
-        1,
-        1,
-        1,
-        0.6,
-        0.3
+        [0,0,0.3,0.3],
+        [0.3,0.3,0.3,0.3],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.6,0.6,0.3,0.3],
+        [0,0,0,0],
+        [0,0,0,0]
     ],
     "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
     "threat": "Menacé, ou pas",
@@ -436,11 +436,11 @@
       "license": "CC BY"
   },
   "criteria": [
-    [0,1,16],
-    [1,2],
+    [0,1],
     [1],
-    [0,2,3,4,5],
-    [0,1,2],
+    [0],
+    [0,2,3,4],
+    [0,1],
     [0,1],
     [0,1],
     [0,1,2],
@@ -466,14 +466,14 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0.3,0.3],
+        [0,3,0.3,0.3,0.3],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.6,0.6],
+        [0.3,0.3,0.3,0.3],
+        [0.3,0.3,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
@@ -488,7 +488,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [0,13,16],
+    [0,3],
     [0],
     [1],
     [2,5],
@@ -518,14 +518,14 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0.3,0.3],
+        [0.3,0.3,0.6,0.6],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.6,0.6,0.6],
+        [0.6,0.3,0.3,0.3],
+        [0.3,0.3,0,0],
+        [0,0,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
@@ -540,7 +540,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [0,13,16],
+    [0,3,6],
     [0],
     [1],
     [2,5],
@@ -551,7 +551,7 @@
     [0],
     [1],
     [1],
-    [0],
+    [0,1],
     [1],
     [1]
   ],
@@ -570,14 +570,14 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0.3,0.3],
+        [0.3,0.3,0.6,0.6],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.6],
+        [0.3,0.3,0.3,0.3],
+        [0.3,0.3,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
@@ -592,7 +592,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [6],
+    [9,10],
     [0],
     [0],
     [0,2,4],
@@ -622,14 +622,14 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0.3,0.3],
+        [0.6,0.6,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.6,0.6,0.3,0.3],
+        [0.3,0.3,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
@@ -644,7 +644,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [15],
+    [6],
     [0],
     [2],
     [2,5],
@@ -674,14 +674,14 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0,0],
+        [0,0.3,0.3,0.3],
+        [0.6,0.6,0.6,0.6],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.6,0.6,0.3,0.3],
+        [0.3,0.3,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
@@ -696,7 +696,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [15],
+    [6],
     [0],
     [2],
     [2,5],
@@ -726,29 +726,29 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0,0],
+        [0,0.3,0.3,0.3],
+        [0.6,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.6,0.6,0.3,0.3],
+        [0.3,0.3,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
   "distributionMap": "carte.png"
 },
 {
-  "commonName": "Crocothémis écarlate",
-  "latinName": "Crocothemis erythrea",
+  "commonName": "Libellule écarlate",
+  "latinName": "Crocothemis erythraea",
   "headerPicture": {
       "url": "crocothemis_erythraea.jpg",
       "author": "Test",
       "license": "CC BY"
   },
   "criteria": [
-    [9,10],
+    [13],
     [0,5],
     [1],
     [2,3,4],
@@ -778,14 +778,14 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0,0],
+        [0.3,0.3,0.6,0.6],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.6,0.6,0.6],
+        [0.3,0.3,0.3,0.3],
+        [0.3,0.3,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
@@ -800,7 +800,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [6],
+    [9],
     [0],
     [0],
     [0,2,4],
@@ -830,14 +830,14 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0,0],
+        [0.3,0.3,0.3,0.3],
+        [0.6,0.6,0.6,0.6],
+        [0.6,0.6,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.6,0.3,0.3,0.3],
+        [0,0,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
@@ -852,7 +852,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [6],
+    [9],
     [0],
     [0],
     [0,2,4],
@@ -882,14 +882,14 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0,0.3],
+        [0.6,0.6,0.6,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.6,0.3,0.3,0.3],
+        [0,0,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
@@ -904,11 +904,11 @@
       "license": "CC BY"
   },
   "criteria": [
-    [0,16],
+    [0,3],
     [0],
     [0],
     [2,4],
-    [1,2],
+    [1],
     [1,2],
     [0,1],
     [0,1,2],
@@ -934,14 +934,14 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0,0],
+        [0,0,0.3,0.3],
+        [0.6,0.6,0.6,0.6],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.6,0.6],
+        [0.3,0.3,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
@@ -956,11 +956,11 @@
       "license": "CC BY"
   },
   "criteria": [
-    [2,6],
+    [2,3],
     [0],
     [0],
     [2,4],
-    [1,2],
+    [1],
     [1,2],
     [0,1],
     [0,1,2],
@@ -986,14 +986,14 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0,0],
+        [0,0,0.3,0.3],
+        [0.6,0.6,0.6,0.6],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.6,0.6,0.6,0.6],
+        [0.3,0.3,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
@@ -1008,11 +1008,11 @@
       "license": "CC BY"
   },
   "criteria": [
-    [0,16],
+    [0,3],
     [0],
     [0],
     [2,4],
-    [1,2],
+    [1],
     [1,2],
     [0,1],
     [0,1,2],
@@ -1038,14 +1038,14 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0,0],
+        [0,0,0,0.3],
+        [0.3,0.3,0.6,0.6],
+        [0.6,0.6,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.6,0.6,0.3,0.3],
+        [0.3,0.3,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
@@ -1060,7 +1060,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [4,6],
+    [8,9],
     [6],
     [1],
     [2],
@@ -1090,14 +1090,14 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0.3,0.3],
+        [0.6,0.6,0.6,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.6,0.6,0.6],
+        [0.3,0.3,0.3,0.3],
+        [0.3,0.3,0,0],
+        [0,0,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
@@ -1112,8 +1112,8 @@
         "license": "CC BY"
     },
     "criteria": [
-      [3,13,16],
-      [4,5],
+      [4,12],
+      [4],
       [1],
       [2],
       [2],
@@ -1142,21 +1142,21 @@
     ],
     "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
     "flyPeriod": [
-        0.3,
-        0.6,
-        1,
-        1,
-        1,
-        1,
-        0.6,
-        0.3
+        [0,0,0.3,0.3],
+        [0.6,0.6,0.6,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.6,0.6],
+        [0.6,0.3,0.3,0.3],
+        [0.3,0.3,0.3,0.3],
+        [0,0,0,0],
+        [0,0,0,0]
     ],
     "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
     "threat": "Menacé, ou pas",
     "distributionMap": "carte.png"
     },
     {
-      "commonName": "Orthetrum à stylets blancs",
+      "commonName": "Orthétrum à stylets blancs",
       "latinName": "Orthetrum albistylum",
       "headerPicture": {
           "url": "orthetrum_albistylum.jpg",
@@ -1164,7 +1164,7 @@
           "license": "CC BY"
       },
       "criteria": [
-        [6],
+        [9,10],
         [0],
         [1],
         [1,2],
@@ -1194,21 +1194,21 @@
       ],
       "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
       "flyPeriod": [
-          0.3,
-          0.6,
-          1,
-          1,
-          1,
-          1,
-          0.6,
-          0.3
+        [0,0,0,0],
+        [0.3,0.3,0.3,0.6],
+        [0.6,0.6,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.6,0.6],
+        [0.6,0.6,0.3,0.3],
+        [0,0,0,0],
+        [0,0,0,0]
       ],
       "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
       "threat": "Menacé, ou pas",
       "distributionMap": "carte.png"
   },
   {
-    "commonName": "Orthetrum réticulé",
+    "commonName": "Orthétrum réticulé",
     "latinName": "Orthetrum cancellatum",
     "headerPicture": {
         "url": "orthetrum_cancellatum.jpg",
@@ -1216,7 +1216,7 @@
         "license": "CC BY"
     },
     "criteria": [
-      [6],
+      [9,10],
       [0],
       [1],
       [1,2],
@@ -1246,21 +1246,21 @@
     ],
     "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
     "flyPeriod": [
-        0.3,
-        0.6,
-        1,
-        1,
-        1,
-        1,
-        0.6,
-        0.3
+        [0,0,0,0],
+        [0.3,0.3,0.3,0.6],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.6,0.6],
+        [0.3,0.3,0.3,0.3],
+        [0,0,0,0],
+        [0,0,0,0]
     ],
     "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
     "threat": "Menacé, ou pas",
     "distributionMap": "carte.png"
 },
 {
-  "commonName": "Orthetrum brun",
+  "commonName": "Orthétrum brun",
   "latinName": "Orthetrum brunneum",
   "headerPicture": {
       "url": "orthetrum_brunneum.jpg",
@@ -1268,7 +1268,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [5],
+    [8],
     [0],
     [1],
     [1,2],
@@ -1298,21 +1298,21 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0,0],
+        [0.3,0.3,0.3,0.6],
+        [0.6,0.6,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.6,0.6],
+        [0.3,0.3,0.3,0.3],
+        [0,0,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
   "distributionMap": "carte.png"
 },
 {
-  "commonName": "Nymphe au corps de feu",
+  "commonName": "Petite nymphe au corps de feu",
   "latinName": "Pyrrhosomma nymphula",
   "headerPicture": {
       "url": "pyrrhosoma_nymphula.jpg",
@@ -1320,7 +1320,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [9,11],
+    [13,14],
     [0],
     [0],
     [0,2,4],
@@ -1328,7 +1328,7 @@
     [1,2],
     [0,1],
     [0,1,2],
-    [3],
+    [0,3],
     [0],
     [1],
     [1],
@@ -1350,31 +1350,31 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0.3,0.3,0.3,0.3],
+        [0.6,0.6,0.6,0.6],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.6,0.6],
+        [0.6,0.6,0.3,0.3],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
   "distributionMap": "carte.png"
 },
 {
-  "commonName": "Sympetrums rouges",
-  "latinName": "Sympetrum sp.",
+  "commonName": "Sympétrums rouges",
+  "latinName": "",
   "headerPicture": {
       "url": "sympetrum_vulgatum.jpg",
       "author": "Test",
       "license": "CC BY"
   },
   "criteria": [
-    [9,11],
+    [13,14],
     [0,5],
-    [0],
+    [1],
     [1,2,3,4],
     [2],
     [1,2],
@@ -1402,14 +1402,14 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0,0],
+        [0.3,0.3,0.6,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.6,0.6,0.3,0.3],
+        [0.3,0.3,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
@@ -1424,9 +1424,9 @@
       "license": "CC BY"
   },
   "criteria": [
-    [9,11],
+    [15],
     [0,5],
-    [0],
+    [1],
     [2,3,4],
     [2],
     [1,2],
@@ -1454,14 +1454,14 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0,0],
+        [0.3,0.3,0.3,0.6],
+        [0.6,0.6,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.6,0.6],
+        [0.6,0.6,0.6,0.6],
+        [0.3,0.3,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
@@ -1476,7 +1476,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [15],
+    [6],
     [0],
     [1],
     [1,2,4,5],
@@ -1506,14 +1506,14 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0,0,0.3,0.3],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.3,0.3,0.3,0.3],
+        [0.3,0,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
@@ -1528,7 +1528,7 @@
       "license": "CC BY"
   },
   "criteria": [
-    [3],
+    [4],
     [0],
     [0],
     [0,2,4],
@@ -1558,14 +1558,120 @@
   ],
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
-      0.3,
-      0.6,
-      1,
-      1,
-      1,
-      1,
-      0.6,
-      0.3
+        [0.6,0.6,0.9,0.9],
+        [0.9,0.9,0.9,0.9],
+        [0.6,0.6,0.3,0.3],
+        [0.3,0.3,0.3,0.3],
+        [0.3,0.3,0.3,0.3],
+        [0.3,0.3,0.3,0.3],
+        [0.3,0.3,0.3,0.3],
+        [0.3,0.3,0.3,0.3]
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+
+{
+  "commonName": "Femelles ou immatures jaunes",
+  "latinName": "non-inclus",
+  "headerPicture": {
+      "url": "gomphus_vulgatissimus.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [6,7],
+    [0,5,6],
+    [1],
+    [0,1,2,3,4],
+    [2],
+    [0,1,2],
+    [0,1,2],
+    [0,1,2],
+    [0,5],
+    [0,1],
+    [1],
+    [1],
+    [1],
+    [0,1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+        [1,1,1,1],
+        [1,1,1,1],
+        [1,1,1,1],
+        [1,1,1,1],
+        [1,1,1,1],
+        [1,1,1,1],
+        [1,1,1,1],
+        [1,1,1,1]
+  ],
+  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "threat": "Menacé, ou pas",
+  "distributionMap": "carte.png"
+},
+
+{
+  "commonName": "Autres libellules",
+  "latinName": "non-incluses",
+  "headerPicture": {
+      "url": "gomphus_vulgatissimus.jpg",
+      "author": "Test",
+      "license": "CC BY"
+  },
+  "criteria": [
+    [6,9,10,14],
+    [0,6],
+    [1,2],
+    [0,1,2,3,4,5],
+    [2],
+    [1,2],
+    [0,1,2],
+    [0,1],
+    [0,3,4,5],
+    [0,1],
+    [1],
+    [1],
+    [1],
+    [1]
+  ],
+  "pictures": [
+      "photo1.jpg",
+      "photo2.jpg"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "habitats": [
+    "pounds-1",
+    "rivers-1",
+    "peatbog-1",
+    "ditch-1",
+    "temp-environment-0",
+    "lake-0"
+  ],
+  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "flyPeriod": [
+        [1,1,1,1],
+        [1,1,1,1],
+        [1,1,1,1],
+        [1,1,1,1],
+        [1,1,1,1],
+        [1,1,1,1],
+        [1,1,1,1],
+        [1,1,1,1]
   ],
   "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "threat": "Menacé, ou pas",
@@ -1694,7 +1800,7 @@
 ],
 "criteria": [
     {
-      "name": "Couleur(s) principale(s) de la libellule",
+      "name": "Couleur(s) principale(s) du corps",
       "values":[
         {
           "name": "Vert foncé métallisé",
@@ -1778,7 +1884,7 @@
           "icon": "couleur02-01.png"
         },
         {
-          "name": "Entièrement fumées",
+          "name": "Entièrement enfumées",
           "icon": "couleur07-01.png"
         },
         {
@@ -1846,7 +1952,7 @@
       ]
     },
     {
-      "name": "Ouverture des ailes au repos",
+      "name": "Ouverture des ailes quand posée",
       "values":[
         {
           "name": "Fermées",
