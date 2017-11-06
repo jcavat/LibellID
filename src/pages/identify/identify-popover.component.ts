@@ -9,7 +9,7 @@ import {ViewController, NavParams} from 'ionic-angular';
           <ion-checkbox (click)="this.dismiss()" [(ngModel)]="this.useDate"></ion-checkbox>
         </ion-item>
         <ion-item>
-          <ion-label>Filtrer par lieu</ion-label>
+          <ion-label>Filtrer par altitude</ion-label>
           <ion-checkbox (click)="this.dismiss()" [(ngModel)]="this.usePosition"></ion-checkbox>
         </ion-item>
     </ion-list>
