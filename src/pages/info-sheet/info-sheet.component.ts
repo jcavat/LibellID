@@ -24,12 +24,22 @@ export class InfoSheetPage {
       let that = this;
        this.jsonDataService.dragonflies().then(function(val){
            that.dragonfliesData = val as Dragonfly[];
+           that.dragonfliesData.sort(function compare(a, b) {
+            return that.alphabeticSort(a.commonName, b.commonName);
+          })
        }).catch(function(err){
            alert("Un problème est survenu")
         });
   }
   private openPage(d:Dragonfly):void{
           this.navCtrl.push(DragonflyPage, {dragonfly: d, criteria: null});
+  }
+
+  private alphabeticSort(a, b) {
+    if (a < b)
+      return -1;
+    if (a > b)
+      return 1;
   }
 
 }
