@@ -48,9 +48,9 @@ export class IdentifyResultPage {
 
       //sort with score
       that.dragonfliesDataSorted.sort(function (a, b) {
-        if (b[1] - a[1] != 0) {
+        if (b[1] - a[1] != 0) {//score are not equal=>sort by score
           return b[1] - a[1];
-        } else {
+        } else { //alpabetic sort
           return that.alphabeticSort(a[0].commonName, b[0].commonName);
         }
       });
