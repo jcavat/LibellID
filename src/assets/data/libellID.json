@@ -467,7 +467,7 @@
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
         [0,0,0.3,0.3],
-        [0,3,0.3,0.3,0.3],
+        [0,3,0.3,0.3],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.6,0.6],
@@ -1815,48 +1815,12 @@
           "icon": "vert_fonce_bleu.png"
         },
         {
-          "name": "Vert foncé métallisé - bronze",
+          "name": "Bronze",
           "icon": "vert_fonce_bronze.png"
         },
         {
           "name": "Beige - noir",
           "icon": "beige_noir.png"
-        },
-        {
-          "name": "Bleu clair",
-          "icon": "bleu_clair.png"
-        },
-        {
-          "name": "Bleu clair - noir",
-          "icon": "bleu_clair_noir.png"
-        },
-        {
-          "name": "blanc - noir",
-          "icon": "blanc_noir.png"
-        },
-        {
-          "name": "Vert pomme - noir",
-          "icon": "vert_pomme_noir.png"
-        },
-        {
-          "name": "Rouge",
-          "icon": "rouge.png"
-        },
-        {
-          "name": "Rouge écarlate",
-          "icon": "rouge_ecarlatte.png"
-        },
-        {
-          "name": "Rouge - noir",
-          "icon": "rouge_noir.png"
-        },
-        {
-          "name": "Violet - rose",
-          "icon": "violet_rose.png"
-        },
-        {
-          "name": "Brun orangé",
-          "icon": "brun_orange.png"
         },
         {
           "name": "Brun foncé",
@@ -1867,8 +1831,40 @@
           "icon": "jaune_noir.png"
         },
         {
-          "name": "Sombre - noir",
-          "icon": "noir.png"
+          "name": "Jaune",
+          "icon": "rouge_ecarlatte.png"
+        },
+        {
+          "name": "Bleu ciel",
+          "icon": "bleu_clair.png"
+        },
+        {
+          "name": "Bleu ciel - noir",
+          "icon": "bleu_clair_noir.png"
+        },
+        {
+          "name": "blanc - gris - noir",
+          "icon": "blanc_noir.png"
+        },
+        {
+          "name": "Vert pomme - noir",
+          "icon": "vert_pomme_noir.png"
+        },
+        {
+          "name": "Brun orangé",
+          "icon": "brun_orange.png"
+        },
+        {
+          "name": "Rouge",
+          "icon": "rouge.png"
+        },
+        {
+          "name": "Rouge - noir",
+          "icon": "rouge_noir.png"
+        },
+        {
+          "name": "Violet - rose",
+          "icon": "violet_rose.png"
         }
       ]
     },
