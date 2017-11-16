@@ -3,6 +3,9 @@
   {
     "commonName": "Aeschne bleue",
     "latinName": "Aeshna cyanea",
+	"altitude_level": [0,1],
+	"region": ["RO", "GE"],
+	"strong_criteria": [0,2,3,4,5,6,7,8,11],
     "headerPicture": {
         "url": "aeshna_cyanea.jpg",
         "author": "Test",
@@ -57,6 +60,9 @@
 {
   "commonName": "Aeschne grande",
   "latinName": "Aeshna grandis",
+  "altitude_level": [0,1],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,1,2,3,4,5,7],
   "headerPicture": {
       "url": "aeshna_grandis.jpg",
       "author": "Test",
@@ -111,6 +117,9 @@
 {
   "commonName": "Aeschne isocèle",
   "latinName": "Aeshna isoceles",
+  "altitude_level": [0,1],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,2,3,4,5,7],
   "headerPicture": {
       "url": "aeshna_isoceles.jpg",
       "author": "Test",
@@ -165,6 +174,9 @@
 {
   "commonName": "Aeschne des joncs",
   "latinName": "Aeshna juncea",
+  "altitude_level": [1,2],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,2,3,4,5,7,8],
   "headerPicture": {
       "url": "aeshna_juncea.jpg",
       "author": "Test",
@@ -219,6 +231,9 @@
 {
   "commonName": "Anax empereur",
   "latinName": "Anax imperator",
+  "altitude_level": [0,1],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,2,3,4,5,7,8],
   "headerPicture": {
       "url": "anax_imperator.jpg",
       "author": "Test",
@@ -272,6 +287,9 @@
 {
   "commonName": "Anax napolitain",
   "latinName": "Anax parthenope",
+  "altitude_level": [0,1],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,2,3,4,5,7,8],
   "headerPicture": {
       "url": "anax_parthenope.jpg",
       "author": "Test",
@@ -324,6 +342,9 @@
 {
   "commonName": "Aeschne velue",
   "latinName": "Brachytron pratense",
+  "altitude_level": [0,1],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,2,3,4,5,6,7,8],
   "headerPicture": {
       "url": "brachytron_pratense.jpg",
       "author": "Test",
@@ -378,6 +399,9 @@
   {
     "commonName": "Caloptéryx éclatant",
     "latinName": "Calopteryx splendens",
+	"altitude_level": [0,1],
+	"region": ["RO", "GE"],
+	"strong_criteria": [0,1,2,3,4,5,6],
     "headerPicture": {
         "url": "calopteryx_splendens.jpg",
         "author": "Test",
@@ -430,6 +454,9 @@
 {
   "commonName": "Caloptéryx vierge",
   "latinName": "Calopteryx virgo",
+  "altitude_level": [0,1],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,1,2,3,4,5,6],
   "headerPicture": {
       "url": "calopteryx_virgo.jpg",
       "author": "Test",
@@ -467,7 +494,7 @@
   "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
   "flyPeriod": [
         [0,0,0.3,0.3],
-        [0,3,0.3,0.3],
+        [0.3,0.3,0.3,0.3],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.6,0.6],
@@ -482,6 +509,9 @@
 {
   "commonName": "Cordulie bronzée",
   "latinName": "Cordulia aenea",
+  "altitude_level": [0,1],
+  "region": ["GE"],
+  "strong_criteria": [0,2,3,4,5,7,11],
   "headerPicture": {
       "url": "cordulia_aenea.jpg",
       "author": "Test",
@@ -534,6 +564,9 @@
 {
   "commonName": "Cordulies de plaine",
   "latinName": "",
+  "altitude_level": [0,1],
+  "region": ["RO"],
+  "strong_criteria": [0,2,3,4,5,7],
   "headerPicture": {
       "url": "cordulia_aenea.jpg",
       "author": "Test",
@@ -586,6 +619,9 @@
 {
   "commonName": "Agrions bleus",
   "latinName": "",
+  "altitude_level": [0,1,2],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,2,3,4,5,8],
   "headerPicture": {
       "url": "coenagrion_puella.jpg",
       "author": "Test",
@@ -638,6 +674,9 @@
 {
   "commonName": "Cordulégastre annelé",
   "latinName": "Cordulegaster boltonii",
+  "altitude_level": [0,1],
+  "region": ["GE"],
+  "strong_criteria": [0,2,3,4,5,6,8],
   "headerPicture": {
       "url": "cordulegaster_boltonii.jpg",
       "author": "Test",
@@ -690,6 +729,9 @@
 {
   "commonName": "Cordulégastres",
   "latinName": "",
+  "altitude_level": [0,1],
+  "region": ["RO"],
+  "strong_criteria": [0,2,3,4,5,6,8],
   "headerPicture": {
       "url": "cordulegaster_boltonii.jpg",
       "author": "Test",
@@ -742,6 +784,9 @@
 {
   "commonName": "Libellule écarlate",
   "latinName": "Crocothemis erythraea",
+  "altitude_level": [0,1],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,1,2,3,4,5,9,10],
   "headerPicture": {
       "url": "crocothemis_erythraea.jpg",
       "author": "Test",
@@ -794,6 +839,9 @@
 {
   "commonName": "Naïade au corps vert",
   "latinName": "Erythromma viridulum",
+  "altitude_level": [0,1],
+  "region": ["GE"],
+  "strong_criteria": [0,2,3,4,5,8,9],
   "headerPicture": {
       "url": "erythromma_viridulum.jpg",
       "author": "Test",
@@ -846,6 +894,9 @@
 {
   "commonName": "Naïades",
   "latinName": "Erythromma viridulum - Erythromma najas",
+  "altitude_level": [0,1],
+  "region": ["RO"],
+  "strong_criteria": [0,2,3,4,5,8,9],
   "headerPicture": {
       "url": "erythromma_viridulum.jpg",
       "author": "Test",
@@ -898,6 +949,9 @@
 {
   "commonName": "Leste barbare",
   "latinName": "Lestes barbarus",
+  "altitude_level": [0,1],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,2,3,4,5,7,12],
   "headerPicture": {
       "url": "lestes_barbarus.jpg",
       "author": "Test",
@@ -950,6 +1004,9 @@
 {
   "commonName": "Leste fiancé",
   "latinName": "Lestes sponsa",
+  "altitude_level": [0,1],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,2,3,4,5,7],
   "headerPicture": {
       "url": "lestes_sponsa.jpg",
       "author": "Test",
@@ -1002,6 +1059,9 @@
 {
   "commonName": "Leste vert",
   "latinName": "Chalcolestes viridis",
+  "altitude_level": [0,1],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,2,3,4,5,7],
   "headerPicture": {
       "url": "chalcolestes_viridis.jpg",
       "author": "Test",
@@ -1054,6 +1114,9 @@
 {
   "commonName": "Libellule déprimée",
   "latinName": "Libellula depressa",
+  "altitude_level": [0,1],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,1,2,3,4,5],
   "headerPicture": {
       "url": "libellula_depressa.jpg",
       "author": "Test",
@@ -1106,6 +1169,9 @@
   {
     "commonName": "Libellule à quatre taches",
     "latinName": "Libellula quadrimaculata",
+	"altitude_level": [0,1],
+    "region": ["RO", "GE"],
+    "strong_criteria": [0,1,2,3,4,5],
     "headerPicture": {
         "url": "libellula_quadrimaculata.jpg",
         "author": "Test",
@@ -1158,6 +1224,9 @@
     {
       "commonName": "Orthétrum à stylets blancs",
       "latinName": "Orthetrum albistylum",
+	  "altitude_level": [0,1],
+      "region": ["RO", "GE"],
+      "strong_criteria": [0,2,3,4,5,6,8,13],
       "headerPicture": {
           "url": "orthetrum_albistylum.jpg",
           "author": "Test",
@@ -1210,6 +1279,9 @@
   {
     "commonName": "Orthétrum réticulé",
     "latinName": "Orthetrum cancellatum",
+	"altitude_level": [0,1],
+    "region": ["RO", "GE"],
+    "strong_criteria": [0,2,3,4,5,6,8],
     "headerPicture": {
         "url": "orthetrum_cancellatum.jpg",
         "author": "Test",
@@ -1262,6 +1334,9 @@
 {
   "commonName": "Orthétrum brun",
   "latinName": "Orthetrum brunneum",
+  "altitude_level": [0,1],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,2,3,4,5,6],
   "headerPicture": {
       "url": "orthetrum_brunneum.jpg",
       "author": "Test",
@@ -1314,6 +1389,9 @@
 {
   "commonName": "Petite nymphe au corps de feu",
   "latinName": "Pyrrhosomma nymphula",
+  "altitude_level": [0,1],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,2,3,4,5,6,9],
   "headerPicture": {
       "url": "pyrrhosoma_nymphula.jpg",
       "author": "Test",
@@ -1366,6 +1444,9 @@
 {
   "commonName": "Sympétrums rouges",
   "latinName": "",
+  "altitude_level": [0,1],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,1,2,3,4,5,9],
   "headerPicture": {
       "url": "sympetrum_vulgatum.jpg",
       "author": "Test",
@@ -1418,6 +1499,9 @@
 {
   "commonName": "Trithémis pourpré",
   "latinName": "Trithemis annulata",
+  "altitude_level": [0,1],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,1,2,3,4,5,9],
   "headerPicture": {
       "url": "trithemis_annulata.jpg",
       "author": "Test",
@@ -1470,6 +1554,9 @@
 {
   "commonName": "Gomphes",
   "latinName": "Gomphus sp. - Onychogomphus sp.",
+  "altitude_level": [0,1],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,2,3,4,5,8],
   "headerPicture": {
       "url": "gomphus_vulgatissimus.jpg",
       "author": "Test",
@@ -1522,6 +1609,9 @@
 {
   "commonName": "Leste brun",
   "latinName": "Sympecma fusca",
+  "altitude_level": [0,1],
+  "region": ["RO", "GE"],
+  "strong_criteria": [0,2,3,4,5,6],
   "headerPicture": {
       "url": "sympecma_fusca.jpg",
       "author": "Test",
@@ -1575,6 +1665,9 @@
 {
   "commonName": "Femelles ou immatures jaunes",
   "latinName": "non-inclus",
+  "altitude_level": [0,1,2],
+  "region": ["RO", "GE"],
+  "strong_criteria": [],
   "headerPicture": {
       "url": "gomphus_vulgatissimus.jpg",
       "author": "Test",
@@ -1628,6 +1721,9 @@
 {
   "commonName": "Autres libellules",
   "latinName": "non-incluses",
+  "altitude_level": [0,1,2],
+  "region": ["RO", "GE"],
+  "strong_criteria": [],
   "headerPicture": {
       "url": "gomphus_vulgatissimus.jpg",
       "author": "Test",
@@ -2116,6 +2212,14 @@
           "icon": "queueblanche-non-01.png"
         }
       ]
+    }
+  ],
+  "region": [
+    {
+      "GE": "Genève"
+    },
+    {
+      "RO": "Suisse romande"
     }
   ]
 }
