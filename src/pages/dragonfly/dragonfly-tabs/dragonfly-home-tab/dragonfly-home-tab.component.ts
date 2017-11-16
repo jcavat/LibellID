@@ -53,4 +53,16 @@ export class DragonflyHomeTabPage {
   ionViewDidEnter(){
 
   }
+
+  //return if index are in array of strongCriteria
+  private isStrongCriteria(index, strongCriteria){
+
+    for(let i = 0; i< strongCriteria.length; i++){
+      if(strongCriteria[i] == index){
+        return true;
+      }
+    }
+
+    return false;
+  }
 }

@@ -9,14 +9,23 @@
         <button ion-button (click)="observationTransmit()">Transmettre l'observation</button>
     </p>
     <table class="tableCriteria">
-        <tr><th>Critère</th><th>Valeur</th></tr>
+        <tr><th style="font-size: large;"> Critère</th><th style="font-size: large;">Valeur</th></tr>
         <tr *ngFor="let criter of criteria;let i=index" [ngStyle]="getStyle(i)">
-            <td>{{criter.name}}</td>
+            
+            <td *ngIf="isStrongCriteria(i, dragonfly.strong_criteria)">
+                <b> {{criter.name}} </b>
+            </td>
+            <td *ngIf="isStrongCriteria(i, dragonfly.strong_criteria)==false">
+                    {{criter.name}}
+            </td>
+
             <td *ngIf="dragonfly.criteria[i].length>1">
               <ul><li *ngFor="let value of dragonfly.criteria[i]">{{criter.values[value].name}}</li></ul>
             </td>
             <td *ngIf="dragonfly.criteria[i].length <=1">
-              {{criter.values[dragonfly.criteria[i]].name}}
+              
+                {{criter.values[dragonfly.criteria[i]].name}}
+            
             </td>
         </tr>
     </table>
