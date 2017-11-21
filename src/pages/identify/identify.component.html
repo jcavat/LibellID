@@ -17,44 +17,6 @@
 <ion-content padding>
   <span *ngFor="let criter of criteria">
     <h6 class="criter-name">{{criter.name}}</h6>
-    <!--<div *ngIf="criter.values.length > 3" class="scroll-div">
-        <table *ngIf="criter.name != 'Couleurs visibles'" class="table-criteria">
-          <tr class="table-content">
-            <td *ngFor="let value of criter.values" class="criter-value" (press)="pressEvent(value)">
-                <img *ngIf="value.icon != 'icon.png'" src="assets/img/{{value.icon}}" alt="{{value.name}}">
-                <div *ngIf="value.icon == 'icon.png'">{{value.name}}</div>
-            </td>
-          </tr>
-        </table>
-        <table *ngIf="criter.name == 'Couleurs visibles'" class="table-criteria">
-          <tr class="table-content">
-            <ng-container *ngFor="let value of criter.values;let i=index">
-                <td *ngIf="i<=6" class="criter-value" (longPress)="pressEvent(value)">
-                    <img *ngIf="value.icon != 'icon.png'" src="assets/img/{{value.icon}}" alt="{{value.name}}">
-                    <div *ngIf="value.icon == 'icon.png'">{{value.name}}</div>
-                </td>
-            </ng-container>
-          </tr>
-          <tr class="table-content">
-              <ng-container *ngFor="let value of criter.values;let i=index">
-                  <td *ngIf="i>6" class="criter-value" longPress>
-                      <img *ngIf="value.icon != 'icon.png'" src="assets/img/{{value.icon}}" alt="{{value.name}}">
-                      <div *ngIf="value.icon == 'icon.png'">{{value.name}}</div>
-                  </td>
-              </ng-container>
-          </tr>
-        </table>
-    </div>
-    <div *ngIf="criter.values.length <= 3">
-        <table class="table-criteria">
-          <tr class="table-content">
-            <td *ngFor="let value of criter.values" class="criter-value" (longPress)="pressEvent(value)">
-                <img *ngIf="value.icon != 'icon.png'" src="assets/img/{{value.icon}}" alt="{{value.name}}">
-                <div *ngIf="value.icon == 'icon.png'">{{value.name}}</div>
-            </td>
-          </tr>
-        </table>
-    </div>-->
     <div>
         <div *ngIf="criter.name != 'Couleur(s) principale(s) de la libellule'">
             <table class="table-criteria">
