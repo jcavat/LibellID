@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { DatePipe } from '@angular/common';
+import { start } from 'repl';
 
 /**
  * A provider for various useful methods.  
@@ -22,5 +23,25 @@ export class Utils {
     return datePipe.transform(new Date(), format);
   }
 
+  /**
+   * Returns the current date index in flyPeriod
+   * 
+   * Examples : -1  => 08/04/2017 (out of flyperiod)
+   *             2  => 08/06/2017 (index of june)
+   */
+  public static getCurrentDateIndex(): number {
+    let startMounth=3;
+    let endMounth = 10;
+    let date = new Date();
+
+    let index = date.getMonth()-startMounth;
+
+    //test if out of flyperdiod
+    if(index<0 || (index>(endMounth-startMounth))){
+      index=-1;
+    }
+
+    return index;
+  }
 
 }

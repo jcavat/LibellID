@@ -5,6 +5,7 @@ import { NavController, NavParams } from 'ionic-angular';
 import { JsonDataService } from '../../../providers/data-json.service';
 import { DragonflyPage } from '../../dragonfly/dragonfly.component';
 import { Dragonfly } from '../../../app/classes/dragonfly/dragonfly';
+import { Utils } from '../../../providers/utils';
 
 
 @Component({
@@ -35,6 +36,12 @@ export class IdentifyResultPage {
         return that.alphabeticSort(a.commonName, b.commonName);
       });
       console.log(that.dragonfliesData)
+      
+      //filter date
+      if(that.useDate){
+        that.dragonfliesData = that.filterByDate(that.dragonfliesData);
+      }
+
       for (var i = 0; i < that.dragonfliesData.length; i++) {
         let dragonflyMatchedCriteria: boolean[] = []
         for (var j = 0; j < that.criteria.length; j++) {
@@ -54,6 +61,7 @@ export class IdentifyResultPage {
           return that.alphabeticSort(a[0].commonName, b[0].commonName);
         }
       });
+      
 
       for (var i = 0; i < that.criteria.length; i++) {
         if (that.criteria[i].length != 0) {
@@ -63,6 +71,18 @@ export class IdentifyResultPage {
     }).catch(function (err: Error) {
       alert("Un problème est survenu\n" + err.name + "\n" + err.message)
     });
+  }
+
+  private filterByDate(dragonflies)
+  {
+    //Avril to November (avril index = 0, november index = 7)
+    let dateIndex=Utils.getCurrentDateIndex();
+
+    //filter by date in json
+    return dragonflies.filter(dragonfly=>  dragonfly.flyPeriod[dateIndex][0] > 0 || 
+                              dragonfly.flyPeriod[dateIndex][1] > 0 || 
+                              dragonfly.flyPeriod[dateIndex][2] > 0 || 
+                              dragonfly.flyPeriod[dateIndex][3] > 0 );
   }
 
   private alphabeticSort(a, b) {
