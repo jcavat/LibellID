@@ -36,9 +36,9 @@ export class IdentifyResultPage {
         return that.alphabeticSort(a.commonName, b.commonName);
       });
       console.log(that.dragonfliesData)
-      
+
       //filter date
-      if(that.useDate){
+      if (that.useDate) {
         that.dragonfliesData = that.filterByDate(that.dragonfliesData);
       }
 
@@ -61,7 +61,7 @@ export class IdentifyResultPage {
           return that.alphabeticSort(a[0].commonName, b[0].commonName);
         }
       });
-      
+
 
       for (var i = 0; i < that.criteria.length; i++) {
         if (that.criteria[i].length != 0) {
@@ -73,16 +73,21 @@ export class IdentifyResultPage {
     });
   }
 
-  private filterByDate(dragonflies)
-  {
+  private filterByDate(dragonflies) {
     //Avril to November (avril index = 0, november index = 7)
-    let dateIndex=Utils.getCurrentDateIndex();
+    let dateIndex = Utils.getCurrentDateIndex();
 
-    //filter by date in json
-    return dragonflies.filter(dragonfly=>  dragonfly.flyPeriod[dateIndex][0] > 0 || 
-                              dragonfly.flyPeriod[dateIndex][1] > 0 || 
-                              dragonfly.flyPeriod[dateIndex][2] > 0 || 
-                              dragonfly.flyPeriod[dateIndex][3] > 0 );
+    //if dateIndex are not in december to march
+    if (dateIndex != -1) {
+      //filter by date in json
+      return dragonflies.filter(dragonfly => dragonfly.flyPeriod[dateIndex][0] > 0 ||
+        dragonfly.flyPeriod[dateIndex][1] > 0 ||
+        dragonfly.flyPeriod[dateIndex][2] > 0 ||
+        dragonfly.flyPeriod[dateIndex][3] > 0);
+    }
+    //no filter by date
+    return dragonflies;
+
   }
 
   private alphabeticSort(a, b) {
