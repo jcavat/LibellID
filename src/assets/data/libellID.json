@@ -7,7 +7,7 @@
 	"region": ["RO", "GE"],
 	"strong_criteria": [0,2,3,4,5,6,7,8,11],
     "headerPicture": {
-        "url": "aeshna_cyanea.jpg",
+        "url": "aeschne-bleue-menu.jpg",
         "author": "Test",
         "license": "CC BY"
     },
@@ -28,21 +28,22 @@
       [1]
     ],
     "pictures": [
-        "aeshne-bleue-1.jpg",
-        "aeshne-bleue-2.jpg",
-        "aeshne-bleue-3.jpg",
-        "aeshne-bleue-4.jpg"
+        "aeschne-bleue-1.jpg",
+        "aeschne-bleue-2.jpg",
+        "aeschne-bleue-3.jpg",
+        "aeschne-bleue-4.jpg"
     ],
-    "description": "Grande libellule d'aspect sombre avec des tâches vertes et bleues qui vole souvent bas et à l'ombre. ",
+    "description": "Grande libellule avec des tâches vertes et bleues qui vole souvent bas et à l'ombre. ",
     "habitats": [
       "pounds-1",
-      "rivers-1",
+	  "lake-0",
+      "rivers-0",
+	  "ditch-1",
       "peatbog-1",
-      "ditch-1",
-      "temp-environment-0",
-      "lake-0"
+      "temp-environment-0"
+      
     ],
-    "behavior": "<ul><li>Vole volontiers à l'ombre</li><li>Parcourt tout l'étang, volant souvent bas</li><li>Régulièrement observée loin de l'eau, dans les lisières et les prairies et près des habitations</li><li>Pond toujours seule</li><li>Généralement des individus isolés, supporte mal la concurrence</li><li>Très peu exigeante: s'adapte à tous les milieux</li></ul>",
+    "behavior": "<ul><li>Vole volontiers à l'ombre.</li><li>Parcourt tout l'étang, volant souvent bas.</li><li>Régulièrement observée loin de l'eau, dans les lisières et les prairies et près des habitations.</li><li>Pond toujours seule.</li><li>Généralement des individus isolés, supporte mal la concurrence.</li><li>Très peu exigeante: s'adapte à tous les milieux.</li></ul>",
     "flyPeriod": [
         [0,0,0,0],
         [0,0,0,0],
@@ -54,17 +55,17 @@
         [0.3,0.3,0,0]
     ],
     "anecdote": "L'Aeschne bleue est une libellule peu farouche et tout terrain que l'on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d'altitudes. Curieuse, elle peut s'approcher et fondre sur les observateurs lorsqu'elle chasse.<br><br>La larve de l'Aeshne bleue est très efficace pour contrôler la prolifération des moustiques dans les bassins et les petites mares.",
-    "threat": "L'Aeshne bleue n'est pas menacée en Suisse",
-    "distributionMap": "repartition-aeshna-cyanea.png"
+    "threat": "L'Aeschne bleue n'est pas menacée en Suisse.",
+    "distributionMap": "repartition-aeschne-bleue.png"
 },
 {
-  "commonName": "Aeschne grande",
+  "commonName": "Grande Aeschne",
   "latinName": "Aeshna grandis",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,1,2,3,4,5,7],
   "headerPicture": {
-      "url": "aeshna_grandis.jpg",
+      "url": "aeschne-grande-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -85,21 +86,21 @@
     [1]
   ],
   "pictures": [
-      "aeshne-bleue-1.jpg",
-      "aeshne-bleue-2.jpg",
-      "aeshne-bleue-3.jpg",
-      "aeshne-bleue-4.jpg"
+      "aeschne-grande-1.jpg",
+      "aeschne-grande-2.jpg",
+      "aeschne-grande-3.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Grande libellule brun foncé avec les ailes entièrement enfumées.",
   "habitats": [
     "pounds-1",
-    "rivers-1",
+	"lake-1",
+    "rivers-0",
+	"ditch-0",
     "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+    "temp-environment-0"
+    
   ],
-  "behavior": "<ul><li>Vole volontiers à l'ombre et au crépuscule</li><li>Peu territoriale: parcourt tout l'étang, vole souvent bas</li><li> Régulièrement observée loin de l'eau</li><li>Pond toujours seule</li><li>Généralement des individus isolés</li><li>Très peu exigeante: s'adapte à tous les milieux, supporte mal la concurrence</li></ul>",
+  "behavior": "<ul><li>Active jusqu'au crépuscule.</li><li>Se pose rarement et vole souvent haut dans le ciel.</li><li>Peut se laisser planer sans battre des ailes.</li><li>Aime les étangs de taille moyenne à grande, riches en végétation aquatique.</li><li>Fréquente aux abords des étangs entourés d’arbres et de buissons.</li><li>Chasse volontiers dans les lisières et les zones boisées.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0,0,0,0],
@@ -110,9 +111,9 @@
         [0.3,0.3,0.3,0],
         [0,0,0,0]
   ],
-  "anecdote": "L'aeshne bleue est une libellule peu farouche et tout terrain que l'on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d'altitudes. Curieuse, elle peut s'approcher et fondre sur les observateurs lorsqu'elle chasse.<br><br>Elle pond aussi dans les endroits les plus variés, même a priori peu favorables. Il existe ainsi de nombreux rapports de femelles qui tentent de pondre sur les habits, filets ou bottes de leurs observateurs.",
-  "threat": "L'aeshne bleue n'est pas menacée en Suisse",
-  "distributionMap": "carte.png"
+  "anecdote": "Contrairement aux autres Aeschnes, la Grande Aeschne n’est pas territoriale. Elle ne défend pas de territoire et ne chasse pas les autres libellules. Cependant, on observe rarement plus que quelques mâles sur un milieu.<br><br>Cette Aeschne fréquente dans le centre et le nord de l’Europe a des affinités pour les climats frais. Sans pour autant être strictement une libellule de montagne, elle tolère des températures relativement froides.",
+  "threat": "La Grande Aeschne n'est pas menacée en Suisse.",
+  "distributionMap": "repartition-aeschne-grande.png"
 },
 {
   "commonName": "Aeschne isocèle",
@@ -121,7 +122,7 @@
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,7],
   "headerPicture": {
-      "url": "aeshna_isoceles.jpg",
+      "url": "aeschne-isocele-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -142,21 +143,20 @@
     [1]
   ],
   "pictures": [
-      "aeshne-bleue-1.jpg",
-      "aeshne-bleue-2.jpg",
-      "aeshne-bleue-3.jpg",
-      "aeshne-bleue-4.jpg"
+      "aeschne-isocele-1.jpg",
+      "aeschne-isocele-2.jpg",
+      "aeschne-isocele-3.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Libellule brun roux de taille moyenne avec des yeux vert vif qui, contrairement à la Grande Aeschne qui lui ressemble, a les ailes transparentes.",
   "habitats": [
     "pounds-1",
-    "rivers-1",
+	"lake-1",
+    "rivers-0",
+	"ditch-0",
     "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+    "temp-environment-0"    
   ],
-  "behavior": "<ul><li>Vole volontiers à l'ombre et au crépuscule</li><li>Peu territoriale: parcourt tout l'étang, vole souvent bas</li><li> Régulièrement observée loin de l'eau</li><li>Pond toujours seule</li><li>Généralement des individus isolés</li><li>Très peu exigeante: s'adapte à tous les milieux, supporte mal la concurrence</li></ul>",
+  "behavior": "<ul><li>Apprécie les milieux aquatiques de grande taille, bordés de roseaux ou de massettes.</li><li>Mâles agressifs envers leurs congénères et les autres libellules.</li><li>Femelle pondant seule.</li><li>Vol souvent stationnaire.</li><li>Se pose rarement, vole de préférence au-dessus de la végétation.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0.3,0.3,0.6,0.6],
@@ -167,9 +167,9 @@
         [0,0,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "L'aeshne bleue est une libellule peu farouche et tout terrain que l'on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d'altitudes. Curieuse, elle peut s'approcher et fondre sur les observateurs lorsqu'elle chasse.<br><br>Elle pond aussi dans les endroits les plus variés, même a priori peu favorables. Il existe ainsi de nombreux rapports de femelles qui tentent de pondre sur les habits, filets ou bottes de leurs observateurs.",
-  "threat": "L'aeshne bleue n'est pas menacée en Suisse",
-  "distributionMap": "carte.png"
+  "anecdote": "L’Aeschne isocèle est une espèce thermophile, favorisée par un climat doux. Ainsi, elle évite les milieux alimentés par des eaux de sources, fraîches. De même, on l’observe plutôt l’après-midi quand l’air s’est suffisamment réchauffé.<br><br>L’Aeschne isocèle est aussi une espèce qui n’aime pas les modifications de son habitat. Elle a besoin de stabilité et supporte mal par exemple les assèchements.",
+  "threat": "L'Aeschne isocèle n'est pas menacée en Suisse. Elle y est même en expansion.",
+  "distributionMap": "repartition-aeschne-isocele.png"
 },
 {
   "commonName": "Aeschne des joncs",
@@ -178,7 +178,7 @@
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,7,8],
   "headerPicture": {
-      "url": "aeshna_juncea.jpg",
+      "url": "aeschne-joncs-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -199,21 +199,22 @@
     [1]
   ],
   "pictures": [
-      "aeshne-bleue-1.jpg",
-      "aeshne-bleue-2.jpg",
-      "aeshne-bleue-3.jpg",
-      "aeshne-bleue-4.jpg"
+      "aeschne-joncs-1.jpg",
+      "aeschne-joncs-2.jpg",
+      "aeschne-joncs-3.jpg",
+      "aeschne-joncs-4.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Grande et puissante libellule d’altitude, sombre avec des dessins bleus et jaunes.",
   "habitats": [
     "pounds-1",
-    "rivers-1",
+	"lake-1",
+    "rivers-0",
+	"ditch-0",
     "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+    "temp-environment-0"
+    
   ],
-  "behavior": "<ul><li>Vole volontiers à l'ombre et au crépuscule</li><li>Peu territoriale: parcourt tout l'étang, vole souvent bas</li><li> Régulièrement observée loin de l'eau</li><li>Pond toujours seule</li><li>Généralement des individus isolés</li><li>Très peu exigeante: s'adapte à tous les milieux, supporte mal la concurrence</li></ul>",
+  "behavior": "<ul><li>Se pose rarement.</li><li>Vol puissant et rapide.</li><li>Mâles très agressifs entre eux et envers les autres libellules.</li><li>Mâle patrouillant le long des berges ou sur l’eau.</li><li>Se déplace souvent d’un habitat à un autre.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0,0,0,0],
@@ -224,9 +225,9 @@
         [0.3,0.3,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "L'aeshne bleue est une libellule peu farouche et tout terrain que l'on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d'altitudes. Curieuse, elle peut s'approcher et fondre sur les observateurs lorsqu'elle chasse.<br><br>Elle pond aussi dans les endroits les plus variés, même a priori peu favorables. Il existe ainsi de nombreux rapports de femelles qui tentent de pondre sur les habits, filets ou bottes de leurs observateurs.",
-  "threat": "L'aeshne bleue n'est pas menacée en Suisse",
-  "distributionMap": "carte.png"
+  "anecdote": "L’Aeschne des joncs est une espèce d’altitude qui a des affinités pour les températures froides. C’est la libellule la plus fréquente et la plus abondante dans les Alpes suisses.<br><br>Elle vit dans les eaux stagnantes, comme par exemple les mares et marais.<br><br>La larve vit dans l’eau jusqu’à quatre ans avant de se transformer en libellule adulte.",
+  "threat": "L’Aeschne des joncs n’est pas menacée en Suisse. Elle pourrait le devenir sous l’influence du réchauffement climatique.",
+  "distributionMap": "repartition-aeschne-joncs.png"
 },
 {
   "commonName": "Anax empereur",
@@ -235,7 +236,7 @@
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,7,8],
   "headerPicture": {
-      "url": "anax_imperator.jpg",
+      "url": "anax_empereur-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -256,20 +257,21 @@
     [1]
   ],
   "pictures": [
-      "anax_imperator_1.jpg",
-      "anax_imperator_2.jpg",
-      "anax_imperator_3.jpg"
+      "anax_empereur_1.jpg",
+      "anax_empereur_2.jpg",
+      "anax_empereur_3.jpg"
   ],
   "description": "La plus grande libellule d'Europe, de couleur bleue principalement et pouvant atteindre 8,5 cm de long.",
   "habitats": [
     "pounds-1",
-    "rivers-1",
+	"lake-1",
+    "rivers-0",
+	"ditch-1",
     "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-1"
+    "temp-environment-0"
+    
   ],
-  "behavior": "<ul><li>Se pose rarement</li><li>S'observe généralement en vol nettement au-dessus de la surface de l'eau (entre 2 et 4m de hauteur)</li><li>Mâle très territorial, patrouille inlassablement son territoire</li></ul>",
+  "behavior": "<ul><li>Se pose rarement.</li><li>Généralement en vol nettement au-dessus de la surface de l’eau (entre 2 et 4 mètres de hauteur).</li><li>Mâle très territorial, patrouille inlassablement son territoire.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0.3,0.3,0.6,0.6],
@@ -280,9 +282,9 @@
         [0,0,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "On peut assister à de bruyants combats aériens lorsque les Anax chassent les intrus de leur territoire. Il n'est pas rare de voir en fin de saison des Anax aux ailes très abîmées par les luttes incessantes.<br><br>Contrairement aux autres Anax, la femelle de l'Anax empereur pont seule, sans surveillance par le mâle. Elle pond dans les plantes affleurant à la surface de l'eau. Lorsqu'elle est en train de pondre, elle se déplace courbée avec l'extrémité du corps vers le bas pour indiquer qu'elle n'est pas disponible pour s'accoupler.",
-  "threat": "L'Anax empereur n'est pas menacé en Suisse",
-  "distributionMap": "repartition-anax-imperator.png"
+  "anecdote": "On peut assister à de bruyants combats aériens lorsque les Anax chassent les intrus de leur territoire. Il n'est pas rare de voir en fin de saison des Anax aux ailes très abîmées par les luttes incessantes.<br><br>Contrairement aux autres Anax, la femelle de l'Anax empereur pond seule, sans surveillance par le mâle. Elle pond dans les plantes affleurant à la surface de l'eau. Lorsqu'elle est en train de pondre, elle se déplace courbée avec l'extrémité du corps vers le bas pour indiquer qu'elle n'est pas disponible pour s'accoupler.",
+  "threat": "L'Anax empereur n'est pas menacé en Suisse.",
+  "distributionMap": "repartition-anax-empereur.png"
 },
 {
   "commonName": "Anax napolitain",
@@ -291,7 +293,7 @@
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,7,8],
   "headerPicture": {
-      "url": "anax_parthenope.jpg",
+      "url": "anax_napolitain-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -313,18 +315,20 @@
   ],
   "pictures": [
       "anax_napolitain_1.jpg",
-      "anax_napolitain_2.jpg"
+      "anax_napolitain_2.jpg",
+	  "anax_napolitain_3.jpg"
   ],
   "description": "Grande libellule terne aux yeux verts avec une tâche bleu vif sur le corps, juste derrière les ailes.",
   "habitats": [
     "pounds-1",
+	"lake-0",
     "rivers-0",
+	"ditch-1",
     "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+    "temp-environment-0"
+    
   ],
-  "behavior": "<ul><li>Se pose rarement</li><li>Vole devant les ceintures de roseaux ou au-dessus de l'eau ou des plantes flottantes</li><li>Assez farouche, moins facile à voir que l'Anax empereur</li><li>Très agressif envers les autres libellules</li><li>Pond en tandem : le mâle agrippe la femelle derrière la tête pendant la ponte</li></ul>",
+  "behavior": "<ul><li>Se pose rarement.</li><li>Vole devant les ceintures de roseaux ou au-dessus de l'eau et des plantes flottantes.</li><li>Assez farouche, moins facile à observer que l'Anax empereur.</li><li>Très agressive envers les autres libellules.</li><li>Pond en tandem : le mâle agrippe la femelle derrière la tête pendant la ponte</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0.3,0.3,0.6,0.6],
@@ -335,18 +339,18 @@
         [0,0,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "L'Anax napolitain aime les eaux stagnantes ensoleillées surtout si elles sont riches en végétation aquatique et entourées d'une ceinture de végétation (roseaux, massettes,…).Encore rare il y a quelques années, l'Anax napolitain est de plus en plus fréquent en Suisse romande sous l'effet du réchauffement climatique.",
-  "threat": "L'aeshne bleue n'est pas menacée en Suisse",
-  "distributionMap": "repartition-anax-parthenope.png"
+  "anecdote": "L'Anax napolitain aime les eaux stagnantes ensoleillées, surtout si elles sont riches en végétation aquatique et entourées d'une ceinture de végétation (roseaux, massettes,…).<br><br>Encore rare il y a quelques années, l'Anax napolitain est de plus en plus fréquent en Suisse romande sous l'effet du réchauffement climatique.",
+  "threat": "L'Anax napolitain n'est pas menacé en Suisse.",
+  "distributionMap": "repartition-anax-napolitain.png"
 },
 {
-  "commonName": "Aeschne velue",
+  "commonName": "Aeschne printanière",
   "latinName": "Brachytron pratense",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,6,7,8],
   "headerPicture": {
-      "url": "brachytron_pratense.jpg",
+      "url": "aeschne-print-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -367,21 +371,20 @@
     [1]
   ],
   "pictures": [
-      "aeshne-bleue-1.jpg",
-      "aeshne-bleue-2.jpg",
-      "aeshne-bleue-3.jpg",
-      "aeshne-bleue-4.jpg"
+      "aeschne-print-1.jpg",
+      "aeschne-print-2.jpg",
+      "aeschne-print-3.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Libellule printanière de taille moyenne, avec l’avant du corps noir et vert et le reste du corps noir taché de bleu.",
   "habitats": [
     "pounds-1",
+	"lake-1",
     "rivers-1",
+	"ditch-1",
     "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+    "temp-environment-0"    
   ],
-  "behavior": "<ul><li>Vole volontiers à l'ombre et au crépuscule</li><li>Peu territoriale: parcourt tout l'étang, vole souvent bas</li><li> Régulièrement observée loin de l'eau</li><li>Pond toujours seule</li><li>Généralement des individus isolés</li><li>Très peu exigeante: s'adapte à tous les milieux, supporte mal la concurrence</li></ul>",
+  "behavior": "<ul><li>Vole bas, au ras de l’eau parfois en zigzaguant.</li><li>Préfère les milieux assez grands entourés de forêt ou au moins de quelques arbres isolés.</li><li>Mâle agressif envers les autres mâles de son espèce mais pas envers ceux des autres espèces.</li><li>Femelle discrète, venant auprès de l’eau que pour s’accoupler et pondre.</li><li>Femelle pondant seule.</li></ul>",
   "flyPeriod": [
         [0,0,0.3,0.3],
         [0.9,0.9,0.9,0.9],
@@ -392,9 +395,9 @@
         [0,0,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "L'aeshne bleue est une libellule peu farouche et tout terrain que l'on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d'altitudes. Curieuse, elle peut s'approcher et fondre sur les observateurs lorsqu'elle chasse.<br><br>Elle pond aussi dans les endroits les plus variés, même a priori peu favorables. Il existe ainsi de nombreux rapports de femelles qui tentent de pondre sur les habits, filets ou bottes de leurs observateurs.",
-  "threat": "L'aeshne bleue n'est pas menacée en Suisse",
-  "distributionMap": "carte.png"
+  "anecdote": "L’Aeschne printanière est une espèce qui affectionne les milieux ouverts déjà âgés, qui sont alors bordés d’une ceinture végétale (roseaux, joncs, massettes, etc…) conséquente.<br><br>Cette libellule met par contre un certain temps avant de s’installer sur des étangs nouvellement créés ou restaurés.",
+  "threat": "L'Aeschne printanière n'est pas menacée en Suisse.",
+  "distributionMap": "repartition-aeschne-print.png"
 },
   {
     "commonName": "Caloptéryx éclatant",
@@ -403,7 +406,7 @@
 	"region": ["RO", "GE"],
 	"strong_criteria": [0,1,2,3,4,5,6],
     "headerPicture": {
-        "url": "calopteryx_splendens.jpg",
+        "url": "calopteryx-eclatant-menu.jpg",
         "author": "Test",
         "license": "CC BY"
     },
@@ -424,19 +427,21 @@
       [1]
     ],
     "pictures": [
-        "photo1.jpg",
-        "photo2.jpg"
+        "calopteryx-eclatant-1.jpg",
+        "calopteryx-eclatant-2.jpg",
+		"calopteryx-eclatant-3.jpg",
+		"calopteryx-eclatant-4.jpg"
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "description": "Petite libellule métallique aux ailes traversées d’une bande sombre centrale qui virevolte au bord des cours d’eau.",
     "habitats": [
-      "pounds-1",
+      "pounds-0",
+	  "lake-0",
       "rivers-1",
-      "peatbog-1",
-      "ditch-1",
-      "temp-environment-0",
-      "lake-0"
+	  "ditch-1",
+      "peatbog-0",
+      "temp-environment-0"     
     ],
-    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "behavior": "<ul><li>Vole souvent en zigzag, comme un papillon.</li><li>Évite les eaux trop froides et trop ombragées.</li><li>Souvent perchée sur la végétation des rives.</li><li>Femelle souvent à l’écart des rives, ne venant généralement près de l’eau que pour s’accoupler et pondre.</li></ul>",
     "flyPeriod": [
         [0,0,0.3,0.3],
         [0.3,0.3,0.3,0.3],
@@ -447,9 +452,9 @@
         [0,0,0,0],
         [0,0,0,0]
     ],
-    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-    "threat": "Menacé, ou pas",
-    "distributionMap": "carte.png"
+    "anecdote": "Peu visible lorsqu’il est immobile dans la végétation, le Caloptéryx éclatant est facilement remarquable lorsqu’il se met à voler.<br><br>Les Caloptéryx ont des parades nuptiales très élaborées. Les mâles effectuent devant les femelles des vols stationnaires avec des battements d’ailes très rapides. Ils redressent aussi l’extrémité de leur corps pour en montrer la face ventrale dont l’extrémité est blanchâtre (rougeâtre chez une espèce proche, le Caloptéryx vierge).",
+    "threat": "Le Caloptéryx éclatant n’est pas menacé en Suisse.",
+    "distributionMap": "repartition-calopteryx-eclatant.png"
 },
 {
   "commonName": "Caloptéryx vierge",
@@ -458,7 +463,7 @@
   "region": ["RO", "GE"],
   "strong_criteria": [0,1,2,3,4,5,6],
   "headerPicture": {
-      "url": "calopteryx_virgo.jpg",
+      "url": "calopteryx-vierge-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -479,19 +484,20 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+        "calopteryx-vierge-1.jpg",
+        "calopteryx-vierge-2.jpg",
+		"calopteryx-vierge-3.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Petite libellule métallique aux ailes entièrement sombres qui virevolte au bord des cours d’eau.",
   "habitats": [
-    "pounds-1",
+    "pounds-0",
+	"lake-0",
     "rivers-1",
-    "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+	"ditch-1",
+    "peatbog-0",
+    "temp-environment-0"    
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Vole souvent en zigzag, comme un papillon.</li><li>Souvent perchée sur la végétation des rives.</li><li>Femelle souvent à l’écart des rives, ne venant généralement près de l’eau que pour s’accoupler et pondre.</li><li>Supporte un certain ombrage et privilégie des eaux fraîches.</li></ul>",
   "flyPeriod": [
         [0,0,0.3,0.3],
         [0.3,0.3,0.3,0.3],
@@ -502,9 +508,9 @@
         [0.3,0.3,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
-  "distributionMap": "carte.png"
+  "anecdote": "Les Caloptéryx ont des parades nuptiales très élaborées. Les mâles effectuent devant les femelles des vols stationnaires avec des battements d’ailes très rapides. Ils redressent aussi l’extrémité de leur corps pour en montrer la face ventrale dont l’extrémité est rougeâtre (blanchâtre chez une espèce proche, le Caloptéryx éclatant).<br><br>Les Caloptéryx vierges sont des indicateurs des eaux propres car ils supportent mal la pollution.",
+  "threat": "Le Caloptéryx vierge n’est pas menacé en Suisse.",
+  "distributionMap": "repartition-calopteryx-vierge.png"
 },
 {
   "commonName": "Cordulie bronzée",
@@ -513,7 +519,7 @@
   "region": ["GE"],
   "strong_criteria": [0,2,3,4,5,7,11],
   "headerPicture": {
-      "url": "cordulia_aenea.jpg",
+      "url": "cordulie-bronzee-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -534,19 +540,20 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+      "cordulie-bronzee-1.jpg",
+      "cordulie-bronzee-2.jpg",
+	  "cordulie-bronzee-3.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Parmi les premières libellules printanières, libellule nerveuse de couleur vert-bronze avec des yeux vert vif.",
   "habitats": [
     "pounds-1",
-    "rivers-1",
+	"lake-1",
+    "rivers-0",
+	"ditch-0",
     "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+    "temp-environment-0"
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Vol bas, rapide, interrompu de pauses stationnaires.</li><li>Vole « penchée en avant » avec l’extrémité du corps plus haut que la tête.</li><li>Se pose rarement.</li><li>Active aussi par temps couvert et à l’ombre.</li><li>Mâles agressifs entre eux.</li></ul>",
   "flyPeriod": [
         [0,0,0.3,0.3],
         [0.3,0.3,0.6,0.6],
@@ -557,9 +564,9 @@
         [0,0,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
-  "distributionMap": "carte.png"
+  "anecdote": "Une libellule aux yeux vert intense qui s’arrête en vol stationnaire avant de repartir d’un vol rapide, c’est une Cordulie bronzée venue observer l’intrus que vous êtes.<br><br>Libellule nerveuse et agile, elle est difficile à observer tranquillement en pleine journée. Elle se calme et devient plus facile à contempler quand le soleil décline. C’est d’ailleurs souvent une des dernières libellules à voler en fin de journée.",
+  "threat": "La Cordulie bronzée n’est pas menacée en Suisse.",
+  "distributionMap": "repartition-cordulie-bronzee.png"
 },
 {
   "commonName": "Cordulies de plaine",
@@ -568,7 +575,7 @@
   "region": ["RO"],
   "strong_criteria": [0,2,3,4,5,7],
   "headerPicture": {
-      "url": "cordulia_aenea.jpg",
+      "url": "cordulies-plaine-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -589,19 +596,20 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+      "cordulies-plaine-1.jpg",
+      "cordulies-plaine-2.jpg",
+	  "cordulies-plaine-3.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "En plaine, ce groupe comprend trois espèces de taille moyenne et de couleur vert-bronze avec des yeux vert-vif. Les trois espèces sont difficiles à différencier pour le non-spécialiste : la Cordulie bronzée, la Cordulie à taches jaunes et la Cordulie métallique.",
   "habitats": [
     "pounds-1",
-    "rivers-1",
+	"lake-1",
+    "rivers-0",
+	"ditch-1",
     "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+    "temp-environment-0"
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Vol rapide, erratique, parfois interrompu de pauses stationnaires.</li><li>Actives aussi par temps couvert et à l’ombre.</li><li>Se posent rarement (à l’exception de la Cordulie à taches jaunes).</li><li>Mâles agressifs entre eux (à l’exception de la Cordulie métallique).</li></ul>",
   "flyPeriod": [
         [0,0,0.3,0.3],
         [0.3,0.3,0.6,0.6],
@@ -612,8 +620,8 @@
         [0.3,0.3,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
+  "anecdote": "Comme pour de très nombreuses espèces de libellules, ce sont généralement les mâles de Cordulies que l’on observe à proximité du milieu aquatique. Les femelles sont plus discrètes et ne s’approchent de l’eau que pour s’accoupler et pondre.<br><br>La femelle pond seule et habituellement de manière furtive afin de ne pas se faire repérer par un mâle. En effet, elle évite ainsi d’être saisie par un autre mâle et de devoir s’accoupler à nouveau.",
+  "threat": "Les Cordulies de plaines ne sont pas menacées en Suisse.",
   "distributionMap": "carte.png"
 },
 {
@@ -623,7 +631,7 @@
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,8],
   "headerPicture": {
-      "url": "coenagrion_puella.jpg",
+      "url": "gr-agrions-bleus-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -644,19 +652,23 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+      "grCopue-1.jpg",
+      "grIsele-2.jpg",
+	  "grPlpen-3.jpg",
+	  "grEncya-4.jpg",
+	  "grComer-5.jpg",
+	  "grCohas-6.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Ce groupe comprend les demoiselles (Zygoptères) au corps et aux yeux bleus et noirs. Il comprend de nombreuses espèces difficiles à distinguer pour le non-spécialiste, dont les plus fréquentes sont : l’Agrion jouvencelle, l’Agrion élégant et l’Agrion à larges pattes.",
   "habitats": [
     "pounds-1",
+	"lake-1",
     "rivers-1",
+	"ditch-1",
     "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+    "temp-environment-1"    
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Souvent perchées sur la végétation des rives, le corps pendant vers le bas.</li><li>Forment un cœur lors de l’accouplement, appelé cœur copulatoire.</li><li>Pondent souvent en groupe (nombreux individus à proximité).</li><li>Peu territoriales : pas d’agressivité entre individus.</li></ul>",
   "flyPeriod": [
         [0,0,0.3,0.3],
         [0.6,0.6,0.9,0.9],
@@ -667,8 +679,8 @@
         [0.3,0.3,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
+  "anecdote": "Les Agrions bleus sont souvent présents en très grand nombre sur un plan d’eau. On observe facilement les mâles car ils s’éloignent peu de l’eau. Les femelles sont moins visibles et restent souvent à l’écart du milieu aquatique, sauf lors de l’accouplement et de la ponte.<br><br>Pendant la ponte, le mâle reste accroché à la femelle et se tient dressé verticalement au-dessus d’elle.",
+  "threat": "La plupart des Agrions bleus ne sont pas menacés en Suisse. Néanmoins, certains d’entre eux sont potentiellement menacés (Agrion joli et Agrion hasté), voir même en danger critique d’extinction (Agrion de Mercure).",
   "distributionMap": "carte.png"
 },
 {
@@ -678,7 +690,7 @@
   "region": ["GE"],
   "strong_criteria": [0,2,3,4,5,6,8],
   "headerPicture": {
-      "url": "cordulegaster_boltonii.jpg",
+      "url": "cordul-annele-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -699,19 +711,20 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+      "cordul-annele-1.jpg",
+      "cordul-annele-2.jpg",
+	  "cordul-annele-3.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Grande libellule noire rayée de jaune typique des petits cours d’eau.",
   "habitats": [
-    "pounds-1",
+    "pounds-0",
+	"lake-0",
     "rivers-1",
-    "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+	"ditch-1",
+    "peatbog-0",
+    "temp-environment-0"    
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Mâle volant le long des ruisseaux, bas, au ras de l’eau.</li><li>Souvent accrochée le corps pendant sur des grandes plantes ou des buissons au bord de l’eau.</li><li>Femelle venant vers l’eau uniquement pour pondre et se reproduire.</li><li>Peu farouche, se laissant parfois approcher de très près.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0,0.3,0.3,0.3],
@@ -722,9 +735,9 @@
         [0.3,0.3,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
-  "distributionMap": "carte.png"
+  "anecdote": "Le Cordulégastre annelé est souvent la principale espèce visible au bord des ruisseaux, petites rivières et fossés.<br><br>Les larves vivent sur le fond sableux-limoneux des ruisseaux où elles chassent à l’affut d’autres invertébrés. Dans les eaux froides, leur croissance s’étale sur quelques années.<br><br>Pour pondre, la femelle choisit des emplacements peu profonds à substrat fin. Elle se place à la verticale et enfonce son abdomen dans la vase dans un brusque mouvement de va et vient.",
+  "threat": "Le Cordulégastre annelé n’est pas menacé en Suisse.",
+  "distributionMap": "repartition-cordul-annele.png"
 },
 {
   "commonName": "Cordulégastres",
@@ -733,7 +746,7 @@
   "region": ["RO"],
   "strong_criteria": [0,2,3,4,5,6,8],
   "headerPicture": {
-      "url": "cordulegaster_boltonii.jpg",
+      "url": "gr-cordulegaster-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -754,19 +767,20 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+      "grCobol-1.jpg",
+      "grCobid-2.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Grandes libellules noires rayées de jaune, typiques des petits cours d’eau et des sources. Ce groupe comprend le Cordulégastre annelé et le Cordulégastre bidenté.",
   "habitats": [
-    "pounds-1",
+    "pounds-0",
+	"lake-0",
     "rivers-1",
-    "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+	"ditch-1",
+    "peatbog-0",
+    "temp-environment-0"
+    
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Mâles non territoriaux, volant le long des ruisseaux, au ras de l’eau.</li><li>Souvent accrochées le corps pendant sur des grandes plantes ou des buissons au bord de l’eau.</li><li>Femelles venant vers l’eau uniquement pour pondre et se reproduire.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0,0.3,0.3,0.3],
@@ -777,8 +791,8 @@
         [0.3,0.3,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
+  "anecdote": "Les Cordulégastres sont souvent les seules libellules visibles au bord des ruisseaux, petites rivières, fossés et zones de sources.<br><br>Les larves vivent sur le fond des ruisseaux et des résurgences où elles chassent d’autres invertébrés. Dans les eaux froides, leur croissance s’étale sur quelques années.<br><br>Pour pondre, la femelle choisit des emplacements peu profonds à substrat fin. Elle se place à la verticale et enfonce son abdomen dans la vase dans un brusque mouvement de va et vient.",
+  "threat": "Le Cordulégastre annelé n’est pas menacé en Suisse, alors que le Cordulégastre bidenté est potentiellement menacé.",
   "distributionMap": "carte.png"
 },
 {
@@ -788,7 +802,7 @@
   "region": ["RO", "GE"],
   "strong_criteria": [0,1,2,3,4,5,9,10],
   "headerPicture": {
-      "url": "crocothemis_erythraea.jpg",
+      "url": "libellule-ecarlate-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -809,19 +823,21 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+      "libellule-ecarlate-1.jpg",
+      "libellule-ecarlate-2.jpg",
+	  "libellule-ecarlate-3.jpg",
+	  "libellule-ecarlate-4.jpg"	  
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Libellule rouge vif de taille moyenne aux yeux et aux pattes rouges qui se perche souvent sur les tiges de la végétation.",
   "habitats": [
     "pounds-1",
-    "rivers-1",
+	"lake-0",
+    "rivers-0",
+	"ditch-0",
     "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+    "temp-environment-1"    
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Se pose souvent et reste longuement sur les tiges de la végétation des rives.</li><li>Territoriale, le mâle chassant les autres mâles de son territoire.</li><li>Farouche, ne se laisse pas facilement approcher.</li><li>Présente souvent dans des endroits très ensoleillés.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0.3,0.3,0.6,0.6],
@@ -832,9 +848,9 @@
         [0.3,0.3,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
-  "distributionMap": "carte.png"
+  "anecdote": "Autrefois, la Libellule écarlate était une libellule méditerranéenne, très rare en Suisse, avec essentiellement quelques individus de passage. Depuis les années 80, l’espèce a commencé à se reproduire régulièrement en Suisse (notamment à Genève), et ses effectifs n’ont cessé d’augmenter. C’est une espèce indicatrice des effets du réchauffement climatique.<br><br>Aujourd’hui, l’espèce est très répandue à basse altitude. On peut aussi l’apercevoir plus en altitude, mais elle ne semble pas pouvoir s’y reproduire.",
+  "threat": "La Libellule écarlate n’est pas menacée en Suisse.",
+  "distributionMap": "repartition-libellule-ecarlate.png"
 },
 {
   "commonName": "Naïade au corps vert",
@@ -843,7 +859,7 @@
   "region": ["GE"],
   "strong_criteria": [0,2,3,4,5,8,9],
   "headerPicture": {
-      "url": "erythromma_viridulum.jpg",
+      "url": "naiade-corps-vert-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -864,19 +880,22 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+	  "naiade-corps-vert-1.jpg",
+      "naiade-corps-vert-2.jpg",
+	  "naiade-corps-vert-3.jpg",
+	  "naiade-corps-vert-4.jpg",
+	  "naiade-corps-vert-5.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Petite demoiselle noire et bleue aux yeux rouges que l’on peut observer posée sur la végétation aquatique",
   "habitats": [
     "pounds-1",
-    "rivers-1",
-    "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+	"lake-1",
+    "rivers-0",
+	"ditch-1",
+    "peatbog-0",
+    "temp-environment-0"    
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Se pose fréquemment sur la végétation flottante sur l’eau (nénuphars, lentilles d’eau, végétation submergée affleurante).</li><li>Vole au ras de l’eau.</li><li>Pond en tandem (le mâle et la femelle accrochés ensemble), souvent en groupe.</li><li>N’apparaît sur les plans d’eau qu’en fin de matinée.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0.3,0.3,0.3,0.3],
@@ -887,18 +906,18 @@
         [0,0,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
-  "distributionMap": "carte.png"
+  "anecdote": "Les Naïades tirent probablement leur nom de leur mode de ponte. En effet, la femelle insère souvent ses œufs dans les tiges submergées des plantes aquatiques, en s’immergeant telle une naïade à des profondeurs de plusieurs dizaines de centimètres sous la surface.<br><br>La Naïade au corps vert peut rester jusqu’à une demi-heure sous l’eau pour pondre avant de remonter à la surface et de s’envoler à nouveau.",
+  "threat": "La Naïade au corps vert n’est pas menacée en Suisse.",
+  "distributionMap": "repartition-naiade-corps-vert.png"
 },
 {
   "commonName": "Naïades",
-  "latinName": "Erythromma viridulum - Erythromma najas",
+  "latinName": "",
   "altitude_level": [0,1],
   "region": ["RO"],
   "strong_criteria": [0,2,3,4,5,8,9],
   "headerPicture": {
-      "url": "erythromma_viridulum.jpg",
+      "url": "gr-naiade-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -919,19 +938,21 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+      "grErNaj-1.jpg",
+      "grErNaj-2.jpg",
+	  "grErVir-3.jpg",
+      "grErVir-4.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Les Naïades sont de petites demoiselles noires et bleues aux yeux rouges que l’on peut observer posées sur la végétation aquatique flottante ou affleurante. Le groupe des Naïades comprend deux espèces : la Naïade au corps vert et la Naïade aux yeux rouges.",
   "habitats": [
     "pounds-1",
-    "rivers-1",
+	"lake-1",
+    "rivers-0",
+	"ditch-1",
     "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+    "temp-environment-0"    
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Se pose fréquemment sur la végétation flottante sur l’eau (nénuphars, lentilles d’eau, végétation submergée affleurante).</li><li>Vole au ras de l’eau.</li><li>Pond en tandem (le mâle et la femelle accrochés ensemble), souvent en groupe.</li></ul>",
   "flyPeriod": [
         [0,0,0,0.3],
         [0.6,0.6,0.6,0.9],
@@ -942,18 +963,18 @@
         [0,0,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
+  "anecdote": "Les Naïades tirent probablement leur nom de leur mode de ponte. En effet, la femelle insère souvent ses œufs dans les tiges submergées des plantes aquatiques, en s’immergeant telle une naïade à des profondeurs de plusieurs dizaines de centimètres sous la surface.<br><br>Elles peuvent rester jusqu’à une demi-heure sous l’eau pour pondre avant de remonter à la surface et de s’envoler à nouveau.",
+  "threat": "Les Naïades ne sont pas menacées en Suisse.",
   "distributionMap": "carte.png"
 },
 {
-  "commonName": "Leste barbare",
+  "commonName": "Leste sauvage",
   "latinName": "Lestes barbarus",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,7,12],
   "headerPicture": {
-      "url": "lestes_barbarus.jpg",
+      "url": "leste-sauvage-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -974,19 +995,20 @@
     [0,1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+      "leste-sauvage-1.jpg",
+      "leste-sauvage-2.jpg",
+	  "leste-sauvage-3.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Petite libellule au corps vert métallique qui a les ailes entrouvertes au repos",
   "habitats": [
     "pounds-1",
-    "rivers-1",
+	"lake-0",
+    "rivers-0",
+	"ditch-1",
     "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+    "temp-environment-1"    
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Vit dans des milieux aquatiques entourés de plantes de marais comme les joncs et les laîches ou dans des prairies inondées.</li><li>Affectionne les eaux peu profondes, qui s’assèchent périodiquement.</li><li>Souvent accrochée le corps pendant sur les tiges des hautes herbes.</li><li>Femelle pondant dans la partie haute des plantes de marais, seule ou en tandem.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0,0,0.3,0.3],
@@ -997,9 +1019,9 @@
         [0.3,0.3,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
-  "distributionMap": "carte.png"
+  "anecdote": "Le Leste sauvage était rare en Suisse il y a quelques décennies. Il profite du réchauffement climatique et tend à devenir plus commun.<br><br>L’espèce a un fort potentiel de dispersion et ses effectifs sont très fluctuants d’une année à l’autre. Si les conditions sont favorables, on peut assister à une explosion du nombre de Lestes sauvages sur un milieu aquatique donné, créant des afflux de Lestes barbares dans les régions alentours. La durée de vie aquatique, sous forme de larve, est très courte : 1 à 2 mois.",
+  "threat": "Le Leste sauvage est une espèce actuellement en expansion en Suisse. Son statut de menace n’a pas été défini dans la dernière liste rouge nationale (2002).",
+  "distributionMap": "repartition-leste-sauvage.png"
 },
 {
   "commonName": "Leste fiancé",
@@ -1008,7 +1030,7 @@
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,7],
   "headerPicture": {
-      "url": "lestes_sponsa.jpg",
+      "url": "leste-fiance-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -1029,19 +1051,21 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+      "leste-fiance-1.jpg",
+      "leste-fiance-2.jpg",
+	  "leste-fiance-3.jpg",
+	  "leste-fiance-4.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Petite libellule au corps vert métallique et bleu clair qui se tient les ailes entrouvertes au repos.",
   "habitats": [
     "pounds-1",
-    "rivers-1",
+	"lake-0",
+    "rivers-0",
+	"ditch-1",
     "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+    "temp-environment-1"    
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Vit dans des milieux aquatiques avec beaucoup de végétation et bordés de roseaux, de joncs ou de laîches.</li><li>Préfère les eaux peu profondes.</li><li>Vole peu.</li><li>Souvent accrochée le corps pendant sur les tiges des hautes herbes.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0,0,0.3,0.3],
@@ -1052,9 +1076,9 @@
         [0.3,0.3,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
-  "distributionMap": "carte.png"
+  "anecdote": "Les effectifs du Leste fiancé ont régressé sur le plateau suisse suite au drainage et à l’assèchement massif des marais, mares et étangs aux siècles passés.<br><br>La femelle pond ses œufs directement dans des joncs ou des roseaux en descendant progressivement le long de la tige jusqu’à finir entièrement sous l’eau.",
+  "threat": "Le Leste fiancé est une espèce potentiellement menacée en Suisse.",
+  "distributionMap": "repartition-leste-fiance.png"
 },
 {
   "commonName": "Leste vert",
@@ -1063,7 +1087,7 @@
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,7],
   "headerPicture": {
-      "url": "chalcolestes_viridis.jpg",
+      "url": "leste-vert-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -1084,19 +1108,22 @@
     [0,1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+      "leste-vert-1.jpg",
+      "leste-vert-2.jpg",
+	  "leste-vert-3.jpg",
+	  "leste-vert-4.jpg",
+	  "leste-vert-5.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Petite libellule au corps vert métallique qui a les ailes entrouvertes au repos et qui est très fréquente en Suisse.",
   "habitats": [
     "pounds-1",
+	"lake-0",
     "rivers-1",
+	"ditch-1",
     "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+    "temp-environment-1"    
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Souvent posée sur les feuilles des arbres et arbustes, notamment des saules.</li><li>Présente dans les secteurs ombragés par grandes chaleurs.</li><li>S’accouple sur les buissons en fin d’été.</li><li>Pond souvent en tandem et insère ses œufs dans les branches des arbustes.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0,0,0,0.3],
@@ -1107,9 +1134,9 @@
         [0.6,0.6,0.3,0.3],
         [0.3,0.3,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
-  "distributionMap": "carte.png"
+  "anecdote": "On peut repérer la présence du Leste vert grâce aux traces (alignements d’une quinzaine de petits trous) que ses pontes laissent dans le bois des arbres et arbustes qui surplombent l’eau.<br><br>La femelle fait des incisions sous l’écorce des branches pour y déposer ses œufs en fin d’été. A la fin de l’hiver, les larves quittent leur trou et se laissent tomber dans l’eau, où elles se développent en quelques semaines.<br><br>Ces traces (petits trous boursoufflés) restent visibles pendant plusieurs années.",
+  "threat": "Le Leste vert n’est pas menacé en Suisse.",
+  "distributionMap": "repartition-leste-vert.png"
 },
 {
   "commonName": "Libellule déprimée",
@@ -1118,7 +1145,7 @@
   "region": ["RO", "GE"],
   "strong_criteria": [0,1,2,3,4,5],
   "headerPicture": {
-      "url": "libellula_depressa.jpg",
+      "url": "libellule-dep-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -1139,19 +1166,21 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+      "libellule-dep-1.jpg",
+      "libellule-dep-2.jpg",
+	  "libellule-dep-3.jpg",
+	  "libellule-dep-4.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Libellule bleu clair au corps aplati avec des taches sombres à la base des ailes.",
   "habitats": [
     "pounds-1",
-    "rivers-1",
-    "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+	"lake-1",
+    "rivers-0",
+	"ditch-1",
+    "peatbog-1",    
+    "temp-environment-0"    
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Aime les étangs très ensoleillés.</li><li>Souvent perchée sur les joncs, massettes et roseaux ou sur les branches autour des étangs.</li><li>Posée fréquemment le corps pendant vers le bas.</li><li>Effectue régulièrement de courts passages au-dessus-de l’eau, avant de revenir sur le même perchoir.</li><li>Mâles très agressifs entre eux, défendant leur territoire.</li></ul>",
   "flyPeriod": [
         [0,0,0.3,0.3],
         [0.6,0.6,0.6,0.9],
@@ -1162,9 +1191,9 @@
         [0,0,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
-  "distributionMap": "carte.png"
+  "anecdote": "La Libellule déprimée est une espèce commune qui se déplace beaucoup.<br><br>Elle colonise ainsi très rapidement les nouveaux plans d’eau de tous types, même très petits. Par contre, après quelques années, lorsque la végétation aquatique envahit le plan d’eau, elle devient plus rare.",
+  "threat": "La Libellule déprimée n’est pas menacée en Suisse.",
+  "distributionMap": "repartition-libellule-dep.png"
 },
   {
     "commonName": "Libellule à quatre taches",
@@ -1173,7 +1202,7 @@
     "region": ["RO", "GE"],
     "strong_criteria": [0,1,2,3,4,5],
     "headerPicture": {
-        "url": "libellula_quadrimaculata.jpg",
+        "url": "libellule-taches-menu.jpg",
         "author": "Test",
         "license": "CC BY"
     },
@@ -1194,19 +1223,20 @@
       [1]
     ],
     "pictures": [
-        "photo1.jpg",
-        "photo2.jpg"
+      "libellule-taches-1.jpg",
+      "libellule-taches-2.jpg",
+	  "libellule-taches-3.jpg"
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "description": "Libellule brune ou orangée de taille moyenne, reconnaissable aux taches caractéristiques sur ses ailes.",
     "habitats": [
       "pounds-1",
-      "rivers-1",
-      "peatbog-1",
-      "ditch-1",
-      "temp-environment-0",
-      "lake-0"
+	  "lake-1",
+      "rivers-0",
+	  "ditch-1",
+      "peatbog-1",      
+      "temp-environment-0"      
     ],
-    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "behavior": "<ul><li>Souvent perchée sur des plantes comme les roseaux ou les joncs.</li><li>Mâles territoriaux et agressifs entre eux et envers les autres libellules.</li><li>Posée fréquemment le corps pendant vers le bas.</li><li>Femelle déposant ses œufs un à un dans l’eau tout en volant sous la surveillance du mâle.</li></ul>",
     "flyPeriod": [
         [0,0,0.3,0.3],
         [0.6,0.6,0.6,0.9],
@@ -1217,9 +1247,9 @@
         [0,0,0,0],
         [0,0,0,0]
     ],
-    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-    "threat": "Menacé, ou pas",
-    "distributionMap": "carte.png"
+    "anecdote": "En plaine, la Libellule à quatre taches s’observe aux heures chaudes du printemps et du début de l’été. Elle n’apparaît sur les plans d’eau qu’assez tard dans la journée (rarement avant la fin de la matinée).<br><br>Ses milieux de préférences sont les mares et étangs relativement jeunes pas totalement envahis par la végétation.<br><br>Elle vole facilement sur de grandes distances et peut ainsi visiter de nouveaux milieux.",
+    "threat": "La Libellule à quatre taches n’est pas menacée en Suisse.",
+    "distributionMap": "repartition-libellule-taches.png"
     },
     {
       "commonName": "Orthétrum à stylets blancs",
@@ -1228,7 +1258,7 @@
       "region": ["RO", "GE"],
       "strong_criteria": [0,2,3,4,5,6,8,13],
       "headerPicture": {
-          "url": "orthetrum_albistylum.jpg",
+          "url": "orthetrum-stylets-menu.jpg",
           "author": "Test",
           "license": "CC BY"
       },
@@ -1249,19 +1279,20 @@
         [0]
       ],
       "pictures": [
-          "photo1.jpg",
-          "photo2.jpg"
+		"orthetrum-stylets-1.jpg",
+		"orthetrum-stylets-2.jpg",
+		"orthetrum-stylets-3.jpg"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+      "description": "Libellule bleu clair de taille moyenne avec l’extrémité du corps noir, terminée par 2 appendices blancs (contrairement à l’Orthétrum réticulé chez qui ces appendices sont noirs).",
       "habitats": [
         "pounds-1",
+		"lake-1",
         "rivers-1",
-        "peatbog-1",
-        "ditch-1",
-        "temp-environment-0",
-        "lake-0"
+		"ditch-1",
+        "peatbog-1",        
+        "temp-environment-0"        
       ],
-      "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+      "behavior": "<ul><li>Souvent posée au sol ou perchée en haut des tiges et des branches sèches, le corps horizontal ou dirigé vers le bas.</li><li>Mâle agressif et territorial, chassant les autres libellules de son territoire.</li><li>Tolérante dans le choix de ses habitats, supporte des eaux riches en nutriments (eutrophes).</li><li>Pionnière, colonisant rapidement de nouveaux plans d’eau.</li></ul>",
       "flyPeriod": [
         [0,0,0,0],
         [0.3,0.3,0.3,0.6],
@@ -1272,9 +1303,9 @@
         [0,0,0,0],
         [0,0,0,0]
       ],
-      "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-      "threat": "Menacé, ou pas",
-      "distributionMap": "carte.png"
+      "anecdote": "L’Orthétrum à stylets blancs cohabite généralement avec un autre Orthétrum nettement plus commun en Suisse, l’Orthétrum réticulé. Les deux espèces se ressemblent beaucoup. On les différencie à la couleur de leurs appendices pointus (« stylets ») à l’extrémité de l’abdomen: blancs chez l’Orthétrum à stylets blancs, noirs chez l’Orthétrum réticulé.",
+      "threat": "L’Orthétrum à stylets blancs est considéré comme en danger en Suisse, mais il est en expansion sous l’effet du réchauffement climatique.",
+      "distributionMap": "repartition-orthetrum-stylets.png"
   },
   {
     "commonName": "Orthétrum réticulé",
@@ -1283,7 +1314,7 @@
     "region": ["RO", "GE"],
     "strong_criteria": [0,2,3,4,5,6,8],
     "headerPicture": {
-        "url": "orthetrum_cancellatum.jpg",
+        "url": "orthetrum-reticule-menu.jpg",
         "author": "Test",
         "license": "CC BY"
     },
@@ -1304,19 +1335,20 @@
       [1]
     ],
     "pictures": [
-        "photo1.jpg",
-        "photo2.jpg"
+		"orthetrum-reticule-1.jpg",
+		"orthetrum-reticule-2.jpg",
+		"orthetrum-reticule-3.jpg"
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "description": "Libellule de taille moyenne au corps bleu clair avec l’extrémité du corps noir, souvent posée au sol.",
     "habitats": [
       "pounds-1",
-      "rivers-1",
-      "peatbog-1",
-      "ditch-1",
-      "temp-environment-0",
-      "lake-0"
+	  "lake-1",
+      "rivers-0",
+	  "ditch-1",
+      "peatbog-1",      
+      "temp-environment-0"     
     ],
-    "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+    "behavior": "<ul><li>Souvent posée au sol ou perchée en haut des tiges et des branches sèches, le corps horizontal ou dirigé vers le bas.</li><li>Mâle agressif et territorial, chassant les autres libellules de son territoire.</li><li>Tolérante dans le choix de ses habitats, supporte des eaux riches en nutriments (eutrophes).</li></ul>",
     "flyPeriod": [
         [0,0,0,0],
         [0.3,0.3,0.3,0.6],
@@ -1327,9 +1359,9 @@
         [0,0,0,0],
         [0,0,0,0]
     ],
-    "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-    "threat": "Menacé, ou pas",
-    "distributionMap": "carte.png"
+    "anecdote": "L’Orthétrum réticulé s’observe fréquemment sur les grands étangs ou les lacs avec des rives nues en galets ou en terre. Cependant, il colonise également des petits étangs ou des mares avec une ceinture de végétation.<br><br>On peut les observer posés au sol ou en vol en train de chasser les autres libellules de leur territoire. Très actifs et combattifs, ils sont souvent faciles à repérer.<br><br>C’est une espèce pionnière qui peut coloniser rapidement de nouveaux étangs.",
+    "threat": "L’Orthétrum réticulé n’est pas menacé en Suisse.",
+    "distributionMap": "repartition-orthetrum-reticule.png"
 },
 {
   "commonName": "Orthétrum brun",
@@ -1338,7 +1370,7 @@
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,6],
   "headerPicture": {
-      "url": "orthetrum_brunneum.jpg",
+      "url": "orthetrum-brun-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -1359,19 +1391,20 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+		"orthetrum-brun-1.jpg",
+		"orthetrum-brun-2.jpg",
+		"orthetrum-brun-3.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Malgré son nom trompeur, l’Orthétrum brun (mâle) est une libellule de couleur entièrement bleu ciel.",
   "habitats": [
     "pounds-1",
+	"lake-0",
     "rivers-1",
-    "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+	"ditch-1",
+    "peatbog-1",    
+    "temp-environment-0"    
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Se pose volontiers sur le sol nu (terre, cailloux, béton, …).</li><li>Mâle territorial : certains mâles ne trouvant pas de territoire attendent aux alentours du milieu qu’un territoire se libère.</li><li>Femelle pondant seule, après un accouplement rapide (5 minutes).</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0.3,0.3,0.3,0.6],
@@ -1382,9 +1415,9 @@
         [0,0,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
-  "distributionMap": "carte.png"
+  "anecdote": "L’Orthétrum brun s’observe dans les milieux ensoleillés dont les rives sont dénudées (gravières, rives pâturées, zone de travaux, rives bétonnées, etc…).<br><br>Pionnier, il colonise rapidement les milieux nouvellement créés, mais il disparait lorsque le milieu évolue et que la végétation se développe.",
+  "threat": "L’Orthétrum brun n’est pas menacé en Suisse.",
+  "distributionMap": "repartition-orthetrum-brun.png"
 },
 {
   "commonName": "Petite nymphe au corps de feu",
@@ -1393,7 +1426,7 @@
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,6,9],
   "headerPicture": {
-      "url": "pyrrhosoma_nymphula.jpg",
+      "url": "nymphe-feu-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -1414,19 +1447,20 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+		"nymphe-feu-1.jpg",
+		"nymphe-feu-2.jpg",
+		"nymphe-feu-3.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Discrète petite libellule printanière rouge aux yeux rouges et aux pattes noires.",
   "habitats": [
     "pounds-1",
+	"lake-0",
     "rivers-1",
+	"ditch-1",
     "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+    "temp-environment-0"    
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Pond en tandem (le mâle et la femelle accrochés ensemble), souvent en groupe.</li><li>Femelle ne venant que rarement vers l’eau, privant ainsi plus d’un tiers des mâles de partenaire.</li><li>Fréquente dans les milieux forestiers.</li><li>Souvent perchée, le corps pendant vers le bas sur la végétation à proximité de l’eau.</li></ul>",
   "flyPeriod": [
         [0.3,0.3,0.3,0.3],
         [0.6,0.6,0.6,0.6],
@@ -1437,9 +1471,9 @@
         [0,0,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
-  "distributionMap": "carte.png"
+  "anecdote": "La Petite nymphe au corps de feu se rencontre aussi bien aux abords des eaux courantes que stagnantes. Elle a cependant une nette préférence pour les milieux avec une végétation flottante abondante où elle insère ses œufs.<br><br>Très précoce, elle vole dès le mois d'avril, c’est une des premières libellules à émerger en Suisse.",
+  "threat": "La Petite nymphe au corps de feu n’est pas menacée en Suisse.",
+  "distributionMap": "repartition-nymphe-feu.png"
 },
 {
   "commonName": "Sympétrums rouges",
@@ -1448,7 +1482,7 @@
   "region": ["RO", "GE"],
   "strong_criteria": [0,1,2,3,4,5,9],
   "headerPicture": {
-      "url": "sympetrum_vulgatum.jpg",
+      "url": "grSympetrum-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -1469,19 +1503,22 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+		"grSympetrum-sanguin-1.jpg",
+		"grSympetrum-nervures-2.jpg",
+		"grSympetrum-strie-3.jpg",
+		"grSympetrum-vulgaire-4.jpg",
+		"grSympetrum-deprime-5.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Ce groupe comprend les Sympétrums au corps rouge, des libellules de taille moyenne. Il comprend de nombreuses espèces difficiles à distinguer pour le non-spécialiste, dont les plus caractéristiques sont : le Sympétrum rouge sang, le Sympétrum à côtés striés, Sympétrum à nervures rouges ou le Sympétrum à corps déprimé.",
   "habitats": [
     "pounds-1",
+	"lake-1",
     "rivers-1",
-    "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+	"ditch-1",
+    "peatbog-1",    
+    "temp-environment-1"    
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Pondent souvent en tandem (le mâle et la femelle accrochés ensemble).</li><li>Souvent perchées sur des tiges à proximité de l’eau, le corps dirigé vers le haut.</li><li>Se posent aussi volontiers au sol.</li><li>Généralement territoriales : mâles agressifs entre eux et parfois envers les autres espèces.</li><li>Ne s’observe pas uniquement au bord de l’eau, mais également le long des haies, des lisières et des chemins.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0.3,0.3,0.6,0.9],
@@ -1492,8 +1529,8 @@
         [0.6,0.6,0.3,0.3],
         [0.3,0.3,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
+  "anecdote": "Par temps chaud et ensoleillé, certains Sympétrums adoptent une position très caractéristique, la tête en bas et l’extrémité du corps pointée vers le ciel. Cette position, dite en obélisque, leur permet de diminuer la surface de leur corps exposée au soleil.",
+  "threat": "Cinq des Sympétrums rouges ne sont pas menacés en Suisse. Toutefois, le Sympétrum à corps déprimé est vulnérable et le Sympétrum jaune d'or est en danger.",
   "distributionMap": "carte.png"
 },
 {
@@ -1503,7 +1540,7 @@
   "region": ["RO", "GE"],
   "strong_criteria": [0,1,2,3,4,5,9],
   "headerPicture": {
-      "url": "trithemis_annulata.jpg",
+      "url": "trithemis-annele-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -1524,19 +1561,20 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+      "trithemis-annele-1.jpg",
+      "trithemis-annele-2.jpg",
+      "trithemis-annele-3.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Libellule violette pourpre, pas encore établie en Suisse, mais en pleine expansion depuis le Sud de l’Europe.",
   "habitats": [
     "pounds-1",
+	"lake-1",
     "rivers-1",
-    "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+	"ditch-0",
+    "peatbog-1",    
+    "temp-environment-1"    
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Présente surtout dans des milieux bien ensoleillés.</li><li>Souvent perchée sur une tige près de l’eau, le corps dirigé vers le haut.</li><li>Femelle pondant seule, sous la surveillance du mâle.</li><li>Mâle territorial, chassant activement les autres libellules de son territoire.</li><li>Peu exigeante dans le choix de ses habitats.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0.3,0.3,0.3,0.6],
@@ -1547,18 +1585,18 @@
         [0.6,0.6,0.6,0.6],
         [0.3,0.3,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
-  "distributionMap": "carte.png"
+  "anecdote": "Le Trithémis pourpré est actuellement présent dans le Sud de l’Europe. Venant d’Afrique du Nord, il a été signalé en Espagne vers la fin des années 70 et en France continentale au milieu des années 90. En réponse au changement climatique, l’espèce est en train de remonter vers le Nord.<br><br>Le Trithémis pourpré est un bon colonisateur qui a une tendance naturelle à explorer de nouveaux territoires. Il va donc probablement coloniser la Suisse dans les prochaines années.",
+  "threat": "Le Trithémis pourpré n’est pas encore établi en Suisse. Son statut de menace n’a donc pas été défini dans la dernière liste rouge nationale (2002).",
+  "distributionMap": "repartition-trithemis-annele.png"
 },
 {
   "commonName": "Gomphes",
-  "latinName": "Gomphus sp. - Onychogomphus sp.",
+  "latinName": "",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,8],
   "headerPicture": {
-      "url": "gomphus_vulgatissimus.jpg",
+      "url": "grGomphe-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -1579,19 +1617,21 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+		"grGomphe-joli-1.jpg",
+		"grGomphe-commun-2.jpg",
+		"grGomphe-pinces-3.jpg",
+		"grGomphe-pinces-4.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Ce groupe comprend des libellules jaunes et noirs avec les yeux verts et séparés (ne se touchant pas). Il inclut trois espèces : le Gomphe joli, le Gomphe très commun et le Gomphe à pinces.",
   "habitats": [
     "pounds-1",
+	"lake-1",	
     "rivers-1",
-    "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+	"ditch-1",
+    "peatbog-0",    
+    "temp-environment-0"    
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Se posent souvent sur le sol (sur les chemins ou sur des pierres) ou sur la végétation.</li><li>Volent bas au-dessus de l’eau.</li><li>Peu territoriales : pas d’agressivité entre individus.</li><li>Femelles pondant seules.</li></ul>",
   "flyPeriod": [
         [0,0,0.3,0.3],
         [0.9,0.9,0.9,0.9],
@@ -1602,8 +1642,8 @@
         [0.3,0,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
+  "anecdote": "Les Gomphes vivent principalement dans les plaines alluviales et les cours d’eau. Seul le Gomphe joli vit auprès des eaux stagnantes.<br><br>Les larves de Gomphes apprécient les substrats sableux où elles s’enfouissent pour chasser à l’affût les proies qui passent devant elles.",
+  "threat": "En Suisse, le Gomphe à pinces et le Gomphe très commun sont potentiellement menacés, le Gomphe joli est quant à lui vulnérable.",
   "distributionMap": "carte.png"
 },
 {
@@ -1613,7 +1653,7 @@
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,6],
   "headerPicture": {
-      "url": "sympecma_fusca.jpg",
+      "url": "leste-brun-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -1634,19 +1674,21 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+		"leste-brun-1.jpg",
+		"leste-brun-2.jpg",
+		"leste-brun-3.jpg",
+		"leste-brun-4.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Discrète petite libellule brune que l’on peut observer dès la fin de l’hiver.",
   "habitats": [
     "pounds-1",
-    "rivers-1",
-    "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
+	"lake-1",
+    "rivers-0",
+	"ditch-1",
+    "peatbog-1",    
+    "temp-environment-1"    
   ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "behavior": "<ul><li>Apprécie les étangs avec une ceinture de végétation.</li><li>Souvent accrochée, le corps dirigé vers le bas sur des massettes, roseaux ou tiges sèches.</li><li>Discrète tant par sa couleur que par son comportement.</li><li>S’observe au début du printemps et en fin d’été.</li></ul>",
   "flyPeriod": [
         [0.6,0.6,0.9,0.9],
         [0.9,0.9,0.9,0.9],
@@ -1657,9 +1699,9 @@
         [0.3,0.3,0.3,0.3],
         [0.3,0.3,0.3,0.3]
   ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
-  "distributionMap": "carte.png"
+  "anecdote": "Les Lestes bruns, ou Brunettes hivernales, sont les seules libellules qui passent l’hiver sous forme d’adultes en Suisse ; toutes les autres espèces de libellules survivent l’hiver sous forme d’œufs ou de larves. En automne, les adultes de Brunettes vont se réfugier dans les arbres où ils passeront l’hiver camouflés dans la végétation. Ce sont les premières libellules à réapparaitre et à se reproduire au printemps. Les larves se développent alors très rapidement dans l’eau (2-3 mois).",
+  "threat": "Le Leste brun n’est pas menacé en Suisse.",
+  "distributionMap": "repartition-leste-brun.png"
 },
 
 {
@@ -1669,7 +1711,7 @@
   "region": ["RO", "GE"],
   "strong_criteria": [],
   "headerPicture": {
-      "url": "gomphus_vulgatissimus.jpg",
+      "url": "femelles-jaunes-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -1690,19 +1732,14 @@
     [0,1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+		"libellule-dep-fem-1.jpg",
+		"libellule-ecarlate-fem-2.jpg",
+		"orthetrum-reticule-fem-3.jpg",
+		"sympetrum-sanguin-fem-4.jpg",
+		"sympetrum-nervures-fem-5.jpg",
+		"trithemis-annele-fem-6.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "habitats": [
-    "pounds-1",
-    "rivers-1",
-    "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
-  ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Il existe des libellules femelles ou immatures jaunes qui sont difficiles à identifier. Cette application ne permet pas leur identification.",
   "flyPeriod": [
         [1,1,1,1],
         [1,1,1,1],
@@ -1712,10 +1749,8 @@
         [1,1,1,1],
         [1,1,1,1],
         [1,1,1,1]
-  ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
-  "distributionMap": "carte.png"
+  ]
+
 },
 
 {
@@ -1725,7 +1760,7 @@
   "region": ["RO", "GE"],
   "strong_criteria": [],
   "headerPicture": {
-      "url": "gomphus_vulgatissimus.jpg",
+      "url": "autres-menu.jpg",
       "author": "Test",
       "license": "CC BY"
   },
@@ -1746,19 +1781,18 @@
     [1]
   ],
   "pictures": [
-      "photo1.jpg",
-      "photo2.jpg"
+		"gr-aeschne-affine-1.jpg",
+		"gr-aeschne-azuree-2.jpg",
+		"gr-aeschne-mixte-3.jpg",
+		"gr-aeschne-subarctique-4.jpg",
+		"gr-leuc-douteuse-5.jpg",
+		"gr-leuc-queue-6.jpg",
+		"gr-leuc-thorax-7.jpg",
+		"gr-cordulie-alpes-8.jpg",
+		"gr-cordulie-arctique-9.jpg",
+		"gr-sympetrum-noir-10.jpg"
   ],
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "habitats": [
-    "pounds-1",
-    "rivers-1",
-    "peatbog-1",
-    "ditch-1",
-    "temp-environment-0",
-    "lake-0"
-  ],
-  "behavior": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+  "description": "Il existe d'autres libellules moins fréquentes en Suisse et difficiles à identifier. Cette application ne permet pas leur identification.",
   "flyPeriod": [
         [1,1,1,1],
         [1,1,1,1],
@@ -1768,10 +1802,7 @@
         [1,1,1,1],
         [1,1,1,1],
         [1,1,1,1]
-  ],
-  "anecdote": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
-  "threat": "Menacé, ou pas",
-  "distributionMap": "carte.png"
+  ]
 }
 ],
   "walks": [
