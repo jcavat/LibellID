@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+    <name>Gruère_tracé</name>
+    <Style id="blueLine">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="bluePoly">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19dd2200</color>
+      </PolyStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="redPoly">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>190000bb</color>
+      </PolyStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenPoly">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19007700</color>
+      </PolyStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownPoly">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19004b96</color>
+      </PolyStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="purplePoly">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="blackLine">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="blackPoly">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19000000</color>
+      </PolyStyle>
+    </Style>
+
+    <Placemark>
+      
+      
+      <LineString>
+        <coordinates>7.04337,47.23917 7.04379,47.23905 7.04414,47.23879 7.04455,47.2386 7.04483,47.23858 7.04506,47.2384 7.04511,47.23809 7.04502,47.23789 7.04482,47.23771 7.04483,47.23753 7.04493,47.23748 7.04558,47.23743 7.04561,47.23769 7.04577,47.238 7.04606,47.23811 7.04636,47.23815 7.04665,47.23825 7.04676,47.23809 7.04674,47.23774 7.04685,47.23766 7.04699,47.23767 7.04717,47.23773 7.04728,47.23784 7.04738,47.23799 7.04749,47.23803 7.04782,47.23797 7.04844,47.23797 7.04882,47.23791 7.04917,47.23777 7.04933,47.23765 7.0493,47.23731 7.04941,47.23732 7.04965,47.23736 7.05083,47.23764 7.05085,47.23786 7.051,47.23805 7.05123,47.2381 7.05159,47.23829 7.05188,47.2385 7.05196,47.23861 7.0523,47.23867 7.0527,47.2387 7.05292,47.2388 7.05302,47.23886 7.05307,47.23893 7.05277,47.23903 7.05261,47.23918 7.05247,47.23935 7.05247,47.23981 7.05181,47.24011 7.05155,47.24041 7.05131,47.24058 7.05093,47.24073 7.05054,47.24071 7.0502,47.24075 7.05008,47.2408 7.04967,47.24078 7.04942,47.24066 7.04931,47.24053 7.04917,47.24052 7.04877,47.24062 7.04874,47.24075 7.04841,47.24083 7.04804,47.24074 7.04775,47.24066 7.04745,47.24058 7.04718,47.24023 7.04693,47.24002 7.04687,47.23977 7.04626,47.23961 7.04576,47.23942 7.04551,47.23945 7.04523,47.23952 7.04432,47.23949 7.04387,47.23922 7.04378,47.23906</coordinates>
+      </LineString>
+    </Placemark>
+
+ </Document>
+</kml>
