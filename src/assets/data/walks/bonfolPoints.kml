@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="bluePoly">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19dd2200</color>
+      </PolyStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="redPoly">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>190000bb</color>
+      </PolyStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenPoly">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19007700</color>
+      </PolyStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownPoly">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19004b96</color>
+      </PolyStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="purplePoly">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="blackLine">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="blackPoly">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19000000</color>
+      </PolyStyle>
+    </Style>
+
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>D</value>
+            </Data>
+		</ExtendedData>
+      <name>Départ</name>
+     <description>
+          <![CDATA[
+              <p>Ici commence ce parcours.<br>
+				Vous allez découvrir des libellules de tailles et de couleurs variées au fil de points d'observation. Ouvrez l’oeil!<br>
+				Les libellules volent par beau temps et pas nécessairement toutes à la même saison. N’hésitez pas à revenir.
+            </p>
+          ]]>
+	  </description>        
+      <Point>
+        <coordinates>7.15857,47.47129</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>1</value>
+            </Data>
+		</ExtendedData>
+      <name>L'étang du milieu</name>
+      <description>
+          <![CDATA[
+              <p>Depuis cette ouverture dans la forêt, vous apercevrez peut-être des Agrions à larges pattes en train de s'accoupler ou de pondre.
+            </p>
+			<img src="assets/img/agrion-pattes-walk.jpg">
+              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.16099,47.47128</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>2</value>
+            </Data>
+		</ExtendedData>
+      <name>L'étang des Charmes</name>
+      <description>
+          <![CDATA[
+              <p>Je suis de grande taille, de couleur brun foncé avec des ailes enfumées. Je suis la Grande Aeschne.
+            </p>
+			<img src="assets/img/aeschne-grande-menu.jpg">
+              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+            </p>
+          ]]>
+	  </description>          
+      <Point>
+        <coordinates>7.1647,47.47223</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>3</value>
+            </Data>
+		</ExtendedData>
+      <name>Un chemin fréquenté</name>
+      <description>
+          <![CDATA[
+              <p>Par temps beau et chaud, vous pourrez voir des libellules se poser sur ce chemin ou dans les herbes environnantes, comme par exemple l'Orthétrum réticulé.
+            </p>
+			<img src="assets/img/orthetrum-reticule-menu.jpg">
+              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.16656,47.47278</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>4</value>
+            </Data>
+		</ExtendedData>
+      <name>Neuf étang</name>
+      <description>
+          <![CDATA[
+              <p>Vous pourriez apercevoir ici des libellules rouges de taille moyenne, les Sympétrums ou des Libellules avec deux taches à l'avant de chaque aile, les Libellules à quatre taches.
+            </p>
+			<img src="assets/img/libellule-taches-menu.jpg">
+              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>7.17074,47.47047</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>5</value>
+            </Data>
+		</ExtendedData>
+      <name>Certaines l'aiment...</name>
+      <description>
+          <![CDATA[
+              <p>Ce n'est pas la taille qui compte. Cette petite mare abrite une multitude d'espèces.<br>
+			En vous rapprochant, vous devriez pouvoir observer plusieurs Agrions bleus, comme l'Agrion jouvencelle ou l'Agrion élégant.
+            </p>
+			<img src="assets/img/agrion-elegant-walk.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion à larges pattes, le groupe des Naïades, la grande Aeschne, l'Aeschne bleue, la Cordulie à taches jaunes, la Libellule déprimée et le groupe des Sympétrums rouges. 
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.17746,47.46908</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>6</value>
+            </Data>
+		</ExtendedData>
+      <name>Entre 2 étangs</name>
+      <description>
+          <![CDATA[
+              <p>Je suis une grande libellule sombre avec une tâche bleue, l'Anax parthénope. En traversant cette digue, cherchez à m'apercevoir.<br>
+			Soyez attentifs, car je ne me pose que rarement.
+            </p>
+			<img src="assets/img/anax_napolitain-menu.jpg">
+              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application. 
+            </p>
+          ]]>
+	  </description>        
+      <Point>
+        <coordinates>7.1636,47.47031</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>7</value>
+            </Data>
+		</ExtendedData>
+      <name>Le temps des adieux</name>
+      <description>
+          <![CDATA[
+              <p>Depuis cette berge, essayez de démasquer dans les plantes bordant l'étang une discrète libellule vert métalisé, le Leste vert.
+            </p>
+			<img src="assets/img/leste-vert-menu.jpg">
+              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application. 
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.15884,47.47065</coordinates>
+      </Point>
+    </Placemark>
+
+ </Document>
+</kml>
