@@ -99,11 +99,13 @@
                 <value>5</value>
             </Data>
         </ExtendedData>
-        <name>Au jardin d'hiver</name>
+        <name>Certaines l'aiment...</name>
         <description>
           <![CDATA[
               <p>Avec mes yeux rouges, je suis la naïade au corps vert. Vous pouvez m’apercevoir à fleur d’eau ou posée sur les nénuphars.</p>
-              <img src="assets/img/walk1pic5.jpg">
+              <img src="assets/img/naiade-corps-vert-menu.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Anax empereur et la Libellule déprimée.
+            </p>
           ]]>
         </description>
       <Point>
@@ -120,7 +122,7 @@
         <description>
             <![CDATA[
                 <p>Si le vent n’est pas fort, vous pourrez peut-être apercevoir au raz de l'eau le discret Agrion porte-coupe.</p>
-                <img src="assets/img/walk1pic2.jpg">
+                <img src="assets/img/agrion-coupe-walk.jpg">
             ]]>
         </description>
       <Point>
@@ -137,7 +139,9 @@
       <description>
           <![CDATA[
               <p>Trouverez-vous l’Anax empereur, la plus grande libellule d’Europe?</p>
-              <img src="assets/img/walk1pic1.jpg">
+              <img src="assets/img/anax_empereur-menu.jpg">
+              <p>Autres libellules potentiellement observables: le Leste vert, l'Agrion élégant, l'Agrion jouvencelle, la Naïade au corps vert, l'Aeschne isocèle, la Cordulie bronzée, l'Orthétrum réticulé, le Sympétrum rouge sang et le Sympétrum à côtés striés.
+            </p>
           ]]>
       </description>
       <Point>
