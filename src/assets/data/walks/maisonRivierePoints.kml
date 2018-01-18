@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="bluePoly">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19dd2200</color>
+      </PolyStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="redPoly">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>190000bb</color>
+      </PolyStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenPoly">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19007700</color>
+      </PolyStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownPoly">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19004b96</color>
+      </PolyStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="purplePoly">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="blackLine">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="blackPoly">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19000000</color>
+      </PolyStyle>
+    </Style>
+
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>D</value>
+            </Data>
+		</ExtendedData>
+      <name>Départ</name>
+     <description>
+          <![CDATA[
+              <p>Ici commence ce parcours.<br>
+				Vous allez découvrir des libellules de tailles et de couleurs variées au fil de points d'observation. Ouvrez l’oeil!<br>
+				Les libellules volent par beau temps et pas nécessairement toutes à la même saison. N’hésitez pas à revenir.
+            </p>
+          ]]>
+	  </description>        
+      <Point>
+        <coordinates>6.47788,46.49454</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>1</value>
+            </Data>
+		</ExtendedData>
+      <name>Au fil du Boiron</name>
+      <description>
+          <![CDATA[
+              <p>Vous allez longer une petite rivière qui abrite des libellules typiques des eaux courantes, comme le Caloptéryx éclatant. Les libellules aiment le soleil, cherchez-les de préférence dans les zones ensoleillées.
+            </p>
+			<img src="assets/img/calopteryx-eclatant-menu.jpg">
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.47767,46.4944</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>2</value>
+            </Data>
+		</ExtendedData>
+      <name>Au-dessus d'un canal</name>
+      <description>
+          <![CDATA[
+              <p>Ce canal didactique peut abriter également le Caloptéryx éclatant. Si vous ne l'avez pas encore vu, essayez de l'observer depuis le pont.
+            </p>
+			<img src="assets/img/calopteryx-eclatant-menu.jpg">
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.47878,46.49295</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>4</value>
+            </Data>
+		</ExtendedData>
+      <name>Petite mais intéressante</name>
+      <description>
+          <![CDATA[
+              <p>Cette petite mare, malgré sa taille modeste, peut abriter les mêmes espèces que la grande mare dont vous venez. 
+            </p>
+			<img src="assets/img/libellule-dep-menu.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Aeschne bleue, la Libellule écarlate, la Libellule déprimée, l'Orthétrum réticulé et le groupe des Sympétrums rouges.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.4795,46.49291</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>3</value>
+            </Data>
+		</ExtendedData>
+      <name>Au bord d'une mare</name>
+      <description>
+          <![CDATA[
+              <p>Cette mare est un lieu privilégié pour admirer plusieurs espèces de libellules, des petites comme l'Agrion élégant et des plus grandes comme la Libellule écarlate. 
+            </p>
+			<img src="assets/img/libellule-ecarlate-menu.jpg">
+              <p>Autres libellules potentiellement observables: l'Aeschne bleue, la Libellule déprimée, l'Orthétrum réticulé et le Sympétrum rouge sang.
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>6.47939,46.49266</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>5</value>
+            </Data>
+		</ExtendedData>
+      <name>Sur les rives du Léman</name>
+      <description>
+          <![CDATA[
+              <p>Si le vent n'est pas trop fort, vous pourrez peut-être apercevoir au raz de l'eau le discret Agrion porte-coupe.
+            </p>
+			<img src="assets/img/agrion-coupe-walk.jpg">
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.48018,46.49129</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>6</value>
+            </Data>
+		</ExtendedData>
+      <name>Certaines l'aiment...</name>
+      <description>
+          <![CDATA[
+              <p>Cette petite mare est très ombragée, ce qu'affectionne particulièrement une grande libellule bleue et noire, l'Aeschne bleue.
+            </p>
+			<img src="assets/img/aeschne-bleue-menu.jpg">
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>6.48227,46.49334</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>7</value>
+            </Data>
+		</ExtendedData>
+      <name>Le temps des adieux</name>
+      <description>
+          <![CDATA[
+              <p>En longeant le Léman, n'hésitez pas à lever les yeux de votre téléphone et à admirer le paysage.
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>6.48228,46.49391</coordinates>
+      </Point>
+    </Placemark>
+
+ </Document>
+</kml>
