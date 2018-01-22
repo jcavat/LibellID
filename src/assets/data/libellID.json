@@ -622,7 +622,7 @@
   ],
   "anecdote": "Comme pour de très nombreuses espèces de libellules, ce sont généralement les mâles de Cordulies que l’on observe à proximité du milieu aquatique. Les femelles sont plus discrètes et ne s’approchent de l’eau que pour s’accoupler et pondre.<br><br>La femelle pond seule et habituellement de manière furtive afin de ne pas se faire repérer par un mâle. En effet, elle évite ainsi d’être saisie par un autre mâle et de devoir s’accoupler à nouveau.",
   "threat": "Les Cordulies de plaines ne sont pas menacées en Suisse.",
-  "distributionMap": "carte.png"
+  "distributionMap": "repartition-gr-cordulies.png"
 },
 {
   "commonName": "Agrions bleus",
@@ -681,7 +681,7 @@
   ],
   "anecdote": "Les Agrions bleus sont souvent présents en très grand nombre sur un plan d’eau. On observe facilement les mâles car ils s’éloignent peu de l’eau. Les femelles sont moins visibles et restent souvent à l’écart du milieu aquatique, sauf lors de l’accouplement et de la ponte.<br><br>Pendant la ponte, le mâle reste accroché à la femelle et se tient dressé verticalement au-dessus d’elle.",
   "threat": "La plupart des Agrions bleus ne sont pas menacés en Suisse. Néanmoins, certains d’entre eux sont potentiellement menacés (Agrion joli et Agrion hasté), voir même en danger critique d’extinction (Agrion de Mercure).",
-  "distributionMap": "carte.png"
+  "distributionMap": "repartition-gr-agrions.png"
 },
 {
   "commonName": "Cordulégastre annelé",
@@ -793,7 +793,7 @@
   ],
   "anecdote": "Les Cordulégastres sont souvent les seules libellules visibles au bord des ruisseaux, petites rivières, fossés et zones de sources.<br><br>Les larves vivent sur le fond des ruisseaux et des résurgences où elles chassent d’autres invertébrés. Dans les eaux froides, leur croissance s’étale sur quelques années.<br><br>Pour pondre, la femelle choisit des emplacements peu profonds à substrat fin. Elle se place à la verticale et enfonce son abdomen dans la vase dans un brusque mouvement de va et vient.",
   "threat": "Le Cordulégastre annelé n’est pas menacé en Suisse, alors que le Cordulégastre bidenté est potentiellement menacé.",
-  "distributionMap": "carte.png"
+  "distributionMap": "repartition-gr-cordulegastres.png"
 },
 {
   "commonName": "Libellule écarlate",
@@ -965,7 +965,7 @@
   ],
   "anecdote": "Les Naïades tirent probablement leur nom de leur mode de ponte. En effet, la femelle insère souvent ses œufs dans les tiges submergées des plantes aquatiques, en s’immergeant telle une naïade à des profondeurs de plusieurs dizaines de centimètres sous la surface.<br><br>Elles peuvent rester jusqu’à une demi-heure sous l’eau pour pondre avant de remonter à la surface et de s’envoler à nouveau.",
   "threat": "Les Naïades ne sont pas menacées en Suisse.",
-  "distributionMap": "carte.png"
+  "distributionMap": "repartition-gr-naiades.png"
 },
 {
   "commonName": "Leste sauvage",
@@ -1531,7 +1531,7 @@
   ],
   "anecdote": "Par temps chaud et ensoleillé, certains Sympétrums adoptent une position très caractéristique, la tête en bas et l’extrémité du corps pointée vers le ciel. Cette position, dite en obélisque, leur permet de diminuer la surface de leur corps exposée au soleil.",
   "threat": "Cinq des Sympétrums rouges ne sont pas menacés en Suisse. Toutefois, le Sympétrum à corps déprimé est vulnérable et le Sympétrum jaune d'or est en danger.",
-  "distributionMap": "carte.png"
+  "distributionMap": "repartition-gr-sympetrums.png"
 },
 {
   "commonName": "Trithémis pourpré",
@@ -1644,7 +1644,7 @@
   ],
   "anecdote": "Les Gomphes vivent principalement dans les plaines alluviales et les cours d’eau. Seul le Gomphe joli vit auprès des eaux stagnantes.<br><br>Les larves de Gomphes apprécient les substrats sableux où elles s’enfouissent pour chasser à l’affût les proies qui passent devant elles.",
   "threat": "En Suisse, le Gomphe à pinces et le Gomphe très commun sont potentiellement menacés, le Gomphe joli est quant à lui vulnérable.",
-  "distributionMap": "carte.png"
+  "distributionMap": "repartition-gr-gomphes.png"
 },
 {
   "commonName": "Leste brun",
@@ -1808,121 +1808,309 @@
   "walks": [
     {
       "id": 1,
-      "name": "Jardin botanique",
-      "preview": "walk1-preview1.png",
-      "duration": "1h15",
+      "name": "L'étang de la Gruère",
+      "preview": "gruere-preview.jpg",
+      "diversity": 3,
+      "period": "Avril à octobre",
+      "duration": "2h",
+      "length": 2.1,
+      "accesibility": [1],
+      "infrastructure": "Bancs.",
+	  "info": "Possibilité de baignade.",
+      "Access": "Transports publics, voiture.",
+	  "pictures": "gruere.jpg",
+      "pathKML": "gruere.kml",
+      "pointsKML": "gruerePoints.kml",
+      "coords": [47.23909, 7.04337]
+  },
+
+    {
+      "id": 2,
+      "name": "Entre marais de l’Auried et Sarine",
+      "preview": "gruere-preview.jpg",
+      "diversity": 3,
+      "period": "Avril à octobre",
+      "duration": "3h",
+      "length": 3.4,
+      "accesibility": [2],
+      "infrastructure": "Bancs, centre d'accueil.",
+	  "info": "Parcours linéaire, jumelles conseillées.",
+      "Access": "Transports publics, voiture.",
+	  "pictures": "auried.jpg",
+      "pathKML": "auried.kml",
+      "pointsKML": "auriedPoints.kml",
+      "coords": [46.89615, 7.21362]
+  },
+
+    {
+      "id": 3,
+      "name": "Les étangs de Bonfol",
+      "preview": "bonfol-preview.jpg",
+      "diversity": 3,
+      "period": "Avril à octobre",
+      "duration": "3h",
+      "length": 3.7,
+      "accesibility": [2],
+      "infrastructure": "Bancs, tables de pique-nique.",
+	  "info": "Optez de préférence pour des chaussures fermées et un pantalon.",
+      "Access": "Transports publics, voiture.",
+	  "pictures": "bonfol.jpg",
+      "pathKML": "bonfol.kml",
+      "pointsKML": "bonfolPoints.kml",
+      "coords": [47.47129, 7.15857]	  
+  },
+
+    {
+      "id": 4,
+      "name": "Les marais de Pouta Fontana",
+      "preview": "poutafontana-preview.jpg",
+      "diversity": 3,
+      "period": "Avril à octobre",
+      "duration": "3h",
+      "length": 5.7,
+      "accesibility": [2],
+      "infrastructure": "Bancs, toilettes.",
+	  "info": "Possibilité de baignade.",
+      "Access": "Transports publics, voiture.",
+	  "pictures": "poutafontana.jpg",
+      "pathKML": "poutafontana.kml",
+      "pointsKML": "poutafontanaPoints.kml",
+      "coords": [46.25544, 7.44456]	  
+  },  
+
+    {
+      "id": 5,
+      "name": "Les Teppes de Verbois",
+      "preview": "teppes-preview.jpg",
+      "diversity": 3,
+      "period": "Avril à octobre",
+      "duration": "3h",
+      "length": 5.7,
+      "accesibility": [1,2,3],
+      "infrastructure": "Tables de pique-nique.",
+	  "info": "Parcours linéaire.",
+      "Access": "Transports publics, voiture.",
+	  "pictures": "teppes.jpg",
+      "pathKML": "teppes.kml",
+      "pointsKML": "teppesPoints.kml",
+      "coords": [46.18753, 6.01764]	  
+  }, 
+
+    {
+      "id": 6,
+      "name": "Au fil de l'Aire",
+      "preview": "aire-preview.jpg",
+      "diversity": 3,
+      "period": "Avril à octobre",
+      "duration": "4h",
+      "length": 14,
+      "accesibility": [2,3,4],
+      "infrastructure": "Tables de pique-nique.",
+	  "info": "Parcours linéaire. Retour possible par l'autre rive.",
+      "Access": "Transports publics, voiture.",
+	  "pictures": "aire.jpg",
+      "pathKML": "aire.kml",
+      "pointsKML": "airePoints.kml",
+      "coords": [46.16947, 6.08898]  
+  }, 
+
+    {
+      "id": 7,
+      "name": "Au bord du lac de Neuchâtel",
+      "preview": "neuchatel-preview.jpg",
       "diversity": 2,
-      "difficulty": 1,
+      "period": "Avril à octobre",
+      "duration": "2h",
+      "length": 1.4,
+      "accesibility": [],
+      "infrastructure": "Restauration, bancs.",
+	  "info": "Possibilité de baignade.",
+      "Access": "Transports publics, voiture, bateau.",
+	  "pictures": "neuchatel.jpg",
+      "pathKML": "neuchatel.kml",
+      "pointsKML": "neuchatelPoints.kml",
+      "coords": [47.01124, 6.97986]
+  },  
+  
+  {
+      "id": 8,
+      "name": "Jardin botanique genevois",
+      "preview": "jardinBotanique-preview.jpg",
+      "diversity": 2,
+      "period": "Avril à octobre",
+      "duration": "2h",
       "length": 3.1,
-      "description": "",
-      "species": [
-        {
-          "name": "Anax empereur",
-          "flyFrom": 6,
-          "flyTo": 10
-        },
-        {
-          "name": "Agrion",
-          "flyFrom": 5,
-          "flyTo": 9
-        },
-        {
-          "name": "Naïade au corps vert",
-          "flyFrom": 5,
-          "flyTo": 9
-      },
-      {
-        "name": "Sympétrum",
-        "flyFrom": 5,
-        "flyTo": 10
-    },
-    {
-      "name": "Libellule déprimée",
-      "flyFrom": 4,
-      "flyTo": 9
-      },
-      {
-        "name": "Petite nymphe au corps de feu",
-        "flyFrom": 4,
-        "flyTo": 8
-    },
-    {
-      "name": "Leste vert",
-      "flyFrom": 6,
-      "flyTo": 10
-      },
-      {
-        "name": "Cordulie",
-        "flyFrom": 4,
-        "flyTo": 9
-    }
-      ],
-      "pictures":[
-          "photo1.jpg",
-          "photo2.jpg"
-      ],
+      "accesibility": [0,1,2],
+      "infrastructure": "Restauration, place de jeux, toilettes, bancs.",
+	  "info": "Horaires et infos: www.ville-ge.ch/cjb/horaires.php",
+      "Access": "Transports publics, voiture, bateau.",
+	  "pictures": "jardinBotanique.jpg",
       "pathKML": "jardinBotanique.kml",
       "pointsKML": "jardinBotaniquePoints.kml",
       "coords": [46.224421, 6.147599]
   },
-  {
-    "id": 2,
-    "name": "Teppes de Verbois",
-    "preview": "teppes-verbois.png",
-    "duration": "1h15",
-    "diversity": 2,
-    "difficulty": 1,
-    "length": 3.1,
-    "description": "",
-    "species": [
-      {
-        "name": "Anax empereur",
-        "flyFrom": 6,
-        "flyTo": 10
-      },
-      {
-        "name": "Agrion",
-        "flyFrom": 5,
-        "flyTo": 9
-      },
-      {
-        "name": "Naïade au corps vert",
-        "flyFrom": 5,
-        "flyTo": 9
-    },
+
     {
-      "name": "Sympétrum",
-      "flyFrom": 5,
-      "flyTo": 10
+      "id": 9,
+      "name": "La Maison de la Rivière",
+      "preview": "maisonRiviere-preview.jpg",
+      "diversity": 2,
+      "period": "Avril à octobre",
+      "duration": "2h",
+      "length": 1.7,
+      "accesibility": [0,1,2],
+      "infrastructure": "Centre d'accueil.",
+	  "info": "Site de la Maison de la rivière payant. Horaires et infos: http://www.maisondelariviere.ch/centre/",
+      "Access": "Voiture.",
+	  "pictures": "maisonRiviere.jpg",
+      "pathKML": "maisonRiviere.kml",
+      "pointsKML": "maisonRivierePoints.kml",
+      "coords": [46.49266, 6.47939]
   },
-  {
-    "name": "Libellule déprimée",
-    "flyFrom": 4,
-    "flyTo": 9
-    },
-    {
-      "name": "Petite nymphe au corps de feu",
-      "flyFrom": 4,
-      "flyTo": 8
+
+      {
+      "id": 10,
+      "name": "Les étangs des Franchises",
+      "preview": "boudry-preview.jpg",
+      "diversity": 2,
+      "period": "Avril à octobre",
+      "duration": "2h",
+      "length": 1,
+      "accesibility": [1,2],
+      "infrastructure": "Place de jeux, bancs.",
+	  "info": "Au coeur d'un parc urbain",
+      "Access": "Transports publics, voiture.",
+	  "pictures": "boudry.jpg",
+      "pathKML": "boudry.kml",
+      "pointsKML": "boudryPoints.kml",
+      "coords": [46.21109, 6.1186] 
   },
-  {
-    "name": "Leste vert",
-    "flyFrom": 6,
-    "flyTo": 10
-    },
+  
     {
-      "name": "Cordulie",
-      "flyFrom": 4,
-      "flyTo": 9
-  }
-    ],
-    "pictures":[
-        "photo1.jpg",
-        "photo2.jpg"
-    ],
-    "pathKML": "teppesAllondon.kml",
-    "pointsKML": "teppesAllondonPoints.kml",
-    "coords": [46.18753, 6.01764]
+      "id": 11,
+      "name": "Les îles de Boudry",
+      "preview": "boudry-preview.jpg",
+      "diversity": 2,
+      "period": "Avril à octobre",
+      "duration": "2h",
+      "length": 1.2,
+      "accesibility": [1,2],
+      "infrastructure": "Restauration, bancs.",
+	  "info": "Parcours linéaire",
+      "Access": "Transports publics, voiture.",
+	  "pictures": "boudry.jpg",
+      "pathKML": "boudry.kml",
+      "pointsKML": "boudryPoints.kml",
+      "coords": [46.95235, 6.84434]
+  },
+
+    {
+      "id": 12,
+      "name": "Le centre nature de la Sauge",
+      "preview": "sauge-preview.jpg",
+      "diversity": 2,
+      "period": "Avril à octobre",
+      "duration": "3h",
+      "length": 5.1,
+      "accesibility": [0,1],
+      "infrastructure": "Centre d'accueil",
+	  "info": "Centre nature payant, ouvert de mars à octobre. Horaires et infos: www.birdlife.ch/la sauge",
+      "Access": "Transports publics, voiture, bateau.",
+	  "pictures": "sauge.jpg",
+      "pathKML": "sauge.kml",
+      "pointsKML": "saugePoints.kml",
+      "coords": [46.95235, 6.84434]
+  },
+
+  {
+      "id": 13,
+      "name": "Les marais de Bellelay",
+      "preview": "bellelay-preview.jpg",
+      "diversity": 2,
+      "period": "Avril à octobre",
+      "duration": "3h",
+      "length": 4.9,
+      "accesibility": [2],
+      "infrastructure": "Centre d'accueil, place de jeux.",
+	  "info": "Panneaux d'information et jeux complémentaires.",
+      "Access": "Transports publics, voiture.",
+	  "pictures": "bellelay.jpg",
+      "pathKML": "bellelay.kml",
+      "pointsKML": "bellelayPoints.kml",
+      "coords": [47.25672, 7.16926]
+  }, 
+  
+  {
+      "id": 14,
+      "name": "Sur les rives du lac de Bienne",
+      "preview": "bienne-preview.jpg",
+      "diversity": 2,
+      "period": "Avril à octobre",
+      "duration": "3h",
+      "length": 4.1,
+      "accesibility": [0,1,2],
+      "infrastructure": "Restauration, tables de pique-nique, toilettes, place de jeux.",
+	  "info": "Possibilité de baignade.",
+      "Access": "Transports publics, voiture.",
+	  "pictures": "bienne.jpg",
+      "pathKML": "bienne.kml",
+      "pointsKML": "biennePoints.kml",
+      "coords": [47.1075, 7.217]
+  },  
+
+  {
+      "id": 15,
+      "name": "Du Lac Noir à Riggisalp",
+      "preview": "lacnoir-preview.jpg",
+      "diversity": 2,
+      "period": "Avril à octobre",
+      "duration": "6h",
+      "length": 21,
+      "accesibility": [2],
+      "infrastructure": "Restauration, tables de pique-nique, toilettes, bancs.",
+	  "info": "Montée en télésiège payante. Horaires et infos: http://www.kaisereggbahnen-schwarzsee.ch Itinéraire en altitude avec dénivelé négatif.",
+      "Access": "Transports publics, voiture.",
+	  "pictures": "lacnoir.jpg",
+      "pathKML": "lacnoir.kml",
+      "pointsKML": "lacnoirPoints.kml",
+      "coords": [46.66818, 7.28087]
+  }, 
+
+  {
+      "id": 16,
+      "name": "Du Parc Chuit au Rhône",
+      "preview": "chuit-preview.jpg",
+      "diversity": 1,
+      "period": "Avril à octobre",
+      "duration": "3h",
+      "length": 6.9,
+      "accesibility": [],
+      "infrastructure": "Restauration, tables de pique-nique, place de jeux, bancs.",
+	  "info": "Parcours linéaire.",
+      "Access": "Transports publics, voiture.",
+	  "pictures": "chuit.jpg",
+      "pathKML": "chuit.kml",
+      "pointsKML": "chuitPoints.kml",
+      "coords": [46.19854, 6.12381] 
+  }, 
+  
+  {
+      "id": 17,
+      "name": "Les étangs d’altitude",
+      "preview": "iserables-preview.jpg",
+      "diversity": 1,
+      "period": "Avril à octobre",
+      "duration": "5h",
+      "length": 16.3,
+      "accesibility": [2],
+      "infrastructure": "Restauration.",
+	  "info": "Montée en télécabine payante. Itinéraire en altitude avec fort dénivelé négatif.",
+      "Access": "Transports publics, voiture.",
+	  "pictures": "iserables.jpg",
+      "pathKML": "iserables.kml",
+      "pointsKML": "iserablesPoints.kml",
+      "coords": [46.14348, 7.28788]
+   
 }
 ],
 "criteria": [
