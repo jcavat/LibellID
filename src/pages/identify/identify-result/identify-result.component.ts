@@ -7,6 +7,9 @@ import { DragonflyPage } from '../../dragonfly/dragonfly.component';
 import { Dragonfly } from '../../../app/classes/dragonfly/dragonfly';
 import { Utils } from '../../../providers/utils';
 
+import { NativeGeocoder, NativeGeocoderReverseResult, NativeGeocoderForwardResult } from '@ionic-native/native-geocoder';
+import { Geolocation } from '@ionic-native/geolocation';
+
 
 @Component({
   templateUrl: 'identify-result.component.html'
@@ -19,8 +22,14 @@ export class IdentifyResultPage {
   private criteriaSelected: number = 0;
   private useDate: boolean;
   private usePosition: boolean;
+  private latitude:number;
+  private longitude:number;
 
-  constructor(private navCtrl: NavController, navParams: NavParams, private jsonDataService: JsonDataService) {
+  constructor(private navCtrl: NavController, 
+              private navParams: NavParams,
+              private jsonDataService: JsonDataService,
+              private nativeGeocoder: NativeGeocoder,
+              private geolocation: Geolocation) {
     this.criteria = navParams.get("criteria");
     this.useDate = navParams.get("useDate");
     this.usePosition = navParams.get("usePosition");
@@ -41,6 +50,11 @@ export class IdentifyResultPage {
       if (that.useDate) {
         that.dragonfliesData = that.filterByDate(that.dragonfliesData);
       }
+      
+      //filter geoloc
+      /*if(that.usePosition){
+        that.filterGeoloc(that.dragonfliesData);
+      }*/
 
       for (var i = 0; i < that.dragonfliesData.length; i++) {
         let dragonflyMatchedCriteria: boolean[] = []
@@ -88,6 +102,56 @@ export class IdentifyResultPage {
     //no filter by date
     return dragonflies;
 
+  }
+
+  private filterGeoloc(dragonflies)
+  {
+    //get region acronym
+    this.jsonDataService.region().then(function (val) {
+      let regions = val as Object[];
+      let regionJSON; 
+
+      //browse the regions
+      for(let i=0; i<regions.length; i++){
+        regionJSON = regions[i];
+        for(let regionKey in regions[i]){
+          //if region are find
+          if(regionJSON[regionKey] == "Genève"){
+            console.log(regionKey)
+            //filter by key geoloc in json (exemple filter by 'GE')
+            //return dragonflies.filter(dragonfly=>  dragonfly.flyPeriod[dateIndex][0] > 0 || 
+            //                          dragonfly.flyPeriod[dateIndex][1] > 0 || 
+            //                          dragonfly.flyPeriod[dateIndex][2] > 0 || 
+            //                          dragonfly.flyPeriod[dateIndex][3] > 0 );
+          }
+        }
+      }
+    }).catch(function (err: Error) {
+      alert("Un problème est survenu\n" + err.name + "\n" + err.message)
+    });
+
+/*
+
+    //get geoloc
+    this.geolocation.getCurrentPosition().then((resp) => {
+      this.latitude = resp.coords.latitude;
+      this.longitude = resp.coords.longitude;
+      
+      //parse lat long to geocod
+      this.nativeGeocoder.reverseGeocode(this.latitude, this.longitude)
+      .then((result: NativeGeocoderReverseResult) => {
+          console.log(JSON.stringify(result))
+          
+          
+        
+      })
+      .catch((error: any) => console.log(error));
+
+    }).catch((error) => {
+       console.log('Error getting location', error);
+    });
+*/
+    
   }
 
   private alphabeticSort(a, b) {

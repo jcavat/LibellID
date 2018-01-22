@@ -59,6 +59,26 @@ export class JsonDataService {
     return c;
   }
 
+  public region(){
+    let r: any;
+    let that = this;
+    if (this.singleInstanceJsonData) {
+        r = new Promise(function(resolve,reject){
+            resolve(that.singleInstanceJsonData.region);
+        });
+    }else{
+        r = new Promise(function(resolve,reject){
+            that.http.get('assets/data/libellID.json')
+                .map(res => res.json())
+                .subscribe(data => {
+                    that.singleInstanceJsonData = data;
+                    resolve(that.singleInstanceJsonData.region) ;
+            });
+        });
+    }
+    return r;
+  }
+
   public walks(): Promise<Walk[]>{
     let w: Promise<Walk[]>;
     let that = this;

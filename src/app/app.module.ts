@@ -33,6 +33,7 @@ import {DragonflyDistributionTabPage} from '../pages/dragonfly/dragonfly-tabs/dr
 import { File } from '@ionic-native/file';
 import { HTTP } from '@ionic-native/http';
 import {IonicStorageModule} from '@ionic/storage';
+import { NativeGeocoder, NativeGeocoderReverseResult, NativeGeocoderForwardResult } from '@ionic-native/native-geocoder';
 import {Utils} from '../providers/utils';
 
 @NgModule({
@@ -101,6 +102,7 @@ import {Utils} from '../providers/utils';
     JsonDataService,
     File,
     HTTP,
+    NativeGeocoder,
     Utils
   ]
 })
