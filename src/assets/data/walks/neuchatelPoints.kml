@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="bluePoly">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19dd2200</color>
+      </PolyStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="redPoly">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>190000bb</color>
+      </PolyStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenPoly">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19007700</color>
+      </PolyStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownPoly">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19004b96</color>
+      </PolyStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="purplePoly">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="blackLine">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="blackPoly">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19000000</color>
+      </PolyStyle>
+    </Style>
+
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>1</value>
+            </Data>
+		</ExtendedData>
+      <name>La fontaine du millénaire</name>
+      <description>
+          <![CDATA[
+              <p>Une mare, même de taille modeste, est un milieu intéressant pour certaines espèces de libellules, dont l'Agrion jouvencelle.
+            </p>
+			<img src="assets/img/agrion-jouvencelle-walk.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion élégant et le groupe des Sympétrums rouges. 
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.98545,47.01083</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>2</value>
+            </Data>
+		</ExtendedData>
+      <name>D'une crique à l'autre</name>
+      <description>
+          <![CDATA[
+              <p>Les nombreuses criques qui bordent ici le lac de Neuchâtel abritent une libellule bleue qui se pose souvent sur les rochers ou les cailloux, l'Orthétrum réticulé.
+            </p>
+			<img src="assets/img/orthetrum-reticule-menu.jpg">
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.98253,47.01034</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>3</value>
+            </Data>
+		</ExtendedData>
+      <name>Depuis le ponton</name>
+      <description>
+          <![CDATA[
+              <p>Vous avez depuis ce ponton un premier aperçu d'un étang. Posez quelques instants votre téléphone et observer les libellules qui y volent.<br>
+			Autres libellules potentiellement observables: l'Agrion élégant et le groupe des Sympétrums rouges. 
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.98064,47.01087</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>4</value>
+            </Data>
+		</ExtendedData>
+      <name>L'étang aux nénuphars</name>
+      <description>
+          <![CDATA[
+              <p>Au-dessus de cet étang, de grandes libellules patrouillent, comme l'Anax empereur et l'Aeschne bleue. Cette dernière, particulièrement curieuse, pourrait s'approcher de vous si vous restez immobile.
+            </p>
+			<img src="assets/img/aeschne-bleue-menu.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion élégant, la Grande Aeschne, la Cordulie métallique et le groupe des Sympétrums rouges. 
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>6.97946,47.01081</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>5</value>
+            </Data>
+		</ExtendedData>
+      <name>Autour d'un étang</name>
+      <description>
+          <![CDATA[
+              <p>Au printemps, vous pourriez observer ici des libellules rousses, les Aeschnes isocèles. En été et en automne, vous pourriez apercevoir des libellules rouges, les Sympétrums.
+            </p>
+			<img src="assets/img/aeschne-isocele-menu.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Anax empereur, l'Anax parthénope, la Cordulie métallique et l'Orthétrum réticulé. 
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.97986,47.01124</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>6</value>
+            </Data>
+		</ExtendedData>
+      <name>Certaines l'aiment...</name>
+      <description>
+          <![CDATA[
+              <p>Les libellules ont besoin d'eau pour se reproduire, mais les lisières de forêt sont un lieu privilégié où elles chassent des petits insectes. Vous pourrez peut-être en apercevoir en action.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.98072,47.01115</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>7</value>
+            </Data>
+		</ExtendedData>
+      <name>Un dernier étang</name>
+      <description>
+          <![CDATA[
+              <p>Si vous n'avez pas aperçu l'Anax empereur sur les étangs précédents, vous aurez peut-être la chance de l'observer ici.
+            </p>
+			<img src="assets/img/anax_empereur-menu.jpg">
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.98539,47.01175</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>D</value>
+            </Data>
+		</ExtendedData>
+      <name>Départ</name>
+     <description>
+          <![CDATA[
+              <p>Ici commence ce parcours.<br>
+				Vous allez découvrir des libellules de tailles et de couleurs variées au fil de points d'observation. Ouvrez l’oeil!<br>
+				Les libellules volent par beau temps et pas nécessairement toutes à la même saison. N’hésitez pas à revenir.
+            </p>
+          ]]>
+	  </description>         
+      <Point>
+        <coordinates>6.98659,47.01087</coordinates>
+      </Point>
+    </Placemark>
+
+ </Document>
+</kml>

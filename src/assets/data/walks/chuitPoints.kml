@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="bluePoly">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19dd2200</color>
+      </PolyStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="redPoly">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>190000bb</color>
+      </PolyStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenPoly">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19007700</color>
+      </PolyStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownPoly">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19004b96</color>
+      </PolyStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="purplePoly">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="blackLine">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="blackPoly">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19000000</color>
+      </PolyStyle>
+    </Style>
+
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>1</value>
+            </Data>
+		</ExtendedData>
+      <name>L'étang du Parc Chuit</name>
+      <description>
+          <![CDATA[
+              <p>Même dans un parc public urbain, vous pouvez observer plusieurs espèces de libellules.<br>
+			L'une d'entre elles, particulièrement curieuse, n'hésitera probablement pas à s'approcher de vous: l'Aeschne bleue.
+            </p>
+			<img src="assets/img/aeschne-bleue-menu.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion jouvencelle, la Petite nymphe au corps de feu et la Libellule à quatre taches.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.12386,46.19198</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>2</value>
+            </Data>
+		</ExtendedData>
+      <name>L'étang du cimetière</name>
+      <description>
+          <![CDATA[
+              <p>Les mares et étangs sont les milieux préférés des libellules. Ici, vous pourriez observer plusieurs espèces de demoiselles bleues et noires, dont l'Agrion jouvencelle.
+            </p>
+			<img src="assets/img/agrion-jouvencelle-walk.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Anax empereur, l'Orthétrum réticulé et le Sympétrum rouge sang.
+            </p>
+          ]]>
+	  </description>
+      <Point>
+        <coordinates>6.11977,46.19866</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>3</value>
+            </Data>
+		</ExtendedData>
+      <name>L'étang du Bois de la Bâtie</name>
+      <description>
+          <![CDATA[
+              <p>Cet étang abrite peu de libellules, mais au milieu des oiseaux et des tortues, vous apercevrez peut-être un Agrion élégant.
+            </p>
+			<img src="assets/img/agrion-elegant-walk.jpg">
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>6.12381,46.19854</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>4</value>
+            </Data>
+		</ExtendedData>
+      <name>Certaines l'aiment...</name>
+      <description>
+          <![CDATA[
+              <p>Certaines libellules aiment particulièrement les eaux courantes comme par exemple le Caloptéryx éclatant.
+            </p>
+			<img src="assets/img/calopteryx-eclatant-menu.jpg">
+              <p>Autres libellules potentiellement observables: le Caloptéryx vierge, l'Agrion porte-coupe et l'Agrion à larges pattes.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.11911,46.20119</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>5</value>
+            </Data>
+		</ExtendedData>
+      <name>Au coeur d'une roselière</name>
+      <description>
+          <![CDATA[
+              <p>Cette zone plus stagnante en bordure de fleuve est un milieu favorable à de nombreuses libellules.<br>
+			  L'Agrion porte-coupe est discret, mais vous aurez peut-être la chance d'en apercevoir un.
+            </p>
+			<img src="assets/img/agrion-coupe-walk.jpg">
+              <p>Autres libellules potentiellement observables: le Caloptéryx éclatant, le Caloptéryx vierge et l'Agrion à larges pattes.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.11671,46.20199</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>D</value>
+            </Data>
+		</ExtendedData>
+      <name>Départ</name>
+     <description>
+          <![CDATA[
+              <p>Ici commence ce parcours.<br>
+				Vous allez découvrir des libellules de tailles et de couleurs variées au fil de points d'observation. Ouvrez l’oeil!<br>
+				Les libellules volent par beau temps et pas nécessairement toutes à la même saison. N’hésitez pas à revenir.
+            </p>
+          ]]>
+	  </description>
+      <Point>
+        <coordinates>6.12453,46.19171</coordinates>
+      </Point>
+    </Placemark>
+
+ </Document>
+</kml>

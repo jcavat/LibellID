@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="bluePoly">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19dd2200</color>
+      </PolyStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="redPoly">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>190000bb</color>
+      </PolyStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenPoly">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19007700</color>
+      </PolyStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownPoly">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19004b96</color>
+      </PolyStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="purplePoly">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="blackLine">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="blackPoly">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19000000</color>
+      </PolyStyle>
+    </Style>
+
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>1</value>
+            </Data>
+		</ExtendedData>
+      <name>L'étang de Sutz</name>
+      <description>
+          <![CDATA[
+              <p>Avec mes yeux rouges, je suis la Naïade. Vous pouvez m'apercevoir volant à fleur d'eau ou posée sur les nénuphars.
+            </p>
+			<img src="assets/img/naiade-corps-vert-menu.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Agrion jouvencelle, l'Anax empereur, la Libellule déprimée, la Libellule à quatre taches, l'Orthétrum réticulé, le Sympétrum rouge sang et le Sympétrum vulgaire.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.21159,47.1011</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>2</value>
+            </Data>
+		</ExtendedData>
+      <name>Une roselière lacustre</name>
+      <description>
+          <![CDATA[
+              <p>Vous arrivez au bord d'une roselière, un milieu important pour de nombreuses libellules comme le Sympétrum rouge sang.
+            </p>
+			<img src="assets/img/sympetrum-sang-walk.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Agrion jouvencelle, la Cordulie bronzée et l'Orthétrum réticulé. 
+            </p>
+          ]]>
+	  </description>        
+      <Point>
+        <coordinates>7.215,47.10549</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>3</value>
+            </Data>
+		</ExtendedData>
+      <name>Depuis le ponton</name>
+      <description>
+          <![CDATA[
+              <p>Depuis ce ponton qui surplombe le lac, vous pourriez observer de petites demoiselles noires avec un point bleu à l'extrémité du corps, les Agrions élégants.
+            </p>
+			<img src="assets/img/agrion-elegant-walk.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion jouvencelle, la Cordulie bronzée, l'Orthétrum réticulé et le Sympétrum rouge sang. 
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>7.217,47.1075</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>4</value>
+            </Data>
+		</ExtendedData>
+      <name>Certaines l'aiment...</name>
+      <description>
+          <![CDATA[
+              <p>J'aime particulièrement me poser sur le sol et sur les surfaces minérales. Je suis l'Orthétrum réticulé.
+            </p>
+			<img src="assets/img/orthetrum-reticule-menu.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Agrion jouvencelle, la Cordulie bronzée, l'Orthétrum réticulé et le Sympétrum rouge sang. 
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.2184,47.11067</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>5</value>
+            </Data>
+		</ExtendedData>
+      <name>A la plage</name>
+      <description>
+          <![CDATA[
+              <p>Ouvrez l'oeil en longeant cette plage et cherchez des demoiselles bleues. Elles sont nombreuses par ici.
+            </p>
+			<img src="assets/img/agrion-jouvencelle-walk.jpg">
+              <p>Autres libellules potentiellement observables: la Cordulie bronzée, l'Orthétrum réticulé et le Sympétrum rouge sang. 
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.22132,47.11708</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>6</value>
+            </Data>
+		</ExtendedData>
+      <name>Au coeur d'une roselière</name>
+      <description>
+          <![CDATA[
+              <p>Cette roselière et ses alentours sont souvent parcourus par de grandes libellules comme l'Aeschne bleue ou la Grande Aeschne.
+            </p>
+			<img src="assets/img/aeschne-bleue-menu.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Agrion jouvencelle, la Cordulie bronzée, l'Orthétrum réticulé et le Sympétrum rouge sang. 
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>7.22842,47.12246</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>D</value>
+            </Data>
+		</ExtendedData>
+      <name>Départ</name>
+     <description>
+          <![CDATA[
+              <p>Ici commence ce parcours.<br>
+				Vous allez découvrir des libellules de tailles et de couleurs variées au fil de points d'observation. Ouvrez l’oeil!<br>
+				Les libellules volent par beau temps et pas nécessairement toutes à la même saison. N’hésitez pas à revenir.
+            </p>
+          ]]>
+	  </description>           
+      <Point>
+        <coordinates>7.21366,47.10164</coordinates>
+      </Point>
+    </Placemark>
+
+ </Document>
+</kml>

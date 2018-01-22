@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="bluePoly">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19dd2200</color>
+      </PolyStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="redPoly">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>190000bb</color>
+      </PolyStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenPoly">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19007700</color>
+      </PolyStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownPoly">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19004b96</color>
+      </PolyStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="purplePoly">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="blackLine">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="blackPoly">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19000000</color>
+      </PolyStyle>
+    </Style>
+
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>1</value>
+            </Data>
+		</ExtendedData>
+      <name>Le lac de la Corne</name>
+      <description>
+          <![CDATA[
+              <p>Vous pourrez probablement observer ici deux grandes libellules qui ne se posent que rarement: l'Anax empereur et l'Anax parthenope.
+            </p>
+			<img src="assets/img/anax_napolitain-menu.jpg">
+              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.44402,46.25089</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>2</value>
+            </Data>
+		</ExtendedData>
+      <name>Le long du ruisseau</name>
+      <description>
+          <![CDATA[
+              <p>Le long de ce ruisseau vivent de petites libellules noires et bleu clair, les Agrions à larges pattes.
+            </p>
+			<img src="assets/img/agrion-pattes-walk.jpg">
+          ]]>
+	  </description>        
+      <Point>
+        <coordinates>7.44613,46.25391</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>3</value>
+            </Data>
+		</ExtendedData>
+      <name>Certaines l'aiment...</name>
+      <description>
+          <![CDATA[
+              <p>Je suis jaune et noir et j'aime me poser sur les rochers et les galets. Je suis le Gomphe à pinces.
+            </p>
+			<img src="assets/img/gomphe-pinces-walk.jpg">
+              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+            </p>
+          ]]>
+	  </description>        
+      <Point>
+        <coordinates>7.44901,46.25726</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>4</value>
+            </Data>
+		</ExtendedData>
+      <name>Petit étang, mais intéressant</name>
+      <description>
+          <![CDATA[
+              <p>De petites libellules beiges et noires, les Lestes bruns, sont visibles par ici au printemps, cachées dans les plantes.<br> 
+			  Plus tard dans la saison, ce sont leurs cousines vert métallique, les Lestes fiancés, que vous pourrez essayer d'apercevoir.
+            </p>
+			<img src="assets/img/leste-fiance-menu.jpg">
+              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+            </p>
+          ]]>
+	  </description>        
+      <Point>
+        <coordinates>7.4492,46.25786</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>5</value>
+            </Data>
+		</ExtendedData>
+      <name>Un étang boisé</name>
+      <description>
+          <![CDATA[
+              <p>Avec mes yeux rouges, je suis la Naïade. Vous pouvez m'observer volant à fleur d'eau ou posée sur la végétation aquatique.
+            </p>
+			<img src="assets/img/naiade-corps-vert-menu.jpg">
+              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>7.45079,46.25895</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>6</value>
+            </Data>
+		</ExtendedData>
+      <name>Un grand étang</name>
+      <description>
+          <![CDATA[
+              <p>Je suis une grande libellule rousse, l'Asechne isocèle, et je vole surtout au printemps. Essayez de m'apercevoir aux alentours de cet étang!
+            </p>
+			<img src="assets/img/aeschne-isocele-menu.jpg">
+              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>7.45323,46.26039</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>7</value>
+            </Data>
+		</ExtendedData>
+      <name>Le lac de la Brèche</name>
+      <description>
+          <![CDATA[
+              <p>Parmi les nombreuses libellules qui volent ici, vous remarquerez peut-être une libellule aux reflets métalliques et aux yeux verts. C'est la Cordulie bronzée.
+            </p>
+			<img src="assets/img/cordulie-bronzee-menu.jpg">
+              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.44456,46.25544</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>8</value>
+            </Data>
+		</ExtendedData>
+      <name>Au bord du Rhône</name>
+      <description>
+          <![CDATA[
+              <p>Un fleuve comme le Rhône abrite peu de libellules. Vous verrez cependant peut-être des libellules au corps vert-bleu métallique, les Caloptéryx.
+            </p>
+			<img src="assets/img/calopteryx-eclatant-menu.jpg">
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.43762,46.25132</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>9</value>
+            </Data>
+		</ExtendedData>
+      <name>Le ballet des libellules</name>
+      <description>
+          <![CDATA[
+              <p>Par temps beau et chaud, vous pourrez voir de nombreuses libellules voler dans l'un des uniques vestiges de ce qu'était plaine du Rhône avant son endiguement.<br>
+			  Même si vous êtes loin de l'eau, vous devriez pouvoir en identifier certaines, comme la Libellule écarlate, reconnaissable à sa couleur rouge éclatante.
+            </p>
+			<img src="assets/img/libellule-ecarlate-menu.jpg">
+              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+            </p>
+          ]]>
+	  </description>        
+      <Point>
+        <coordinates>7.4322,46.24712</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>10</value>
+            </Data>
+		</ExtendedData>
+      <name>Retour par le lac de la Corne</name>
+      <description>
+          <![CDATA[
+              <p>Pour terminer votre promenade, profitez encore ici d'observer de nouvelles espèces de libellules, comme par exemple les Sympétrums.
+            </p>
+			<img src="assets/img/sympetrum-sang-walk.jpg">
+              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>7.44083,46.2508</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>D</value>
+            </Data>
+		</ExtendedData>
+      <name>Départ</name>
+     <description>
+          <![CDATA[
+              <p>Ici commence ce parcours.<br>
+				Vous allez découvrir des libellules de tailles et de couleurs variées au fil de points d'observation. Ouvrez l’oeil!<br>
+				Les libellules volent par beau temps et pas nécessairement toutes à la même saison. N’hésitez pas à revenir.
+            </p>
+          ]]> 
+	  </description>		  
+      <Point>
+        <coordinates>7.44509,46.25138</coordinates>
+      </Point>
+    </Placemark>
+
+ </Document>
+</kml>

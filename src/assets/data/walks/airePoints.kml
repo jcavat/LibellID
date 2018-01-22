@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="bluePoly">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19dd2200</color>
+      </PolyStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="redPoly">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>190000bb</color>
+      </PolyStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenPoly">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19007700</color>
+      </PolyStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownPoly">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19004b96</color>
+      </PolyStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="purplePoly">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="blackLine">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="blackPoly">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19000000</color>
+      </PolyStyle>
+    </Style>
+
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>1</value>
+            </Data>
+		</ExtendedData>
+      <name>Dans le lit de la rivière</name>
+      <description>
+          <![CDATA[
+              <p>Vous vous trouvez dans le lit d'une rivière qui abrite une belle diversité animale et végétale.<br>
+			Vous pourriez peut-être observer une libellule typique des rivières, le Caloptéryx éclatant.
+            </p>
+			<img src="assets/img/calopteryx-eclatant-menu.jpg">
+              <p>Autres libellules potentiellement observables: le Caloptéryx vierge, l'Agrion élégant, l'Orthétrum brun et le Sympétrum à côtés striés.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.08898,46.16947</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>2</value>
+            </Data>
+		</ExtendedData>
+      <name>3_La renaturation de l'Aire</name>
+      <description>
+          <![CDATA[
+              <p>Vette section de l'Aire a été renaturée de 2012 à 2014 par la création des losanges que la rivière efface peu à peu en formant une multitude de milieux. Ces travaux ont rendus la rivière beaucoup plus favorable aux libellules.
+            </p>
+          ]]>
+	  </description>  
+      <Point>
+        <coordinates>6.08377,46.1675</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>3</value>
+            </Data>
+		</ExtendedData>
+      <name>Au bord de l'ancien canal</name>
+      <description>
+          <![CDATA[
+              <p>Essayez de repérer à proximité de ces portions de l'ancien canal où coulait l'Aire une grande libellule noir et jaune, le Gomphe à pinces. 
+            </p>
+			<img src="assets/img/gomphe-pinces-walk.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion à larges pattes, l'Anax empereur, l'Orthétrum brun et le Sympétrum à côtés striés.
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>6.07941,46.16579</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>4</value>
+            </Data>
+		</ExtendedData>
+      <name>Le spectacle de la nature</name>
+      <description>
+          <![CDATA[
+              <p>Prenez le temps de vous asseoir sur les gradins en béton et d'observer les libellules qui peuvent passer par ici comme l'Orthétrum brun, qui contrairement à ce que son nom suggère est bleu.
+            </p>
+			<img src="assets/img/orthetrum-brun-menu.jpg">
+              <p>Autres libellules potentiellement observables: le Caloptéryx éclatant, l'Agrion à larges pattes et l'Orthétrum brun.
+            </p>
+          ]]>
+	  </description>        
+      <Point>
+        <coordinates>6.0763,46.16243</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>5</value>
+            </Data>
+		</ExtendedData>
+      <name>Certaines l'aiment...</name>
+      <description>
+          <![CDATA[
+              <p>Certaines libellules aiment particulièrement se poser sur une surface minérale (béton, blocs émergeant de l'eau) comme par exemple l'Orthétrum réticulé.
+            </p>
+			<img src="assets/img/orthetrum-reticule-menu.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Anax empereur et l'Orthétrum brun.
+			  
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.07725,46.15841</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>7</value>
+            </Data>
+		</ExtendedData>
+      <name>Le temps des adieux</name>
+      <description>
+          <![CDATA[
+              <p>Vous pouvez encore chercher à apercevoir ici l'Agrion à larges pattes si vous ne l'avez pas déjà vu.
+            </p>
+			<img src="assets/img/agrion-pattes-walk.jpg">
+          ]]>
+	  </description>          
+      <Point>
+        <coordinates>6.07607,46.15306</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>6</value>
+            </Data>
+		</ExtendedData>
+      <name>L'étang des Morilles</name>
+      <description>
+          <![CDATA[
+              <p>A défaut de morilles, vous pourrez observer ici un grand nombre de libellules. Cherchez à observer l'Orthétrum à stylets blancs, une espèce en expansion en Suisse sous l'effet du réchauffement climatique.
+            </p>
+			<img src="assets/img/orthetrum-stylets-menu.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Anax empereur, la Libellule écarlate, la Libellule à quatre taches, les Orthétrums brun et réticulé et le Sympétrum rouge sang.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.07591,46.15578</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>D</value>
+            </Data>
+		</ExtendedData>
+      <name>Départ</name>
+     <description>
+          <![CDATA[
+              <p>Ici commence ce parcours.<br>
+				Vous allez découvrir des libellules de tailles et de couleurs variées au fil de points d'observation. Ouvrez l’oeil!<br>
+				Les libellules volent par beau temps et pas nécessairement toutes à la même saison. N’hésitez pas à revenir.
+            </p>
+          ]]>
+	  </description>        
+      <Point>
+        <coordinates>6.08702,46.16923</coordinates>
+      </Point>
+    </Placemark>
+
+ </Document>
+</kml>

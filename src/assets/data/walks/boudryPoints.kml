@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="bluePoly">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19dd2200</color>
+      </PolyStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="redPoly">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>190000bb</color>
+      </PolyStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenPoly">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19007700</color>
+      </PolyStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownPoly">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19004b96</color>
+      </PolyStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="purplePoly">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="blackLine">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="blackPoly">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19000000</color>
+      </PolyStyle>
+    </Style>
+
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>1</value>
+            </Data>
+		</ExtendedData>
+      <name>Le long de l'Areuse</name>
+      <description>
+          <![CDATA[
+              <p>En longeant l'Areuse jusqu'au pont, vous pourrez probablement observer des libellules typiques des cours d'eau, les Caloptéryx.
+            </p>
+			<img src="assets/img/calopteryx-eclatant-menu.jpg">
+              <p>Autres libellules potentiellement observables: le groupe des Gomphes, l'Orthétrum brun et l'Orthétrum réticulé. 
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.8407,46.94922</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>2</value>
+            </Data>
+		</ExtendedData>
+      <name>Certaines l'aiment...</name>
+      <description>
+          <![CDATA[
+              <p>Des petites libellules bleues et noires, les Agrions, affectionnent ce type d'étang. En vous approchant, vous devriez réussir à en apercevoir sur des branches ou des herbes.
+            </p>
+			<img src="assets/img/agrion-elegant-walk.jpg">
+              <p>Autres libellules potentiellement observables: l'Anax empereur, la Libellule déprimée et l'Orthétrum réticulé. 
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.84434,46.95235</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>3</value>
+            </Data>
+		</ExtendedData>
+      <name>Un étang aux rives verdoyantes</name>
+      <description>
+          <![CDATA[
+              <p>Au bord de cet étang vole fréquemment une grande libellule bleue au corps légèrement aplati, la Libellule déprimée.
+            </p>
+			<img src="assets/img/libellule-dep-menu.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Agrion porte-coupe et la Libellule déprimée. 
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>6.84499,46.95283</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>4</value>
+            </Data>
+		</ExtendedData>
+      <name>Au fil des saisons</name>
+      <description>
+          <![CDATA[
+              <p>Les libellules ne volent pas toutes à la même saison.<br>
+			Au printemps, vous pourrez observer des petites libellules rouges, les Petites nymphes au corps de feu, alors que plus tard dans la saison vous pourrez apercevoir de plus grandes libellules rouges, les Sympétrums.
+            </p>
+			<img src="assets/img/sympetrum-sang-walk.jpg">
+              <p>Autres libellules potentiellement observables: le Leste vert, l'Aeschne bleue et la Libellule déprimée.  
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>6.84443,46.95157</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+	    <ExtendedData>
+            <Data name="id">
+                <value>D</value>
+            </Data>
+		</ExtendedData>
+      <name>Départ</name>
+     <description>
+          <![CDATA[
+              <p>Ici commence ce parcours.<br>
+				Vous allez découvrir des libellules de tailles et de couleurs variées au fil de points d'observation. Ouvrez l’oeil!<br>
+				Les libellules volent par beau temps et pas nécessairement toutes à la même saison. N’hésitez pas à revenir.
+            </p>
+          ]]>
+	  </description>        
+      <Point>
+        <coordinates>6.84001,46.94909</coordinates>
+      </Point>
+    </Placemark>
+
+ </Document>
+</kml>

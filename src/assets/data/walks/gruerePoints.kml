@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+    
+    <Style id="blueLine">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="bluePoly">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19dd2200</color>
+      </PolyStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="redPoly">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>190000bb</color>
+      </PolyStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenPoly">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19007700</color>
+      </PolyStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownPoly">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19004b96</color>
+      </PolyStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="purplePoly">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="blackLine">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="blackPoly">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19000000</color>
+      </PolyStyle>
+    </Style>
+	
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>D</value>
+            </Data>
+		</ExtendedData>
+      <name>Départ</name>
+     <description>
+          <![CDATA[
+              <p>Ici commence ce parcours.<br>
+				Vous allez découvrir des libellules de tailles et de couleurs variées au fil de points d'observation. Ouvrez l’oeil!<br>
+				Les libellules volent par beau temps et pas nécessairement toutes à la même saison. N’hésitez pas à revenir.
+            </p>
+          ]]>
+	  </description>        
+      <Point>
+        <coordinates>7.04337,47.23909</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>1</value>
+            </Data>
+		</ExtendedData>
+      <name>L'étang de la Gruère</name>
+      <description>
+          <![CDATA[
+              <p>L'étang de la Gruère fait partie d'un marais d'importance nationale.<br>
+			Depuis ce ponton, vous pouvez observer de très près des petites libellules vert métallique et bleu, les Lestes fiancés.
+            </p>
+			<img src="assets/img/leste-fiance-menu.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion jouvencelle, l'Aeschne des joncs, la Cordulie bronzée, la Cordulie métallique, la Libellule à quatre taches et le Sympétrum noir. 
+            </p>
+          ]]>
+	  </description> 
+      <Point>
+        <coordinates>7.04504,47.23839</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>2</value>
+            </Data>
+		</ExtendedData>
+      <name>Une queue d'étang</name>
+     <description>
+          <![CDATA[
+              <p>Depuis ce pont, vous surplombez une queue d'étang de faible profondeur envahie de végétation. Ce milieu est propice à une grande libellule brun foncé, la Grande Aeschne.
+            </p>
+			<img src="assets/img/aeschne-grande-menu.jpg">
+              <p>Autres libellules potentiellement observables: le Leste fiancé, l'Agrion jouvencelle, l'Aeschne des joncs, la Cordulie bronzée, la Cordulie métallique, la Libellule à quatre taches et le Sympétrum noir. 
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.04526,47.23745</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>3</value>
+            </Data>
+		</ExtendedData>
+      <name>De plus près</name>
+     <description>
+          <![CDATA[
+              <p>Si vous descendez les quelques marches, vous pourrez apercevoir de petites libellules noires et bleues, les Agrions jouvencelles.
+            </p>
+			<img src="assets/img/agrion-jouvencelle-walk.jpg">
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.04561,47.23767</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>4</value>
+            </Data>
+		</ExtendedData>
+      <name>La rive Sud de l'étang</name>
+     <description>
+          <![CDATA[
+              <p>En longeant cette rive, vous remarquerez probablement des Agrions jouvencelles ou des Agrions élégants.
+            </p>
+			<img src="assets/img/agrion-elegant-walk.jpg">
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.04735,47.23798</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>5</value>
+            </Data>
+		</ExtendedData>
+      <name>Et la forêt?</name>
+     <description>
+          <![CDATA[
+              <p>Les libellules volent au-dessus de l'eau, mais elles ont également besoin de zones boisées. Vous pourrez peut-être en voir patrouiller dans l'axe du ruisseau.
+            </p>
+          ]]>
+	  </description>         
+      <Point>
+        <coordinates>7.04981,47.24078</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>6</value>
+            </Data>
+		</ExtendedData>
+      <name>Certaines l'aiment...</name>
+     <description>
+          <![CDATA[
+              <p>J'aime particulièrement me poser sur des surfaces minérales sans végétation. Je suis l'Orthétrum réticulé.
+            </p>
+			<img src="assets/img/orthetrum-reticule-menu.jpg">
+              <p>Autres libellules potentiellement observables: le Leste fiancé, l'Agrion jouvencelle, l'Aeschne des joncs, la Cordulie bronzée, la Cordulie métallique, la Libellule à quatre taches et le Sympétrum noir.
+            </p>
+          ]]>
+	  </description>         
+      <Point>
+        <coordinates>7.04904,47.24054</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>7</value>
+            </Data>
+		</ExtendedData>
+      <name>Depuis le ponton</name>
+     <description>
+          <![CDATA[
+              <p>A cette altitude, deux libellules très semblables cohabitent: l'Aeschne des joncs (fréquente en montagne) et l'Aeschne bleue (fréquente en plaine).
+            </p>
+			<img src="assets/img/aeschne-bleue-menu.jpg">
+              <p>En terminant le tour de l'étang, continuez à ouvrir l'œil. Vous verrez probablement encore d'autres espèces de libellules.
+            </p>
+          ]]>
+	  </description>        
+      <Point>
+        <coordinates>7.04819,47.24079</coordinates>
+      </Point>
+    </Placemark>
+
+
+ </Document>
+</kml>

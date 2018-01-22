@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+    <name>LaSauge_points</name>
+    <Style id="blueLine">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="bluePoly">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19dd2200</color>
+      </PolyStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="redPoly">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>190000bb</color>
+      </PolyStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenPoly">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19007700</color>
+      </PolyStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownPoly">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19004b96</color>
+      </PolyStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="purplePoly">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="blackLine">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="blackPoly">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19000000</color>
+      </PolyStyle>
+    </Style>
+
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>D</value>
+            </Data>
+		</ExtendedData>
+      <name>Départ</name>
+     <description>
+          <![CDATA[
+              <p>Ici commence ce parcours.<br>
+				Vous allez découvrir des libellules de tailles et de couleurs variées au fil de points d'observation. Ouvrez l’oeil!<br>
+				Les libellules volent par beau temps et pas nécessairement toutes à la même saison. N’hésitez pas à revenir.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.05415,46.97463</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>1</value>
+            </Data>
+		</ExtendedData>
+      <name>Le long du canal de la Broye</name>
+      <description>
+          <![CDATA[
+              <p>Le long de ce chemin qui longe le canal, vous pourriez apercevoir de jolies libellules rouges, les Sympétrums.
+            </p>
+			<img src="assets/img/sympetrum-sang-walk.jpg">
+              <p>Autres libellules potentiellement observables: le Leste brun, l'Agrion élégant, l'Agrion jouvencelle, l'Anax empereur, l'Anax parthénope, la Libellule écarlate et l'Orthétrum réticulé.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.05245,46.97659</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>3</value>
+            </Data>
+		</ExtendedData>
+      <name>Entre canal et marais</name>
+      <description>
+          <![CDATA[
+              <p>Je suis la plus grande libellule d'Europe, l'Anax empereur. Quand vous reviendrez sur vos pas en direction du point 4, cherchez-moi. Restez attentifs, car je ne me pose que rarement.
+            </p>
+			<img src="assets/img/anax_empereur-menu.jpg">
+              <p>Autres libellules potentiellement observables: le Leste brun, l'Agrion élégant, l'Agrion jouvencelle, l'Anax empereur, l'Anax parthénope, la Libellule écarlate et l'Orthétrum réticulé.
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>7.03998,46.97924</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>2</value>
+            </Data>
+		</ExtendedData>
+      <name>Dernier bastion sur le lac</name>
+      <description>
+          <![CDATA[
+              <p>Cette zone végétalisée est la plus avancée dans le lac, mais elle peut néanmoins abriter des libellules. Avec un brin de chance et un zeste de patience, vous observerez peut-être un Agrion jouvencelle.
+            </p>
+			<img src="assets/img/agrion-jouvencelle-walk.jpg">
+              <p>Autres libellules potentiellement observables: le Leste brun, l'Agrion élégant et l'Agrion jouvencelle.
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>7.03238,46.98069</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>4</value>
+            </Data>
+		</ExtendedData>
+      <name>Certaines l'aiment...</name>
+      <description>
+          <![CDATA[
+              <p>Des libellules aux reflets verts métalisés, les Cordulies, affectionnent particulièrement ce type de milieu.
+            </p>
+			<img src="assets/img/cordulie-bronzee-menu.jpg">
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>7.04559,46.97712</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>5</value>
+            </Data>
+		</ExtendedData>
+      <name>Au bord d'une mare</name>
+      <description>
+          <![CDATA[
+              <p>Cette mare est un magnifique observatoire de la biodiversité. Vous pouvez y apercevoir de nombreuses libellules de tailles et couleurs variées, et notamment la libellule à quatre taches.
+            </p>
+			<img src="assets/img/libellule-taches-menu.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Agrion jouvencelle, le groupe des Naïades, l'Anax empereur, la Libellule déprimée, la Libellule écarlate, l'Orthétrum réticulé et le groupe des Sympétrums rouges.
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>7.05352,46.97498</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>6</value>
+            </Data>
+		</ExtendedData>
+      <name>Vue d'ensemble</name>
+      <description>
+          <![CDATA[
+              <p>Depuis cet observatoire, vous aurez de la difficulté à identifier les libellules, mais vous pourrez assister à leur ballet au-dessus de l'étang.
+            </p>
+          ]]>
+	  </description>        
+      <Point>
+        <coordinates>7.05309,46.97548</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>7</value>
+            </Data>
+		</ExtendedData>
+      <name>Le long d'un fossé</name>
+      <description>
+          <![CDATA[
+              <p>Ce fossé est souvent parcouru par de grandes libellules comme l'Aeschne velue au printemps et l'Aeschne bleue en été.
+            </p>
+			<img src="assets/img/aeschne-print-menu.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Agrion jouvencelle, le groupe des Naïades, la Grande Aeschne, l'Anax empereur, la Libellule à quatre taches, la Libellule déprimée, la Libellule écarlate, l'Orthétrum réticulé et le groupe des Sympétrums rouges.
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>7.05161,46.9751</coordinates>
+      </Point>
+    </Placemark>
+
+ </Document>
+</kml>

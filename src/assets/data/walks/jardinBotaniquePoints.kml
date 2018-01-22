@@ -99,11 +99,13 @@
                 <value>5</value>
             </Data>
         </ExtendedData>
-        <name>Au jardin d'hiver</name>
+        <name>Certaines l'aiment...</name>
         <description>
           <![CDATA[
               <p>Avec mes yeux rouges, je suis la naïade au corps vert. Vous pouvez m’apercevoir à fleur d’eau ou posée sur les nénuphars.</p>
-              <img src="assets/img/walk1pic5.jpg">
+              <img src="assets/img/naiade-corps-vert-menu.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Anax empereur et la Libellule déprimée.
+            </p>
           ]]>
         </description>
       <Point>
@@ -120,7 +122,7 @@
         <description>
             <![CDATA[
                 <p>Si le vent n’est pas fort, vous pourrez peut-être apercevoir au raz de l'eau le discret Agrion porte-coupe.</p>
-                <img src="assets/img/walk1pic2.jpg">
+                <img src="assets/img/agrion-coupe-walk.jpg">
             ]]>
         </description>
       <Point>
@@ -137,7 +139,9 @@
       <description>
           <![CDATA[
               <p>Trouverez-vous l’Anax empereur, la plus grande libellule d’Europe?</p>
-              <img src="assets/img/walk1pic1.jpg">
+              <img src="assets/img/anax_empereur-menu.jpg">
+              <p>Autres libellules potentiellement observables: le Leste vert, l'Agrion élégant, l'Agrion jouvencelle, la Naïade au corps vert, l'Aeschne isocèle, la Cordulie bronzée, l'Orthétrum réticulé, le Sympétrum rouge sang et le Sympétrum à côtés striés.
+            </p>
           ]]>
       </description>
       <Point>
@@ -153,7 +157,8 @@
       <name>Départ</name>
       <description>
           <![CDATA[
-              <p>Vous allez commencer ce parcours et découvrir des libellules de taille et de couleur variées au fil de points d’observation. Ouvrez l’œil et n’hésitez pas à lever les yeux de votre téléphone.<br>
+              <p>Ici commence ce parcours.<br>
+            Vous allez découvrir des libellules de tailles et de couleurs variées au fil de points d'observation. Ouvrez l’oeil!<br>
             Les libellules volent par beau temps et pas nécessairement toutes à la même saison. N’hésitez pas à revenir.
             </p>
           ]]>
@@ -173,7 +178,9 @@
           <![CDATA[
               <p>Je suis la petite nymphe au corps de feu. Cherchez-moi au milieu des iris.
             </p>
-            <img src="assets/img/walk1pic4.jpg">
+            <img src="assets/img/nymphe-feu-menu.jpg">
+              <p>Autres libellules potentiellement observables: le Leste vert, l'Agrion élégant, l'Agrion jouvencelle, la Naïade au corps vert, l'Aeschne isocèle, l'Anax empereur, la Cordulie bronzée, l'Orthétrum réticulé, le Sympétrum rouge sang et le Sympétrum à côtés striés.
+            </p>
           ]]>
       </description>
       <Point>
@@ -189,9 +196,11 @@
       <name>D'un bassin à l'autre</name>
       <description>
           <![CDATA[
-              <p>De si petits bassins peuvent abriter des libellules comme ces petites demoiselles bleues qui forment un cœur lorsqu’elles s’accouplent.
+              <p>De si petits bassins peuvent abriter des libellules comme ces petites demoiselles bleues noires avec un point bleu à l'extrémité.
             </p>
-            <img src="assets/img/walk1pic6.jpg">
+            <img src="assets/img/agrion-elegant-walk.jpg">
+              <p>Autres libellules potentiellement observables: le Leste vert, l'Agrion jouvencelle, la Naïade au corps vert, l'Aeschne isocèle, l'Anax empereur, la Cordulie bronzée, l'Orthétrum réticulé, le Sympétrum rouge sang et le Sympétrum à côtés striés.
+            </p>
           ]]>
       </description>
       <Point>
@@ -209,7 +218,9 @@
             <![CDATA[
                 <p>Vous arrivez le long d’un chapelet de milieux aquatiques. Ouvrez l’œil durant votre progression jusqu’au point d’observation suivant et cherchez des demoiselles bleues si vous n’en avez pas encore vues, elles sont nombreuses par ici.
               </p>
-              <img src="assets/img/walk1pic6.jpg">
+              <img src="assets/img/agrion-jouvencelle-walk.jpg">
+              <p>Autres libellules potentiellement observables: le Leste vert, l'Agrion élégant, la Naïade au corps vert, l'Aeschne isocèle, l'Anax empereur, la Cordulie bronzée, l'Orthétrum réticulé, le Sympétrum rouge sang et le Sympétrum à côtés striés.
+            </p>
             ]]>
         </description>
       <Point>
@@ -227,7 +238,9 @@
           <![CDATA[
               <p>Vous pouvez encore chercher à apercevoir ici la plupart des libellules que vous avez pu observer durant ce parcours. Peut-être même apercevrez-vous un Leste vert ou une Cordulie bronzée avec leurs reflets métallisés.
             </p>
-            <img src="assets/img/walk1pic7.jpg">
+            <img src="assets/img/leste-vert-menu.jpg.jpg">
+              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Agrion jouvencelle, la Naïade au corps vert, l'Aeschne isocèle, l'Anax empereur, la Cordulie bronzée, l'Orthétrum réticulé, le Sympétrum rouge sang et le Sympétrum à côtés striés.
+            </p>
           ]]>
       </description>
       <Point>
@@ -245,7 +258,7 @@
           <![CDATA[
               <p>Après cette montée, venez découvrir ce petit bassin rond. Au printemps, vous pourrez y apercevoir d'épaisses libellules bleues, les libellules déprimées, et plus tard dans la saison de jolies libellules rouges, les Sympétrums.
             </p>
-            <img src="assets/img/walk1pic3.jpg">
+            <img src="assets/img/sympetrum-sang-walk.jpg">
           ]]>
       </description>
       <Point>
