@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="bluePoly">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19dd2200</color>
+      </PolyStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="redPoly">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>190000bb</color>
+      </PolyStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenPoly">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19007700</color>
+      </PolyStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownPoly">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19004b96</color>
+      </PolyStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="purplePoly">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="blackLine">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="blackPoly">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19000000</color>
+      </PolyStyle>
+    </Style>
+
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>D</value>
+            </Data>
+		</ExtendedData>
+      <name>Départ</name>
+     <description>
+          <![CDATA[
+              <p>Ici commence ce parcours.<br>
+				Vous allez découvrir des libellules de tailles et de couleurs variées au fil de points d'observation. Ouvrez l’oeil!<br>
+				Les libellules volent par beau temps et pas nécessairement toutes à la même saison. N’hésitez pas à revenir.
+            </p>
+          ]]> 
+	  </description>	   
+      <Point>
+        <coordinates>7.28471,46.16085</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>1</value>
+            </Data>
+		</ExtendedData>
+      <name>Le Lac Noir</name>
+      <description>
+          <![CDATA[
+              <p>Il y a peu de libellules en altitude. Les espèces principales que l'on y rencontre sont des spécialistes des conditions froides comme cette grande libellule noire et bleue, l'Aeschne des joncs.
+            </p>
+			<img src="assets/img/aeschne-joncs-menu.jpg">
+          ]]>
+	  </description>         
+      <Point>
+        <coordinates>7.28497,46.16027</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>2</value>
+            </Data>
+		</ExtendedData>
+      <name>Les Larmes du Fou</name>
+      <description>
+          <![CDATA[
+              <p>Cet étang, créé en 2016, a été baptisé Les Larmes du Fou par les enfants d'Isérables. Vous y apercevrez peut-être à nouveau l'Aeschne des joncs.
+            </p>
+			<img src="assets/img/aeschne-joncs-menu.jpg">
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>7.28788,46.14348</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>3</value>
+            </Data>
+		</ExtendedData>
+      <name>Le long du Bisse de Saxon</name>
+      <description>
+          <![CDATA[
+              <p>En plaine, un petit canal comme ce bisse pourrait abriter des libellules aux reflets métalliques bleus et aux ailes foncées, les Caloptéryx. Ici, les conditions sont trop froides et vous n'apercevrez probablement aucune libellule.
+            </p>
+			<img src="assets/img/calopteryx-eclatant-menu.jpg">
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.26982,46.15314</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>4</value>
+            </Data>
+		</ExtendedData>
+      <name>La Gouille de l'Ouché</name>
+      <description>
+          <![CDATA[
+              <p>Ce marais est un lieu privilégié pour les libellules d'altitude. Il abrite l'Aeschne des joncs, mais également une autre Aeschne plus fréquente en plaine, l'Aeschne bleue. Saurez-vous les observer?
+            </p>
+			<img src="assets/img/aeschne-bleue-menu.jpg">
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>7.26638,46.16681</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>5</value>
+            </Data>
+		</ExtendedData>
+      <name>Pra da Dzeu</name>
+      <description>
+          <![CDATA[
+              <p>Vous pourriez apercevoir ici de petites libellules bleues et noires, les Agrions jouvencelles.
+            </p>
+			<img src="assets/img/agrion-jouvencelle-walk.jpg">
+              <p>Autres libellules potentiellement observables: l'Aeschne bleue, l'Aeschne des joncs, l'Anax empereur, La Leucorrhine douteuse, la Libellule à quatre taches et le Sympétrum strié.
+            </p>
+          ]]>
+	  </description>         
+      <Point>
+        <coordinates>7.2593,46.16473</coordinates>
+      </Point>
+    </Placemark>
+
+ </Document>
+</kml>
