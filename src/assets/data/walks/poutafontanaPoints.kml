@@ -102,10 +102,10 @@
       <name>Le lac de la Corne</name>
       <description>
           <![CDATA[
-              <p>Vous pourrez probablement observer ici deux grandes libellules qui ne se posent que rarement: l'Anax empereur et l'Anax parthenope.
+              <p>Vous pourrez probablement observer ici deux grandes libellules qui se posent rarement: l'Anax empereur et l'Anax parthenope.
             </p>
 			<img src="assets/img/anax_napolitain-menu.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>       
@@ -122,7 +122,7 @@
       <name>Le long du ruisseau</name>
       <description>
           <![CDATA[
-              <p>Le long de ce ruisseau vivent de petites libellules noires et bleu clair, les Agrions à larges pattes.
+              <p>Le long de ce ruisseau vivent de petites libellules noir et bleu clair, les Agrions à larges pattes.
             </p>
 			<img src="assets/img/agrion-pattes-walk.jpg">
           ]]>
@@ -143,7 +143,7 @@
               <p>Je suis jaune et noir et j'aime me poser sur les rochers et les galets. Je suis le Gomphe à pinces.
             </p>
 			<img src="assets/img/gomphe-pinces-walk.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>        
@@ -157,14 +157,14 @@
                 <value>4</value>
             </Data>
 		</ExtendedData>
-      <name>Petit étang, mais intéressant</name>
+      <name>Petit, mais intéressant</name>
       <description>
           <![CDATA[
-              <p>De petites libellules beiges et noires, les Lestes bruns, sont visibles par ici au printemps, cachées dans les plantes.<br> 
+              <p>De petites libellules beige et noir, les Lestes bruns, se cachent ici dans les plantes au printemps.<br> 
 			  Plus tard dans la saison, ce sont leurs cousines vert métallique, les Lestes fiancés, que vous pourrez essayer d'apercevoir.
             </p>
 			<img src="assets/img/leste-fiance-menu.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>        
@@ -184,7 +184,7 @@
               <p>Avec mes yeux rouges, je suis la Naïade. Vous pouvez m'observer volant à fleur d'eau ou posée sur la végétation aquatique.
             </p>
 			<img src="assets/img/naiade-corps-vert-menu.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>      
@@ -204,7 +204,7 @@
               <p>Je suis une grande libellule rousse, l'Asechne isocèle, et je vole surtout au printemps. Essayez de m'apercevoir aux alentours de cet étang!
             </p>
 			<img src="assets/img/aeschne-isocele-menu.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>      
@@ -224,7 +224,7 @@
               <p>Parmi les nombreuses libellules qui volent ici, vous remarquerez peut-être une libellule aux reflets métalliques et aux yeux verts. C'est la Cordulie bronzée.
             </p>
 			<img src="assets/img/cordulie-bronzee-menu.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>       
@@ -259,11 +259,11 @@
       <name>Le ballet des libellules</name>
       <description>
           <![CDATA[
-              <p>Par temps beau et chaud, vous pourrez voir de nombreuses libellules voler dans l'un des uniques vestiges de ce qu'était plaine du Rhône avant son endiguement.<br>
-			  Même si vous êtes loin de l'eau, vous devriez pouvoir en identifier certaines, comme la Libellule écarlate, reconnaissable à sa couleur rouge éclatante.
+              <p>Par temps beau et chaud, vous pourrez voir de nombreuses libellules voler dans l'un des uniques vestiges de ce qu'était la plaine du Rhône avant son endiguement.<br>
+			  Même si vous êtes loin de l'eau, vous devriez pouvoir en identifier certaines, comme la Libellule écarlate.
             </p>
 			<img src="assets/img/libellule-ecarlate-menu.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>        
@@ -283,7 +283,7 @@
               <p>Pour terminer votre promenade, profitez encore ici d'observer de nouvelles espèces de libellules, comme par exemple les Sympétrums.
             </p>
 			<img src="assets/img/sympetrum-sang-walk.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>      
