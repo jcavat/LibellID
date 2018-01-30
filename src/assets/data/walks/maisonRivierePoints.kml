@@ -157,10 +157,10 @@
       <name>Petite mais intéressante</name>
       <description>
           <![CDATA[
-              <p>Cette petite mare, malgré sa taille modeste, peut abriter les mêmes espèces que la grande mare dont vous venez. 
+              <p>Cette mare, malgré sa taille modeste, peut abriter les mêmes espèces que la grande mare dont vous venez. 
             </p>
 			<img src="assets/img/libellule-dep-menu.jpg">
-              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Aeschne bleue, la Libellule écarlate, la Libellule déprimée, l'Orthétrum réticulé et le groupe des Sympétrums rouges.
+              <p>Autres libellules potentielles: l'Agrion élégant, l'Aeschne bleue, la Libellule écarlate, la Libellule déprimée, l'Orthétrum réticulé et le groupe des Sympétrums rouges.
             </p>
           ]]>
 	  </description>       
@@ -180,7 +180,7 @@
               <p>Cette mare est un lieu privilégié pour admirer plusieurs espèces de libellules, des petites comme l'Agrion élégant et des plus grandes comme la Libellule écarlate. 
             </p>
 			<img src="assets/img/libellule-ecarlate-menu.jpg">
-              <p>Autres libellules potentiellement observables: l'Aeschne bleue, la Libellule déprimée, l'Orthétrum réticulé et le Sympétrum rouge sang.
+              <p>Autres libellules potentielles: l'Aeschne bleue, la Libellule déprimée, l'Orthétrum réticulé et le Sympétrum rouge sang.
             </p>
           ]]>
 	  </description>      
@@ -215,7 +215,7 @@
       <name>Certaines l'aiment...</name>
       <description>
           <![CDATA[
-              <p>Cette petite mare est très ombragée, ce qu'affectionne particulièrement une grande libellule bleue et noire, l'Aeschne bleue.
+              <p>Cette petite mare est très ombragée, ce qu'affectionne particulièrement une grande libellule bleu et noir, l'Aeschne bleue.
             </p>
 			<img src="assets/img/aeschne-bleue-menu.jpg">
           ]]>
