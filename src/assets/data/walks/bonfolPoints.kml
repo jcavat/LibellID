@@ -124,7 +124,7 @@
               <p>Depuis cette ouverture dans la forêt, vous apercevrez peut-être des Agrions à larges pattes en train de s'accoupler ou de pondre.
             </p>
 			<img src="assets/img/agrion-pattes-walk.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>       
@@ -144,7 +144,7 @@
               <p>Je suis de grande taille, de couleur brun foncé avec des ailes enfumées. Je suis la Grande Aeschne.
             </p>
 			<img src="assets/img/aeschne-grande-menu.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>          
@@ -164,7 +164,7 @@
               <p>Par temps beau et chaud, vous pourrez voir des libellules se poser sur ce chemin ou dans les herbes environnantes, comme par exemple l'Orthétrum réticulé.
             </p>
 			<img src="assets/img/orthetrum-reticule-menu.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>       
@@ -184,7 +184,7 @@
               <p>Vous pourriez apercevoir ici des libellules rouges de taille moyenne, les Sympétrums ou des Libellules avec deux taches à l'avant de chaque aile, les Libellules à quatre taches.
             </p>
 			<img src="assets/img/libellule-taches-menu.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>      
@@ -201,11 +201,10 @@
       <name>Certaines l'aiment...</name>
       <description>
           <![CDATA[
-              <p>Ce n'est pas la taille qui compte. Cette petite mare abrite une multitude d'espèces.<br>
-			En vous rapprochant, vous devriez pouvoir observer plusieurs Agrions bleus, comme l'Agrion jouvencelle ou l'Agrion élégant.
+              <p>Ce n'est pas la taille qui compte. Cette petite mare abrite une multitude d'espèces. En vous rapprochant, vous devriez pouvoir observer des Agrions bleus, comme l'Agrion élégant.
             </p>
 			<img src="assets/img/agrion-elegant-walk.jpg">
-              <p>Autres libellules potentiellement observables: l'Agrion à larges pattes, le groupe des Naïades, la grande Aeschne, l'Aeschne bleue, la Cordulie à taches jaunes, la Libellule déprimée et le groupe des Sympétrums rouges. 
+              <p>Autres libellules potentielles: le groupe des Naïades, la Grande Aeschne, l'Aeschne bleue, la Cordulie à taches jaunes, la Libellule déprimée et le groupe des Sympétrums rouges. 
             </p>
           ]]>
 	  </description>       
@@ -223,10 +222,10 @@
       <description>
           <![CDATA[
               <p>Je suis une grande libellule sombre avec une tâche bleue, l'Anax parthénope. En traversant cette digue, cherchez à m'apercevoir.<br>
-			Soyez attentifs, car je ne me pose que rarement.
+			Soyez attentifs, car je me pose rarement.
             </p>
 			<img src="assets/img/anax_napolitain-menu.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application. 
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application. 
             </p>
           ]]>
 	  </description>        
@@ -246,7 +245,7 @@
               <p>Depuis cette berge, essayez de démasquer dans les plantes bordant l'étang une discrète libellule vert métalisé, le Leste vert.
             </p>
 			<img src="assets/img/leste-vert-menu.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application. 
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application. 
             </p>
           ]]>
 	  </description>       
