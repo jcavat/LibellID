@@ -105,7 +105,7 @@
               <p>La retenue du barrage de Verbois abrite également des libellules. Vous pouvez apercevoir par exemple des Gomphes posés sur la route ou les rochers.
             </p>
 			<img src="assets/img/grGomphe-menu.jpg">
-              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Agrion jouvencelle, le groupe des Gomphes et le groupe des Sympétrums rouges.
+              <p>Autres libellules potentielles: l'Agrion élégant, l'Agrion jouvencelle et le groupe des Sympétrums rouges.
             </p>
           ]]>
 	  </description>        
@@ -122,11 +122,10 @@
       <name>Les trésors des Bouvières</name>
      <description>
           <![CDATA[
-              <p>En faisant le tour de l'étang, vous verrez beaucoup d'espèces de libellules différentes.<br>  
-			Vous devriez notamment réussir à observer des Agrions bleus, petites demoiselles très fréquentes en Suisse.
+              <p>En faisant le tour de l'étang, vous verrez beaucoup d'espèces de libellules différentes. Vous pourriez notamment observer des Agrions bleus, petites demoiselles très fréquentes en Suisse.
             </p>
 			<img src="assets/img/gr-agrions-bleus-menu.jpg">
-              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Agrion jouvencelle, l'Agrion à larges pattes, l'Anax empereur, l'Anax parthénope, la Libellule écarlate et l'Orthétrum réticulé.
+              <p>Autres libellules potentielles: l'Anax empereur, l'Anax parthénope, la Libellule écarlate et l'Orthétrum réticulé.
             </p>
           ]]>
 	  </description>        
@@ -181,7 +180,7 @@
      <description>
           <![CDATA[
               <p>S'il fait chaud et beau, vous pourrez observer depuis l'observatoire Gravelot le ballet incessant des libellules.<br>
-			Autres libellules potentiellement observables: l'Anax empereur, l'Anax parthénope, la Libellule à quatre taches, l'Orthétrum réticulé et le groupe des Sympétrums rouges.  
+			Autres libellules potentielles: l'Anax empereur, l'Anax parthénope, la Libellule à quatre taches, l'Orthétrum réticulé et le groupe des Sympétrums rouges.  
             </p>
           ]]>
 	  </description>      
@@ -217,7 +216,7 @@
       <name>Sur les rives de l'Allondon</name>
      <description>
           <![CDATA[
-              <p>En traversant le pont et en longeant l'Allondon, vous remarquerez peut-être des Caloptéryx vierges virevoltant au bord de l'eau ou posés sur la végétation.
+              <p>En traversant le pont et en longeant l'Allondon, vous remarquerez peut-être d'autres Caloptéryx vierges virevoltant au bord de l'eau ou posés sur la végétation.
             </p>
 			<img src="assets/img/calopteryx-vierge-menu.jpg">
           ]]>
@@ -252,7 +251,7 @@
                 <value>D</value>
             </Data>
 		</ExtendedData>
-      <name>1_Départ</name>
+      <name>Départ</name>
      <description>
           <![CDATA[
               <p>Ici commence ce parcours.<br>
@@ -274,7 +273,7 @@
       <name>Certaines l'aiment...</name>
      <description>
           <![CDATA[
-              <p>Cette petite mare est temporaire, ce qu'affectionnent particulièrement certaines libellules comme le Lestes barbare et le Leste vert.<br> 
+              <p>Cette petite mare est temporaire, ce qu'affectionnent certaines libellules comme le Lestes barbare et le Leste vert.<br> 
 			Ils sont généralement discrets et peu abondants, mais vous réussirez peut-être à en démasquer dans la végétation bordant la mare?
             </p>
 			<img src="assets/img/leste-sauvage-menu.jpg">
