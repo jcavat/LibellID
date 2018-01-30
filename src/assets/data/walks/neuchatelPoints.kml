@@ -105,7 +105,7 @@
               <p>Une mare, même de taille modeste, est un milieu intéressant pour certaines espèces de libellules, dont l'Agrion jouvencelle.
             </p>
 			<img src="assets/img/agrion-jouvencelle-walk.jpg">
-              <p>Autres libellules potentiellement observables: l'Agrion élégant et le groupe des Sympétrums rouges. 
+              <p>Autres libellules potentielles: l'Agrion élégant et le groupe des Sympétrums rouges. 
             </p>
           ]]>
 	  </description>       
@@ -141,7 +141,7 @@
       <description>
           <![CDATA[
               <p>Vous avez depuis ce ponton un premier aperçu d'un étang. Posez quelques instants votre téléphone et observer les libellules qui y volent.<br>
-			Autres libellules potentiellement observables: l'Agrion élégant et le groupe des Sympétrums rouges. 
+			Libellules potentielles: l'Agrion élégant et le groupe des Sympétrums rouges. 
             </p>
           ]]>
 	  </description>       
@@ -158,10 +158,10 @@
       <name>L'étang aux nénuphars</name>
       <description>
           <![CDATA[
-              <p>Au-dessus de cet étang, de grandes libellules patrouillent, comme l'Anax empereur et l'Aeschne bleue. Cette dernière, particulièrement curieuse, pourrait s'approcher de vous si vous restez immobile.
+              <p>Au-dessus de cet étang, de grandes libellules patrouillent, comme l'Anax empereur et l'Aeschne bleue. Cette dernière, curieuse, pourrait s'approcher de vous si vous restez immobile.
             </p>
 			<img src="assets/img/aeschne-bleue-menu.jpg">
-              <p>Autres libellules potentiellement observables: l'Agrion élégant, la Grande Aeschne, la Cordulie métallique et le groupe des Sympétrums rouges. 
+              <p>Autres libellules potentielles: l'Agrion élégant, la Grande Aeschne, la Cordulie métallique et le groupe des Sympétrums rouges. 
             </p>
           ]]>
 	  </description>      
@@ -181,7 +181,7 @@
               <p>Au printemps, vous pourriez observer ici des libellules rousses, les Aeschnes isocèles. En été et en automne, vous pourriez apercevoir des libellules rouges, les Sympétrums.
             </p>
 			<img src="assets/img/aeschne-isocele-menu.jpg">
-              <p>Autres libellules potentiellement observables: l'Agrion élégant, l'Anax empereur, l'Anax parthénope, la Cordulie métallique et l'Orthétrum réticulé. 
+              <p>Autres libellules potentielles: l'Agrion élégant, l'Anax empereur, l'Anax parthénope, la Cordulie métallique et l'Orthétrum réticulé. 
             </p>
           ]]>
 	  </description>       
@@ -198,7 +198,8 @@
       <name>Certaines l'aiment...</name>
       <description>
           <![CDATA[
-              <p>Les libellules ont besoin d'eau pour se reproduire, mais les lisières de forêt sont un lieu privilégié où elles chassent des petits insectes. Vous pourrez peut-être en apercevoir en action.
+              <p>Les libellules ont besoin d'eau pour se reproduire, mais les lisières de forêt sont également un lieu privilégié où elles chassent des petits insectes.<br>
+			  Vous pourrez peut-être en apercevoir en action.
             </p>
           ]]>
 	  </description>       
