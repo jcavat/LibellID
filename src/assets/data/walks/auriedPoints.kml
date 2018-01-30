@@ -102,10 +102,10 @@
       <name>Le temps des adieux</name>
       <description>
           <![CDATA[
-              <p>Cette petite mare vous réserve encore des surprises. Approchez-vous et tentez de découvrir de plus petites libellules noires et bleus aux yeux rouges, les Naïades.
+              <p>Cette petite mare vous réserve encore des surprises. Approchez-vous et tentez de découvrir de plus petites libellules aux yeux rouges, les Naïades.
             </p>
 			<img src="assets/img/naiade-corps-vert-menu.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>       
@@ -122,10 +122,10 @@
       <name>Un dernier étang</name>
       <description>
           <![CDATA[
-              <p>Trois espèces de libellules très semblables peuvent s'observer dans le marais d'Auried, elles sont de taille moyenne et leur corps est vert métallique, ce sont toutes trois des Cordulies.
+              <p>Trois espèces de libellules très semblables peuvent s'observer dans le marais d'Auried, elles sont de taille moyenne et leur corps est vert métallique. Ce sont toutes trois des Cordulies.
             </p>
 			<img src="assets/img/cordulie-bronzee-menu.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>      
@@ -142,11 +142,10 @@
       <name>Au coeur du marais</name>
       <description>
           <![CDATA[
-              <p>Toutes les espèces de libellules ne volent pas à la même saison.<br>
-			Au printemps, vous pourrez observer des libellules avec deux taches à l'avant de chaque aile, les Libellules à quatre taches, alors qu'en été et en automne vous pourrez apercevoir des libellules rouges, les Sympétrums.
+              <p>Toutes les espèces de libellules ne volent pas à la même saison. Au printemps, vous pourrez observer des libellules avec 2 taches à l'avant de chaque aile, les Libellules à 4 taches, alors qu'en été et en automne vous pourrez apercevoir des libellules rouges, les Sympétrums.
             </p>
 			<img src="assets/img/libellule-taches-menu.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>      
@@ -163,11 +162,11 @@
       <name>Certaines l'aiment...</name>
       <description>
           <![CDATA[
-              <p>Ces petites mares sont temporaires, ce qu'affectionnent particulièrement certaines libellules comme les Lestes.<br>
+              <p>Ces petites mares sont temporaires, ce qu'affectionnent certaines libellules comme les Lestes.<br>
 			Ils sont généralement discrets et peu abondants, mais vous réussirez peut-être à en observer?
             </p>
 			<img src="assets/img/leste-vert-menu.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>       
@@ -184,10 +183,10 @@
       <name>Le long d'un fossé</name>
       <description>
           <![CDATA[
-              <p>En longeant ce fossé, vous remarquerez peut-être une grande libellule jaune et noire qui effecue des va-et-vients. Il s'agit alors d'une Cordulégastre.
+              <p>En longeant ce fossé, vous remarquerez peut-être une grande libellule jaune et noire qui effectue des va-et-vients. Il s'agit alors d'une Cordulégastre.
             </p>
 			<img src="assets/img/cordul-annele-menu.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>       
@@ -208,7 +207,7 @@
 			  Si vous voyez une massive libellule bleu et noir au corps aplati, ce pourrait être la Libellule déprimée.
             </p>
 			<img src="assets/img/libellule-dep-menu.jpg">
-              <p>Autres libellules potentiellement observables: presque toutes les autres libellules de l'application.
+              <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
             </p>
           ]]>
 	  </description>       
@@ -225,7 +224,7 @@
       <name>Vue d'ensemble</name>
       <description>
           <![CDATA[
-              <p>Depuis ce point du vue, vous pouvez observer le marais d'Auried et vous rendre compte de la mosaïque d'écosystèmes différents qui le compose: mares et étangs, bosquets, prairies.<br>
+              <p>Depuis ce point de vue, vous pouvez observer le marais d'Auried et vous rendre compte de la mosaïque d'écosystèmes différents qui le compose: mares et étangs, bosquets, prairies.<br>
 			  Tous abritent des libellules à un stade ou l'autre de leur cycle de vie.
             </p>
           ]]>
