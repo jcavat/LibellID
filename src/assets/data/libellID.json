@@ -214,7 +214,7 @@
     "temp-environment-0"
     
   ],
-  "behavior": "<ul><li>Se pose rarement.</li><li>Vol puissant et rapide.</li><li>Mâles très agressifs entre eux et envers les autres libellules.</li><li>Mâle patrouillant le long des berges ou sur l’eau.</li><li>Se déplace souvent d’un habitat à un autre.</li></ul>",
+  "behavior": "<ul><li>Se pose rarement.</li><li>Vol puissant et rapide.</li><li>Mâles très agressifs entre eux et envers les autres libellules.</li><li>Mâles patrouillant le long des berges ou sur l’eau.</li><li>Se déplace souvent d’un habitat à un autre.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0,0,0,0],
@@ -886,7 +886,7 @@
 	  "naiade-corps-vert-4.jpg",
 	  "naiade-corps-vert-5.jpg"
   ],
-  "description": "Petite demoiselle noire et bleue aux yeux rouges que l’on peut observer posée sur la végétation aquatique",
+  "description": "Petite demoiselle noire et bleue aux yeux rouges que l’on peut observer posée sur la végétation aquatique.",
   "habitats": [
     "pounds-1",
 	"lake-1",
@@ -999,7 +999,7 @@
       "leste-sauvage-2.jpg",
 	  "leste-sauvage-3.jpg"
   ],
-  "description": "Petite libellule au corps vert métallique qui a les ailes entrouvertes au repos",
+  "description": "Petite libellule au corps vert métallique qui a les ailes entrouvertes au repos.",
   "habitats": [
     "pounds-1",
 	"lake-0",
@@ -1019,7 +1019,7 @@
         [0.3,0.3,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "Le Leste sauvage était rare en Suisse il y a quelques décennies. Il profite du réchauffement climatique et tend à devenir plus commun.<br><br>L’espèce a un fort potentiel de dispersion et ses effectifs sont très fluctuants d’une année à l’autre. Si les conditions sont favorables, on peut assister à une explosion du nombre de Lestes sauvages sur un milieu aquatique donné, créant des afflux de Lestes barbares dans les régions alentours. La durée de vie aquatique, sous forme de larve, est très courte : 1 à 2 mois.",
+  "anecdote": "Le Leste sauvage était rare en Suisse il y a quelques décennies. Il profite du réchauffement climatique et tend à devenir plus commun.<br>L’espèce a un fort potentiel de dispersion et ses effectifs sont très fluctuants d’une année à l’autre. Si les conditions sont favorables, on peut assister à une explosion du nombre de Lestes sauvages sur un milieu aquatique donné, créant des afflux de Lestes barbares dans les régions alentours.<br>La durée de vie aquatique, sous forme de larve, est très courte : 1 à 2 mois.",
   "threat": "Le Leste sauvage est une espèce actuellement en expansion en Suisse. Son statut de menace n’a pas été défini dans la dernière liste rouge nationale (2002).",
   "distributionMap": "repartition-leste-sauvage.png"
 },
@@ -1076,7 +1076,7 @@
         [0.3,0.3,0,0],
         [0,0,0,0]
   ],
-  "anecdote": "Les effectifs du Leste fiancé ont régressé sur le plateau suisse suite au drainage et à l’assèchement massif des marais, mares et étangs aux siècles passés.<br><br>La femelle pond ses œufs directement dans des joncs ou des roseaux en descendant progressivement le long de la tige jusqu’à finir entièrement sous l’eau.",
+  "anecdote": "Le nombre de Lestes fiancés a diminué sur le plateau suisse suite au drainage et à l’assèchement massif des marais, mares et étangs aux siècles passés.<br><br>La femelle pond ses œufs directement dans des joncs ou des roseaux en descendant progressivement le long de la tige jusqu’à finir entièrement sous l’eau.",
   "threat": "Le Leste fiancé est une espèce potentiellement menacée en Suisse.",
   "distributionMap": "repartition-leste-fiance.png"
 },
@@ -1236,7 +1236,7 @@
       "peatbog-1",      
       "temp-environment-0"      
     ],
-    "behavior": "<ul><li>Souvent perchée sur des plantes comme les roseaux ou les joncs.</li><li>Mâles territoriaux et agressifs entre eux et envers les autres libellules.</li><li>Posée fréquemment le corps pendant vers le bas.</li><li>Femelle déposant ses œufs un à un dans l’eau tout en volant sous la surveillance du mâle.</li></ul>",
+    "behavior": "<ul><li>Souvent perchée sur des plantes comme les roseaux ou les joncs.</li><li>Mâles territoriaux, agressifs entre eux et envers les autres libellules.</li><li>Posée fréquemment le corps pendant vers le bas.</li><li>Femelle déposant ses œufs un à un dans l’eau tout en volant sous la surveillance du mâle.</li></ul>",
     "flyPeriod": [
         [0,0,0.3,0.3],
         [0.6,0.6,0.6,0.9],
@@ -1339,7 +1339,7 @@
 		"orthetrum-reticule-2.jpg",
 		"orthetrum-reticule-3.jpg"
     ],
-    "description": "Libellule de taille moyenne au corps bleu clair avec l’extrémité du corps noir, souvent posée au sol.",
+    "description": "Libellule de taille moyenne au corps bleu clair avec l’extrémité du corps noir.",
     "habitats": [
       "pounds-1",
 	  "lake-1",
@@ -1509,7 +1509,7 @@
 		"grSympetrum-vulgaire-4.jpg",
 		"grSympetrum-deprime-5.jpg"
   ],
-  "description": "Ce groupe comprend les Sympétrums au corps rouge, des libellules de taille moyenne. Il comprend de nombreuses espèces difficiles à distinguer pour le non-spécialiste, dont les plus caractéristiques sont : le Sympétrum rouge sang, le Sympétrum à côtés striés, Sympétrum à nervures rouges ou le Sympétrum à corps déprimé.",
+  "description": "Ce groupe comprend les Sympétrums au corps rouge, des libellules de taille moyenne. Il comprend de nombreuses espèces difficiles à distinguer pour le non-spécialiste, dont les plus caractéristiques sont : le Sympétrum rouge sang, le Sympétrum à côtés striés, le Sympétrum à nervures rouges ou le Sympétrum à corps déprimé.",
   "habitats": [
     "pounds-1",
 	"lake-1",
@@ -1518,7 +1518,7 @@
     "peatbog-1",    
     "temp-environment-1"    
   ],
-  "behavior": "<ul><li>Pondent souvent en tandem (le mâle et la femelle accrochés ensemble).</li><li>Souvent perchées sur des tiges à proximité de l’eau, le corps dirigé vers le haut.</li><li>Se posent aussi volontiers au sol.</li><li>Généralement territoriales : mâles agressifs entre eux et parfois envers les autres espèces.</li><li>Ne s’observe pas uniquement au bord de l’eau, mais également le long des haies, des lisières et des chemins.</li></ul>",
+  "behavior": "<ul><li>Pondent souvent en tandem (le mâle et la femelle accrochés ensemble).</li><li>Souvent perchées sur des tiges à proximité de l’eau, le corps dirigé vers le haut.</li><li>Se posent aussi volontiers au sol.</li><li>Généralement territoriales : mâles agressifs entre eux et parfois envers les autres espèces.</li><li>Ne s’observent pas uniquement au bord de l’eau, mais également le long des haies, des lisières et des chemins.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0.3,0.3,0.6,0.9],
@@ -1619,8 +1619,7 @@
   "pictures": [
 		"grGomphe-joli-1.jpg",
 		"grGomphe-commun-2.jpg",
-		"grGomphe-pinces-3.jpg",
-		"grGomphe-pinces-4.jpg"
+		"grGomphe-pinces-3.jpg"
   ],
   "description": "Ce groupe comprend des libellules jaunes et noirs avec les yeux verts et séparés (ne se touchant pas). Il inclut trois espèces : le Gomphe joli, le Gomphe très commun et le Gomphe à pinces.",
   "habitats": [
@@ -1706,7 +1705,7 @@
 
 {
   "commonName": "Femelles ou immatures jaunes",
-  "latinName": "non-inclus",
+  "latinName": "",
   "altitude_level": [0,1,2],
   "region": ["RO", "GE"],
   "strong_criteria": [],
@@ -1739,7 +1738,7 @@
 		"sympetrum-nervures-fem-5.jpg",
 		"trithemis-annele-fem-6.jpg"
   ],
-  "description": "Il existe des libellules femelles ou immatures jaunes qui sont difficiles à identifier. Cette application ne permet pas leur identification.",
+  "description": "Il existe des libellules femelles ou immatures jaunes qui sont difficiles à identifier. Cette application ne permet pas leur identification, mais les photos disponibles permettent d'en avoir un aperçu.",
   "flyPeriod": [
         [1,1,1,1],
         [1,1,1,1],
@@ -1754,8 +1753,8 @@
 },
 
 {
-  "commonName": "Autres libellules",
-  "latinName": "non-incluses",
+  "commonName": "Libellules supplémentaires",
+  "latinName": "",
   "altitude_level": [0,1,2],
   "region": ["RO", "GE"],
   "strong_criteria": [],
@@ -1792,7 +1791,7 @@
 		"gr-cordulie-arctique-9.jpg",
 		"gr-sympetrum-noir-10.jpg"
   ],
-  "description": "Il existe d'autres libellules moins fréquentes en Suisse et difficiles à identifier. Cette application ne permet pas leur identification.",
+  "description": "Il existe d'autres libellules moins fréquentes en Suisse et difficiles à identifier. Cette application ne permet pas leur identification, mais les photos disponibles permettent d'en avoir un aperçu.",
   "flyPeriod": [
         [1,1,1,1],
         [1,1,1,1],
@@ -1827,7 +1826,7 @@
     {
       "id": 2,
       "name": "Entre marais de l’Auried et Sarine",
-      "preview": "gruere-preview.jpg",
+      "preview": "auried-preview.jpg",
       "diversity": 3,
       "period": "Avril à octobre",
       "duration": "3h",
@@ -1888,7 +1887,7 @@
       "length": 5.7,
       "accesibility": [1,2,3],
       "infrastructure": "Tables de pique-nique.",
-	  "info": "Parcours linéaire.",
+	  "info": "Parcours linéaire. Un itinéraire botanique existe également dans l'application Flower Walks.",
       "Access": "Transports publics, voiture.",
 	  "pictures": "teppes.jpg",
       "pathKML": "teppes.kml",
@@ -1940,8 +1939,8 @@
       "period": "Avril à octobre",
       "duration": "2h",
       "length": 3.1,
-      "accesibility": [0,1,2],
-      "infrastructure": "Restauration, place de jeux, toilettes, bancs.",
+      "accesibility": [0,1],
+      "infrastructure": "Restauration, place de jeux, toilettes, bancs. Le point 3 est inaccessible en poussette ou chaise roulante.",
 	  "info": "Horaires et infos: www.ville-ge.ch/cjb/horaires.php",
       "Access": "Transports publics, voiture, bateau.",
 	  "pictures": "jardinBotanique.jpg",
@@ -2019,7 +2018,7 @@
 	  "pictures": "sauge.jpg",
       "pathKML": "sauge.kml",
       "pointsKML": "saugePoints.kml",
-      "coords": [46.95235, 6.84434]
+      "coords": [46.97463, 7.05415]
   },
 
   {
@@ -2280,14 +2279,14 @@
       ]
     },
     {
-        "name": "Zones courantes ou stagnantes",
+        "name": "Eaux courantes ou stagnantes",
         "values": [
             {
                 "name": "Courant",
                 "icon": "eaux-courantes-01.png"
             },
             {
-                "name": "Zones courantes et stagnantes",
+                "name": "Eaux courantes et stagnantes",
                 "icon": "eaux-semi-01.png"
             },
             {
@@ -2350,7 +2349,7 @@
           "icon": "dessins-tachearrfoncee-01bis.png"
         },
         {
-           "name": "Foncé avec taches claires \"paired\"",
+           "name": "Foncé avec taches claires jumelles",
            "icon": "dessins-taches-01bis.png"
         },
         {
