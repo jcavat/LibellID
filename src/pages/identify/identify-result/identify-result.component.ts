@@ -38,23 +38,29 @@ export class IdentifyResultPage {
   private loadData(): void {
     let that = this;
     let numberOfCriteriaPerDragonfly: number[]
+    let regions
+    //get region acronym
+    this.jsonDataService.region().then(function (valRegion) {
+      regions = valRegion as Object[];
+    }).catch(function (err: Error) {
+      alert("Un problème est survenu\n" + err.name + "\n" + err.message)
+    }); 
     this.jsonDataService.dragonflies().then(function (val) {
       that.dragonfliesData = val as Dragonfly[];
       //alphabetic sort
       that.dragonfliesData.sort(function compare(a, b) {
         return that.alphabeticSort(a.commonName, b.commonName);
       });
-      console.log(that.dragonfliesData)
 
       //filter date
       if (that.useDate) {
         that.dragonfliesData = that.filterByDate(that.dragonfliesData);
       }
-      
+
       //filter geoloc
-      /*if(that.usePosition){
-        that.filterGeoloc(that.dragonfliesData);
-      }*/
+      if(that.usePosition){
+        that.dragonfliesData = that.filterGeoloc(that.dragonfliesData, regions);
+      }
 
       for (var i = 0; i < that.dragonfliesData.length; i++) {
         let dragonflyMatchedCriteria: boolean[] = []
@@ -84,7 +90,7 @@ export class IdentifyResultPage {
       }
     }).catch(function (err: Error) {
       alert("Un problème est survenu\n" + err.name + "\n" + err.message)
-    });
+    });   
   }
 
   private filterByDate(dragonflies) {
@@ -104,54 +110,21 @@ export class IdentifyResultPage {
 
   }
 
-  private filterGeoloc(dragonflies)
+  private filterGeoloc(dragonflies, regions)
   {
-    //get region acronym
-    this.jsonDataService.region().then(function (val) {
-      let regions = val as Object[];
-      let regionJSON; 
-
-      //browse the regions
-      for(let i=0; i<regions.length; i++){
-        regionJSON = regions[i];
-        for(let regionKey in regions[i]){
-          //if region are find
-          if(regionJSON[regionKey] == "Genève"){
-            console.log(regionKey)
-            //filter by key geoloc in json (exemple filter by 'GE')
-            //return dragonflies.filter(dragonfly=>  dragonfly.flyPeriod[dateIndex][0] > 0 || 
-            //                          dragonfly.flyPeriod[dateIndex][1] > 0 || 
-            //                          dragonfly.flyPeriod[dateIndex][2] > 0 || 
-            //                          dragonfly.flyPeriod[dateIndex][3] > 0 );
-          }
-        }
+    let regionJSON; 
+    //browse the regions
+    for(let i=0; i<regions.length; i++){
+      regionJSON = regions[i];
+      for(let regionKey in regions[i]){
+        //if region are find in region key
+        switch(regionJSON[regionKey]){
+          case "Suisse romande":return dragonflies.filter(dragonfly=> dragonfly.region.includes('RO'));
+          case "Genève": return dragonflies.filter(dragonfly=> dragonfly.region.includes('GE'));
+        }        
       }
-    }).catch(function (err: Error) {
-      alert("Un problème est survenu\n" + err.name + "\n" + err.message)
-    });
-
-/*
-
-    //get geoloc
-    this.geolocation.getCurrentPosition().then((resp) => {
-      this.latitude = resp.coords.latitude;
-      this.longitude = resp.coords.longitude;
-      
-      //parse lat long to geocod
-      this.nativeGeocoder.reverseGeocode(this.latitude, this.longitude)
-      .then((result: NativeGeocoderReverseResult) => {
-          console.log(JSON.stringify(result))
-          
-          
-        
-      })
-      .catch((error: any) => console.log(error));
-
-    }).catch((error) => {
-       console.log('Error getting location', error);
-    });
-*/
-    
+    }
+    return dragonflies;
   }
 
   private alphabeticSort(a, b) {
