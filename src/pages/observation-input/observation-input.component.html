@@ -37,20 +37,24 @@
         </div>
 
         <ion-item>
-            <ion-label color="primary">Utilisateur</ion-label>
+            <ion-label color="primary">Nom</ion-label>
+            <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label color="primary">Prénom</ion-label>
             <ion-input type="text"></ion-input>
         </ion-item>
 
         <div class="item row">
             <div col-7 class="col">
                 <ion-item >
-                    <ion-label color="primary">Nb d'individus</ion-label>
+                    <ion-label color="primary">Nb individu</ion-label>
                     <ion-input *ngIf="!checked" type="number" min="0" value="0"></ion-input>
                 </ion-item>
             </div>
             <div class="col">
                 <ion-item>
-                    <ion-label color="primary">inconnu</ion-label>
+                    <ion-label color="primary">Nb individu inconnu</ion-label>
                     <ion-checkbox color="secondary" [(ngModel)]="checked" checked="false" item-right></ion-checkbox>
                 </ion-item>
             </div>
@@ -80,5 +84,5 @@
             &nbsp;Prendre la photo
         </button>
     </ion-list>
-    <button ion-button block (click)="addObservation()">Transmettre</button>
+    <button ion-button block (click)="addObservation()">Saisir l'observation</button>
 </ion-content>
