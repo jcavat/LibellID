@@ -2118,7 +2118,7 @@
       "values":[
         {
           "name": "Vert foncé métallisé",
-          "icon": "vert_fonce.png"
+          "icon": "1Vertmetal.png"
         },
         {
           "name": "Bleu foncé métallisé",
@@ -2126,11 +2126,11 @@
         },
         {
           "name": "Vert foncé métallisé - bleu clair",
-          "icon": "vert_fonce_bleu.png"
+          "icon": "3Vertmetal_bleu.png"
         },
         {
           "name": "Bronze",
-          "icon": "vert_fonce_bronze.png"
+          "icon": "4bronze_vert_double.png"
         },
         {
           "name": "Beige - noir",
