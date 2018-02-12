@@ -22,14 +22,12 @@ export class IdentifyResultPage {
   private criteriaSelected: number = 0;
   private useDate: boolean;
   private usePosition: boolean;
-  private latitude:number;
-  private longitude:number;
 
-  constructor(private navCtrl: NavController, 
-              private navParams: NavParams,
-              private jsonDataService: JsonDataService,
-              private nativeGeocoder: NativeGeocoder,
-              private geolocation: Geolocation) {
+  constructor(private navCtrl: NavController,
+    private navParams: NavParams,
+    private jsonDataService: JsonDataService,
+    private nativeGeocoder: NativeGeocoder,
+    private geolocation: Geolocation) {
     this.criteria = navParams.get("criteria");
     this.useDate = navParams.get("useDate");
     this.usePosition = navParams.get("usePosition");
@@ -39,12 +37,8 @@ export class IdentifyResultPage {
     let that = this;
     let numberOfCriteriaPerDragonfly: number[]
     let regions
-    //get region acronym
-    this.jsonDataService.region().then(function (valRegion) {
-      regions = valRegion as Object[];
-    }).catch(function (err: Error) {
-      alert("Un problème est survenu\n" + err.name + "\n" + err.message)
-    }); 
+
+
     this.jsonDataService.dragonflies().then(function (val) {
       that.dragonfliesData = val as Dragonfly[];
       //alphabetic sort
@@ -58,40 +52,82 @@ export class IdentifyResultPage {
       }
 
       //filter geoloc
-      if(that.usePosition){
-        that.dragonfliesData = that.filterGeoloc(that.dragonfliesData, regions);
+      if (that.usePosition) {
+        //get geoloc
+        that.geolocation.getCurrentPosition().then((resp) => {
+          let latitude = resp.coords.latitude;
+          let longitude = resp.coords.longitude;
+
+          //parse lat long to geocod
+          that.nativeGeocoder.reverseGeocode(latitude, longitude)
+            .then((result: NativeGeocoderReverseResult) => {
+
+              //get region acronym
+              that.jsonDataService.region().then(function (valRegion) {
+                regions = valRegion as Object[];
+                regions.forEach(element => {
+                  let json = JSON.stringify(element)
+                  //if region are find in json file
+                  if (json.indexOf(result.administrativeArea) != -1) {
+                    //filter
+                    that.dragonfliesData = that.filterGeoloc(that.dragonfliesData, result.administrativeArea);
+                    that.sortWithMatchedCriteria(that.dragonfliesData, that.criteria, that);
+                  } else {
+                    console.log("Value doesn't exist in json file");
+                  }
+                });
+
+              }).catch((error) => {
+                console.log('Error getting region', error);
+              });
+
+
+
+            })
+            .catch((error: any) => console.log(error));
+
+
+        }).catch(function (err: Error) {
+          alert("Un problème est survenu\n" + err.name + "\n" + err.message)
+        });
       }
 
-      for (var i = 0; i < that.dragonfliesData.length; i++) {
-        let dragonflyMatchedCriteria: boolean[] = []
-        for (var j = 0; j < that.criteria.length; j++) {
-          dragonflyMatchedCriteria[j] = that.dragonfliesData[i].criteria[j].some(function (v) {
-            return that.criteria[j].indexOf(v) >= 0;
-          });
-        }
-        that.matchedCriteria[i] = dragonflyMatchedCriteria;
-        that.dragonfliesDataSorted[i] = [that.dragonfliesData[i], that.trueCount(that.matchedCriteria[i])];
-      }
-
-      //sort with score
-      that.dragonfliesDataSorted.sort(function (a, b) {
-        if (b[1] - a[1] != 0) {//score are not equal=>sort by score
-          return b[1] - a[1];
-        } else { //alpabetic sort
-          return that.alphabeticSort(a[0].commonName, b[0].commonName);
-        }
-      });
-
-
-      for (var i = 0; i < that.criteria.length; i++) {
-        if (that.criteria[i].length != 0) {
-          that.criteriaSelected++;
-        }
-      }
+      that.sortWithMatchedCriteria(that.dragonfliesData, that.criteria, that);
+    
     }).catch(function (err: Error) {
       alert("Un problème est survenu\n" + err.name + "\n" + err.message)
-    });   
+    });
   }
+
+  sortWithMatchedCriteria(dragonfliesData, criteria, that){
+    for (var i = 0; i < that.dragonfliesData.length; i++) {
+      let dragonflyMatchedCriteria: boolean[] = []
+      for (var j = 0; j < that.criteria.length; j++) {
+        dragonflyMatchedCriteria[j] = that.dragonfliesData[i].criteria[j].some(function (v) {
+          return that.criteria[j].indexOf(v) >= 0;
+        });
+      }
+      that.matchedCriteria[i] = dragonflyMatchedCriteria;
+      that.dragonfliesDataSorted[i] = [that.dragonfliesData[i], that.trueCount(that.matchedCriteria[i])];
+    }
+
+    //sort with score
+    that.dragonfliesDataSorted.sort(function (a, b) {
+      if (b[1] - a[1] != 0) {//score are not equal=>sort by score
+        return b[1] - a[1];
+      } else { //alpabetic sort
+        return that.alphabeticSort(a[0].commonName, b[0].commonName);
+      }
+    });
+
+
+    for (var i = 0; i < that.criteria.length; i++) {
+      if (that.criteria[i].length != 0) {
+        that.criteriaSelected++;
+      }
+    }
+  }
+
 
   private filterByDate(dragonflies) {
     //Avril to November (avril index = 0, november index = 7)
@@ -110,23 +146,13 @@ export class IdentifyResultPage {
 
   }
 
-  private filterGeoloc(dragonflies, regions)
-  {
-    let regionJSON; 
-    //browse the regions
-    for(let i=0; i<regions.length; i++){
-      regionJSON = regions[i];
-      for(let regionKey in regions[i]){
-        //if region are find in region key
-        if(regionJSON[regionKey] === "Genève"){
-          console.log("ok djdjdj")
-          return dragonflies.filter(dragonfly=> dragonfly.region.includes('GE'));
-        }else{
-          return dragonflies.filter(dragonfly=> dragonfly.region.includes('RO'));
-        }      
-      }
+  private filterGeoloc(dragonflies, regionName) {
+    //if region are find in region key
+    if (regionName === "Genève") {
+      return dragonflies.filter(dragonfly => dragonfly.region.includes('GE'));
+    } else {
+      return dragonflies.filter(dragonfly => dragonfly.region.includes('RO'));
     }
-    return dragonflies;
   }
 
   private alphabeticSort(a, b) {
