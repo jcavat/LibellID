@@ -18,7 +18,7 @@
   <span *ngFor="let criter of criteria">
     <h6 class="criter-name">{{criter.name}}</h6>
     <div>
-        <div *ngIf="criter.name != 'Couleur(s) principale(s) de la libellule'">
+        <div *ngIf="criter.name != 'Couleur(s) principale(s) du corps'">
             <table class="table-criteria">
               <tr class="table-content">
                 <td *ngFor="let value of criter.values" class="criter-value" (press)="pressEvent(value)">
@@ -28,25 +28,15 @@
               </tr>
             </table>
         </div>
-        <div *ngIf="criter.name == 'Couleur(s) principale(s) de la libellule'" class="scroll-div">
+        <div *ngIf="criter.name == 'Couleur(s) principale(s) du corps'" class="scroll-div">
             <table class="table-criteria">
-              <tr class="table-content">
-                <ng-container *ngFor="let value of criter.values;let i=index">
-                <td *ngIf="i<=8" class="criter-value">
-                    <img *ngIf="value.icon != 'icon.png'" src="assets/img/{{value.icon}}" alt="{{value.name}}">
-                    <div *ngIf="value.icon == 'icon.png'">{{value.name}}</div>
-                </td>
-                </ng-container>
-              </tr>
-              <tr class="table-content">
-                <ng-container *ngFor="let value of criter.values;let i=index">
-                <td *ngIf="i>8" class="criter-value">
-                    <img *ngIf="value.icon != 'icon.png'" src="assets/img/{{value.icon}}" alt="{{value.name}}">
-                    <div *ngIf="value.icon == 'icon.png'">{{value.name}}</div>
-                </td>
-                </ng-container>
-              </tr>
-            </table>
+                <tr class="table-content">
+                  <td *ngFor="let value of criter.values" class="criter-value" (press)="pressEvent(value)">
+                      <img *ngIf="value.icon != 'icon.png'" src="assets/img/{{value.icon}}" alt="{{value.name}}">
+                      <div *ngIf="value.icon == 'icon.png'">{{value.name}}</div>
+                  </td>
+                </tr>
+              </table>
         </div>
     </div>
   </span>

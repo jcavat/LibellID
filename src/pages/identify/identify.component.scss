@@ -10,10 +10,8 @@ h6.criter-name{
   margin-bottom: 0;
 }
 div.scroll-div{
-    white-space: nowrap;
-    overflow-x: auto;
     td{
-        width: 30%!important;
+        width: 25%!important;
     }
 }
 table{
@@ -24,7 +22,7 @@ table{
     td{
       border: solid 1px black;
       //height: 4em;
-      width: 25%;
+      width: 33.3%;
       display: inline-block;
       padding: 3px;
       word-wrap: break-word;
