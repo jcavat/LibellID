@@ -118,10 +118,12 @@ export class IdentifyResultPage {
       regionJSON = regions[i];
       for(let regionKey in regions[i]){
         //if region are find in region key
-        switch(regionJSON[regionKey]){
-          case "Suisse romande":return dragonflies.filter(dragonfly=> dragonfly.region.includes('RO'));
-          case "Genève": return dragonflies.filter(dragonfly=> dragonfly.region.includes('GE'));
-        }        
+        if(regionJSON[regionKey] === "Genève"){
+          console.log("ok djdjdj")
+          return dragonflies.filter(dragonfly=> dragonfly.region.includes('GE'));
+        }else{
+          return dragonflies.filter(dragonfly=> dragonfly.region.includes('RO'));
+        }      
       }
     }
     return dragonflies;
