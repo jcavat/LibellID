@@ -8,65 +8,71 @@
 
 <ion-content padding>
     <ion-list>
-        <ion-item>
-            <ion-label color="primary">Espèce observée</ion-label>
-            <ion-input type="text" value="{{dragonflyName}}"></ion-input>
-        </ion-item>
-        <ion-item>
-            <ion-label color="primary">Label</ion-label>
-            <ion-input type="text" value="Libellulid" disabled></ion-input>
-        </ion-item>
-        <ion-item>
-            <ion-label color="primary">Date</ion-label>
-            <ion-input type="text" value="{{date}}" disabled></ion-input>
-        </ion-item>
+        <ion-item-group>
+            <ion-item-divider color="light">Données de l'espèce</ion-item-divider>
+            <ion-item>
+                <ion-label color="primary">Espèce observée</ion-label>
+                <ion-input type="text" value="{{dragonflyName}}"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label color="primary">Label</ion-label>
+                <ion-input type="text" value="Libellulid" disabled></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label color="primary">Date</ion-label>
+                <ion-input type="text" value="{{date}}" disabled></ion-input>
+            </ion-item>
+        
+
+            <div class="item row">
+                <div col-7 class="col">
+                    <ion-item >
+                        <ion-label color="primary">Nb individus</ion-label>
+                        <ion-input *ngIf="!checked" type="number" min="0" value="0"></ion-input>
+                    </ion-item>
+                </div>
+                <div class="col">
+                    <ion-item>
+                        <ion-label color="primary">Inconnu</ion-label>
+                        <ion-checkbox color="secondary" [(ngModel)]="checked" checked="false" item-right></ion-checkbox>
+                    </ion-item>
+                </div>
+            </div>
+
         <div class="item row">
             <div class="col">
                 <ion-item>
-                    <ion-label color="primary">Latitude</ion-label>
+                    <ion-label color="primary">Lat.</ion-label>
                     <ion-input type="text" value="{{latitude}}"></ion-input>
 
                 </ion-item>
             </div>
             <div class="col">
                 <ion-item>
-                    <ion-label color="primary">Longitude</ion-label>
+                    <ion-label color="primary">Long.</ion-label>
                     <ion-input type="text" value="{{longitude}}"></ion-input>
                 </ion-item>
             </div>
         </div>
 
-        <ion-item>
-            <ion-label color="primary">Nom</ion-label>
-            <ion-input type="text"></ion-input>
-        </ion-item>
-        <ion-item>
-            <ion-label color="primary">Prénom</ion-label>
-            <ion-input type="text"></ion-input>
-        </ion-item>
-
-        <div class="item row">
-            <div col-7 class="col">
-                <ion-item >
-                    <ion-label color="primary">Nb individu</ion-label>
-                    <ion-input *ngIf="!checked" type="number" min="0" value="0"></ion-input>
-                </ion-item>
-            </div>
-            <div class="col">
-                <ion-item>
-                    <ion-label color="primary">Nb individu inconnu</ion-label>
-                    <ion-checkbox color="secondary" [(ngModel)]="checked" checked="false" item-right></ion-checkbox>
-                </ion-item>
-            </div>
-        </div>
-
-
-
-        <ion-item>
-            <ion-label color="primary">Email de l'utilisateur</ion-label>
-            <ion-input type="email"></ion-input>
-
-        </ion-item>
+    </ion-item-group>
+        <ion-item-group>
+            <ion-item-divider color="light">Données utilisateur</ion-item-divider>
+            <ion-item>
+                <ion-label color="primary">Nom</ion-label>
+                <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label color="primary">Prénom</ion-label>
+                <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label color="primary">Email</ion-label>
+                <ion-input type="email"></ion-input>
+    
+            </ion-item>
+        </ion-item-group>
+        
         <ion-label text-wrap small color="danger">
             L'adresse mail de l'utilisateur est nécessaire pour la vérification éventuelle des données, mais ne sera pas utilisé à d'autres
             fins.
