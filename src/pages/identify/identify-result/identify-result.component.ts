@@ -7,10 +7,6 @@ import { DragonflyPage } from '../../dragonfly/dragonfly.component';
 import { Dragonfly } from '../../../app/classes/dragonfly/dragonfly';
 import { Utils } from '../../../providers/utils';
 
-import { NativeGeocoder, NativeGeocoderReverseResult, NativeGeocoderForwardResult } from '@ionic-native/native-geocoder';
-import { Geolocation } from '@ionic-native/geolocation';
-
-
 @Component({
   templateUrl: 'identify-result.component.html'
 })
@@ -22,22 +18,21 @@ export class IdentifyResultPage {
   private criteriaSelected: number = 0;
   private useDate: boolean;
   private usePosition: boolean;
+  private region: string = undefined;
+  private altitude: number = undefined;
 
   constructor(private navCtrl: NavController,
     private navParams: NavParams,
-    private jsonDataService: JsonDataService,
-    private nativeGeocoder: NativeGeocoder,
-    private geolocation: Geolocation) {
+    private jsonDataService: JsonDataService) {
     this.criteria = navParams.get("criteria");
     this.useDate = navParams.get("useDate");
     this.usePosition = navParams.get("usePosition");
+    this.region = navParams.get("region");
+    this.altitude = navParams.get("altitude");
     this.loadData();
   }
   private loadData(): void {
     let that = this;
-    let numberOfCriteriaPerDragonfly: number[]
-    let regions
-
 
     this.jsonDataService.dragonflies().then(function (val) {
       that.dragonfliesData = val as Dragonfly[];
@@ -51,55 +46,24 @@ export class IdentifyResultPage {
         that.dragonfliesData = that.filterByDate(that.dragonfliesData);
       }
 
-      //filter geoloc
-      if (that.usePosition) {
-        //get geoloc
-        that.geolocation.getCurrentPosition().then((resp) => {
-          let latitude = resp.coords.latitude;
-          let longitude = resp.coords.longitude;
+      //filter by geoloc
+      if (that.region !== undefined) {
+        that.dragonfliesData = that.filterGeoloc(that.dragonfliesData, that.region);
+      }
 
-          //parse lat long to geocod
-          that.nativeGeocoder.reverseGeocode(latitude, longitude)
-            .then((result: NativeGeocoderReverseResult) => {
-
-              //get region acronym
-              that.jsonDataService.region().then(function (valRegion) {
-                regions = valRegion as Object[];
-                regions.forEach(element => {
-                  let json = JSON.stringify(element)
-                  //if region are find in json file
-                  if (json.indexOf(result.administrativeArea) != -1) {
-                    //filter
-                    that.dragonfliesData = that.filterGeoloc(that.dragonfliesData, result.administrativeArea);
-                    that.sortWithMatchedCriteria(that.dragonfliesData, that.criteria, that);
-                  } else {
-                    console.log("Value doesn't exist in json file");
-                  }
-                });
-
-              }).catch((error) => {
-                console.log('Error getting region', error);
-              });
-
-
-
-            })
-            .catch((error: any) => console.log(error));
-
-
-        }).catch(function (err: Error) {
-          alert("Un problème est survenu\n" + err.name + "\n" + err.message)
-        });
+      //filter by altitude
+      if (that.usePosition && that.altitude !== undefined) {
+        that.dragonfliesData = that.filterAltitude(that.dragonfliesData, that.altitude);
       }
 
       that.sortWithMatchedCriteria(that.dragonfliesData, that.criteria, that);
-    
+
     }).catch(function (err: Error) {
       alert("Un problème est survenu\n" + err.name + "\n" + err.message)
     });
   }
 
-  sortWithMatchedCriteria(dragonfliesData, criteria, that){
+  sortWithMatchedCriteria(dragonfliesData, criteria, that) {
     for (var i = 0; i < that.dragonfliesData.length; i++) {
       let dragonflyMatchedCriteria: boolean[] = []
       for (var j = 0; j < that.criteria.length; j++) {
@@ -152,6 +116,17 @@ export class IdentifyResultPage {
       return dragonflies.filter(dragonfly => dragonfly.region.includes('GE'));
     } else {
       return dragonflies.filter(dragonfly => dragonfly.region.includes('RO'));
+    }
+  }
+
+  private filterAltitude(dragonflies, altitude) {
+    //if region are find in region key
+    if (altitude < 1600) {
+      return dragonflies.filter(dragonfly => dragonfly.altitude_level[0] == 0);
+    } else if (altitude >= 1600 && altitude <= 2000) {
+      return dragonflies.filter(dragonfly => dragonfly.altitude_level[1] == 1);
+    } else {
+      return dragonflies.filter(dragonfly => dragonfly.altitude_level[2] == 2);
     }
   }
 
