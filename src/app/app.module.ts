@@ -10,6 +10,7 @@ import { Diagnostic } from '@ionic-native/diagnostic';
 import { Geolocation } from '@ionic-native/geolocation';
 import {JsonDataService} from '../providers/data-json.service';
 import { HomePage } from '../pages/home/home.component';
+import {HomeModalInfo} from '../pages/home/home-modal-info/home-modal-info.component';
 import {OtherPage} from '../pages/other/other.component'
 import {IdentifyPage} from '../pages/identify/identify.component';
 import {IdentifyResultPage} from '../pages/identify/identify-result/identify-result.component';
@@ -41,6 +42,7 @@ import {Utils} from '../providers/utils';
   declarations: [
     MyApp,
     HomePage,
+    HomeModalInfo,
     OtherPage,
     IdentifyPage,
     IdentifyPopover,
@@ -75,6 +77,7 @@ import {Utils} from '../providers/utils';
   entryComponents: [
     MyApp,
     HomePage,
+    HomeModalInfo,
     OtherPage,
     IdentifyPage,
     IdentifyPopover,
