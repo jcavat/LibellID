@@ -6,8 +6,14 @@ import {NavParams, ViewController} from 'ionic-angular';
 })
 
 export class IdentifyModalInfo{
-    constructor(private viewCtrl: ViewController, private renderer: Renderer){
+    private title:string="";
+    private text:string="";
+    constructor(private viewCtrl: ViewController, private renderer: Renderer, private navParams:NavParams){
+        
         this.renderer.setElementClass(viewCtrl.pageRef().nativeElement, 'popup-info', true);
+        this.title = navParams.get('title');
+        this.text = navParams.get('text');
+        
     }
 
     private dismiss(): void{

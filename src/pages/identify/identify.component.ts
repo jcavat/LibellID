@@ -24,6 +24,8 @@ export class IdentifyPage {
     private latitude: number = undefined;
     private longitude: number = undefined;
     private altitude: number;
+    private titleModalInfo:string="";
+    private textModalInfo:string="";
     constructor(private navCtrl: NavController,
         private popoverCtrl: PopoverController,
         private jsonDataService: JsonDataService,
@@ -32,6 +34,9 @@ export class IdentifyPage {
         private nativeGeocoder: NativeGeocoder,
         private geolocation: Geolocation) {
 
+        this.titleModalInfo="Aide à l’identification"
+        this.textModalInfo= "Cette rubrique vous permet d’identifier les libellules les plus communes de Suisse romande. Vous pouvez sélectionner <b>une ou plusieurs options</b>  pour chaque critère. Il n’est <b> pas</b> obligatoire de répondre à <b>tous</b> les critères. En maintenant le <b>doigt appuyé</b> sur une option, celle-ci s’affiche en plus grand avec une brève description. Pour visualiser <b> quelle libellule </b> correspond à vos réponses aux options, cliquez sur le bouton « Voir »."
+            
         this.loadData();
     }
     private presentPopover(event): void {
@@ -110,10 +115,11 @@ export class IdentifyPage {
         let modal = this.modalCtrl.create(IdentifyModalCriter, { value: value });
         modal.present();
     }
-    private displayModalInfo(): void {
-        let modal = this.modalCtrl.create(IdentifyModalInfo);
+    private displayModalInfo(title:string,text:string): void {
+        let modal = this.modalCtrl.create(IdentifyModalInfo, {title:title, text:text});
         modal.present();
     }
+
     ionViewDidEnter() {
         let tdValues = document.getElementsByClassName("criter-value");
         for (var i = 0; i < tdValues.length; i++) {
@@ -122,7 +128,7 @@ export class IdentifyPage {
         }
         this.storage.get('firstTime').then((val) => {
             if (val == null || val == undefined || val == true) {
-                this.displayModalInfo();
+                this.displayModalInfo(this.titleModalInfo,this.textModalInfo);
                 this.storage.set('firstTime', false);
             }
         });
