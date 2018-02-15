@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, ModalController } from 'ionic-angular';
 
 import { JsonDataService } from '../../../providers/data-json.service';
 import { DragonflyPage } from '../../dragonfly/dragonfly.component';
 import { Dragonfly } from '../../../app/classes/dragonfly/dragonfly';
 import { Utils } from '../../../providers/utils';
+import { IdentifyModalInfo } from '../identify-modal-info/identify-modal-info.component';
+import { Storage } from '@ionic/storage';
 
 @Component({
   templateUrl: 'identify-result.component.html'
@@ -20,15 +22,29 @@ export class IdentifyResultPage {
   private usePosition: boolean;
   private region: string = undefined;
   private altitude: number = undefined;
+  private titleModalInfo:string="";
+  private textModalInfo:string="";
 
   constructor(private navCtrl: NavController,
     private navParams: NavParams,
+    private modalCtrl: ModalController,
+    private storage: Storage,
     private jsonDataService: JsonDataService) {
+
     this.criteria = navParams.get("criteria");
     this.useDate = navParams.get("useDate");
     this.usePosition = navParams.get("usePosition");
     this.region = navParams.get("region");
     this.altitude = navParams.get("altitude");
+    this.titleModalInfo="Résultats de votre identification"
+    this.textModalInfo= "<p> Cette rubrique <b>classe</b> les libellules auxquelles celle que vous avez observé correspond le mieux.</p> <p>Les <b>chiffres</b> à droite de chaque libellule potentielle correspondent au nombre de critères en adéquation avec vos choix par rapport au nombre de critères totaux que vous avez sélectionné.</p> <p> En <b>cliquant</b> sur une libellule, vous pouvez obtenir plus d’informations et vérifier ou non votre identification.</p>"
+    
+    this.storage.get('firstTimeResInfo').then((val) => {
+      if (val == null || val == undefined || val == true) {
+          this.displayModalInfo(this.titleModalInfo,this.textModalInfo);
+          this.storage.set('firstTimeResInfo', false);
+      }
+    });
     this.loadData();
   }
   private loadData(): void {
@@ -150,4 +166,10 @@ export class IdentifyResultPage {
   private openPage(d: Dragonfly, c): void {
     this.navCtrl.push(DragonflyPage, { dragonfly: d, criteria: c });
   }
+
+  private displayModalInfo(title:string,text:string): void {
+    let modal = this.modalCtrl.create(IdentifyModalInfo, {title:title, text:text});
+    modal.present();
+  }
+
 }

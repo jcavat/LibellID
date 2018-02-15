@@ -35,7 +35,7 @@ export class IdentifyPage {
         private geolocation: Geolocation) {
 
         this.titleModalInfo="Aide à l’identification"
-        this.textModalInfo= "Cette rubrique vous permet d’identifier les libellules les plus communes de Suisse romande. Vous pouvez sélectionner <b>une ou plusieurs options</b>  pour chaque critère. Il n’est <b> pas</b> obligatoire de répondre à <b>tous</b> les critères. En maintenant le <b>doigt appuyé</b> sur une option, celle-ci s’affiche en plus grand avec une brève description. Pour visualiser <b> quelle libellule </b> correspond à vos réponses aux options, cliquez sur le bouton « Voir »."
+        this.textModalInfo= "<p>Cette rubrique vous permet d’identifier les libellules les plus communes de Suisse romande.</p> <p>Vous pouvez sélectionner <b>une ou plusieurs options</b>  pour chaque critère.</p> <p>Il n’est <b> pas</b> obligatoire de répondre à <b>tous</b> les critères.</p> <p>En maintenant le <b>doigt appuyé</b> sur une option, celle-ci s’affiche en plus grand avec une brève description.</p> <p>Pour visualiser <b> quelle libellule </b> correspond à vos réponses aux options, cliquez sur le bouton « Voir ».</p>"
             
         this.loadData();
     }
@@ -126,10 +126,10 @@ export class IdentifyPage {
             tdValues[i].removeEventListener("click", this.handleClickValue);
             tdValues[i].addEventListener("click", this.handleClickValue);
         }
-        this.storage.get('firstTime').then((val) => {
+        this.storage.get('firstTimeIdentification').then((val) => {
             if (val == null || val == undefined || val == true) {
                 this.displayModalInfo(this.titleModalInfo,this.textModalInfo);
-                this.storage.set('firstTime', false);
+                this.storage.set('firstTimeIdentification', false);
             }
         });
     }
