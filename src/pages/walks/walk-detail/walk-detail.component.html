@@ -1,33 +1,44 @@
 <ion-header>
-  <ion-navbar color="primary">
-    <ion-title>
-      {{walk.name}}
-    </ion-title>
-  </ion-navbar>
+    <ion-navbar color="primary">
+        <ion-title>
+            {{walk.name}}
+        </ion-title>
+    </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-    <div id="carte"><img src="assets/img/{{walk.preview}}"></div>
+    <div id="carte">
+        <img src="assets/img/{{walk.preview}}">
+    </div>
     <table class="tableDetail">
         <tr>
-            <!--<td>Niveau <img class="imgDifficultyDiversity" src="assets/img/diversite-{{walk.difficulty}}.png"></td>-->
-            <td>Diversite <img class="imgDifficultyDiversity" src="assets/img/diversite-{{walk.diversity}}.png"></td>
-            <td><ion-icon name="time"></ion-icon> {{walk.duration}}</td>
+            <td>
+                <img class="pictoVariety" src="assets/img/picto-libelulle.png">
+                <img class="imgDifficultyDiversity" src="assets/img/diversite-{{walk.diversity}}.png">
+            </td>
+            <td>
+                <ion-icon class="calendar" name="md-calendar"></ion-icon> {{walk.period}}</td>
         </tr>
         <tr>
+            <td>
+                <ion-icon name="time"></ion-icon> {{walk.duration}}</td>
             <td>{{walk.length}} km</td>
-            
+        </tr>
+
+
+    </table>
+    <table class="access">
+        <tr>
+            <td>Accès</td>
+            <td *ngFor="let a of access" >
+                <img src="{{a.imgSrc}}" [ngClass]="a.hidden ? 'opacity': 'noOpacity'" class="accessImg">
+            </td>
         </tr>
     </table>
+
     <p>
         {{walk.description}}
     </p>
-    <!--
-    <h4>Espèces à découvrir</h4>
-    <ul>
-        <li *ngFor="let e of walk.species">{{e.name}} : {{months[e.flyFrom-1]}} à {{months[e.flyTo-1]}}</li>
-    </ul>
-    -->
 
     <button ion-button block (click)="openPage()">C'est parti</button>
 

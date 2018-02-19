@@ -1,5 +1,6 @@
 .imgDifficultyDiversity{
-    height: 50%;
+    height: 25%;
+    vertical-align: bottom;
 }
 .tableDetail{
     width: 100%;
@@ -18,4 +19,14 @@
         border-radius: 10px;
     }
     margin-bottom: 1em;
+}
+img.pictoVariety{
+    width: 20%;
+    vertical-align: bottom;
+}
+.opacity{
+    opacity: 0.2;
+}
+.accessImg{
+    width: 30%;
 }

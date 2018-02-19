@@ -1,56 +1,18 @@
 export class Walk {
-    private _id: number;
-    private _name: string;
-    private _preview: string;
-    private _duration: string;
-    private _diversity: number;
-    private _difficulty: number;
-    private _length: number;
-    private _description: string;
-    private _species: {name: string, flyFrom: number, flyTo: number}[];
-    private _pictures: string[];
-    private _pathKML: string;
-    private _pointsKML: string;
-    private _coords: number[];
-
-    public id(): number{
-        return this._id;
-    }
-    public name(): string{
-        return this._name;
-    }
-    public preview(): string{
-        return this._preview;
-    }
-    public duration(): string{
-        return this._duration;
-    }
-    public diversity(): number{
-        return this._diversity;
-    }
-    public difficulty(): number{
-        return this._difficulty;
-    }
-    public length(): number{
-        return this._length;
-    }
-    public description(): string{
-        return this._description;
-    }
-    public species(): {name: string, flyFrom: number, flyTo: number}[]{
-        return this._species;
-    }
-    public pictures(): string[]{
-        return this._pictures;
-    }
-    public pathKML(): string{
-        return this._pathKML;
-    }
-    public pointsKML(): string{
-        return this._pointsKML;
-    }
-    public coords(): number[]{
-        return this._coords;
-    }
+    public id: number;
+    public name: string;
+    public preview: string;
+    public diversity: number;
+    public period:string;
+    public duration: string;
+    public length: number;
+    public accessibility:number[];
+    public infrastructure:string;
+    public info:string;
+    public access:string;
+    public pictures: string[];
+    public pathKML: string;
+    public pointsKML: string;
+    public coords: number[];
 
 }
