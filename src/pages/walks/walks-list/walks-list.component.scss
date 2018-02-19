@@ -1,14 +1,15 @@
 .walkItem{
-    width: 100%;
+    width: 80%;
 
 }
-.walkDuration, .walkDiversity{
-    width: 50%;
-
+.pictoVariety{
+    width: 30%;
+    vertical-align: middle;
 }
 .walkTitle{
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: 5%;
+    overflow: initial;
 }
 .imgDiversity{
     height: 50%;
@@ -18,4 +19,7 @@
     bottom: 3%;
     right: 3%;
     font-size: 2rem;
+}
+td{
+    font-size: 0.8em;
 }

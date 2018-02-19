@@ -4,17 +4,28 @@
             <ion-thumbnail item-left>
                 <img src="assets/img/{{walk.pictures}} ">
             </ion-thumbnail>
+            <h2 colspan="2" class="walkTitle" text-wrap no-lines>{{walk.id}}. {{walk.name}}</h2>
             <table class="walkItem">
-                <tr>
-                    <td colspan="2" class="walkTitle">{{walk.id}}. {{walk.name}}</td>
-                </tr>
+                
+                
+                
                 <tr>
                     <td class="walkDuration">
                         <ion-icon name="time"></ion-icon> {{walk.duration}}
                     </td>
                     <td class="walkDiversity">
-                        Diversité <img class="imgDiversity" src="assets/img/diversite-{{walk.diversity}}.png">
+                        Variété 
+                        <img class="pictoVariety" src="assets/img/picto-libelulle.png" *ngFor="let i of getNumber(walk.diversity)">
                     </td>
+                    
+                    
+                    
+                </tr>
+                <tr>
+                    <td class="walkDuration">
+                        {{walk.length}}km
+                    </td>
+                    
                 </tr>
             </table>
         </ion-item>

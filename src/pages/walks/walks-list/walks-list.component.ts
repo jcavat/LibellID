@@ -33,4 +33,8 @@ export class WalksListPage {
       modal.present();
   }
 
+  private getNumber(num) {
+      return new Array(num);
+  }
+
 }
