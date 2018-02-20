@@ -6,10 +6,13 @@ import { Camera } from '@ionic-native/camera';
 import { Utils } from '../../providers/utils';
 import { HTTP } from '@ionic-native/http';
 import { Geolocation } from '@ionic-native/geolocation';
-import { ToastController } from 'ionic-angular';
 
 import { Diagnostic } from '@ionic-native/diagnostic';
 
+// Dependencies
+const request = require('request');
+const OAuth = require('oauth-1.0a');
+const crypto = require('crypto');
 
 @Component({
   templateUrl: 'observation-input.component.html'
@@ -19,6 +22,9 @@ export class ObservationInputPage {
   private dragonflyName: string;
   private latitude: number;
   private longitude: number;
+  private altitude: number;
+  private nbIndividus: number = 0
+  private checked: boolean = false;
 
   public imageFile: string;
   imageNamePath: string;
@@ -31,10 +37,12 @@ export class ObservationInputPage {
     private navCtrl: NavController,
     private navParams: NavParams,
     private http: HTTP,
-    private diagnostic: Diagnostic,
-    private toastCtrl: ToastController) {
+    private diagnostic: Diagnostic) {
     this.dragonfly = navParams.get("dragonfly");
   }
+
+
+
   ionViewWillEnter() {
     //init
     this.dragonflyName = "";
@@ -57,6 +65,7 @@ export class ObservationInputPage {
     this.geolocation.getCurrentPosition().then((resp) => {
       this.latitude = resp.coords.latitude;
       this.longitude = resp.coords.longitude;
+      this.altitude = resp.coords.altitude;
     }).catch((error) => {
       console.log('Error getting location', error);
     });
@@ -82,35 +91,79 @@ export class ObservationInputPage {
   }
 
   addObservation() {
+    // Initialize
+    const oauth = OAuth({
+      consumer: {
+        key: '4814fb5d1d2424e7e987cd6466b9442f0598de06a',
+        secret: '65ff236a8a3b674a26d4ce601c28c038'
+      },
+      signature_method: 'HMAC-SHA1',
+      hash_function(base_string, key) {
+        return crypto.createHmac('sha1', key).update(base_string).digest('base64');
+      }
+    });
 
+    const request_data = {
+      url: "https://www.ornitho.ch/api/species",
+      method: "GET",
+      data: {
+        user_email: "libellulid@hesge.ch",
+        user_pwd: "bodilus856"
+      }
+    };
+
+    // Note: The token is optional for some requests
+    const token = {
+      key: 'b7944483876df6d134af985fcb42166205a831bf0',
+      secret: '5c6650a140db6e0971c545aef1838a90'
+    };
+
+    request({
+      url: request_data.url,
+      method: request_data.method,
+      form: request_data.data,
+      headers: oauth.toHeader(oauth.authorize(request_data, token))
+    }, function (error, response, body) {
+      console.log(response)
+      console.log(error)
+      console.log(body)
+      // Process your data here
+    });
     if (this.latitude == null || this.longitude == null) {
-      this.presentToast("Votre appareil n'as pas eu le temps de récupérer la géolocalisation, où alors votre GPS n'est pas activé");
+
+
+
+      /*alert("Votre appareil n'as pas eu le temps de récupérer la géolocalisation, où alors votre GPS n'est pas activé");
+      let datas = {
+        "data": {
+          "sightings": [{
+            "date": { "@timestamp": Date.now() },
+            "species": { "@id": "86" },
+            "observers": [{
+              "@id": "%replace by id_observer%",
+              "coord_lat": +this.latitude,
+              "coord_lon": +this.longitude,
+              "count": +this.nbIndividus,
+              "altitude": +this.altitude
+            }]
+          }]
+        }
+      }
+      let headers = {
+        'Content-Type': 'application/json'
+      };
+      console.log(datas)
+      //this.http.post("https://www.ornitho.ch/api/observations/search?user_email=libellulid@hesge.ch&user_pwd=xxxx", datas, headers);*/
     } else {
-      this.presentToast("On enverra l'observation");
+      alert("On enverra l'observation");
     }
-    /*this.http.get('http://ionic.io', {}, {})
-    .then(data => {
-  
-      console.log(data.status);
-      console.log(data.data); // data received by server
-      console.log(data.headers);
-  
-    })
-    .catch(error => {
-  
-      console.log(error.status);
-      console.log(error.error); // error message as string
-      console.log(error.headers);
-  
-    });*/
+
+
   }
 
-  presentToast(msg) {
-    let toast = this.toastCtrl.create({
-      message: msg,
-      duration: 3000
-    });
-    toast.present();
+  unknownChecked() {
+    if (this.checked)
+      this.nbIndividus = 0;
   }
 
 }

@@ -28,13 +28,13 @@
                 <div col-7 class="col">
                     <ion-item >
                         <ion-label color="primary">Nb individus</ion-label>
-                        <ion-input *ngIf="!checked" type="number" min="0" value="0"></ion-input>
+                        <ion-input *ngIf="!checked" type="number" min=0 [(ngModel)]="nbIndividus"></ion-input>
                     </ion-item>
                 </div>
                 <div class="col">
                     <ion-item>
                         <ion-label color="primary">Inconnus</ion-label>
-                        <ion-checkbox color="secondary" [(ngModel)]="checked" checked="false" item-right></ion-checkbox>
+                        <ion-checkbox color="secondary" (ionChange)="unknownChecked()" [(ngModel)]="checked" checked="false" item-right></ion-checkbox>
                     </ion-item>
                 </div>
             </div>
