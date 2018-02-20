@@ -62,14 +62,10 @@ export class IdentifyResultPage {
         that.dragonfliesData = that.filterByDate(that.dragonfliesData);
       }
 
-      //filter by geoloc
-      if (that.region !== undefined) {
-        that.dragonfliesData = that.filterGeoloc(that.dragonfliesData, that.region);
-      }
-
-      //filter by altitude
+      //filter by altitude and geoloc
       if (that.usePosition && that.altitude !== undefined) {
         that.dragonfliesData = that.filterAltitude(that.dragonfliesData, that.altitude);
+        that.dragonfliesData = that.filterGeoloc(that.dragonfliesData, that.region);
       }
 
       that.sortWithMatchedCriteria(that.dragonfliesData, that.criteria, that);
