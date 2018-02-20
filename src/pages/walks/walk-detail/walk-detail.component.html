@@ -30,9 +30,30 @@
     <table class="access">
         <tr>
             <td>Accès</td>
-            <td *ngFor="let a of access" >
+            <td *ngFor="let a of access">
                 <img src="{{a.imgSrc}}" [ngClass]="a.hidden ? 'opacity': 'noOpacity'" class="accessImg">
             </td>
+        </tr>
+    </table>
+
+    <table class="other">
+        <tr>
+            <td>
+                    <img src="assets/img/home.png" class="otherImg">{{walk.infrastructure}}
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <img src="assets/img/info.png" class="otherImg">{{walk.info}}
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                    <img src="assets/img/map-with-a-pin-small-symbol-inside-a-circle.png" class="otherImg">{{walk.access}}
+            </td>
+
         </tr>
     </table>
 
