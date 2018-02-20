@@ -8,8 +8,8 @@
         <!--<button ion-button (click)="observationTransmit()">Transmettre l'observation</button>-->
         <button ion-button (click)="observationTransmit()">Transmettre l'observation</button>
     </p>
+    <h2>Critères</h2>
     <table class="tableCriteria">
-        <tr><th style="font-size: large;"> Critère</th><th style="font-size: large;">Valeur</th></tr>
         <tr *ngFor="let criter of criteria;let i=index" [ngStyle]="getStyle(i)">
             
             <td *ngIf="isStrongCriteria(i, dragonfly.strong_criteria)">
