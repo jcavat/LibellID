@@ -63,7 +63,7 @@ export class IdentifyResultPage {
       }
 
       //filter by altitude and geoloc
-      if (that.usePosition && that.altitude !== undefined) {
+      if (that.usePosition) {
         that.dragonfliesData = that.filterAltitude(that.dragonfliesData, that.altitude);
         that.dragonfliesData = that.filterGeoloc(that.dragonfliesData, that.region);
       }
