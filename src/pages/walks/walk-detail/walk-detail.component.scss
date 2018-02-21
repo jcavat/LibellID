@@ -1,6 +1,6 @@
 .imgDifficultyDiversity{
-    height: 25%;
-    vertical-align: bottom;
+    height: 30px;
+    vertical-align: middle;
 }
 .tableDetail{
     width: 100%;
@@ -21,22 +21,29 @@
     margin-bottom: 1em;
 }
 img.pictoVariety{
-    width: 20%;
-    vertical-align: bottom;
+    width: 40px;
+    vertical-align: middle;
+    margin-left: -4%;
 }
 .opacity{
     opacity: 0.2;
 }
 .accessImg{
-    width: 30%;
+    width: 30px;
 }
 
 .otherImg{
-    width: 8%;
+    width: 30px;
     vertical-align: middle;
     margin-right: 3%;
 }
 
 td{
     padding: 3%;
+}
+
+.iconDetail{
+    font-size: 30px;
+    margin-right: 15px;
+    vertical-align: middle;
 }
