@@ -66,7 +66,7 @@ export class WalkInProgressPage {
         this.mapInProgress = new ol.Map({
             target: 'mapInProgress',
             view: new ol.View({
-                zoom: 15
+                zoom: 14
             }),
             layers: [
                 new ol.layer.Tile({
