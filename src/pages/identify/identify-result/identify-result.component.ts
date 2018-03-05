@@ -117,8 +117,11 @@ export class IdentifyResultPage {
         dragonfly.flyPeriod[dateIndex][2] > 0 ||
         dragonfly.flyPeriod[dateIndex][3] > 0);
     }
-    //no filter by date
-    return dragonflies;
+    else{
+      //no filter by date
+      return [];
+    }
+    
 
   }
 
