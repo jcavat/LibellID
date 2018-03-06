@@ -5,6 +5,7 @@ import {WalkInProgressPage} from '../walk-in-progress/walk-in-progress.component
 import {Walk} from '../../../app/classes/walk/walk';
 
 @Component({
+  selector: 'page-walk-detail', 
   templateUrl: 'walk-detail.component.html'
 })
 export class WalkDetailPage {
@@ -24,4 +25,8 @@ export class WalkDetailPage {
   private openPage(): void{
     this.navCtrl.push(WalkInProgressPage, {walk: this.walk});
   }
+
+  private getNumber(num) {
+    return new Array(num);
+}
 }

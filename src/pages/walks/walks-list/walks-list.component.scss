@@ -1,30 +1,32 @@
-.walkItem{
-    width: 80%;
+page-walk-list{
+    .walkItem{
+        width: 80%;
 
-}
-.pictoDiversity{
-    width: 30%;
-    vertical-align: middle;
-}
-.walkTitle{
-    font-size: 1em;
-    margin-bottom: 5%;
-    overflow: initial;
-}
-.imgDiversity{
-    height: 50%;
-}
-#btn-add{
-    position: absolute;
-    bottom: 3%;
-    right: 3%;
-    font-size: 2rem;
-}
-td{
-    font-size: 0.8em;
-    
-}
+    }
+    .pictoDiversity{
+        width: 30%;
+        vertical-align: middle;
+    }
+    .walkTitle{
+        font-size: 1em;
+        margin-bottom: 5%;
+        overflow: initial;
+    }
+    .imgDiversity{
+        height: 50%;
+    }
+    #btn-add{
+        position: absolute;
+        bottom: 3%;
+        right: 3%;
+        font-size: 2rem;
+    }
+    td{
+        font-size: 0.9em;
+        
+    }
 
-td.walkDuration{
-    width: 30%;
+    td.walkDuration{
+        width: 30%;
+    }
 }

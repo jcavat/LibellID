@@ -8,7 +8,8 @@ import {HomePage} from '../../home/home.component';
 import {ModalAddWalk} from './modal-add-walk/modal-add-walk.component';
 
 @Component({
-  templateUrl: 'walks-list.component.html'
+    selector: 'page-walk-list', 
+    templateUrl: 'walks-list.component.html'
 })
 export class WalksListPage {
     private walksData: Walk[];

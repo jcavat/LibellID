@@ -12,9 +12,9 @@
     </div>
     <table class="tableDetail">
         <tr>
-            <td>
-                <img class="pictoVariety" src="assets/img/picto-libelulle.png">
-                <img class="imgDifficultyDiversity" src="assets/img/diversite-{{walk.diversity}}.png">
+
+            <td class="walkDiversity">
+                Variété  <img class="pictoDiversity" src="assets/img/picto-libelulle.png" *ngFor="let i of getNumber(walk.diversity)">
             </td>
             <td>
                 <ion-icon class="calendar iconDetail" name="md-calendar"></ion-icon> {{walk.period}}</td>
