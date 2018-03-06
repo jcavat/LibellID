@@ -53,7 +53,7 @@ export class WalksMapPage {
                target: 'map',
                view: new ol.View({
                    center: ol.proj.transform([6.146692,46.204351],'EPSG:4326', 'EPSG:3857'),
-                   zoom: 12
+                   zoom: 10
                }),
                layers: [
                    new ol.layer.Tile({
