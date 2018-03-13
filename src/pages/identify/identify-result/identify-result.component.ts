@@ -37,7 +37,7 @@ export class IdentifyResultPage {
     this.region = navParams.get("region");
     this.altitude = navParams.get("altitude");
     this.titleModalInfo="Résultats de votre identification"
-    this.textModalInfo= "<p> Cette rubrique <b>classe</b> les libellules auxquelles celle que vous avez observé correspond le mieux.</p> <p>Les <b>chiffres</b> à droite de chaque libellule potentielle correspondent au nombre de critères en adéquation avec vos choix par rapport au nombre de critères totaux que vous avez sélectionné.</p> <p> En <b>cliquant</b> sur une libellule, vous pouvez obtenir plus d’informations et vérifier ou non votre identification.</p>"
+    this.textModalInfo= "<p> Cette rubrique <b>classe</b> les libellules auxquelles celle que vous avez observé correspond le mieux.</p> <p>Les <b>chiffres</b> à droite de chaque libellule potentielle correspondent au nombre de critères en adéquation avec vos choix par rapport au nombre de critères totaux que vous avez sélectionné.</p> <p> En <b>cliquant</b> sur une libellule, vous pouvez obtenir plus d’informations et vérifier ou non votre identification.</p> <p> <b>Si aucune libellule ne s'affiche</b>, c'est qu'elles ne volent pas à cette saison. Vous pouvez dé-sélectionner le filtre par date en haut à droite de l'écran précédant.</p>"
     
     this.storage.get('firstTimeResInfo').then((val) => {
       if (val == null || val == undefined || val == true) {
