@@ -3,6 +3,7 @@
   {
     "commonName": "Aeschne bleue",
     "latinName": "Aeshna cyanea",
+	"id": "2290",
 	"altitude_level": [0,1],
 	"region": ["RO", "GE"],
 	"strong_criteria": [0,2,3,4,5,6,7,8,11],
@@ -61,6 +62,7 @@
 {
   "commonName": "Grande Aeschne",
   "latinName": "Aeshna grandis",
+  "id": "2295",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,1,2,3,4,5,7],
@@ -118,6 +120,7 @@
 {
   "commonName": "Aeschne isocèle",
   "latinName": "Aeshna isoceles",
+  "id": "2300",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,7],
@@ -174,6 +177,7 @@
 {
   "commonName": "Aeschne des joncs",
   "latinName": "Aeshna juncea",
+  "id": "2305",
   "altitude_level": [1,2],
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,7,8],
@@ -232,6 +236,7 @@
 {
   "commonName": "Anax empereur",
   "latinName": "Anax imperator",
+  "id": "2340",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,7,8],
@@ -289,6 +294,7 @@
 {
   "commonName": "Anax napolitain",
   "latinName": "Anax parthenope",
+  "id": "2350",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,7,8],
@@ -346,6 +352,7 @@
 {
   "commonName": "Aeschne printanière",
   "latinName": "Brachytron pratense",
+  "id": "2360",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,6,7,8],
@@ -402,6 +409,7 @@
   {
     "commonName": "Caloptéryx éclatant",
     "latinName": "Calopteryx splendens",
+	"id": "2035",
 	"altitude_level": [0,1],
 	"region": ["RO", "GE"],
 	"strong_criteria": [0,1,2,3,4,5,6],
@@ -459,6 +467,7 @@
 {
   "commonName": "Caloptéryx vierge",
   "latinName": "Calopteryx virgo",
+  "id": "2050",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,1,2,3,4,5,6],
@@ -515,6 +524,7 @@
 {
   "commonName": "Cordulie bronzée",
   "latinName": "Cordulia aenea",
+  "id": "2500",
   "altitude_level": [0,1],
   "region": ["GE"],
   "strong_criteria": [0,2,3,4,5,7,11],
@@ -571,6 +581,7 @@
 {
   "commonName": "Cordulies de plaine",
   "latinName": "",
+  "id": "2781",
   "altitude_level": [0,1],
   "region": ["RO"],
   "strong_criteria": [0,2,3,4,5,7],
@@ -627,6 +638,7 @@
 {
   "commonName": "Agrions bleus",
   "latinName": "",
+  "id": "15366",
   "altitude_level": [0,1,2],
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,8],
@@ -686,6 +698,7 @@
 {
   "commonName": "Cordulégastre annelé",
   "latinName": "Cordulegaster boltonii",
+  "id": "2460",
   "altitude_level": [0,1],
   "region": ["GE"],
   "strong_criteria": [0,2,3,4,5,6,8],
@@ -742,6 +755,7 @@
 {
   "commonName": "Cordulégastres",
   "latinName": "",
+  "id": "2780",
   "altitude_level": [0,1],
   "region": ["RO"],
   "strong_criteria": [0,2,3,4,5,6,8],
@@ -798,6 +812,7 @@
 {
   "commonName": "Libellule écarlate",
   "latinName": "Crocothemis erythraea",
+  "id": "2570",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,1,2,3,4,5,9,10],
@@ -855,6 +870,7 @@
 {
   "commonName": "Naïade au corps vert",
   "latinName": "Erythromma viridulum",
+  "id": "2220",
   "altitude_level": [0,1],
   "region": ["GE"],
   "strong_criteria": [0,2,3,4,5,8,9],
@@ -913,6 +929,7 @@
 {
   "commonName": "Naïades",
   "latinName": "",
+  "id": "2775",
   "altitude_level": [0,1],
   "region": ["RO"],
   "strong_criteria": [0,2,3,4,5,8,9],
@@ -970,6 +987,7 @@
 {
   "commonName": "Leste sauvage",
   "latinName": "Lestes barbarus",
+  "id": "2090",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,7,12],
@@ -1026,6 +1044,7 @@
 {
   "commonName": "Leste fiancé",
   "latinName": "Lestes sponsa",
+  "id": "2105",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,7],
@@ -1083,6 +1102,7 @@
 {
   "commonName": "Leste vert",
   "latinName": "Chalcolestes viridis",
+  "id": "2075",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,7],
@@ -1141,6 +1161,7 @@
 {
   "commonName": "Libellule déprimée",
   "latinName": "Libellula depressa",
+  "id": "2605",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,1,2,3,4,5],
@@ -1198,6 +1219,7 @@
   {
     "commonName": "Libellule à quatre taches",
     "latinName": "Libellula quadrimaculata",
+	"id": "2615",
 	"altitude_level": [0,1],
     "region": ["RO", "GE"],
     "strong_criteria": [0,1,2,3,4,5],
@@ -1254,6 +1276,7 @@
     {
       "commonName": "Orthétrum à stylets blancs",
       "latinName": "Orthetrum albistylum",
+	  "id": "2620",
 	  "altitude_level": [0,1],
       "region": ["RO", "GE"],
       "strong_criteria": [0,2,3,4,5,6,8,13],
@@ -1310,6 +1333,7 @@
   {
     "commonName": "Orthétrum réticulé",
     "latinName": "Orthetrum cancellatum",
+	"id": "2630",
 	"altitude_level": [0,1],
     "region": ["RO", "GE"],
     "strong_criteria": [0,2,3,4,5,6,8],
@@ -1366,6 +1390,7 @@
 {
   "commonName": "Orthétrum brun",
   "latinName": "Orthetrum brunneum",
+  "id": "2625",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,6],
@@ -1421,7 +1446,8 @@
 },
 {
   "commonName": "Petite nymphe au corps de feu",
-  "latinName": "Pyrrhosomma nymphula",
+  "latinName": "Pyrrhosoma nymphula",
+  "id": "2265",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,6,9],
@@ -1478,6 +1504,7 @@
 {
   "commonName": "Sympétrums rouges",
   "latinName": "",
+  "id": "2785",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,1,2,3,4,5,9],
@@ -1536,6 +1563,7 @@
 {
   "commonName": "Trithémis pourpré",
   "latinName": "Trithemis annulata",
+  "id": "2745",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,1,2,3,4,5,9],
@@ -1592,6 +1620,7 @@
 {
   "commonName": "Gomphes",
   "latinName": "",
+  "id": "2779",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,8],
@@ -1648,6 +1677,7 @@
 {
   "commonName": "Leste brun",
   "latinName": "Sympecma fusca",
+  "id": "2125",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
   "strong_criteria": [0,2,3,4,5,6],
@@ -1706,6 +1736,7 @@
 {
   "commonName": "Femelles ou immatures jaunes",
   "latinName": "",
+  "id": "",
   "altitude_level": [0,1,2],
   "region": ["RO", "GE"],
   "strong_criteria": [],
@@ -1755,6 +1786,7 @@
 {
   "commonName": "Libellules supplémentaires",
   "latinName": "",
+  "id": "",
   "altitude_level": [0,1,2],
   "region": ["RO", "GE"],
   "strong_criteria": [],
