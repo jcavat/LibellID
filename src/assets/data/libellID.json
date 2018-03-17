@@ -1,11 +1,12 @@
 {
   "dragonflies": [
   {
+    "id": "2290",
     "commonName": "Aeschne bleue",
     "latinName": "Aeshna cyanea",
-	"id": "2290",
 	"altitude_level": [0,1],
 	"region": ["RO", "GE"],
+	"info_level": [1],
 	"strong_criteria": [0,2,3,4,5,6,7,8,11],
     "headerPicture": {
         "url": "aeschne-bleue-menu.jpg",
@@ -48,23 +49,28 @@
     "flyPeriod": [
         [0,0,0,0],
         [0,0,0,0],
+        [0,0,0,0],
+		[0,0,0,0],
+        [0,0,0,0],
         [0.3,0.3,0.3,0.3],
         [0.6,0.6,0.6,0.9],
         [0.9,0.9,0.9,0.6],
         [0.6,0.6,0.6,0.6],
         [0.6,0.6,0.6,0.3],
-        [0.3,0.3,0,0]
+        [0.3,0.3,0,0],
+        [0,0,0,0]
     ],
     "anecdote": "L'Aeschne bleue est une libellule peu farouche et tout terrain que l'on peut rencontrer dans tous types de milieux, des bassins artificiels pollués aux mares forestières en passant par les étangs d'altitudes. Curieuse, elle peut s'approcher et fondre sur les observateurs lorsqu'elle chasse.<br><br>La larve de l'Aeshne bleue est très efficace pour contrôler la prolifération des moustiques dans les bassins et les petites mares.",
     "threat": "L'Aeschne bleue n'est pas menacée en Suisse.",
     "distributionMap": "repartition-aeschne-bleue.png"
 },
 {
+  "id": "2295",
   "commonName": "Grande Aeschne",
   "latinName": "Aeshna grandis",
-  "id": "2295",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,1,2,3,4,5,7],
   "headerPicture": {
       "url": "aeschne-grande-menu.jpg",
@@ -106,11 +112,15 @@
   "flyPeriod": [
         [0,0,0,0],
         [0,0,0,0],
+        [0,0,0,0],
+		[0,0,0,0],
+        [0,0,0,0],
         [0.3,0.3,0.3,0.3],
         [0.6,0.6,0.6,0.9],
         [0.9,0.9,0.9,0.6],
         [0.6,0.6,0.6,0.3],
         [0.3,0.3,0.3,0],
+        [0,0,0,0],
         [0,0,0,0]
   ],
   "anecdote": "Contrairement aux autres Aeschnes, la Grande Aeschne n’est pas territoriale. Elle ne défend pas de territoire et ne chasse pas les autres libellules. Cependant, on observe rarement plus que quelques mâles sur un milieu.<br><br>Cette Aeschne fréquente dans le centre et le nord de l’Europe a des affinités pour les climats frais. Sans pour autant être strictement une libellule de montagne, elle tolère des températures relativement froides.",
@@ -118,11 +128,12 @@
   "distributionMap": "repartition-aeschne-grande.png"
 },
 {
+  "id": "2300",
   "commonName": "Aeschne isocèle",
   "latinName": "Aeshna isoceles",
-  "id": "2300",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,7],
   "headerPicture": {
       "url": "aeschne-isocele-menu.jpg",
@@ -162,10 +173,14 @@
   "behavior": "<ul><li>Apprécie les milieux aquatiques de grande taille, bordés de roseaux ou de massettes.</li><li>Mâles agressifs envers leurs congénères et les autres libellules.</li><li>Femelle pondant seule.</li><li>Vol souvent stationnaire.</li><li>Se pose rarement, vole de préférence au-dessus de la végétation.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0.3,0.3,0.6,0.6],
         [0.9,0.9,0.9,0.9],
         [0.9,0.6,0.6,0.6],
         [0.3,0.3,0.3,0],
+        [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0]
@@ -175,11 +190,12 @@
   "distributionMap": "repartition-aeschne-isocele.png"
 },
 {
+  "id": "2305",
   "commonName": "Aeschne des joncs",
   "latinName": "Aeshna juncea",
-  "id": "2305",
   "altitude_level": [1,2],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,7,8],
   "headerPicture": {
       "url": "aeschne-joncs-menu.jpg",
@@ -222,11 +238,15 @@
   "flyPeriod": [
         [0,0,0,0],
         [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0.3,0.3,0.3,0.3],
         [0.6,0.6,0.9,0.9],
         [0.9,0.9,0.6,0.6],
         [0.6,0.6,0.3,0.3],
         [0.3,0.3,0,0],
+        [0,0,0,0],
         [0,0,0,0]
   ],
   "anecdote": "L’Aeschne des joncs est une espèce d’altitude qui a des affinités pour les températures froides. C’est la libellule la plus fréquente et la plus abondante dans les Alpes suisses.<br><br>Elle vit dans les eaux stagnantes, comme par exemple les mares et marais.<br><br>La larve vit dans l’eau jusqu’à quatre ans avant de se transformer en libellule adulte.",
@@ -234,11 +254,12 @@
   "distributionMap": "repartition-aeschne-joncs.png"
 },
 {
+  "id": "2340",
   "commonName": "Anax empereur",
   "latinName": "Anax imperator",
-  "id": "2340",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,7,8],
   "headerPicture": {
       "url": "anax_empereur-menu.jpg",
@@ -279,11 +300,15 @@
   "behavior": "<ul><li>Se pose rarement.</li><li>Généralement en vol nettement au-dessus de la surface de l’eau (entre 2 et 4 mètres de hauteur).</li><li>Mâle très territorial, patrouille inlassablement son territoire.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0.3,0.3,0.6,0.6],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.6,0.6],
         [0.3,0.3,0.3,0.3],
+        [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0]
   ],
@@ -292,11 +317,12 @@
   "distributionMap": "repartition-anax-empereur.png"
 },
 {
+  "id": "2350",
   "commonName": "Anax napolitain",
   "latinName": "Anax parthenope",
-  "id": "2350",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,7,8],
   "headerPicture": {
       "url": "anax_napolitain-menu.jpg",
@@ -337,11 +363,15 @@
   "behavior": "<ul><li>Se pose rarement.</li><li>Vole devant les ceintures de roseaux ou au-dessus de l'eau et des plantes flottantes.</li><li>Assez farouche, moins facile à observer que l'Anax empereur.</li><li>Très agressive envers les autres libellules.</li><li>Pond en tandem : le mâle agrippe la femelle derrière la tête pendant la ponte</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0.3,0.3,0.6,0.6],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.6,0.6],
         [0.3,0.3,0.3,0.3],
+        [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0]
   ],
@@ -350,11 +380,12 @@
   "distributionMap": "repartition-anax-napolitain.png"
 },
 {
+  "id": "2360",
   "commonName": "Aeschne printanière",
   "latinName": "Brachytron pratense",
-  "id": "2360",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,6,7,8],
   "headerPicture": {
       "url": "aeschne-print-menu.jpg",
@@ -393,10 +424,14 @@
   ],
   "behavior": "<ul><li>Vole bas, au ras de l’eau parfois en zigzaguant.</li><li>Préfère les milieux assez grands entourés de forêt ou au moins de quelques arbres isolés.</li><li>Mâle agressif envers les autres mâles de son espèce mais pas envers ceux des autres espèces.</li><li>Femelle discrète, venant auprès de l’eau que pour s’accoupler et pondre.</li><li>Femelle pondant seule.</li></ul>",
   "flyPeriod": [
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0,0,0.3,0.3],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.6,0.6],
         [0.3,0.3,0,0],
+        [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0],
@@ -407,11 +442,12 @@
   "distributionMap": "repartition-aeschne-print.png"
 },
   {
+    "id": "2035",
     "commonName": "Caloptéryx éclatant",
     "latinName": "Calopteryx splendens",
-	"id": "2035",
 	"altitude_level": [0,1],
 	"region": ["RO", "GE"],
+    "info_level": [1],
 	"strong_criteria": [0,1,2,3,4,5,6],
     "headerPicture": {
         "url": "calopteryx-eclatant-menu.jpg",
@@ -451,12 +487,16 @@
     ],
     "behavior": "<ul><li>Vole souvent en zigzag, comme un papillon.</li><li>Évite les eaux trop froides et trop ombragées.</li><li>Souvent perchée sur la végétation des rives.</li><li>Femelle souvent à l’écart des rives, ne venant généralement près de l’eau que pour s’accoupler et pondre.</li></ul>",
     "flyPeriod": [
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0,0,0.3,0.3],
         [0.3,0.3,0.3,0.3],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.6,0.6,0.3,0.3],
+        [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0]
     ],
@@ -465,11 +505,12 @@
     "distributionMap": "repartition-calopteryx-eclatant.png"
 },
 {
+  "id": "2050",
   "commonName": "Caloptéryx vierge",
   "latinName": "Calopteryx virgo",
-  "id": "2050",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,1,2,3,4,5,6],
   "headerPicture": {
       "url": "calopteryx-vierge-menu.jpg",
@@ -508,6 +549,9 @@
   ],
   "behavior": "<ul><li>Vole souvent en zigzag, comme un papillon.</li><li>Souvent perchée sur la végétation des rives.</li><li>Femelle souvent à l’écart des rives, ne venant généralement près de l’eau que pour s’accoupler et pondre.</li><li>Supporte un certain ombrage et privilégie des eaux fraîches.</li></ul>",
   "flyPeriod": [
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0,0,0.3,0.3],
         [0.3,0.3,0.3,0.3],
         [0.9,0.9,0.9,0.9],
@@ -515,6 +559,7 @@
         [0.9,0.9,0.6,0.6],
         [0.3,0.3,0.3,0.3],
         [0.3,0.3,0,0],
+        [0,0,0,0],
         [0,0,0,0]
   ],
   "anecdote": "Les Caloptéryx ont des parades nuptiales très élaborées. Les mâles effectuent devant les femelles des vols stationnaires avec des battements d’ailes très rapides. Ils redressent aussi l’extrémité de leur corps pour en montrer la face ventrale dont l’extrémité est rougeâtre (blanchâtre chez une espèce proche, le Caloptéryx éclatant).<br><br>Les Caloptéryx vierges sont des indicateurs des eaux propres car ils supportent mal la pollution.",
@@ -522,11 +567,12 @@
   "distributionMap": "repartition-calopteryx-vierge.png"
 },
 {
+  "id": "2500",
   "commonName": "Cordulie bronzée",
   "latinName": "Cordulia aenea",
-  "id": "2500",
   "altitude_level": [0,1],
   "region": ["GE"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,7,11],
   "headerPicture": {
       "url": "cordulie-bronzee-menu.jpg",
@@ -565,12 +611,16 @@
   ],
   "behavior": "<ul><li>Vol bas, rapide, interrompu de pauses stationnaires.</li><li>Vole « penchée en avant » avec l’extrémité du corps plus haut que la tête.</li><li>Se pose rarement.</li><li>Active aussi par temps couvert et à l’ombre.</li><li>Mâles agressifs entre eux.</li></ul>",
   "flyPeriod": [
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0,0,0.3,0.3],
         [0.3,0.3,0.6,0.6],
         [0.9,0.9,0.9,0.9],
         [0.9,0.6,0.6,0.6],
         [0.6,0.3,0.3,0.3],
         [0.3,0.3,0,0],
+        [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0]
   ],
@@ -579,11 +629,12 @@
   "distributionMap": "repartition-cordulie-bronzee.png"
 },
 {
+  "id": "2781",
   "commonName": "Cordulies de plaine",
   "latinName": "",
-  "id": "2781",
   "altitude_level": [0,1],
   "region": ["RO"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,7],
   "headerPicture": {
       "url": "cordulies-plaine-menu.jpg",
@@ -622,6 +673,9 @@
   ],
   "behavior": "<ul><li>Vol rapide, erratique, parfois interrompu de pauses stationnaires.</li><li>Actives aussi par temps couvert et à l’ombre.</li><li>Se posent rarement (à l’exception de la Cordulie à taches jaunes).</li><li>Mâles agressifs entre eux (à l’exception de la Cordulie métallique).</li></ul>",
   "flyPeriod": [
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0,0,0.3,0.3],
         [0.3,0.3,0.6,0.6],
         [0.9,0.9,0.9,0.9],
@@ -629,6 +683,7 @@
         [0.9,0.9,0.9,0.6],
         [0.3,0.3,0.3,0.3],
         [0.3,0.3,0,0],
+        [0,0,0,0],
         [0,0,0,0]
   ],
   "anecdote": "Comme pour de très nombreuses espèces de libellules, ce sont généralement les mâles de Cordulies que l’on observe à proximité du milieu aquatique. Les femelles sont plus discrètes et ne s’approchent de l’eau que pour s’accoupler et pondre.<br><br>La femelle pond seule et habituellement de manière furtive afin de ne pas se faire repérer par un mâle. En effet, elle évite ainsi d’être saisie par un autre mâle et de devoir s’accoupler à nouveau.",
@@ -636,11 +691,12 @@
   "distributionMap": "repartition-gr-cordulies.png"
 },
 {
+  "id": "15366",
   "commonName": "Agrions bleus",
   "latinName": "",
-  "id": "15366",
   "altitude_level": [0,1,2],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,8],
   "headerPicture": {
       "url": "gr-agrions-bleus-menu.jpg",
@@ -682,6 +738,9 @@
   ],
   "behavior": "<ul><li>Souvent perchées sur la végétation des rives, le corps pendant vers le bas.</li><li>Forment un cœur lors de l’accouplement, appelé cœur copulatoire.</li><li>Pondent souvent en groupe (nombreux individus à proximité).</li><li>Peu territoriales : pas d’agressivité entre individus.</li></ul>",
   "flyPeriod": [
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0,0,0.3,0.3],
         [0.6,0.6,0.9,0.9],
         [0.9,0.9,0.9,0.9],
@@ -689,6 +748,7 @@
         [0.9,0.9,0.9,0.9],
         [0.6,0.6,0.3,0.3],
         [0.3,0.3,0,0],
+        [0,0,0,0],
         [0,0,0,0]
   ],
   "anecdote": "Les Agrions bleus sont souvent présents en très grand nombre sur un plan d’eau. On observe facilement les mâles car ils s’éloignent peu de l’eau. Les femelles sont moins visibles et restent souvent à l’écart du milieu aquatique, sauf lors de l’accouplement et de la ponte.<br><br>Pendant la ponte, le mâle reste accroché à la femelle et se tient dressé verticalement au-dessus d’elle.",
@@ -696,11 +756,12 @@
   "distributionMap": "repartition-gr-agrions.png"
 },
 {
+  "id": "2460",
   "commonName": "Cordulégastre annelé",
   "latinName": "Cordulegaster boltonii",
-  "id": "2460",
   "altitude_level": [0,1],
   "region": ["GE"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,6,8],
   "headerPicture": {
       "url": "cordul-annele-menu.jpg",
@@ -740,12 +801,16 @@
   "behavior": "<ul><li>Mâle volant le long des ruisseaux, bas, au ras de l’eau.</li><li>Souvent accrochée le corps pendant sur des grandes plantes ou des buissons au bord de l’eau.</li><li>Femelle venant vers l’eau uniquement pour pondre et se reproduire.</li><li>Peu farouche, se laissant parfois approcher de très près.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0,0.3,0.3,0.3],
         [0.6,0.6,0.6,0.6],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.6,0.6,0.3,0.3],
         [0.3,0.3,0,0],
+        [0,0,0,0],
         [0,0,0,0]
   ],
   "anecdote": "Le Cordulégastre annelé est souvent la principale espèce visible au bord des ruisseaux, petites rivières et fossés.<br><br>Les larves vivent sur le fond sableux-limoneux des ruisseaux où elles chassent à l’affut d’autres invertébrés. Dans les eaux froides, leur croissance s’étale sur quelques années.<br><br>Pour pondre, la femelle choisit des emplacements peu profonds à substrat fin. Elle se place à la verticale et enfonce son abdomen dans la vase dans un brusque mouvement de va et vient.",
@@ -753,11 +818,12 @@
   "distributionMap": "repartition-cordul-annele.png"
 },
 {
+  "id": "2780",
   "commonName": "Cordulégastres",
   "latinName": "",
-  "id": "2780",
   "altitude_level": [0,1],
   "region": ["RO"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,6,8],
   "headerPicture": {
       "url": "gr-cordulegaster-menu.jpg",
@@ -797,12 +863,16 @@
   "behavior": "<ul><li>Mâles non territoriaux, volant le long des ruisseaux, au ras de l’eau.</li><li>Souvent accrochées le corps pendant sur des grandes plantes ou des buissons au bord de l’eau.</li><li>Femelles venant vers l’eau uniquement pour pondre et se reproduire.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0,0.3,0.3,0.3],
         [0.6,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.6,0.6,0.3,0.3],
         [0.3,0.3,0,0],
+        [0,0,0,0],
         [0,0,0,0]
   ],
   "anecdote": "Les Cordulégastres sont souvent les seules libellules visibles au bord des ruisseaux, petites rivières, fossés et zones de sources.<br><br>Les larves vivent sur le fond des ruisseaux et des résurgences où elles chassent d’autres invertébrés. Dans les eaux froides, leur croissance s’étale sur quelques années.<br><br>Pour pondre, la femelle choisit des emplacements peu profonds à substrat fin. Elle se place à la verticale et enfonce son abdomen dans la vase dans un brusque mouvement de va et vient.",
@@ -810,11 +880,12 @@
   "distributionMap": "repartition-gr-cordulegastres.png"
 },
 {
+  "id": "2570",
   "commonName": "Libellule écarlate",
   "latinName": "Crocothemis erythraea",
-  "id": "2570",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,1,2,3,4,5,9,10],
   "headerPicture": {
       "url": "libellule-ecarlate-menu.jpg",
@@ -855,12 +926,16 @@
   "behavior": "<ul><li>Se pose souvent et reste longuement sur les tiges de la végétation des rives.</li><li>Territoriale, le mâle chassant les autres mâles de son territoire.</li><li>Farouche, ne se laisse pas facilement approcher.</li><li>Présente souvent dans des endroits très ensoleillés.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0.3,0.3,0.6,0.6],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.6,0.6,0.6],
         [0.3,0.3,0.3,0.3],
         [0.3,0.3,0,0],
+        [0,0,0,0],
         [0,0,0,0]
   ],
   "anecdote": "Autrefois, la Libellule écarlate était une libellule méditerranéenne, très rare en Suisse, avec essentiellement quelques individus de passage. Depuis les années 80, l’espèce a commencé à se reproduire régulièrement en Suisse (notamment à Genève), et ses effectifs n’ont cessé d’augmenter. C’est une espèce indicatrice des effets du réchauffement climatique.<br><br>Aujourd’hui, l’espèce est très répandue à basse altitude. On peut aussi l’apercevoir plus en altitude, mais elle ne semble pas pouvoir s’y reproduire.",
@@ -868,11 +943,12 @@
   "distributionMap": "repartition-libellule-ecarlate.png"
 },
 {
+  "id": "2220",
   "commonName": "Naïade au corps vert",
   "latinName": "Erythromma viridulum",
-  "id": "2220",
   "altitude_level": [0,1],
   "region": ["GE"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,8,9],
   "headerPicture": {
       "url": "naiade-corps-vert-menu.jpg",
@@ -914,11 +990,15 @@
   "behavior": "<ul><li>Se pose fréquemment sur la végétation flottante sur l’eau (nénuphars, lentilles d’eau, végétation submergée affleurante).</li><li>Vole au ras de l’eau.</li><li>Pond en tandem (le mâle et la femelle accrochés ensemble), souvent en groupe.</li><li>N’apparaît sur les plans d’eau qu’en fin de matinée.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0.3,0.3,0.3,0.3],
         [0.6,0.6,0.6,0.6],
         [0.6,0.6,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.6,0.3,0.3,0.3],
+        [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0]
   ],
@@ -927,11 +1007,12 @@
   "distributionMap": "repartition-naiade-corps-vert.png"
 },
 {
+  "id": "2775",
   "commonName": "Naïades",
   "latinName": "",
-  "id": "2775",
   "altitude_level": [0,1],
   "region": ["RO"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,8,9],
   "headerPicture": {
       "url": "gr-naiade-menu.jpg",
@@ -971,12 +1052,16 @@
   ],
   "behavior": "<ul><li>Se pose fréquemment sur la végétation flottante sur l’eau (nénuphars, lentilles d’eau, végétation submergée affleurante).</li><li>Vole au ras de l’eau.</li><li>Pond en tandem (le mâle et la femelle accrochés ensemble), souvent en groupe.</li></ul>",
   "flyPeriod": [
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0,0,0,0.3],
         [0.6,0.6,0.6,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.6,0.3,0.3,0.3],
+        [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0]
   ],
@@ -985,11 +1070,12 @@
   "distributionMap": "repartition-gr-naiades.png"
 },
 {
+  "id": "2090",
   "commonName": "Leste sauvage",
   "latinName": "Lestes barbarus",
-  "id": "2090",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,7,12],
   "headerPicture": {
       "url": "leste-sauvage-menu.jpg",
@@ -1029,12 +1115,16 @@
   "behavior": "<ul><li>Vit dans des milieux aquatiques entourés de plantes de marais comme les joncs et les laîches ou dans des prairies inondées.</li><li>Affectionne les eaux peu profondes, qui s’assèchent périodiquement.</li><li>Souvent accrochée le corps pendant sur les tiges des hautes herbes.</li><li>Femelle pondant dans la partie haute des plantes de marais, seule ou en tandem.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0,0,0.3,0.3],
         [0.6,0.6,0.6,0.6],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.6,0.6],
         [0.3,0.3,0,0],
+        [0,0,0,0],
         [0,0,0,0]
   ],
   "anecdote": "Le Leste sauvage était rare en Suisse il y a quelques décennies. Il profite du réchauffement climatique et tend à devenir plus commun.<br>L’espèce a un fort potentiel de dispersion et ses effectifs sont très fluctuants d’une année à l’autre. Si les conditions sont favorables, on peut assister à une explosion du nombre de Lestes sauvages sur un milieu aquatique donné, créant des afflux de Lestes barbares dans les régions alentours.<br>La durée de vie aquatique, sous forme de larve, est très courte : 1 à 2 mois.",
@@ -1042,11 +1132,12 @@
   "distributionMap": "repartition-leste-sauvage.png"
 },
 {
+  "id": "2105",
   "commonName": "Leste fiancé",
   "latinName": "Lestes sponsa",
-  "id": "2105",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,7],
   "headerPicture": {
       "url": "leste-fiance-menu.jpg",
@@ -1087,12 +1178,16 @@
   "behavior": "<ul><li>Vit dans des milieux aquatiques avec beaucoup de végétation et bordés de roseaux, de joncs ou de laîches.</li><li>Préfère les eaux peu profondes.</li><li>Vole peu.</li><li>Souvent accrochée le corps pendant sur les tiges des hautes herbes.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0,0,0.3,0.3],
         [0.6,0.6,0.6,0.6],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.6,0.6,0.6,0.6],
         [0.3,0.3,0,0],
+        [0,0,0,0],
         [0,0,0,0]
   ],
   "anecdote": "Le nombre de Lestes fiancés a diminué sur le plateau suisse suite au drainage et à l’assèchement massif des marais, mares et étangs aux siècles passés.<br><br>La femelle pond ses œufs directement dans des joncs ou des roseaux en descendant progressivement le long de la tige jusqu’à finir entièrement sous l’eau.",
@@ -1100,11 +1195,12 @@
   "distributionMap": "repartition-leste-fiance.png"
 },
 {
+  "id": "2075",
   "commonName": "Leste vert",
   "latinName": "Chalcolestes viridis",
-  "id": "2075",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,7],
   "headerPicture": {
       "url": "leste-vert-menu.jpg",
@@ -1146,24 +1242,29 @@
   "behavior": "<ul><li>Souvent posée sur les feuilles des arbres et arbustes, notamment des saules.</li><li>Présente dans les secteurs ombragés par grandes chaleurs.</li><li>S’accouple sur les buissons en fin d’été.</li><li>Pond souvent en tandem et insère ses œufs dans les branches des arbustes.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0,0,0,0.3],
         [0.3,0.3,0.6,0.6],
         [0.6,0.6,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.6,0.6,0.3,0.3],
-        [0.3,0.3,0,0]
+        [0.3,0.3,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "On peut repérer la présence du Leste vert grâce aux traces (alignements d’une quinzaine de petits trous) que ses pontes laissent dans le bois des arbres et arbustes qui surplombent l’eau.<br><br>La femelle fait des incisions sous l’écorce des branches pour y déposer ses œufs en fin d’été. A la fin de l’hiver, les larves quittent leur trou et se laissent tomber dans l’eau, où elles se développent en quelques semaines.<br><br>Ces traces (petits trous boursoufflés) restent visibles pendant plusieurs années.",
   "threat": "Le Leste vert n’est pas menacé en Suisse.",
   "distributionMap": "repartition-leste-vert.png"
 },
 {
+  "id": "2605",
   "commonName": "Libellule déprimée",
   "latinName": "Libellula depressa",
-  "id": "2605",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,1,2,3,4,5],
   "headerPicture": {
       "url": "libellule-dep-menu.jpg",
@@ -1203,12 +1304,16 @@
   ],
   "behavior": "<ul><li>Aime les étangs très ensoleillés.</li><li>Souvent perchée sur les joncs, massettes et roseaux ou sur les branches autour des étangs.</li><li>Posée fréquemment le corps pendant vers le bas.</li><li>Effectue régulièrement de courts passages au-dessus-de l’eau, avant de revenir sur le même perchoir.</li><li>Mâles très agressifs entre eux, défendant leur territoire.</li></ul>",
   "flyPeriod": [
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0,0,0.3,0.3],
         [0.6,0.6,0.6,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.6,0.6,0.6],
         [0.3,0.3,0.3,0.3],
         [0.3,0.3,0,0],
+        [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0]
   ],
@@ -1217,11 +1322,12 @@
   "distributionMap": "repartition-libellule-dep.png"
 },
   {
+    "id": "2615",
     "commonName": "Libellule à quatre taches",
     "latinName": "Libellula quadrimaculata",
-	"id": "2615",
 	"altitude_level": [0,1],
     "region": ["RO", "GE"],
+    "info_level": [1],
     "strong_criteria": [0,1,2,3,4,5],
     "headerPicture": {
         "url": "libellule-taches-menu.jpg",
@@ -1260,12 +1366,16 @@
     ],
     "behavior": "<ul><li>Souvent perchée sur des plantes comme les roseaux ou les joncs.</li><li>Mâles territoriaux, agressifs entre eux et envers les autres libellules.</li><li>Posée fréquemment le corps pendant vers le bas.</li><li>Femelle déposant ses œufs un à un dans l’eau tout en volant sous la surveillance du mâle.</li></ul>",
     "flyPeriod": [
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0,0,0.3,0.3],
         [0.6,0.6,0.6,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.6,0.6],
         [0.6,0.3,0.3,0.3],
         [0.3,0.3,0.3,0.3],
+        [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0]
     ],
@@ -1274,11 +1384,12 @@
     "distributionMap": "repartition-libellule-taches.png"
     },
     {
+      "id": "2620",
       "commonName": "Orthétrum à stylets blancs",
       "latinName": "Orthetrum albistylum",
-	  "id": "2620",
 	  "altitude_level": [0,1],
       "region": ["RO", "GE"],
+      "info_level": [1],
       "strong_criteria": [0,2,3,4,5,6,8,13],
       "headerPicture": {
           "url": "orthetrum-stylets-menu.jpg",
@@ -1318,11 +1429,15 @@
       "behavior": "<ul><li>Souvent posée au sol ou perchée en haut des tiges et des branches sèches, le corps horizontal ou dirigé vers le bas.</li><li>Mâle agressif et territorial, chassant les autres libellules de son territoire.</li><li>Tolérante dans le choix de ses habitats, supporte des eaux riches en nutriments (eutrophes).</li><li>Pionnière, colonisant rapidement de nouveaux plans d’eau.</li></ul>",
       "flyPeriod": [
         [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0.3,0.3,0.3,0.6],
         [0.6,0.6,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.6,0.6],
         [0.6,0.6,0.3,0.3],
+        [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0]
       ],
@@ -1331,11 +1446,12 @@
       "distributionMap": "repartition-orthetrum-stylets.png"
   },
   {
+    "id": "2630",
     "commonName": "Orthétrum réticulé",
     "latinName": "Orthetrum cancellatum",
-	"id": "2630",
 	"altitude_level": [0,1],
     "region": ["RO", "GE"],
+    "info_level": [1],
     "strong_criteria": [0,2,3,4,5,6,8],
     "headerPicture": {
         "url": "orthetrum-reticule-menu.jpg",
@@ -1375,11 +1491,15 @@
     "behavior": "<ul><li>Souvent posée au sol ou perchée en haut des tiges et des branches sèches, le corps horizontal ou dirigé vers le bas.</li><li>Mâle agressif et territorial, chassant les autres libellules de son territoire.</li><li>Tolérante dans le choix de ses habitats, supporte des eaux riches en nutriments (eutrophes).</li></ul>",
     "flyPeriod": [
         [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0.3,0.3,0.3,0.6],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.6,0.6],
         [0.3,0.3,0.3,0.3],
+        [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0]
     ],
@@ -1388,11 +1508,12 @@
     "distributionMap": "repartition-orthetrum-reticule.png"
 },
 {
+  "id": "2625",
   "commonName": "Orthétrum brun",
   "latinName": "Orthetrum brunneum",
-  "id": "2625",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,6],
   "headerPicture": {
       "url": "orthetrum-brun-menu.jpg",
@@ -1432,11 +1553,15 @@
   "behavior": "<ul><li>Se pose volontiers sur le sol nu (terre, cailloux, béton, …).</li><li>Mâle territorial : certains mâles ne trouvant pas de territoire attendent aux alentours du milieu qu’un territoire se libère.</li><li>Femelle pondant seule, après un accouplement rapide (5 minutes).</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0.3,0.3,0.3,0.6],
         [0.6,0.6,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.6,0.6],
         [0.3,0.3,0.3,0.3],
+        [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0]
   ],
@@ -1445,11 +1570,12 @@
   "distributionMap": "repartition-orthetrum-brun.png"
 },
 {
-  "commonName": "Petite nymphe au corps de feu",
-  "latinName": "Pyrrhosoma nymphula",
   "id": "2265",
+  "commonName": "Petite nymphe au corps de feu",
+  "latinName": "Pyrrhosomma nymphula",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,6,9],
   "headerPicture": {
       "url": "nymphe-feu-menu.jpg",
@@ -1488,11 +1614,15 @@
   ],
   "behavior": "<ul><li>Pond en tandem (le mâle et la femelle accrochés ensemble), souvent en groupe.</li><li>Femelle ne venant que rarement vers l’eau, privant ainsi plus d’un tiers des mâles de partenaire.</li><li>Fréquente dans les milieux forestiers.</li><li>Souvent perchée, le corps pendant vers le bas sur la végétation à proximité de l’eau.</li></ul>",
   "flyPeriod": [
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0.3,0.3,0.3,0.3],
         [0.6,0.6,0.6,0.6],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.6,0.6],
         [0.6,0.6,0.3,0.3],
+        [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0]
@@ -1502,11 +1632,12 @@
   "distributionMap": "repartition-nymphe-feu.png"
 },
 {
+  "id": "2785",
   "commonName": "Sympétrums rouges",
   "latinName": "",
-  "id": "2785",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,1,2,3,4,5,9],
   "headerPicture": {
       "url": "grSympetrum-menu.jpg",
@@ -1548,24 +1679,29 @@
   "behavior": "<ul><li>Pondent souvent en tandem (le mâle et la femelle accrochés ensemble).</li><li>Souvent perchées sur des tiges à proximité de l’eau, le corps dirigé vers le haut.</li><li>Se posent aussi volontiers au sol.</li><li>Généralement territoriales : mâles agressifs entre eux et parfois envers les autres espèces.</li><li>Ne s’observent pas uniquement au bord de l’eau, mais également le long des haies, des lisières et des chemins.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0.3,0.3,0.6,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.6,0.6,0.3,0.3],
-        [0.3,0.3,0,0]
+        [0.3,0.3,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "Par temps chaud et ensoleillé, certains Sympétrums adoptent une position très caractéristique, la tête en bas et l’extrémité du corps pointée vers le ciel. Cette position, dite en obélisque, leur permet de diminuer la surface de leur corps exposée au soleil.",
   "threat": "Cinq des Sympétrums rouges ne sont pas menacés en Suisse. Toutefois, le Sympétrum à corps déprimé est vulnérable et le Sympétrum jaune d'or est en danger.",
   "distributionMap": "repartition-gr-sympetrums.png"
 },
 {
+  "id": "2745",
   "commonName": "Trithémis pourpré",
   "latinName": "Trithemis annulata",
-  "id": "2745",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,1,2,3,4,5,9],
   "headerPicture": {
       "url": "trithemis-annele-menu.jpg",
@@ -1605,24 +1741,29 @@
   "behavior": "<ul><li>Présente surtout dans des milieux bien ensoleillés.</li><li>Souvent perchée sur une tige près de l’eau, le corps dirigé vers le haut.</li><li>Femelle pondant seule, sous la surveillance du mâle.</li><li>Mâle territorial, chassant activement les autres libellules de son territoire.</li><li>Peu exigeante dans le choix de ses habitats.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0.3,0.3,0.3,0.6],
         [0.6,0.6,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.6,0.6],
         [0.6,0.6,0.6,0.6],
-        [0.3,0.3,0,0]
+        [0.3,0.3,0,0],
+        [0,0,0,0]
   ],
   "anecdote": "Le Trithémis pourpré est actuellement présent dans le Sud de l’Europe. Venant d’Afrique du Nord, il a été signalé en Espagne vers la fin des années 70 et en France continentale au milieu des années 90. En réponse au changement climatique, l’espèce est en train de remonter vers le Nord.<br><br>Le Trithémis pourpré est un bon colonisateur qui a une tendance naturelle à explorer de nouveaux territoires. Il va donc probablement coloniser la Suisse dans les prochaines années.",
   "threat": "Le Trithémis pourpré n’est pas encore établi en Suisse. Son statut de menace n’a donc pas été défini dans la dernière liste rouge nationale (2002).",
   "distributionMap": "repartition-trithemis-annele.png"
 },
 {
+  "id": "2779",
   "commonName": "Gomphes",
   "latinName": "",
-  "id": "2779",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,8],
   "headerPicture": {
       "url": "grGomphe-menu.jpg",
@@ -1661,6 +1802,9 @@
   ],
   "behavior": "<ul><li>Se posent souvent sur le sol (sur les chemins ou sur des pierres) ou sur la végétation.</li><li>Volent bas au-dessus de l’eau.</li><li>Peu territoriales : pas d’agressivité entre individus.</li><li>Femelles pondant seules.</li></ul>",
   "flyPeriod": [
+        [0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0],
         [0,0,0.3,0.3],
         [0.9,0.9,0.9,0.9],
         [0.9,0.9,0.9,0.9],
@@ -1668,6 +1812,7 @@
         [0.9,0.9,0.9,0.9],
         [0.3,0.3,0.3,0.3],
         [0.3,0,0,0],
+        [0,0,0,0],
         [0,0,0,0]
   ],
   "anecdote": "Les Gomphes vivent principalement dans les plaines alluviales et les cours d’eau. Seul le Gomphe joli vit auprès des eaux stagnantes.<br><br>Les larves de Gomphes apprécient les substrats sableux où elles s’enfouissent pour chasser à l’affût les proies qui passent devant elles.",
@@ -1675,11 +1820,12 @@
   "distributionMap": "repartition-gr-gomphes.png"
 },
 {
+  "id": "2125",
   "commonName": "Leste brun",
   "latinName": "Sympecma fusca",
-  "id": "2125",
   "altitude_level": [0,1],
   "region": ["RO", "GE"],
+  "info_level": [1],
   "strong_criteria": [0,2,3,4,5,6],
   "headerPicture": {
       "url": "leste-brun-menu.jpg",
@@ -1719,9 +1865,13 @@
   ],
   "behavior": "<ul><li>Apprécie les étangs avec une ceinture de végétation.</li><li>Souvent accrochée, le corps dirigé vers le bas sur des massettes, roseaux ou tiges sèches.</li><li>Discrète tant par sa couleur que par son comportement.</li><li>S’observe au début du printemps et en fin d’été.</li></ul>",
   "flyPeriod": [
+        [0.3,0.3,0.3,0.3],
+        [0.3,0.3,0.3,0.3],
+        [0.3,0.3,0.3,0.3],
         [0.6,0.6,0.9,0.9],
         [0.9,0.9,0.9,0.9],
         [0.6,0.6,0.3,0.3],
+        [0.3,0.3,0.3,0.3],
         [0.3,0.3,0.3,0.3],
         [0.3,0.3,0.3,0.3],
         [0.3,0.3,0.3,0.3],
@@ -1734,11 +1884,12 @@
 },
 
 {
+  "id":"",
   "commonName": "Femelles ou immatures jaunes",
   "latinName": "",
-  "id": "",
   "altitude_level": [0,1,2],
   "region": ["RO", "GE"],
+  "info_level": [0],
   "strong_criteria": [],
   "headerPicture": {
       "url": "femelles-jaunes-menu.jpg",
@@ -1769,26 +1920,17 @@
 		"sympetrum-nervures-fem-5.jpg",
 		"trithemis-annele-fem-6.jpg"
   ],
-  "description": "Il existe des libellules femelles ou immatures jaunes qui sont difficiles à identifier. Cette application ne permet pas leur identification, mais les photos disponibles permettent d'en avoir un aperçu.",
-  "flyPeriod": [
-        [1,1,1,1],
-        [1,1,1,1],
-        [1,1,1,1],
-        [1,1,1,1],
-        [1,1,1,1],
-        [1,1,1,1],
-        [1,1,1,1],
-        [1,1,1,1]
-  ]
+  "description": "Il existe des libellules femelles ou immatures jaunes qui sont difficiles à identifier. Cette application ne permet pas leur identification, mais les photos disponibles permettent d'en avoir un aperçu."
 
 },
 
 {
+  "id": "",
   "commonName": "Libellules supplémentaires",
   "latinName": "",
-  "id": "",
   "altitude_level": [0,1,2],
   "region": ["RO", "GE"],
+  "info_level": [0],
   "strong_criteria": [],
   "headerPicture": {
       "url": "autres-menu.jpg",
@@ -1823,17 +1965,8 @@
 		"gr-cordulie-arctique-9.jpg",
 		"gr-sympetrum-noir-10.jpg"
   ],
-  "description": "Il existe d'autres libellules moins fréquentes en Suisse et difficiles à identifier. Cette application ne permet pas leur identification, mais les photos disponibles permettent d'en avoir un aperçu.",
-  "flyPeriod": [
-        [1,1,1,1],
-        [1,1,1,1],
-        [1,1,1,1],
-        [1,1,1,1],
-        [1,1,1,1],
-        [1,1,1,1],
-        [1,1,1,1],
-        [1,1,1,1]
-  ]
+  "description": "Il existe d'autres libellules moins fréquentes en Suisse et difficiles à identifier. Cette application ne permet pas leur identification, mais les photos disponibles permettent d'en avoir un aperçu."
+  
 }
 ],
   "walks": [
@@ -1842,13 +1975,13 @@
       "name": "L'étang de la Gruère",
       "preview": "gruere-preview.jpg",
       "diversity": 3,
-      "period": "Avril à octobre",
+      "period": "Mai à octobre",
       "duration": "2h",
       "length": 2.1,
-      "accessibility": [1],
+      "accesibility": [1],
       "infrastructure": "Bancs.",
 	  "info": "Possibilité de baignade.",
-      "access": "Transports publics, voiture.",
+      "Access": "Transports publics, voiture.",
 	  "pictures": "gruere.jpg",
       "pathKML": "gruere.kml",
       "pointsKML": "gruerePoints.kml",
@@ -1860,13 +1993,13 @@
       "name": "Entre marais de l’Auried et Sarine",
       "preview": "auried-preview.jpg",
       "diversity": 3,
-      "period": "Avril à octobre",
+      "period": "Mai à octobre",
       "duration": "3h",
       "length": 3.4,
-      "accessibility": [2],
+      "accesibility": [2],
       "infrastructure": "Bancs, centre d'accueil.",
 	  "info": "Parcours linéaire, jumelles conseillées.",
-      "access": "Transports publics, voiture.",
+      "Access": "Transports publics, voiture.",
 	  "pictures": "auried.jpg",
       "pathKML": "auried.kml",
       "pointsKML": "auriedPoints.kml",
@@ -1878,13 +2011,13 @@
       "name": "Les étangs de Bonfol",
       "preview": "bonfol-preview.jpg",
       "diversity": 3,
-      "period": "Avril à octobre",
+      "period": "Mai à octobre",
       "duration": "3h",
       "length": 3.7,
-      "accessibility": [2],
+      "accesibility": [2],
       "infrastructure": "Bancs, tables de pique-nique.",
 	  "info": "Optez de préférence pour des chaussures fermées et un pantalon.",
-      "access": "Transports publics, voiture.",
+      "Access": "Transports publics, voiture.",
 	  "pictures": "bonfol.jpg",
       "pathKML": "bonfol.kml",
       "pointsKML": "bonfolPoints.kml",
@@ -1896,13 +2029,13 @@
       "name": "Les marais de Pouta Fontana",
       "preview": "poutafontana-preview.jpg",
       "diversity": 3,
-      "period": "Avril à octobre",
+      "period": "Mai à octobre",
       "duration": "3h",
       "length": 5.7,
-      "accessibility": [2],
+      "accesibility": [2],
       "infrastructure": "Bancs, toilettes.",
 	  "info": "Possibilité de baignade.",
-      "access": "Transports publics, voiture.",
+      "Access": "Transports publics, voiture.",
 	  "pictures": "poutafontana.jpg",
       "pathKML": "poutafontana.kml",
       "pointsKML": "poutafontanaPoints.kml",
@@ -1914,13 +2047,13 @@
       "name": "Les Teppes de Verbois",
       "preview": "teppes-preview.jpg",
       "diversity": 3,
-      "period": "Avril à octobre",
+      "period": "Mai à octobre",
       "duration": "3h",
       "length": 5.7,
-      "accessibility": [1,2,3],
+      "accesibility": [1,2,3],
       "infrastructure": "Tables de pique-nique.",
-	  "info": "Parcours linéaire. Un itinéraire botanique existe également dans l'application Flower Walks.",
-      "access": "Transports publics, voiture.",
+	  "info": "Parcours linéaire. Un itinéraire botanique existe également dans l'application Flower Walks: http://bit.ly/2nNJ4zm",
+      "Access": "Transports publics, voiture.",
 	  "pictures": "teppes.jpg",
       "pathKML": "teppes.kml",
       "pointsKML": "teppesPoints.kml",
@@ -1932,13 +2065,13 @@
       "name": "Au fil de l'Aire",
       "preview": "aire-preview.jpg",
       "diversity": 3,
-      "period": "Avril à octobre",
+      "period": "Mai à octobre",
       "duration": "4h",
       "length": 14,
-      "accessibility": [2,3,4],
+      "accesibility": [2,3,4],
       "infrastructure": "Tables de pique-nique.",
 	  "info": "Parcours linéaire. Retour possible par l'autre rive.",
-      "access": "Transports publics, voiture.",
+      "Access": "Transports publics, voiture.",
 	  "pictures": "aire.jpg",
       "pathKML": "aire.kml",
       "pointsKML": "airePoints.kml",
@@ -1950,13 +2083,13 @@
       "name": "Au bord du lac de Neuchâtel",
       "preview": "neuchatel-preview.jpg",
       "diversity": 2,
-      "period": "Avril à octobre",
+      "period": "Mai à octobre",
       "duration": "2h",
       "length": 1.4,
-      "accessibility": [],
+      "accesibility": [],
       "infrastructure": "Restauration, bancs.",
 	  "info": "Possibilité de baignade.",
-      "access": "Transports publics, voiture, bateau.",
+      "Access": "Transports publics, voiture, bateau.",
 	  "pictures": "neuchatel.jpg",
       "pathKML": "neuchatel.kml",
       "pointsKML": "neuchatelPoints.kml",
@@ -1968,13 +2101,13 @@
       "name": "Jardin botanique genevois",
       "preview": "jardinBotanique-preview.jpg",
       "diversity": 2,
-      "period": "Avril à octobre",
+      "period": "Mai à octobre",
       "duration": "2h",
       "length": 3.1,
-      "accessibility": [0,1],
+      "accesibility": [0,1],
       "infrastructure": "Restauration, place de jeux, toilettes, bancs. Le point 3 est inaccessible en poussette ou chaise roulante.",
 	  "info": "Horaires et infos: www.ville-ge.ch/cjb/horaires.php",
-      "access": "Transports publics, voiture, bateau.",
+      "Access": "Transports publics, voiture, bateau.",
 	  "pictures": "jardinBotanique.jpg",
       "pathKML": "jardinBotanique.kml",
       "pointsKML": "jardinBotaniquePoints.kml",
@@ -1986,13 +2119,13 @@
       "name": "La Maison de la Rivière",
       "preview": "maisonRiviere-preview.jpg",
       "diversity": 2,
-      "period": "Avril à octobre",
+      "period": "Mai à octobre",
       "duration": "2h",
       "length": 1.7,
-      "accessibility": [0,1,2],
+      "accesibility": [0,1,2],
       "infrastructure": "Centre d'accueil.",
 	  "info": "Site de la Maison de la rivière payant. Horaires et infos: http://www.maisondelariviere.ch/centre/",
-      "access": "Voiture.",
+      "Access": "Voiture.",
 	  "pictures": "maisonRiviere.jpg",
       "pathKML": "maisonRiviere.kml",
       "pointsKML": "maisonRivierePoints.kml",
@@ -2004,13 +2137,13 @@
       "name": "Les étangs des Franchises",
       "preview": "boudry-preview.jpg",
       "diversity": 2,
-      "period": "Avril à octobre",
+      "period": "Mai à octobre",
       "duration": "2h",
       "length": 1,
-      "accessibility": [1,2],
+      "accesibility": [1,2],
       "infrastructure": "Place de jeux, bancs.",
 	  "info": "Au coeur d'un parc urbain",
-      "access": "Transports publics, voiture.",
+      "Access": "Transports publics, voiture.",
 	  "pictures": "boudry.jpg",
       "pathKML": "boudry.kml",
       "pointsKML": "boudryPoints.kml",
@@ -2022,13 +2155,13 @@
       "name": "Les îles de Boudry",
       "preview": "boudry-preview.jpg",
       "diversity": 2,
-      "period": "Avril à octobre",
+      "period": "Mai à octobre",
       "duration": "2h",
       "length": 1.2,
-      "accessibility": [1,2],
+      "accesibility": [1,2],
       "infrastructure": "Restauration, bancs.",
 	  "info": "Parcours linéaire",
-      "access": "Transports publics, voiture.",
+      "Access": "Transports publics, voiture.",
 	  "pictures": "boudry.jpg",
       "pathKML": "boudry.kml",
       "pointsKML": "boudryPoints.kml",
@@ -2040,17 +2173,17 @@
       "name": "Le centre nature de la Sauge",
       "preview": "sauge-preview.jpg",
       "diversity": 2,
-      "period": "Avril à octobre",
+      "period": "Mai à octobre",
       "duration": "3h",
       "length": 5.1,
-      "accessibility": [0,1],
+      "accesibility": [0,1],
       "infrastructure": "Centre d'accueil",
 	  "info": "Centre nature payant, ouvert de mars à octobre. Horaires et infos: www.birdlife.ch/la sauge",
-      "access": "Transports publics, voiture, bateau.",
+      "Access": "Transports publics, voiture, bateau.",
 	  "pictures": "sauge.jpg",
       "pathKML": "sauge.kml",
       "pointsKML": "saugePoints.kml",
-      "coords": [46.97463, 7.045]
+      "coords": [46.97463, 7.05415]
   },
 
   {
@@ -2058,13 +2191,13 @@
       "name": "Les marais de Bellelay",
       "preview": "bellelay-preview.jpg",
       "diversity": 2,
-      "period": "Avril à octobre",
+      "period": "Mai à octobre",
       "duration": "3h",
       "length": 4.9,
-      "accessibility": [2],
+      "accesibility": [2],
       "infrastructure": "Centre d'accueil, place de jeux.",
 	  "info": "Panneaux d'information et jeux complémentaires.",
-      "access": "Transports publics, voiture.",
+      "Access": "Transports publics, voiture.",
 	  "pictures": "bellelay.jpg",
       "pathKML": "bellelay.kml",
       "pointsKML": "bellelayPoints.kml",
@@ -2076,13 +2209,13 @@
       "name": "Sur les rives du lac de Bienne",
       "preview": "bienne-preview.jpg",
       "diversity": 2,
-      "period": "Avril à octobre",
+      "period": "Mai à octobre",
       "duration": "3h",
       "length": 4.1,
-      "accessibility": [0,1,2],
+      "accesibility": [0,1,2],
       "infrastructure": "Restauration, tables de pique-nique, toilettes, place de jeux.",
 	  "info": "Possibilité de baignade.",
-      "access": "Transports publics, voiture.",
+      "Access": "Transports publics, voiture.",
 	  "pictures": "bienne.jpg",
       "pathKML": "bienne.kml",
       "pointsKML": "biennePoints.kml",
@@ -2094,13 +2227,13 @@
       "name": "Du Lac Noir à Riggisalp",
       "preview": "lacnoir-preview.jpg",
       "diversity": 2,
-      "period": "Avril à octobre",
+      "period": "Juin à août",
       "duration": "6h",
       "length": 21,
-      "accessibility": [2],
+      "accesibility": [2],
       "infrastructure": "Restauration, tables de pique-nique, toilettes, bancs.",
 	  "info": "Montée en télésiège payante. Horaires et infos: http://www.kaisereggbahnen-schwarzsee.ch Itinéraire en altitude avec dénivelé négatif.",
-      "access": "Transports publics, voiture.",
+      "Access": "Transports publics, voiture.",
 	  "pictures": "lacnoir.jpg",
       "pathKML": "lacnoir.kml",
       "pointsKML": "lacnoirPoints.kml",
@@ -2112,13 +2245,13 @@
       "name": "Du Parc Chuit au Rhône",
       "preview": "chuit-preview.jpg",
       "diversity": 1,
-      "period": "Avril à octobre",
+      "period": "Mai à octobre",
       "duration": "3h",
       "length": 6.9,
-      "accessibility": [],
+      "accesibility": [],
       "infrastructure": "Restauration, tables de pique-nique, place de jeux, bancs.",
 	  "info": "Parcours linéaire.",
-      "access": "Transports publics, voiture.",
+      "Access": "Transports publics, voiture.",
 	  "pictures": "chuit.jpg",
       "pathKML": "chuit.kml",
       "pointsKML": "chuitPoints.kml",
@@ -2130,13 +2263,13 @@
       "name": "Les étangs d’altitude",
       "preview": "iserables-preview.jpg",
       "diversity": 1,
-      "period": "Avril à octobre",
+      "period": "Juin à août",
       "duration": "5h",
       "length": 16.3,
-      "accessibility": [2],
+      "accesibility": [2],
       "infrastructure": "Restauration.",
 	  "info": "Montée en télécabine payante. Itinéraire en altitude avec fort dénivelé négatif.",
-      "access": "Transports publics, voiture.",
+      "Access": "Transports publics, voiture.",
 	  "pictures": "iserables.jpg",
       "pathKML": "iserables.kml",
       "pointsKML": "iserablesPoints.kml",
