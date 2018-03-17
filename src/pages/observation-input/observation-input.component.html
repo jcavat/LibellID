@@ -9,14 +9,10 @@
 <ion-content padding>
     <ion-list>
         <ion-item-group>
-            <ion-item-divider color="light">Données de l'espèce</ion-item-divider>
+            <ion-item-divider color="light">Information sur l'espèce</ion-item-divider>
             <ion-item>
                 <ion-label color="primary">Espèce observée</ion-label>
                 <ion-input type="text" value="{{dragonflyName}}"></ion-input>
-            </ion-item>
-            <ion-item>
-                <ion-label color="primary">Label</ion-label>
-                <ion-input type="text" value="Libellulid" disabled></ion-input>
             </ion-item>
             <ion-item>
                 <ion-label color="primary">Date</ion-label>
@@ -33,7 +29,7 @@
                 </div>
                 <div class="col">
                     <ion-item>
-                        <ion-label color="primary">Inconnus</ion-label>
+                        <ion-label color="primary">Inconnu</ion-label>
                         <ion-checkbox color="secondary" (ionChange)="unknownChecked()" [(ngModel)]="checked" checked="false" item-right></ion-checkbox>
                     </ion-item>
                 </div>
@@ -57,7 +53,7 @@
 
     </ion-item-group>
         <ion-item-group>
-            <ion-item-divider color="light">Données utilisateur</ion-item-divider>
+            <ion-item-divider color="light">Informations sur l'utilisateur</ion-item-divider>
             <ion-item>
                 <ion-label color="primary">Nom</ion-label>
                 <ion-input type="text"></ion-input>
@@ -73,7 +69,7 @@
             </ion-item>
         </ion-item-group>
         
-        <ion-label text-wrap small color="danger">
+        <ion-label text-wrap small style="color: #afaeae;">
             L'adresse mail de l'utilisateur est nécessaire pour la vérification éventuelle des données, mais ne sera pas utilisé à d'autres
             fins.
         </ion-label>

@@ -20,7 +20,7 @@ export class ObservationInputPage {
   private latitude: number;
   private longitude: number;
   private altitude: number;
-  private nbIndividus: number = 0
+  private nbIndividus: number = 1
   private checked: boolean = false;
 
   private imageFile: string;
