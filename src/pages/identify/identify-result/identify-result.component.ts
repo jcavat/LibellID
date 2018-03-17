@@ -108,14 +108,14 @@ export class IdentifyResultPage {
   private filterByDate(dragonflies) {
     //Avril to November (avril index = 0, november index = 7)
     let dateIndex = Utils.getCurrentDateIndex();
-
+    
     //if dateIndex are not in december to march
     if (dateIndex != -1) {
       //filter by date in json
-      return dragonflies.filter(dragonfly => dragonfly.flyPeriod[dateIndex][0] > 0 ||
+      return dragonflies.filter(dragonfly => dragonfly.flyPeriod!=undefined && (dragonfly.flyPeriod[dateIndex][0] > 0 ||
         dragonfly.flyPeriod[dateIndex][1] > 0 ||
         dragonfly.flyPeriod[dateIndex][2] > 0 ||
-        dragonfly.flyPeriod[dateIndex][3] > 0);
+      dragonfly.flyPeriod[dateIndex][3] > 0));
     }
     else{
       //no filter by date

@@ -30,14 +30,14 @@ export class Utils {
    *             2  => 08/06/2017 (index of june)
    */
   public static getCurrentDateIndex(): number {
-    let startMounth=3;
-    let endMounth = 10;
+    let startMounth=0;
+    let endMounth = 11;
     let date = new Date();
 
     let index = date.getMonth()-startMounth;
 
     //test if out of flyperdiod
-    if(index<0 || (index>(endMounth-startMounth))){
+    if(index<=0 || (index>(endMounth-startMounth))){
       index=-1;
     }
 
