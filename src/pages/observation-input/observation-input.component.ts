@@ -9,10 +9,7 @@ import { Geolocation } from '@ionic-native/geolocation';
 
 import { Diagnostic } from '@ionic-native/diagnostic';
 
-// Dependencies
-const request = require('request');
-const OAuth = require('oauth-1.0a');
-const crypto = require('crypto');
+
 
 @Component({
   templateUrl: 'observation-input.component.html'
@@ -26,11 +23,12 @@ export class ObservationInputPage {
   private nbIndividus: number = 0
   private checked: boolean = false;
 
-  public imageFile: string;
-  imageNamePath: string;
-  dirName: string;
-  defaultPicture: string;
-  date: string;
+  private imageFile: string;
+  private imageNamePath: string;
+  private dirName: string;
+  private defaultPicture: string;
+  private date: string;
+  private timestamp: number;
 
   constructor(private camera: Camera,
     private geolocation: Geolocation,
@@ -47,6 +45,8 @@ export class ObservationInputPage {
     //init
     this.dragonflyName = "";
     this.imageFile = "./assets/img/camera.png";
+    this.timestamp = Math.round(new Date().getTime()/ 1000);
+    
     this.date = Utils.getCurrentDatetime('dd/MM/y')
     if (this.dragonfly) {
       this.dragonflyName = this.dragonfly.commonName.toString();
@@ -91,75 +91,82 @@ export class ObservationInputPage {
   }
 
   addObservation() {
+    //https://www.npmjs.com/package/oauth-1.0a
+
+    const request = require('request');
+    const OAuth = require('oauth-1.0a');
+    const crypto = require('crypto');
+
+    const consumer_key='XXX';
+    const consumer_secret='XXX';
+    const mail="XXX";
+    const mdp="XXX";
+
     // Initialize
     const oauth = OAuth({
       consumer: {
-        key: '4814fb5d1d2424e7e987cd6466b9442f0598de06a',
-        secret: '65ff236a8a3b674a26d4ce601c28c038'
+        key: consumer_key,
+        secret: consumer_secret
       },
       signature_method: 'HMAC-SHA1',
       hash_function(base_string, key) {
         return crypto.createHmac('sha1', key).update(base_string).digest('base64');
       }
     });
+    var timest = new Date().getTime();
 
     const request_data = {
-      url: "https://www.ornitho.ch/api/species",
-      method: "GET",
-      data: {
-        user_email: "libellulid@hesge.ch",
-        user_pwd: "bodilus856"
-      }
+      url: 'https://www.ornitho.ch/api/observations?user_email='+mail+'&user_pw='+mdp,
+      method: 'POST'
+
     };
 
     // Note: The token is optional for some requests
     const token = {
-      key: 'b7944483876df6d134af985fcb42166205a831bf0',
-      secret: '5c6650a140db6e0971c545aef1838a90'
+      key: 'https://www.ornitho.ch/index.php?m_id=1200&cmd=request_token',
+      secret: ''
     };
 
-    request({
-      url: request_data.url,
+    var h = oauth.toHeader(oauth.authorize(request_data, token))
+
+    var options = {
       method: request_data.method,
-      form: request_data.data,
-      headers: oauth.toHeader(oauth.authorize(request_data, token))
-    }, function (error, response, body) {
-      console.log(response)
-      console.log(error)
-      console.log(body)
-      // Process your data here
+      url: request_data.url,
+      headers: h,
+      body:
+        {
+          data:
+            {
+              sightings:
+                [{                      
+                  date: { '@timestamp': this.timestamp },
+                  species: { '@id': '2295' },
+                  observers:
+                    [{
+                      '@id': '16189',
+                      coord_lat: this.latitude,
+                      coord_lon: this.longitude,
+                      precision: 'precise',
+                      estimation_code: 'EXACT_VALUE',
+                      count: this.nbIndividus,
+                      altitude: this.altitude
+                    }]
+                }]
+            }
+        },
+      json: true
+    };
+
+    request(options, function (error, response, body) {
+      if (error) throw new Error(error);
+
+      console.log(body);
     });
-    if (this.latitude == null || this.longitude == null) {
+
+  };
 
 
 
-      /*alert("Votre appareil n'as pas eu le temps de récupérer la géolocalisation, où alors votre GPS n'est pas activé");
-      let datas = {
-        "data": {
-          "sightings": [{
-            "date": { "@timestamp": Date.now() },
-            "species": { "@id": "86" },
-            "observers": [{
-              "@id": "%replace by id_observer%",
-              "coord_lat": +this.latitude,
-              "coord_lon": +this.longitude,
-              "count": +this.nbIndividus,
-              "altitude": +this.altitude
-            }]
-          }]
-        }
-      }
-      let headers = {
-        'Content-Type': 'application/json'
-      };
-      console.log(datas)
-      //this.http.post("https://www.ornitho.ch/api/observations/search?user_email=libellulid@hesge.ch&user_pwd=xxxx", datas, headers);*/
-    } else {
-      alert("On enverra l'observation");
-    }
-
-
-  }
 
   unknownChecked() {
     if (this.checked)
