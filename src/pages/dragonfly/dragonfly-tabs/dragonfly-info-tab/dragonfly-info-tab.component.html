@@ -1,38 +1,77 @@
 <ion-content padding>
-    <p>{{dragonfly.description}}</p>
-    <h4>Habitats</h4>
-    <p>
-        <img class="img-habitats" *ngFor="let h of dragonfly.habitats" src="assets/img/{{h}}.png">
-    </p>
-    <h4>Comportement</h4>
-    <p class="behavior" [innerHTML]="dragonfly.behavior"></p>
-    <h4>Période de vol</h4>
-    <table id="tableFly">
-        <tr>
-            <td>avr.</td>
-            <td>mai</td>
-            <td>juin</td>
-            <td>juil.</td>
-            <td>août</td>
-            <td>sept.</td>
-            <td>oct.</td>
-            <td>nov.</td>
-        </tr>
-        <tr>
-            <td class="flyPeriod" *ngFor="let p of dragonfly.flyPeriod" [ngStyle]="{'background-color': 'rgba(144,238,144,'+ (p) +')'}">
-                &nbsp;
-            </td>
-        </tr>
-    </table>
-    <div class="anecdote">
-        <p class="anecdote-p">
-            <span><img src="assets/img/bulb.png" id="anecdote-bulb"></span>
-            <span [innerHTML]="dragonfly.anecdote"></span>
+    <div *ngIf="dragonfly.info_level[0]==1">
+        <p>{{dragonfly.description}}</p>
+        <h4>Habitats</h4>
+        <p>
+            <img class="img-habitats" *ngFor="let h of dragonfly.habitats" src="assets/img/{{h}}.png">
         </p>
+        <h4>Comportement</h4>
+        <p class="behavior" [innerHTML]="dragonfly.behavior"></p>
+        <h4>Période de vol</h4>
+        <table id="tableFly">
+            <tr>
+                <td>avr.</td>
+                <td>mai</td>
+                <td>juin</td>
+                <td>juil.</td>
+                <td>août</td>
+                <td>sept.</td>
+                <td>oct.</td>
+                <td>nov.</td>
+            </tr>
+            <tr>
+                <td class="flyPeriod" *ngFor="let p of dragonfly.flyPeriod" [ngStyle]="{'background-color': 'rgba(144,238,144,'+ (p) +')'}">
+                    &nbsp;
+                </td>
+            </tr>
+        </table>
+        <div class="anecdote">
+            <p class="anecdote-p">
+                <span>
+                    <img src="assets/img/bulb.png" id="anecdote-bulb">
+                </span>
+                <span [innerHTML]="dragonfly.anecdote"></span>
+            </p>
+        </div>
+        <h4>Menace</h4>
+        <p class="threat">{{dragonfly.threat}}</p>
+        <h4>Pour en savoir plus</h4>
+        <p>Un site web présente toutes les libellules de Suisse :
+            <a href="https://www.libellenschutz.ch/">https://www.libellenschutz.ch</a>
+        </p>
+        <p>Une application smartphone avec un outil d’identification des libellules de Suisse plus précis mais plus complexe
+            a été développée par le Centre Suisse de Cartographie de la Faune CSCF.</p>
     </div>
-    <h4>Menace</h4>
-    <p class="threat">{{dragonfly.threat}}</p>
-    <h4>Pour en savoir plus</h4>
-    <p>Un site web présente toutes les libellules de Suisse : <a href="https://www.libellenschutz.ch/">https://www.libellenschutz.ch</a></p>
-    <p>Une application smartphone avec un outil d’identification des libellules de Suisse plus précis mais plus complexe a été développée par le Centre Suisse de Cartographie de la Faune CSCF.</p>
+
+
+
+    <div *ngIf="dragonfly.info_level[0]==0">
+        <p>{{dragonfly.description}}</p>
+    
+        <h4>Période de vol</h4>
+        <table id="tableFly">
+            <tr>
+                <td>avr.</td>
+                <td>mai</td>
+                <td>juin</td>
+                <td>juil.</td>
+                <td>août</td>
+                <td>sept.</td>
+                <td>oct.</td>
+                <td>nov.</td>
+            </tr>
+            <tr>
+                <td class="flyPeriod" *ngFor="let p of dragonfly.flyPeriod" [ngStyle]="{'background-color': 'rgba(144,238,144,'+ (p) +')'}">
+                    &nbsp;
+                </td>
+            </tr>
+        </table>
+        <h4>Pour en savoir plus</h4>
+        <p>Un site web présente toutes les libellules de Suisse :
+            <a href="https://www.libellenschutz.ch/">https://www.libellenschutz.ch</a>
+        </p>
+        <p>Une application smartphone avec un outil d’identification des libellules de Suisse plus précis mais plus complexe
+            a été développée par le Centre Suisse de Cartographie de la Faune CSCF.</p>
+    </div>
+
 </ion-content>

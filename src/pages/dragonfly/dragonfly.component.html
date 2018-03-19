@@ -1,13 +1,21 @@
-    <ion-header>
-        <ion-navbar color="primary">
-            <ion-title>{{dragonfly.commonName}} - <i>{{dragonfly.latinName}}</i></ion-title>
-        </ion-navbar>
-    </ion-header>
-    <ion-content>
-        <ion-tabs tabsHighlight="true">
-            <ion-tab [root]="dragonflyHomeTabPage" [rootParams]="{'dragonfly':dragonfly, 'criteria':criteria}" tabTitle="Critères" ></ion-tab>
-            <ion-tab [root]="dragonflyPicturesTabPage" [rootParams]="{'dragonfly':dragonfly}" tabTitle="Photos"></ion-tab>
-            <ion-tab [root]="dragonflyInfoTabPage" [rootParams]="{'dragonfly':dragonfly}" tabTitle="Infos"></ion-tab>
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>{{dragonfly.commonName}} -
+            <i>{{dragonfly.latinName}}</i>
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <ion-tabs tabsHighlight="true">
+        <ion-tab [root]="dragonflyHomeTabPage" [rootParams]="{'dragonfly':dragonfly, 'criteria':criteria}" tabTitle="Critères"></ion-tab>
+        <ion-tab [root]="dragonflyPicturesTabPage" [rootParams]="{'dragonfly':dragonfly}" tabTitle="Photos"></ion-tab>
+        <ion-tab [root]="dragonflyInfoTabPage" [rootParams]="{'dragonfly':dragonfly}" tabTitle="Infos"></ion-tab>
+        <div *ngIf="dragonfly.info_level[0]==1">
             <ion-tab [root]="dragonflyDistributionTabPage" [rootParams]="{'dragonfly':dragonfly}" tabTitle="Répartition"></ion-tab>
-        </ion-tabs>
-    </ion-content>
+        </div>
+        <div *ngIf="dragonfly.info_level[0]==0">
+            <ion-tab tabTitle="Répartition" disabled></ion-tab>
+        </div>
+
+    </ion-tabs>
+</ion-content>
