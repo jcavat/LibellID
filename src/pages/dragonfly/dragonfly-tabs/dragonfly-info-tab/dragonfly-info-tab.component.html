@@ -10,6 +10,9 @@
         <h4>Période de vol</h4>
         <table id="tableFly">
             <tr>
+                <td>jan.</td>
+                <td>fev.</td>
+                <td>mars</td>
                 <td>avr.</td>
                 <td>mai</td>
                 <td>juin</td>
@@ -18,9 +21,10 @@
                 <td>sept.</td>
                 <td>oct.</td>
                 <td>nov.</td>
+                <td>dec.</td>
             </tr>
             <tr>
-                <td class="flyPeriod" *ngFor="let p of dragonfly.flyPeriod" [ngStyle]="{'background-color': 'rgba(144,238,144,'+ (p) +')'}">
+                <td class="flyPeriod" *ngFor="let p of dragonfly.flyPeriod" [ngStyle]="{'background-color': 'rgba(144,238,144,'+ ((p[0]+p[1]+p[2]+p[3])/4) +')'}">
                     &nbsp;
                 </td>
             </tr>

@@ -1,49 +1,52 @@
-img.pictoDiversity{
-    height: 32px;
-    vertical-align: middle;
-}
-.tableDetail{
-    width: 100%;
+page-walk-detail{
+    img.pictoDiversity{
+        height: 32px;
+        vertical-align: middle;
+    }
+    .tableDetail{
+        width: 100%;
+        td{
+            width: 50%;
+            padding: 1%;
+        }
+        tr:first-child td{
+            padding-bottom: 0.5em;
+            padding-top: 0.5em;
+        }
+    }
+    #carte{
+        width: 100%;
+    
+        img{
+            border-radius: 10px;
+        }
+        margin-bottom: 1em;
+    }
+    img.pictoVariety{
+        width: 40px;
+        vertical-align: middle;
+        margin-left: -4%;
+    }
+    .opacity{
+        opacity: 0.2;
+    }
+    .accessImg{
+        width: 30px;
+    }
+    
+    .otherImg{
+        width: 30px;
+        vertical-align: middle;
+        margin-right: 3%;
+    }
+    
     td{
-        width: 50%;
+        padding: 2%;
     }
-    tr:first-child td{
-        padding-bottom: 0.5em;
-        padding-top: 0.5em;
+    
+    .iconDetail{
+        font-size: 30px;
+        margin-right: 15px;
+        vertical-align: middle;
     }
-}
-#carte{
-    width: 100%;
-
-    img{
-        border-radius: 10px;
-    }
-    margin-bottom: 1em;
-}
-img.pictoVariety{
-    width: 40px;
-    vertical-align: middle;
-    margin-left: -4%;
-}
-.opacity{
-    opacity: 0.2;
-}
-.accessImg{
-    width: 30px;
-}
-
-.otherImg{
-    width: 30px;
-    vertical-align: middle;
-    margin-right: 3%;
-}
-
-td{
-    padding: 2%;
-}
-
-.iconDetail{
-    font-size: 30px;
-    margin-right: 15px;
-    vertical-align: middle;
 }
