@@ -987,7 +987,7 @@
     "peatbog-0",
     "temp-environment-0"    
   ],
-  "behavior": "<ul><li>Se pose fréquemment sur la végétation flottante sur l’eau (nénuphars, lentilles d’eau, végétation submergée affleurante).</li><li>Vole au ras de l’eau.</li><li>Pond en tandem (le mâle et la femelle accrochés ensemble), souvent en groupe.</li><li>N’apparaît sur les plans d’eau qu’en fin de matinée.</li></ul>",
+  "behavior": "<ul><li>Se pose fréquemment sur la végétation flottant sur l’eau (nénuphars, lentilles d’eau, végétation submergée affleurante).</li><li>Vole au ras de l’eau.</li><li>Pond en tandem (le mâle et la femelle accrochés ensemble), souvent en groupe.</li><li>N’apparaît sur les plans d’eau qu’en fin de matinée.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0,0,0,0],
@@ -1050,7 +1050,7 @@
     "peatbog-1",
     "temp-environment-0"    
   ],
-  "behavior": "<ul><li>Se pose fréquemment sur la végétation flottante sur l’eau (nénuphars, lentilles d’eau, végétation submergée affleurante).</li><li>Vole au ras de l’eau.</li><li>Pond en tandem (le mâle et la femelle accrochés ensemble), souvent en groupe.</li></ul>",
+  "behavior": "<ul><li>Se pose fréquemment sur la végétation flottant sur l’eau (nénuphars, lentilles d’eau, végétation submergée affleurante).</li><li>Vole au ras de l’eau.</li><li>Pond en tandem (le mâle et la femelle accrochés ensemble), souvent en groupe.</li></ul>",
   "flyPeriod": [
         [0,0,0,0],
         [0,0,0,0],
@@ -1219,7 +1219,7 @@
     [0],
     [1],
     [1],
-    [1],
+    [0,1],
     [1],
     [0,1]
   ],
@@ -1503,7 +1503,7 @@
         [0,0,0,0],
         [0,0,0,0]
     ],
-    "anecdote": "L’Orthétrum réticulé s’observe fréquemment sur les grands étangs ou les lacs avec des rives nues en galets ou en terre. Cependant, il colonise également des petits étangs ou des mares avec une ceinture de végétation.<br><br>On peut les observer posés au sol ou en vol en train de chasser les autres libellules de leur territoire. Très actifs et combattifs, ils sont souvent faciles à repérer.<br><br>C’est une espèce pionnière qui peut coloniser rapidement de nouveaux étangs.",
+    "anecdote": "L’Orthétrum réticulé s’observe fréquemment sur les grands étangs ou les lacs avec des rives nues en galets ou en terre. Cependant, il colonise également des petits étangs ou des mares avec une ceinture de végétation.<br><br>On peut l'observer posé au sol ou en vol en train de chasser les autres libellules de son territoire. Très actif et combatif, il est souvent facile à repérer.<br><br>C’est une espèce pionnière qui peut coloniser rapidement de nouveaux étangs.",
     "threat": "L’Orthétrum réticulé n’est pas menacé en Suisse.",
     "distributionMap": "repartition-orthetrum-reticule.png"
 },
@@ -1978,6 +1978,7 @@
       "period": "Mai à octobre",
       "duration": "2h",
       "length": 2.1,
+	  "canton": "JU",
       "accessibility": [1],
       "infrastructure": "Bancs.",
 	  "info": "Possibilité de baignade.",
@@ -1996,6 +1997,7 @@
       "period": "Mai à octobre",
       "duration": "3h",
       "length": 3.4,
+	  "canton": "FR",
       "accessibility": [2],
       "infrastructure": "Bancs, centre d'accueil.",
 	  "info": "Parcours linéaire, jumelles conseillées.",
@@ -2014,6 +2016,7 @@
       "period": "Mai à octobre",
       "duration": "3h",
       "length": 3.7,
+	  "canton": "JU",
       "accessibility": [2],
       "infrastructure": "Bancs, tables de pique-nique.",
 	  "info": "Optez de préférence pour des chaussures fermées et un pantalon.",
@@ -2032,6 +2035,7 @@
       "period": "Mai à octobre",
       "duration": "3h",
       "length": 5.7,
+	  "canton": "VS",
       "accessibility": [2],
       "infrastructure": "Bancs, toilettes.",
 	  "info": "Possibilité de baignade.",
@@ -2050,6 +2054,7 @@
       "period": "Mai à octobre",
       "duration": "3h",
       "length": 5.7,
+	  "canton": "GE",
       "accessibility": [1,2,3],
       "infrastructure": "Tables de pique-nique.",
 	  "info": "Parcours linéaire. Un itinéraire botanique existe également dans l'application Flower Walks: http://bit.ly/2nNJ4zm",
@@ -2068,6 +2073,7 @@
       "period": "Mai à octobre",
       "duration": "4h",
       "length": 14,
+	  "canton": "GE",
       "accessibility": [2,3,4],
       "infrastructure": "Tables de pique-nique.",
 	  "info": "Parcours linéaire. Retour possible par l'autre rive.",
@@ -2086,6 +2092,7 @@
       "period": "Mai à octobre",
       "duration": "2h",
       "length": 1.4,
+	  "canton": "NE",
       "accessibility": [],
       "infrastructure": "Restauration, bancs.",
 	  "info": "Possibilité de baignade.",
@@ -2104,6 +2111,7 @@
       "period": "Mai à octobre",
       "duration": "2h",
       "length": 3.1,
+	  "canton": "GE",
       "accessibility": [0,1],
       "infrastructure": "Restauration, place de jeux, toilettes, bancs. Le point 3 est inaccessible en poussette ou chaise roulante.",
 	  "info": "Horaires et infos: www.ville-ge.ch/cjb/horaires.php",
@@ -2120,9 +2128,10 @@
       "preview": "maisonRiviere-preview.jpg",
       "diversity": 2,
       "period": "Mai à octobre",
-      "duration": "2h",
+      "duration": "1h30",
       "length": 1.7,
-      "accessibility": [0,1,2],
+	  "canton": "VD",
+      "accessibility": [2],
       "infrastructure": "Centre d'accueil.",
 	  "info": "Site de la Maison de la rivière payant. Horaires et infos: http://www.maisondelariviere.ch/centre/",
       "access": "Voiture.",
@@ -2138,15 +2147,16 @@
       "preview": "boudry-preview.jpg",
       "diversity": 2,
       "period": "Mai à octobre",
-      "duration": "2h",
-      "length": 1,
+      "duration": "1h",
+      "length": 0.1,
+	  "canton": "GE",
       "accessibility": [1,2],
       "infrastructure": "Place de jeux, bancs.",
-	  "info": "Au coeur d'un parc urbain",
+	  "info": "Au coeur d'un parc urbain.",
       "access": "Transports publics, voiture.",
-	  "pictures": "boudry.jpg",
-      "pathKML": "boudry.kml",
-      "pointsKML": "boudryPoints.kml",
+	  "pictures": "franchises.jpg",
+      "pathKML": "franchises.kml",
+      "pointsKML": "franchisesPoints.kml",
       "coords": [46.21109, 6.1186] 
   },
   
@@ -2158,6 +2168,7 @@
       "period": "Mai à octobre",
       "duration": "2h",
       "length": 1.2,
+	  "canton": "NE",
       "accessibility": [1,2],
       "infrastructure": "Restauration, bancs.",
 	  "info": "Parcours linéaire",
@@ -2176,6 +2187,7 @@
       "period": "Mai à octobre",
       "duration": "3h",
       "length": 5.1,
+	  "canton": "VD",
       "accessibility": [0,1],
       "infrastructure": "Centre d'accueil",
 	  "info": "Centre nature payant, ouvert de mars à octobre. Horaires et infos: www.birdlife.ch/la sauge",
@@ -2194,6 +2206,7 @@
       "period": "Mai à octobre",
       "duration": "3h",
       "length": 4.9,
+	  "canton": "BE",
       "accessibility": [2],
       "infrastructure": "Centre d'accueil, place de jeux.",
 	  "info": "Panneaux d'information et jeux complémentaires.",
@@ -2212,6 +2225,7 @@
       "period": "Mai à octobre",
       "duration": "3h",
       "length": 4.1,
+	  "canton": "BE",
       "accessibility": [0,1,2],
       "infrastructure": "Restauration, tables de pique-nique, toilettes, place de jeux.",
 	  "info": "Possibilité de baignade.",
@@ -2230,6 +2244,7 @@
       "period": "Juin à août",
       "duration": "6h",
       "length": 21,
+	  "canton": "FR",
       "accessibility": [2],
       "infrastructure": "Restauration, tables de pique-nique, toilettes, bancs.",
 	  "info": "Montée en télésiège payante. Horaires et infos: http://www.kaisereggbahnen-schwarzsee.ch Itinéraire en altitude avec dénivelé négatif.",
@@ -2247,6 +2262,7 @@
       "diversity": 1,
       "period": "Mai à octobre",
       "duration": "3h",
+	  "canton": "GE",
       "length": 6.9,
       "accessibility": [],
       "infrastructure": "Restauration, tables de pique-nique, place de jeux, bancs.",
@@ -2266,6 +2282,7 @@
       "period": "Juin à août",
       "duration": "5h",
       "length": 16.3,
+	  "canton": "VS",
       "accessibility": [2],
       "infrastructure": "Restauration.",
 	  "info": "Montée en télécabine payante. Itinéraire en altitude avec fort dénivelé négatif.",
@@ -2367,7 +2384,7 @@
           "icon": "couleur03-01.png"
         },
         {
-          "name": "4 tâches supplémentaires sur les ailes avant et arrière",
+          "name": "4 taches supplémentaires sur les ailes avant et arrière",
           "icon": "couleur04-01.png"
         },
         {
@@ -2384,15 +2401,15 @@
       "name": "Taille",
       "values":[
         {
-          "name": "Fine et petite (< 5cm)",
+          "name": "Fine et petite (< 5 cm)",
           "icon": "taille-pte-01.png"
         },
         {
-          "name": "Large et moyenne (environ 5cm)",
+          "name": "Large et moyenne (environ 5 cm)",
           "icon": "taille-moyenne-01.png"
         },
         {
-          "name": "Fine et grande (> 5cm)",
+          "name": "Fine et grande (> 5 cm)",
           "icon": "taille-gde-01bis.png"
         }
       ]
@@ -2558,7 +2575,7 @@
       ]
     },
     {
-      "name": "Vol surtout à l'ombre",
+      "name": "Visible en vol à l'ombre",
       "values":[
         {
           "name": "Oui",
