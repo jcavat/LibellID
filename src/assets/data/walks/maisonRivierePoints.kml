@@ -133,7 +133,7 @@
     <Placemark>
         <ExtendedData>
             <Data name="id">
-                <value>2</value>
+                <value>4</value>
             </Data>
 		</ExtendedData>
       <name>Au-dessus d'un canal</name>
@@ -151,27 +151,27 @@
     <Placemark>
         <ExtendedData>
             <Data name="id">
-                <value>4</value>
+                <value>3</value>
             </Data>
 		</ExtendedData>
       <name>Petite mais intéressante</name>
       <description>
           <![CDATA[
-              <p>Cette mare, malgré sa taille modeste, peut abriter les mêmes espèces que la grande mare dont vous venez. 
+              <p>Cette mare, malgré sa petite taille, peut abriter les mêmes espèces que la grande mare dont vous venez, par exemple la Libellule déprimée. 
             </p>
 			<img src="assets/img/libellule-dep-menu.jpg">
-              <p>Autres libellules potentielles: l'Agrion élégant, l'Aeschne bleue, la Libellule écarlate, la Libellule déprimée, l'Orthétrum réticulé et le groupe des Sympétrums rouges.
+              <p>Autres libellules potentielles: l'Agrion élégant, l'Aeschne bleue, la Libellule écarlate, l'Orthétrum réticulé et le Sympétrum rouge sang.
             </p>
           ]]>
 	  </description>       
       <Point>
-        <coordinates>6.4795,46.49291</coordinates>
+        <coordinates>6.47957,46.49291</coordinates>
       </Point>
     </Placemark>
     <Placemark>
         <ExtendedData>
             <Data name="id">
-                <value>3</value>
+                <value>2</value>
             </Data>
 		</ExtendedData>
       <name>Au bord d'une mare</name>
@@ -215,13 +215,13 @@
       <name>Certaines l'aiment...</name>
       <description>
           <![CDATA[
-              <p>Cette petite mare est très ombragée, ce qu'affectionne particulièrement une grande libellule bleu et noir, l'Aeschne bleue.
+              <p>Cherchez sur votre gauche, une petite mare très ombragée. C'est ce qu'affectionne particulièrement une grande libellule bleu et noir, l'Aeschne bleue.
             </p>
 			<img src="assets/img/aeschne-bleue-menu.jpg">
           ]]>
 	  </description>      
       <Point>
-        <coordinates>6.48227,46.49334</coordinates>
+        <coordinates>6.48229,46.49345</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -233,7 +233,7 @@
       <name>Le temps des adieux</name>
       <description>
           <![CDATA[
-              <p>En longeant le Léman, n'hésitez pas à lever les yeux de votre téléphone et à admirer le paysage.
+              <p>En longeant le Léman, n'hésitez pas à lever les yeux de votre téléphone et à observer la nature qui vous entoure.
             </p>
           ]]>
 	  </description>      
