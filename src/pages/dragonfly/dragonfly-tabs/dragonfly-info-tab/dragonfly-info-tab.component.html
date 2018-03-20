@@ -52,24 +52,6 @@
     <div *ngIf="dragonfly.info_level[0]==0">
         <p>{{dragonfly.description}}</p>
     
-        <h4>Période de vol</h4>
-        <table id="tableFly">
-            <tr>
-                <td>avr.</td>
-                <td>mai</td>
-                <td>juin</td>
-                <td>juil.</td>
-                <td>août</td>
-                <td>sept.</td>
-                <td>oct.</td>
-                <td>nov.</td>
-            </tr>
-            <tr>
-                <td class="flyPeriod" *ngFor="let p of dragonfly.flyPeriod" [ngStyle]="{'background-color': 'rgba(144,238,144,'+ (p) +')'}">
-                    &nbsp;
-                </td>
-            </tr>
-        </table>
         <h4>Pour en savoir plus</h4>
         <p>Un site web présente toutes les libellules de Suisse :
             <a href="https://www.libellenschutz.ch/">https://www.libellenschutz.ch</a>
