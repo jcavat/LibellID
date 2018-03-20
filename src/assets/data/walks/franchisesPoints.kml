@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+    <name>Franchises_points</name>
+    <Style id="blueLine">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="bluePoly">
+      <LineStyle>
+        <color>b3dd2200</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19dd2200</color>
+      </PolyStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="redPoly">
+      <LineStyle>
+        <color>b30000bb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>190000bb</color>
+      </PolyStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenPoly">
+      <LineStyle>
+        <color>b3007700</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19007700</color>
+      </PolyStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownPoly">
+      <LineStyle>
+        <color>b3004b96</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19004b96</color>
+      </PolyStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="purplePoly">
+      <LineStyle>
+        <color>b3800080</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="blackLine">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="blackPoly">
+      <LineStyle>
+        <color>b3000000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19000000</color>
+      </PolyStyle>
+    </Style>
+
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>D</value>
+            </Data>
+		</ExtendedData>
+      <name>Départ</name>
+     <description>
+          <![CDATA[
+              <p>Ici commence ce parcours.<br>
+				Vous allez découvrir des libellules de tailles et de couleurs variées au fil de points d'observation. Ouvrez l’oeil!<br>
+				Les libellules volent par beau temps et pas nécessairement toutes à la même saison. N’hésitez pas à revenir.
+            </p>
+          ]]>
+	  </description> 
+     
+      <Point>
+        <coordinates>6.11834,46.21116</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>1</value>
+            </Data>
+		</ExtendedData>
+      <name>Les berges de l'étang</name>
+      <description>
+          <![CDATA[
+              <p>Cet étang a été créé durant l'hiver 2018 et peut abriter des libellules très variées. Les zones de berges, riches en végétation, sont un habitat particulièrement intéressant pour l'Agrion jouvencelle. Peut-être en observerez-vous ici?
+            </p>
+			<img src="assets/img/agrion-jouvencelle-walk.jpg">
+          ]]>
+	  </description> 
+      <Point>
+        <coordinates>6.11846,46.21114</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>2</value>
+            </Data>
+		</ExtendedData>
+      <name>Depuis la plateforme</name>
+      <description>
+          <![CDATA[
+              <p>Même en plein centre ville, un étang peut abriter une diversité importante. <br>
+			  Cet itinéraire étant court, prenez le temps de vous arrêter ici et d'observer la nature qui vous entoure. Vous réussirez peut-être à observer des libellules qui se pourchassent au-dessus de l'eau ou qui forment un coeur en s'accouplant.			  
+            </p>
+			<img src="assets/img/naiade-corps-vert-4.jpg">
+          ]]>
+	  </description>        
+      <Point>
+        <coordinates>6.11889,46.21109</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>3</value>
+            </Data>
+		</ExtendedData>
+      <name>Au-dessus de l'étang</name>
+      <description>
+          <![CDATA[
+              <p>Avant de partir, cherchez à apercevoir des libellules plus grandes comme la Libellule déprimée qui colonise très rapidement les nouveaux étangs.
+            </p>
+			<img src="assets/img/libellule-dep-menu.jpg">
+          ]]>
+	  </description>   
+      <Point>
+        <coordinates>6.11892,46.21132</coordinates>
+      </Point>
+    </Placemark>
+
+
+ </Document>
+</kml>
