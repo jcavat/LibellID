@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, AlertController, ToastController } from 'ionic-angular';
 import { Dragonfly } from '../../app/classes/dragonfly/dragonfly';
 import { Camera } from '@ionic-native/camera';
 import { Utils } from '../../providers/utils';
@@ -8,6 +8,7 @@ import { HTTP } from '@ionic-native/http';
 import { Geolocation } from '@ionic-native/geolocation';
 
 import { Diagnostic } from '@ionic-native/diagnostic';
+import { ObservationListPage } from './observation-input-list/observation-input-list.component';
 
 
 
@@ -35,7 +36,9 @@ export class ObservationInputPage {
     private navCtrl: NavController,
     private navParams: NavParams,
     private http: HTTP,
-    private diagnostic: Diagnostic) {
+    private diagnostic: Diagnostic,
+    public alertCtrl: AlertController,
+    public toastCtrl: ToastController) {
     this.dragonfly = navParams.get("dragonfly");
   }
 
@@ -44,9 +47,9 @@ export class ObservationInputPage {
   ionViewWillEnter() {
     //init
     this.dragonflyName = "";
-    this.imageFile = "./assets/img/camera.png";
-    this.timestamp = Math.round(new Date().getTime()/ 1000);
-    
+    this.imageFile = null//"./assets/img/camera.png";
+    this.timestamp = Math.round(new Date().getTime() / 1000);
+
     this.date = Utils.getCurrentDatetime('dd/MM/y')
     if (this.dragonfly) {
       this.dragonflyName = this.dragonfly.commonName.toString();
@@ -90,17 +93,43 @@ export class ObservationInputPage {
     });
   }
 
+  galeriePicture() {
+    const options = {
+      sourceType: this.camera.PictureSourceType.PHOTOLIBRARY,
+      destinationType: this.camera.DestinationType.DATA_URL,
+      quality: 90,
+      encodingType: this.camera.EncodingType.JPEG,
+      mediaType: this.camera.MediaType.PICTURE,
+      targetWidth: 1000, //TODO: check if it necessary to resize picture, and if so, set correct values
+      targetHeight: 1000,
+      correctOrientation: true
+    }
+    this.camera.getPicture(options).then((pictureAsBinary) => {
+      //read new image
+      this.imageFile = "data:image/jpeg;base64," + pictureAsBinary;
+
+    }, (err) => {
+    });
+  }
+
+  openDragonFlyList() {
+    this.navCtrl.push(ObservationListPage);
+  }
+
   addObservation() {
+
     //https://www.npmjs.com/package/oauth-1.0a
+
+
 
     const request = require('request');
     const OAuth = require('oauth-1.0a');
     const crypto = require('crypto');
 
-    const consumer_key='XXX';
-    const consumer_secret='XXX';
-    const mail="XXX";
-    const mdp="XXX";
+    const consumer_key = 'XXX';
+    const consumer_secret = 'XXX';
+    const mail = "XXX";
+    const mdp = "XXX";
 
     // Initialize
     const oauth = OAuth({
@@ -116,7 +145,7 @@ export class ObservationInputPage {
     var timest = new Date().getTime();
 
     const request_data = {
-      url: 'https://www.ornitho.ch/api/observations?user_email='+mail+'&user_pw='+mdp,
+      url: 'https://www.ornitho.ch/api/observations?user_email=' + mail + '&user_pw=' + mdp,
       method: 'POST'
 
     };
@@ -138,9 +167,9 @@ export class ObservationInputPage {
           data:
             {
               sightings:
-                [{                      
+                [{
                   date: { '@timestamp': this.timestamp },
-                  species: { '@id': '2295' },
+                  species: { '@id': this.dragonfly.id },
                   observers:
                     [{
                       '@id': '16189',
@@ -166,6 +195,47 @@ export class ObservationInputPage {
   };
 
 
+  showConfirm() {
+    if (this.dragonfly != undefined && this.altitude != undefined && this.longitude != undefined && this.altitude != undefined) {
+      let confirm = this.alertCtrl.create({
+        title: 'Saisir une observation',
+        message: 'Voulez vous saisir l\'observation de la libellule ' + this.dragonfly.commonName + '?',
+        buttons: [
+          {
+            text: 'Refuser',
+            handler: () => {
+              console.log('Disagree clicked');
+            }
+          },
+          {
+            text: 'Valider',
+            handler: () => {
+              if (this.altitude != undefined && this.longitude != undefined && this.altitude != undefined) {
+                this.addObservation();
+              } else {
+
+              }
+            }
+          }
+        ]
+      });
+      confirm.present();
+    }
+    else {
+      this.presentToast("Les champs n'ont pas été tous renseignés!")
+    }
+
+
+  }
+
+  presentToast(msg: string) {
+    let toast = this.toastCtrl.create({
+      message: msg,
+      duration: 3000
+    });
+
+    toast.present();
+  }
 
 
   unknownChecked() {

@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>
+            Saisir une observation
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+        <ion-item text-wrap *ngFor="let dragonfly of dragonfliesData" (click)="openPage(dragonfly)">
+            <ion-thumbnail item-left class="thumbnail-dragonfly-list">
+                <img src="assets/img/{{dragonfly.headerPicture.url}} ">
+            </ion-thumbnail>
+            <h2>{{dragonfly.commonName}} </h2>
+            <i>{{dragonfly.latinName}}</i>
+        </ion-item>
+    </ion-list>
+</ion-content>

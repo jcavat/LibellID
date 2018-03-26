@@ -17,6 +17,7 @@ import {IdentifyResultPage} from '../pages/identify/identify-result/identify-res
 import {IdentifyModalInfo} from '../pages/identify/identify-modal-info/identify-modal-info.component';
 import {IdentifyModalCriter} from '../pages/identify/identify-modal-criter/identify-modal-criter.component';
 import {IdentifyPopover} from '../pages/identify/identify-popover.component';
+import {ObservationListPage} from '../pages/observation-input/observation-input-list/observation-input-list.component'
 import {WalksPage} from '../pages/walks/walks.component';
 import {WalksMapPage} from '../pages/walks/walks-map/walks-map.component';
 import {WalksListPage} from '../pages/walks/walks-list/walks-list.component';
@@ -49,6 +50,7 @@ import {Utils} from '../providers/utils';
     IdentifyResultPage,
     IdentifyModalInfo,
     IdentifyModalCriter,
+    ObservationListPage,
     WalksPage,
     WalksMapPage,
     WalksListPage,
@@ -84,6 +86,7 @@ import {Utils} from '../providers/utils';
     IdentifyResultPage,
     IdentifyModalInfo,
     IdentifyModalCriter,
+    ObservationListPage,
     WalksPage,
     WalksMapPage,
     WalksListPage,

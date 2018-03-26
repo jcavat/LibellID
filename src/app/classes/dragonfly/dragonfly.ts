@@ -1,4 +1,5 @@
 export class Dragonfly {
+    private _id:string;
     private _commonName: string;
     private _latinName: string;
     private _headerPicture: {url: string, author: string, license: string};
@@ -11,6 +12,10 @@ export class Dragonfly {
     private _threat: string;
     private _links: {link: string, value: string}[];
     private _distributionMap: string;
+
+    public id(): string{
+        return this._id;
+    }
 
     public commonName(): string{
         return this._commonName;
