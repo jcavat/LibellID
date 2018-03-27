@@ -196,7 +196,11 @@ export class ObservationInputPage {
 
 
   showConfirm() {
-    if (this.dragonfly != undefined && this.altitude != undefined && this.longitude != undefined && this.altitude != undefined) {
+    console.log(this.altitude)
+    console.log(this.longitude)
+    console.log(this.latitude)
+
+    if (this.dragonfly != undefined && this.altitude != undefined && this.longitude != undefined) {
       let confirm = this.alertCtrl.create({
         title: 'Saisir une observation',
         message: 'Voulez vous saisir l\'observation de la libellule ' + this.dragonfly.commonName + '?',
@@ -212,6 +216,7 @@ export class ObservationInputPage {
             handler: () => {
               if (this.altitude != undefined && this.longitude != undefined && this.altitude != undefined) {
                 this.addObservation();
+                this.navCtrl.popToRoot();
               } else {
 
               }
