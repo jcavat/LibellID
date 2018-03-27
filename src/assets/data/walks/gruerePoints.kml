@@ -109,7 +109,7 @@
           ]]>
 	  </description>        
       <Point>
-        <coordinates>7.04337,47.23909</coordinates>
+        <coordinates>7.04341,47.23916</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -122,7 +122,7 @@
       <description>
           <![CDATA[
               <p>L'étang de la Gruère fait partie d'un marais d'importance nationale.<br>
-			Depuis ce ponton, vous pouvez observer des petites libellules vert métallique et bleu, les Lestes fiancés.
+			Depuis ce ponton, cherchez ces petites libellules, les Lestes fiancés.
             </p>
 			<img src="assets/img/leste-fiance-menu.jpg">
               <p>Autres libellules potentielles: l'Agrion jouvencelle, l'Aeschne des joncs, la Cordulie bronzée, la Cordulie métallique, la Libellule à 4 taches et le Sympétrum noir. 
@@ -142,7 +142,7 @@
       <name>Une queue d'étang</name>
      <description>
           <![CDATA[
-              <p>Depuis ce pont, vous surplombez une queue d'étang de faible profondeur envahie de végétation. Ce milieu est propice à une grande libellule brun foncé, la Grande Aeschne.
+              <p>Depuis ce pont, vous surplombez une queue d'étang de faible profondeur. Ce milieu est propice à une grande libellule brun foncé, la Grande Aeschne.
             </p>
 			<img src="assets/img/aeschne-grande-menu.jpg">
               <p>Autres libellules potentielles: le Leste fiancé, l'Agrion jouvencelle, l'Aeschne des joncs, la Cordulie bronzée, la Cordulie métallique, la Libellule à 4 taches et le Sympétrum noir. 
@@ -215,7 +215,7 @@
       <name>Certaines l'aiment...</name>
      <description>
           <![CDATA[
-              <p>J'aime particulièrement me poser sur des surfaces minérales sans végétation. Je suis l'Orthétrum réticulé.
+              <p>Descendez au bord de l'étang et essayez d'observer l'Orthétrum réticulé qui aime particulièrement se poser sur des surfaces minérales.
             </p>
 			<img src="assets/img/orthetrum-reticule-menu.jpg">
               <p>Autres libellules potentielles: le Leste fiancé, l'Agrion jouvencelle, l'Aeschne des joncs, la Cordulie bronzée, la Cordulie métallique, la Libellule à 4 taches et le Sympétrum noir.
@@ -223,7 +223,7 @@
           ]]>
 	  </description>         
       <Point>
-        <coordinates>7.04904,47.24054</coordinates>
+        <coordinates>7.04942,47.24064</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -235,7 +235,7 @@
       <name>Depuis le ponton</name>
      <description>
           <![CDATA[
-              <p>A cette altitude, deux libellules très semblables cohabitent: l'Aeschne des joncs (fréquente en montagne) et l'Aeschne bleue (fréquente en plaine).
+              <p>A cette altitude, deux libellules très semblables cohabitent: l'Aeschne des joncs (fréquente en montagne) et l'Aeschne bleue (fréquente en plaine, photo ci-dessous).
             </p>
 			<img src="assets/img/aeschne-bleue-menu.jpg">
               <p>En terminant le tour de l'étang, continuez à ouvrir l'œil. Vous verrez probablement encore d'autres espèces de libellules.
