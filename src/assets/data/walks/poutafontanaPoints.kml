@@ -102,7 +102,7 @@
       <name>Le lac de la Corne</name>
       <description>
           <![CDATA[
-              <p>Vous pourrez probablement observer ici deux grandes libellules qui se posent rarement: l'Anax empereur et l'Anax parthenope.
+              <p>Vous pourrez probablement observer ici deux grandes libellules qui se posent rarement: l'Anax empereur et l'Anax parthenope (photo-ci-dessous).
             </p>
 			<img src="assets/img/anax_napolitain-menu.jpg">
               <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
@@ -119,10 +119,10 @@
                 <value>2</value>
             </Data>
 		</ExtendedData>
-      <name>Le long du ruisseau</name>
+      <name>Le long du canal</name>
       <description>
           <![CDATA[
-              <p>Le long de ce ruisseau vivent de petites libellules noir et bleu clair, les Agrions à larges pattes.
+              <p>Le long de ce canal vivent de petites libellules noir et bleu clair, les Agrions à larges pattes.
             </p>
 			<img src="assets/img/agrion-pattes-walk.jpg">
           ]]>
@@ -148,7 +148,7 @@
           ]]>
 	  </description>        
       <Point>
-        <coordinates>7.44901,46.25726</coordinates>
+        <coordinates>7.44905,46.25727</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -160,8 +160,8 @@
       <name>Petit, mais intéressant</name>
       <description>
           <![CDATA[
-              <p>De petites libellules beige et noir, les Lestes bruns, se cachent ici dans les plantes au printemps.<br> 
-			  Plus tard dans la saison, ce sont leurs cousines vert métallique, les Lestes fiancés, que vous pourrez essayer d'apercevoir.
+              <p>Sur votre gauche, de petites libellules beige et noir, les Lestes bruns, se cachent au printemps.<br> 
+			  Plus tard dans la saison, essayez d'apercevoir leurs cousines vert métallique, les Lestes fiancés (photo-ci-dessous).
             </p>
 			<img src="assets/img/leste-fiance-menu.jpg">
               <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
@@ -178,7 +178,7 @@
                 <value>5</value>
             </Data>
 		</ExtendedData>
-      <name>Un étang boisé</name>
+      <name>Au coeur de la roselière</name>
       <description>
           <![CDATA[
               <p>Avec mes yeux rouges, je suis la Naïade. Vous pouvez m'observer volant à fleur d'eau ou posée sur la végétation aquatique.
@@ -189,7 +189,7 @@
           ]]>
 	  </description>      
       <Point>
-        <coordinates>7.45079,46.25895</coordinates>
+        <coordinates>7.45079,46.25893</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -221,7 +221,7 @@
       <name>Le lac de la Brèche</name>
       <description>
           <![CDATA[
-              <p>Parmi les nombreuses libellules qui volent ici, vous remarquerez peut-être une libellule aux reflets métalliques et aux yeux verts. C'est la Cordulie bronzée.
+              <p>En longeant ce lac, vous remarquerez peut-être une libellule aux reflets métalliques et aux yeux verts. C'est la Cordulie bronzée.
             </p>
 			<img src="assets/img/cordulie-bronzee-menu.jpg">
               <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
@@ -229,7 +229,7 @@
           ]]>
 	  </description>       
       <Point>
-        <coordinates>7.44456,46.25544</coordinates>
+        <coordinates>7.44813,46.25759</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -247,7 +247,7 @@
           ]]>
 	  </description>       
       <Point>
-        <coordinates>7.43762,46.25132</coordinates>
+        <coordinates>7.43785,46.25129</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -259,8 +259,8 @@
       <name>Le ballet des libellules</name>
       <description>
           <![CDATA[
-              <p>Par temps beau et chaud, vous pourrez voir de nombreuses libellules voler dans l'un des uniques vestiges de ce qu'était la plaine du Rhône avant son endiguement.<br>
-			  Même si vous êtes loin de l'eau, vous devriez pouvoir en identifier certaines, comme la Libellule écarlate.
+              <p>En avançant vers l'observatoire, vous pourriez voir de nombreuses libellules voler dans l'un des uniques vestiges de ce qu'était la plaine du Rhône avant son endiguement.<br>
+			  Même si vous êtes loin de l'eau, essayez d'identifier la Libellule écarlate.
             </p>
 			<img src="assets/img/libellule-ecarlate-menu.jpg">
               <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
@@ -291,6 +291,24 @@
         <coordinates>7.44083,46.2508</coordinates>
       </Point>
     </Placemark>
+	   <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>A</value>
+            </Data>
+		</ExtendedData>
+      <name>Fin</name>
+     <description>
+          <![CDATA[
+              <p>Ici se termine cette promenade. <br>
+				Prenez le chemin que vous avez emprunté au début de la balade sur votre droite pour repartir.
+            </p>
+          ]]> 
+	  </description>		  
+      <Point>
+        <coordinates>7.44273,46.25197</coordinates>
+      </Point>
+    </Placemark>	
     <Placemark>
         <ExtendedData>
             <Data name="id">
