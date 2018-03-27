@@ -133,6 +133,24 @@
     <Placemark>
         <ExtendedData>
             <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Continuez tout droit et entrez dans la Maison de la Rivière.<br>
+			  Après avoir visité l'exposition et découvert deux mares, ressortez et continuez la balade en direction du point d'observation 4.
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>6.47939,46.49266</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
                 <value>4</value>
             </Data>
 		</ExtendedData>
@@ -203,7 +221,7 @@
           ]]>
 	  </description>       
       <Point>
-        <coordinates>6.48018,46.49129</coordinates>
+        <coordinates>6.47996,46.49126</coordinates>
       </Point>
     </Placemark>
     <Placemark>
