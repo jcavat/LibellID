@@ -117,6 +117,40 @@
     <Placemark>
         <ExtendedData>
             <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Entrez dans le parc Emile Dupont.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.12093,46.19195</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Tournez à gauche pour aller au point 2 puis revenez sur vos pas pour continuer la balade.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.11978,46.19748</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
                 <value>2</value>
             </Data>
 		</ExtendedData>
@@ -131,7 +165,7 @@
           ]]>
 	  </description>
       <Point>
-        <coordinates>6.11977,46.19866</coordinates>
+        <coordinates>6.11967,46.19864</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -149,7 +183,7 @@
           ]]>
 	  </description>      
       <Point>
-        <coordinates>6.12381,46.19854</coordinates>
+        <coordinates>6.12392,46.19857</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -169,7 +203,7 @@
           ]]>
 	  </description>       
       <Point>
-        <coordinates>6.11911,46.20119</coordinates>
+        <coordinates>6.11913,46.20127</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -178,7 +212,7 @@
                 <value>5</value>
             </Data>
 		</ExtendedData>
-      <name>Au coeur d'une roselière</name>
+      <name>Derrière la roselière</name>
       <description>
           <![CDATA[
               <p>Cette zone plus stagnante en bordure de fleuve est un milieu favorable à de nombreuses libellules.<br>
@@ -190,7 +224,7 @@
           ]]>
 	  </description>       
       <Point>
-        <coordinates>6.11671,46.20199</coordinates>
+        <coordinates>6.1169,46.20196</coordinates>
       </Point>
     </Placemark>
     <Placemark>
