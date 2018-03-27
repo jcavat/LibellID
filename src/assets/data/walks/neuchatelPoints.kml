@@ -149,6 +149,23 @@
         <coordinates>6.98064,47.01087</coordinates>
       </Point>
     </Placemark>
+	<Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Tournez à droite. Ce petit chemin vous emmenera vers un étang. 
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.97957,47.0106</coordinates>
+      </Point>
+    </Placemark>
     <Placemark>
         <ExtendedData>
             <Data name="id">
@@ -158,7 +175,7 @@
       <name>L'étang aux nénuphars</name>
       <description>
           <![CDATA[
-              <p>Au-dessus de cet étang, de grandes libellules patrouillent, comme l'Anax empereur et l'Aeschne bleue. Cette dernière, curieuse, pourrait s'approcher de vous si vous restez immobile.
+              <p>Au-dessus de cet étang, de grandes libellules patrouillent, comme l'Anax empereur et l'Aeschne bleue (photo). Cette dernière, curieuse, pourrait s'approcher de vous si vous restez immobile.
             </p>
 			<img src="assets/img/aeschne-bleue-menu.jpg">
               <p>Autres libellules potentielles: l'Agrion élégant, la Grande Aeschne, la Cordulie métallique et le groupe des Sympétrums rouges. 
@@ -178,7 +195,7 @@
       <name>Autour d'un étang</name>
       <description>
           <![CDATA[
-              <p>Au printemps, vous pourriez observer ici des libellules rousses, les Aeschnes isocèles. En été et en automne, vous pourriez apercevoir des libellules rouges, les Sympétrums.
+              <p>Au printemps, vous pourriez observer ici des libellules rousses, les Aeschnes isocèles (photo ci-dessous). En été et en automne, vous pourriez apercevoir des libellules rouges, les Sympétrums.
             </p>
 			<img src="assets/img/aeschne-isocele-menu.jpg">
               <p>Autres libellules potentielles: l'Agrion élégant, l'Anax empereur, l'Anax parthénope, la Cordulie métallique et l'Orthétrum réticulé. 
@@ -222,7 +239,7 @@
           ]]>
 	  </description>       
       <Point>
-        <coordinates>6.98539,47.01175</coordinates>
+        <coordinates>6.98511,47.01168</coordinates>
       </Point>
     </Placemark>
     <Placemark>
