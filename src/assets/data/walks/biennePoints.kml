@@ -122,7 +122,7 @@
       <name>Une roselière lacustre</name>
       <description>
           <![CDATA[
-              <p>Vous arrivez au bord d'une roselière, un milieu important pour de nombreuses libellules comme le Sympétrum rouge sang.
+              <p>Avancez jusqu'au lac pour découvrir une roselière, un milieu important pour de nombreuses libellules comme le Sympétrum rouge sang.
             </p>
 			<img src="assets/img/sympetrum-sang-walk.jpg">
               <p>Autres libellules potentielles: l'Agrion élégant, l'Agrion jouvencelle, la Cordulie bronzée et l'Orthétrum réticulé. 
@@ -130,7 +130,24 @@
           ]]>
 	  </description>        
       <Point>
-        <coordinates>7.215,47.10549</coordinates>
+        <coordinates>7.2153,47.10526</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Tournez à gauche sur le ponton, puis revenez sur vos pas pour continuer la balade.
+            </p>
+          ]]>
+	  </description>        
+      <Point>
+        <coordinates>7.21749,47.10726</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -150,7 +167,24 @@
           ]]>
 	  </description>      
       <Point>
-        <coordinates>7.217,47.1075</coordinates>
+        <coordinates>7.2173,47.10737</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Tournez à gauche sur le ponton, puis revenez sur vos pas pour continuer la balade.
+            </p>
+          ]]>
+	  </description>        
+      <Point>
+        <coordinates>7.21924,47.11005</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -170,7 +204,7 @@
           ]]>
 	  </description>       
       <Point>
-        <coordinates>7.2184,47.11067</coordinates>
+        <coordinates>7.21853,47.11066</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -182,7 +216,7 @@
       <name>A la plage</name>
       <description>
           <![CDATA[
-              <p>Ouvrez l'oeil en longeant cette plage et cherchez des agrions bleus. Ilss sont nombreux par ici.
+              <p>Ouvrez l'oeil en longeant cette plage et cherchez des agrions bleus. Ils sont nombreux par ici.
             </p>
 			<img src="assets/img/agrion-jouvencelle-walk.jpg">
               <p>Autres libellules potentielles: la Cordulie bronzée, l'Orthétrum réticulé et le Sympétrum rouge sang. 
@@ -190,7 +224,7 @@
           ]]>
 	  </description>       
       <Point>
-        <coordinates>7.22132,47.11708</coordinates>
+        <coordinates>7.22138,47.11705</coordinates>
       </Point>
     </Placemark>
     <Placemark>
