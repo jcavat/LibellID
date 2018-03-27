@@ -135,6 +135,23 @@
     <Placemark>
         <ExtendedData>
             <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Continuez ce chemin et longez le canal jusqu'au bout.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.04281,46.97874</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
                 <value>3</value>
             </Data>
 		</ExtendedData>
@@ -161,7 +178,7 @@
       <name>Dernier bastion sur le lac</name>
       <description>
           <![CDATA[
-              <p>Cette zone végétalisée est la plus avancée dans le lac, mais elle peut néanmoins abriter des libellules. Avec un brin de chance et un zeste de patience, vous observerez peut-être un Agrion jouvencelle.
+              <p>Cette zone végétalisée est la plus avancée dans le lac, mais elle abrite des libellules. Avec un brin de patience, vous observerez peut-être un Agrion jouvencelle.
             </p>
 			<img src="assets/img/agrion-jouvencelle-walk.jpg">
               <p>Autres libellules potentielles: le Leste brun et l'Agrion élégant.
@@ -193,13 +210,30 @@
     <Placemark>
         <ExtendedData>
             <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Quand vous arriverez au bout de ce chemin, tournez à droite et dirigez-vous vers le centre nature.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.0528,46.97594</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
                 <value>5</value>
             </Data>
 		</ExtendedData>
       <name>Au bord d'une mare</name>
       <description>
           <![CDATA[
-              <p>Cette mare est un magnifique observatoire de la biodiversité. Vous pouvez y apercevoir de nombreuses libellules de couleurs variées, comme la libellule à 4 taches.
+              <p>Cette mare abrite une grande biodiversité. Vous pouvez y apercevoir de nombreuses libellules, comme la libellule à 4 taches.
             </p>
 			<img src="assets/img/libellule-taches-menu.jpg">
               <p>Autres libellules potentielles: l'Agrion élégant, l'Agrion jouvencelle, le groupe des Naïades, l'Anax empereur, la Libellule déprimée, la Libellule écarlate, l'Orthétrum réticulé et le groupe des Sympétrums rouges.
@@ -236,7 +270,7 @@
       <name>Le long d'un fossé</name>
       <description>
           <![CDATA[
-              <p>Ce fossé est souvent parcouru par de grandes libellules comme l'Aeschne velue au printemps et l'Aeschne bleue en été.
+              <p>Ce fossé abrite de grandes libellules comme l'Aeschne velue au printemps (photo ci-dessous) et l'Aeschne bleue en été.
             </p>
 			<img src="assets/img/aeschne-print-menu.jpg">
               <p>Autres libellules potentielles: l'Agrion élégant, l'Agrion jouvencelle, la Grande Aeschne, l'Anax empereur, la Libellule à 4 taches, la Libellule déprimée, la Libellule écarlate, l'Orthétrum réticulé et le groupe des Sympétrums rouges.
