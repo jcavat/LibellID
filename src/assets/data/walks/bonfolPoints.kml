@@ -104,7 +104,8 @@
           <![CDATA[
               <p>Ici commence ce parcours.<br>
 				Vous allez découvrir des libellules de tailles et de couleurs variées au fil de points d'observation. Ouvrez l’oeil!<br>
-				Les libellules volent par beau temps et pas nécessairement toutes à la même saison. N’hésitez pas à revenir.
+				Les libellules volent par beau temps et pas nécessairement toutes à la même saison. N’hésitez pas à revenir.<br>
+				Prenez le chemin sur votre gauche pour commencer l'itinéraire.
             </p>
           ]]>
 	  </description>        
@@ -121,7 +122,7 @@
       <name>L'étang du milieu</name>
       <description>
           <![CDATA[
-              <p>Depuis cette ouverture dans la forêt, vous apercevrez peut-être des Agrions à larges pattes en train de s'accoupler ou de pondre.
+              <p>Depuis cette ouverture entre les arbres, vous apercevrez peut-être des Agrions à larges pattes en train de s'accoupler ou de pondre.
             </p>
 			<img src="assets/img/agrion-pattes-walk.jpg">
               <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
@@ -141,7 +142,8 @@
       <name>L'étang des Charmes</name>
       <description>
           <![CDATA[
-              <p>Je suis de grande taille, de couleur brun foncé avec des ailes enfumées. Je suis la Grande Aeschne.
+              <p>Je suis de grande taille, de couleur brun foncé avec des ailes enfumées. Je suis la Grande Aeschne. <br>
+			  Essayez de m'observer sur l'étang en face de vous.
             </p>
 			<img src="assets/img/aeschne-grande-menu.jpg">
               <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
@@ -149,7 +151,7 @@
           ]]>
 	  </description>          
       <Point>
-        <coordinates>7.1647,47.47223</coordinates>
+        <coordinates>7.16473,47.47217</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -172,6 +174,23 @@
         <coordinates>7.16656,47.47278</coordinates>
       </Point>
     </Placemark>
+	    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Bifurquez à gauche pour vous rendre aux points d'observations 4 et 5, puis revenez sur vos pas.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.16692,47.47109</coordinates>
+      </Point>
+    </Placemark>
     <Placemark>
         <ExtendedData>
             <Data name="id">
@@ -181,7 +200,7 @@
       <name>Neuf étang</name>
       <description>
           <![CDATA[
-              <p>Vous pourriez apercevoir ici des libellules rouges de taille moyenne, les Sympétrums ou des Libellules avec deux taches à l'avant de chaque aile, les Libellules à quatre taches.
+              <p>Vous pourriez apercevoir ici des libellules rouges de taille moyenne, les Sympétrums ou des Libellules avec deux taches à l'avant de chaque aile, les Libellules à quatre taches (photo ci-dessous).
             </p>
 			<img src="assets/img/libellule-taches-menu.jpg">
               <p>Autres libellules potentielles: presque toutes les autres libellules de l'application.
@@ -189,7 +208,7 @@
           ]]>
 	  </description>      
       <Point>
-        <coordinates>7.17074,47.47047</coordinates>
+        <coordinates>7.17066,47.47055</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -201,7 +220,7 @@
       <name>Certaines l'aiment...</name>
       <description>
           <![CDATA[
-              <p>Ce n'est pas la taille qui compte. Cette petite mare abrite une multitude d'espèces. En vous rapprochant, vous devriez pouvoir observer des Agrions bleus, comme l'Agrion élégant.
+              <p>Ce n'est pas la taille qui compte. Ce petit étang abrite beaucoup d'espèces. En vous rapprochant, cherchez des Agrions bleus, comme l'Agrion élégant.
             </p>
 			<img src="assets/img/agrion-elegant-walk.jpg">
               <p>Autres libellules potentielles: le groupe des Naïades, la Grande Aeschne, l'Aeschne bleue, la Cordulie à taches jaunes, la Libellule déprimée et le groupe des Sympétrums rouges. 
@@ -209,7 +228,7 @@
           ]]>
 	  </description>       
       <Point>
-        <coordinates>7.17746,47.46908</coordinates>
+        <coordinates>7.17745,47.46916</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -230,7 +249,7 @@
           ]]>
 	  </description>        
       <Point>
-        <coordinates>7.1636,47.47031</coordinates>
+        <coordinates>7.16356,47.47041</coordinates>
       </Point>
     </Placemark>
     <Placemark>
