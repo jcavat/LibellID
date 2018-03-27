@@ -102,7 +102,7 @@
       <name>L'étang du domaine</name>
       <description>
           <![CDATA[
-              <p>Toutes les libellules ne volent pas à la même saison. Au printemps, vous pourriez apercevoir des libellules bleues, les Libellules déprimées et plus tard dans la saison, des libellules rouges, les Sympétrums.
+              <p>Au printemps, vous pourriez apercevoir des libellules bleues, les Libellules déprimées (photo) et plus tard dans la saison, des libellules rouges, les Sympétrums.
             </p>
 			<img src="assets/img/libellule-dep-menu.jpg">
               <p>Autres libellules potentielles: l'Agrion jouvencelle, l'Agrion porte-coupe, l'Agrion hasté, l'Aeschne bleue, l'Anax empereur, la Libellule déprimée et la Libellule à 4 taches.
@@ -122,7 +122,7 @@
       <name>Certaines l'aiment...</name>
       <description>
           <![CDATA[
-              <p>Certaines libellules aiment se poser sur des tiges. A l'aide des jumelles, vous verrez peut-être s'y poser de petites libellules vert métalisé et bleu, les Leste fiancés.
+              <p>Certaines libellules aiment se poser sur des tiges. A l'aide des jumelles, vous verrez peut-être s'y poser des Leste fiancés.
             </p>
 			<img src="assets/img/leste-fiance-menu.jpg">
               <p>Autres libellules potentielles: l'Agrion jouvencelle, l'Agrion porte-coupe, l'Agrion hasté, la Petite nymphe au corps de feu, l'Aeschne bleue, l'Aeschne des joncs, l'Anax empereur, la Libellule déprimée et la Libellule à 4 taches.
@@ -162,7 +162,7 @@
       <name>Au coeur du marais</name>
       <description>
           <![CDATA[
-              <p>Les marais ont depuis toujours suscité des légendes étranges et sombres. Prenez le temps de vous arrêter et d'observer la beauté de ce marais. Avec un peu de chance, vous verrez passer une Cordulie.
+              <p>Les marais ont toujours suscité des légendes étranges. Prenez le temps d'observer la beauté de ce marais. Avec un peu de chance, vous verrez une Cordulie.
             </p>
 			<img src="assets/img/cordulies-plaine-menu.jpg">
               <p>Autres libellules potentielles: le Caloptéryx vierge, la Petite nymphe au corps de feu,  l'Agrion jouvencelle, l'Agrion porte-coupe, l'Agrion hasté, l'Aeschne bleue, l'Aeschne des joncs, la Libellule déprimée, la Libellule à 4 taches, le Sympétrum noir.
@@ -170,7 +170,7 @@
           ]]>
 	  </description>       
       <Point>
-        <coordinates>7.16926,47.25672</coordinates>
+        <coordinates>7.16957,47.25694</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -182,7 +182,7 @@
       <name>La Sagne</name>
       <description>
           <![CDATA[
-              <p>Je suis une grande libellule sombre avec des dessins bleus et jaunes et je vis dans ces marais. Je suis l'Aeschne des joncs. M'apercevrez-vous?
+              <p>Je suis une grande libellule sombre avec des dessins bleus et jaunes et je vis dans ces marais. Je suis l'Aeschne des joncs.
             </p>
 			<img src="assets/img/aeschne-joncs-menu.jpg">
               <p>Autres libellules potentielles: l'Aeschne bleue, la Cordulie arctique, la Petite nymphe au corps de feu, le Caloptéryx vierge, l'Agrion jouvencelle, l'Agrion porte-coupe, l'Agrion hasté, le Sympétrum noir, la Libellule déprimée et la Libellule à 4 taches.
@@ -202,7 +202,7 @@
       <name>Rouge Eau, Yeux Rouges</name>
       <description>
           <![CDATA[
-              <p>Les yeux des libellules peuvent avoir des couleurs très différentes. Depuis le ponton, vous observerez peut-être une libellule rouge aux yeux rouges, la Petite nymphe au corps de feu.
+              <p>Depuis le ponton, vous observerez peut-être une libellule rouge aux yeux rouges, la Petite nymphe au corps de feu.
             </p>
 			<img src="assets/img/nymphe-feu-menu.jpg">
               <p>Autres libellules potentielles: le Caloptéryx vierge, l'Agrion jouvencelle, l'Agrion porte-coupe, l'Agrion hasté, l'Aeschne bleue, l'Aeschne des joncs, la Cordulie arctique, la Libellule déprimée, la Libellule à 4 taches, le Sympétrum noir.
@@ -222,13 +222,15 @@
       <name>Un étang au coeur de la forêt</name>
       <description>
           <![CDATA[
-              <p>Cette petite mare est très ombragée, ce qu'affectionne particulièrement une grande libellule bleue et noire, l'Aeschne bleue.
+              <p>Avancez jusqu'à cette petite mare très ombragée, où vit une grande libellule bleue et noire, l'Aeschne bleue.
             </p>
 			<img src="assets/img/aeschne-bleue-menu.jpg">
+            <p>Ensuite, revenez sur vos pas et longez la route du Fuet jusqu'à Bellelay.
+            </p>
           ]]>
 	  </description>       
       <Point>
-        <coordinates>7.17952,47.26326</coordinates>
+        <coordinates>7.17939,47.2634</coordinates>
       </Point>
     </Placemark>
     <Placemark>
