@@ -30,7 +30,7 @@
     "@ionic-native/geolocation": "^4.5.3",
     "@ionic-native/http": "^4.5.3",
     "@ionic-native/native-geocoder": "^4.5.3",
-    "@ionic-native/vibration": "^3.12.1",
+    "@ionic-native/vibration": "^4.6.0",
     "@ionic/storage": "2.0.0",
     "@types/cordova-plugin-network-information": "0.0.3",
     "@types/openlayers": "4.1.1",
@@ -41,6 +41,7 @@
     "cordova-plugin-geolocation": "^2.4.3",
     "cordova-plugin-nativegeocoder": "^3.0.0",
     "cordova-plugin-photo-library": "^2.1.0",
+    "cordova-plugin-vibration": "^3.0.1",
     "cordova-plugin-whitelist": "^1.3.3",
     "cordova.plugins.diagnostic": "^3.9.2",
     "go-fetch": "^3.1.1",
@@ -89,7 +90,8 @@
       },
       "cordova-plugin-whitelist": {},
       "cordova-plugin-nativegeocoder": {},
-      "cordova.plugins.diagnostic": {}
+      "cordova.plugins.diagnostic": {},
+      "cordova-plugin-vibration": {}
     }
   }
 }

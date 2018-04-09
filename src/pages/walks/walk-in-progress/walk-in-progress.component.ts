@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 import { NavController, NavParams, AlertController, ModalController} from 'ionic-angular';
 import {Geolocation, Network} from 'ionic-native';
-import {Vibration} from '@ionic-native/vibration';
+import { Vibration } from '@ionic-native/vibration';
 import {HomePage} from '../../home/home.component';
 import {Walk} from '../../../app/classes/walk/walk';
 import ol from 'openlayers';
@@ -13,8 +13,7 @@ declare var cordova: any;
 
 
 @Component({
-  templateUrl: 'walk-in-progress.component.html',
-  providers: [Vibration]
+  templateUrl: 'walk-in-progress.component.html'
 })
 export class WalkInProgressPage {
   private identifyPage = IdentifyPage;

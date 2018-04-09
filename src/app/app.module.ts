@@ -38,6 +38,7 @@ import { HTTP } from '@ionic-native/http';
 import {IonicStorageModule} from '@ionic/storage';
 import { NativeGeocoder, NativeGeocoderReverseResult, NativeGeocoderForwardResult } from '@ionic-native/native-geocoder';
 import {Utils} from '../providers/utils';
+import { Vibration } from '@ionic-native/vibration';
 
 @NgModule({
   declarations: [
@@ -111,7 +112,8 @@ import {Utils} from '../providers/utils';
     File,
     HTTP,
     NativeGeocoder,
-    Utils
+    Utils,
+    Vibration
   ]
 })
 export class AppModule {}

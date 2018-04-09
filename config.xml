@@ -111,4 +111,5 @@
     <plugin name="cordova-plugin-nativegeocoder" spec="^3.0.0" />
     <plugin name="cordova.plugins.diagnostic" spec="^3.9.2" />
     <plugin name="cordova-plugin-advanced-http" spec="^1.6.2" />
+    <plugin name="cordova-plugin-vibration" spec="^3.0.1" />
 </widget>
