@@ -110,13 +110,31 @@
 	  </description> 
      
       <Point>
-        <coordinates>6.11834,46.21116</coordinates>
+        <coordinates>6.11723,46.21034</coordinates>
       </Point>
     </Placemark>
     <Placemark>
         <ExtendedData>
             <Data name="id">
                 <value>1</value>
+            </Data>
+		</ExtendedData>
+      <name>Une petite mare</name>
+      <description>
+          <![CDATA[
+              <p>Je suis une libellule bleu clair au corps légèrement aplati et j'aime me poser sur un perchoir. Je suis la Libellule déprimée.
+            </p>
+			<img src="assets/img/libellule-dep-menu.jpg">
+          ]]>
+	  </description> 
+      <Point>
+        <coordinates>6.11648,46.2106</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>2</value>
             </Data>
 		</ExtendedData>
       <name>Les berges de l'étang</name>
@@ -128,7 +146,7 @@
           ]]>
 	  </description> 
       <Point>
-        <coordinates>6.11846,46.21114</coordinates>
+        <coordinates>6.11854,46.21117</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -147,7 +165,7 @@
           ]]>
 	  </description>        
       <Point>
-        <coordinates>6.11889,46.21109</coordinates>
+        <coordinates>6.11884,46.21106</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -165,7 +183,7 @@
           ]]>
 	  </description>   
       <Point>
-        <coordinates>6.11892,46.21132</coordinates>
+        <coordinates>6.11885,46.21128</coordinates>
       </Point>
     </Placemark>
 
