@@ -2191,28 +2191,9 @@
       "pointsKML": "saugePoints.kml",
       "coords": [46.97463, 7.05415]
   },
-
-  {
-      "id": 13,
-      "name": "Les marais de Bellelay",
-      "preview": "bellelay-preview.jpg",
-      "diversity": 2,
-      "period": "Mai à octobre",
-      "duration": "2h30",
-      "length": 4.9,
-	  "canton": "BE",
-      "accessibility": [3],
-      "infrastructure": "Centre d'accueil, place de jeux.",
-	  "info": "Panneaux d'information et jeux complémentaires.",
-      "access": "Car postal depuis Reconvilier (arrêt Bellelay-Poste), voiture.",
-	  "pictures": "bellelay.jpg",
-      "pathKML": "bellelay.kml",
-      "pointsKML": "bellelayPoints.kml",
-      "coords": [47.25672, 7.16926]
-  }, 
   
   {
-      "id": 14,
+      "id": 13,
       "name": "Sur les rives du lac de Bienne",
       "preview": "bienne-preview.jpg",
       "diversity": 2,
@@ -2230,6 +2211,25 @@
       "coords": [47.1075, 7.217]
   },  
 
+    {
+      "id": 14,
+      "name": "Les marais de Bellelay",
+      "preview": "bellelay-preview.jpg",
+      "diversity": 2,
+      "period": "Mai à octobre",
+      "duration": "2h30",
+      "length": 4.9,
+	  "canton": "BE",
+      "accessibility": [3],
+      "infrastructure": "Centre d'accueil, place de jeux.",
+	  "info": "Panneaux d'information et jeux complémentaires.",
+      "access": "Car postal depuis Reconvilier (arrêt Bellelay-Poste), voiture.",
+	  "pictures": "bellelay.jpg",
+      "pathKML": "bellelay.kml",
+      "pointsKML": "bellelayPoints.kml",
+      "coords": [47.25672, 7.16926]
+  }, 
+  
   {
       "id": 15,
       "name": "Du Lac Noir à Riggisalp",
