@@ -25,6 +25,7 @@ export class WalksMapPage {
       let iconStyle: ol.style.Style = new ol.style.Style({
         image: new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
           anchor: [0.5, 1],
+          scale: 1.5,
           anchorXUnits: 'fraction',
           anchorYUnits: 'fraction',
           src: 'assets/img/position.png'
