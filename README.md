@@ -6,7 +6,7 @@ Cette application permet de découvrir les libellules les plus communes de Suiss
 **INFORMATIONS UTILES**
 
 Cycle de vie d&#39;une libellule
-![Maquettes LibellID](https://github.com/jcavat/LibellID/tree/master/src/assets/img)
+![Maquettes LibellID](https://github.com/jcavat/LibellID/tree/master/src/assets/img/about1.png)
 
 
 Les grandes libellules et les demoiselles
