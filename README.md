@@ -2,13 +2,13 @@
 ## Projet
 Cette application permet de découvrir les libellules les plus communes de Suisse romande, soit 27 espèces ou groupes d&#39;espèces (liste complète dans la rubrique « fiches infos »).
 
-![alt text](https://github.com/jcavat/LibellID/tree/master/src/assets/img/about1.png)
+
 
 ### INFORMATIONS UTILE
 
 __Cycle de vie d'une libellule__
 
-XXXX
+![alt text](https://github.com/jcavat/LibellID/raw/master/src/assets/img/about1.png)
 
 Les grandes libellules et les demoiselles
 
@@ -21,7 +21,8 @@ Les Anisoptères sont robustes et se posent avec les ailes ouvertes, alors que l
 
 | Exemple d&#39;anisoptère : Libellule à 4 taches _Libellula quadrimaculata_ | Exemple de zygoptère : Agrion jouvencelle _Coenagrion puella_ |
 | --- | --- |
-| XXXX | XXXX |
+| ![alt text](https://github.com/jcavat/LibellID/raw/master/src/assets/img/about1.png) | 
+ ![alt text](https://github.com/jcavat/LibellID/raw/master/src/assets/img/about1.png) |
 
 
 ## Installation
