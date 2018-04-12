@@ -3,6 +3,7 @@
 <p align="center">
   <img width="460" height="300" src="https://github.com/jcavat/LibellID/blob/master/src/assets/img/app-logo.png">
 </p>
+
 ## Projet
 
 Cette application permet de découvrir les libellules les plus communes de Suisse romande, soit 27 espèces ou groupes d&#39;espèces (liste complète dans la rubrique « fiches infos »).
@@ -30,16 +31,17 @@ Les Anisoptères sont robustes et se posent avec les ailes ouvertes, alors que l
 | --- | --- |
 | ![alt text](https://github.com/jcavat/LibellID/raw/master/src/assets/img/about2.png) | ![alt text](https://github.com/jcavat/LibellID/raw/master/src/assets/img/about3.jpg) |
 
-
 ## Installation
 ```
+NOTE COMPLETE
+
 npm install
 ionic serve --lab (in browser)
 OR
 ionic run android --livereload (for emulator)
 OR
 ionic run android --device (for connected device)
-```
+
 ## Run parser for libellID.json
 
 Execute parser
@@ -62,6 +64,6 @@ Execute parser before ionic run or ionic build with IOS
 
 `npm run-script parser_build ios`
 
-
+```
 ## License
 
