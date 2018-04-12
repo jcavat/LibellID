@@ -21,8 +21,7 @@ Les Anisoptères sont robustes et se posent avec les ailes ouvertes, alors que l
 
 | Exemple d&#39;anisoptère : Libellule à 4 taches _Libellula quadrimaculata_ | Exemple de zygoptère : Agrion jouvencelle _Coenagrion puella_ |
 | --- | --- |
-| ![alt text](https://github.com/jcavat/LibellID/raw/master/src/assets/img/about1.png) | 
- ![alt text](https://github.com/jcavat/LibellID/raw/master/src/assets/img/about1.png) |
+| ![alt text](https://github.com/jcavat/LibellID/raw/master/src/assets/img/about2.png) | ![alt text](https://github.com/jcavat/LibellID/raw/master/src/assets/img/about3.png) |
 
 
 ## Installation
