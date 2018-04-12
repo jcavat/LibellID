@@ -2,10 +2,11 @@
 ## Projet
 Cette application permet de découvrir les libellules les plus communes de Suisse romande, soit 27 espèces ou groupes d&#39;espèces (liste complète dans la rubrique « fiches infos »).
 
+![alt text](https://github.com/jcavat/LibellID/tree/master/src/assets/img/about1.png)
 
-## INFORMATIONS UTILE
+### INFORMATIONS UTILE
 
-### Cycle de vie d'une libellule
+__Cycle de vie d'une libellule__
 XXXX
 Les grandes libellules et les demoiselles
 
