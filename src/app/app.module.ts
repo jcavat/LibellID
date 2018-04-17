@@ -39,6 +39,7 @@ import {IonicStorageModule} from '@ionic/storage';
 import { NativeGeocoder, NativeGeocoderReverseResult, NativeGeocoderForwardResult } from '@ionic-native/native-geocoder';
 import {Utils} from '../providers/utils';
 import { Vibration } from '@ionic-native/vibration';
+import { PressDirective } from '../pages/identify/press-directive';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { Vibration } from '@ionic-native/vibration';
     IdentifyResultPage,
     IdentifyModalInfo,
     IdentifyModalCriter,
+    PressDirective,
     ObservationListPage,
     WalksPage,
     WalksMapPage,
