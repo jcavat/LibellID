@@ -13,6 +13,7 @@
     "parser_serve": "node parser/parser.js && ionic serve"
   },
   "dependencies": {
+    "@angular/animations": "^5.2.10",
     "@angular/common": "4.1.2",
     "@angular/compiler": "4.1.2",
     "@angular/compiler-cli": "4.1.2",
@@ -24,10 +25,10 @@
     "@angular/platform-server": "4.1.2",
     "@ionic-native/camera": "^3.12.1",
     "@ionic-native/core": "^3.12.1",
-    "@ionic-native/diagnostic": "^4.5.3",
+    "@ionic-native/diagnostic": "^4.7.0",
     "@ionic-native/file": "^3.9.2",
     "@ionic-native/file-chooser": "^3.14.0",
-    "@ionic-native/geolocation": "^4.5.3",
+    "@ionic-native/geolocation": "^4.7.0",
     "@ionic-native/http": "^4.5.3",
     "@ionic-native/native-geocoder": "^4.5.3",
     "@ionic-native/splash-screen": "^4.7.0",
