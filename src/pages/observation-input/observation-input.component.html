@@ -39,19 +39,14 @@
             </div>
 
         <div class="item row">
-            <div class="col">
-                <ion-item>
-                    <ion-label color="primary">Lat.</ion-label>
-                    <ion-input type="text" value="{{latitude}}"></ion-input>
-
-                </ion-item>
-            </div>
-            <div class="col">
-                <ion-item>
-                    <ion-label color="primary">Long.</ion-label>
-                    <ion-input type="text" value="{{longitude}}"></ion-input>
-                </ion-item>
-            </div>
+            <ion-item *ngIf="altitude != undefined && longitude != undefined">
+                <ion-icon name="checkmark-circle" item-end color="secondary"></ion-icon>
+                Statut de la géolocalisation:
+            </ion-item>
+            <ion-item *ngIf="altitude == undefined || longitude == undefined">
+                <ion-icon name="close-circle" item-end color="danger"></ion-icon>
+                Statut de la géolocalisation:
+            </ion-item>
         </div>
 
     </ion-item-group>
