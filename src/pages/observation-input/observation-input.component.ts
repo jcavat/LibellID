@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
-
-import { NavController, NavParams, AlertController, ToastController } from 'ionic-angular';
+import { Diagnostic } from '@ionic-native/diagnostic';
+import { NavController, NavParams, AlertController, ToastController, Platform } from 'ionic-angular';
 import { Dragonfly } from '../../app/classes/dragonfly/dragonfly';
 import { Camera } from '@ionic-native/camera';
 import { Utils } from '../../providers/utils';
 import { HTTP } from '@ionic-native/http';
-import { Geolocation } from '@ionic-native/geolocation';
-
-import { Diagnostic } from '@ionic-native/diagnostic';
+import { StatusBar, Splashscreen } from 'ionic-native';
 import { ObservationListPage } from './observation-input-list/observation-input-list.component';
+import { LocationTrackerProvider } from '../../providers/location-tracker';
+
 
 
 
@@ -18,12 +18,8 @@ import { ObservationListPage } from './observation-input-list/observation-input-
 export class ObservationInputPage {
   private dragonfly: Dragonfly;
   private dragonflyName: string;
-  private latitude: number;
-  private longitude: number;
-  private altitude: number;
   private nbIndividus: number = 1
   private checked: boolean = false;
-
   private imageFile: string;
   private imageNamePath: string;
   private dirName: string;
@@ -32,14 +28,30 @@ export class ObservationInputPage {
   private timestamp: number;
 
   constructor(private camera: Camera,
-    private geolocation: Geolocation,
+    private diagnostic:Diagnostic,
     private navCtrl: NavController,
     private navParams: NavParams,
+    private platform: Platform,
     private http: HTTP,
-    private diagnostic: Diagnostic,
     public alertCtrl: AlertController,
+    private locationTracker: LocationTrackerProvider,
     public toastCtrl: ToastController) {
+
+    platform.ready().then(() => {
+      platform.pause.subscribe(() => {
+        this.locationTracker.startTracking();
+      });
+
+    });
     this.dragonfly = navParams.get("dragonfly");
+
+    this.diagnostic.isGpsLocationEnabled().then((isAvailable) => {
+      if (!isAvailable) {
+        alert("Votre position GPS n'est pas activé");
+        this.diagnostic.switchToLocationSettings()
+        
+      }
+    }).catch((e) => console.error(e));
   }
 
 
@@ -54,24 +66,6 @@ export class ObservationInputPage {
     if (this.dragonfly) {
       this.dragonflyName = this.dragonfly.commonName.toString();
     }
-
-    this.diagnostic.isGpsLocationEnabled().then((isAvailable) => {
-      if (!isAvailable) {
-        alert("Votre position GPS n'est pas activé");
-        this.diagnostic.switchToLocationSettings()
-      }
-
-    }
-    ).catch((e) => console.error(e));
-
-    //get geoloc
-    this.geolocation.getCurrentPosition().then((resp) => {
-      this.latitude = resp.coords.latitude;
-      this.longitude = resp.coords.longitude;
-      this.altitude = resp.coords.altitude;
-    }).catch((error) => {
-      console.log('Error getting location', error);
-    });
   }
 
 
@@ -173,12 +167,12 @@ export class ObservationInputPage {
                   observers:
                     [{
                       '@id': '16189',
-                      coord_lat: this.latitude,
-                      coord_lon: this.longitude,
+                      coord_lat: this.locationTracker.getLatitude(),
+                      coord_lon: this.locationTracker.getLongitude(),
                       precision: 'precise',
                       estimation_code: 'EXACT_VALUE',
                       count: this.nbIndividus,
-                      altitude: this.altitude
+                      altitude: this.locationTracker.getAltitude()
                     }]
                 }]
             }
@@ -196,11 +190,11 @@ export class ObservationInputPage {
 
 
   showConfirm() {
-    console.log(this.altitude)
-    console.log(this.longitude)
-    console.log(this.latitude)
+    console.log(this.locationTracker.getAltitude())
+    console.log(this.locationTracker.getLongitude())
+    console.log(this.locationTracker.getLatitude())
 
-    if (this.dragonfly != undefined && this.altitude != undefined && this.longitude != undefined) {
+    if (this.dragonfly != undefined && this.locationTracker.hasValues()) {
       let confirm = this.alertCtrl.create({
         title: 'Saisir une observation',
         message: 'Voulez vous saisir l\'observation de la libellule ' + this.dragonfly.commonName + '?',
@@ -214,7 +208,7 @@ export class ObservationInputPage {
           {
             text: 'Valider',
             handler: () => {
-              if (this.altitude != undefined && this.longitude != undefined && this.altitude != undefined) {
+              if (this.locationTracker.hasValues()) {
                 this.addObservation();
                 this.navCtrl.popToRoot();
               } else {

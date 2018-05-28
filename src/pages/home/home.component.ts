@@ -7,7 +7,8 @@ import { IdentifyPage } from '../identify/identify.component';
 import {WalksPage} from '../walks/walks.component';
 import { Storage } from '@ionic/storage';
 
-import { HomeModalInfo } from './home-modal-info/home-modal-info.component';;
+import { HomeModalInfo } from './home-modal-info/home-modal-info.component';
+import { LocationTrackerProvider } from '../../providers/location-tracker';
 
 @Component({
   selector: 'page-home',
@@ -21,6 +22,7 @@ export class HomePage {
 
   constructor(private navCtrl: NavController,
               private storage: Storage,
+              private locationTracker:LocationTrackerProvider,
               private modalCtrl: ModalController) {
       
 
@@ -30,6 +32,8 @@ export class HomePage {
           this.storage.set('firstTimePopUpHome', false);
       }
     });
+    
+    this.locationTracker.startTracking();
   }
 
   private displayModalInfo(): void {

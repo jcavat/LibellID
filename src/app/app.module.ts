@@ -5,6 +5,8 @@ import { MyApp } from './app.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule} from '@angular/http';
 
+import { LocationTrackerProvider } from '../providers/location-tracker';
+import {BackgroundGeolocation} from "@ionic-native/background-geolocation";
 import { Camera } from '@ionic-native/camera';
 import { Diagnostic } from '@ionic-native/diagnostic';
 import { Geolocation } from '@ionic-native/geolocation';
@@ -108,9 +110,11 @@ import { PressDirective } from '../pages/identify/press-directive';
   ],
   providers: [
     Camera,
+    BackgroundGeolocation,
     Diagnostic,
     Geolocation,
     JsonDataService,
+    LocationTrackerProvider,
     File,
     HTTP,
     NativeGeocoder,
