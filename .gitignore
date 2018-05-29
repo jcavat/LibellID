@@ -47,3 +47,6 @@ logo.jpg
 app-release-unsigned.apk
 test.js
 info_signature
+version
+key_ornito
+libellID_key.jks
