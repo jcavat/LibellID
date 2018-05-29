@@ -152,7 +152,7 @@
     <Placemark>
         <ExtendedData>
             <Data name="id">
-                <value>2</value>
+                <value>3</value>
             </Data>
 		</ExtendedData>
       <name>Depuis la plateforme</name>
@@ -171,7 +171,7 @@
     <Placemark>
         <ExtendedData>
             <Data name="id">
-                <value>3</value>
+                <value>4</value>
             </Data>
 		</ExtendedData>
       <name>Au-dessus de l'étang</name>
