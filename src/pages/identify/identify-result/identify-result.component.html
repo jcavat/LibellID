@@ -13,7 +13,7 @@
 
 <ion-content>
     <ion-list>
-        <ion-item [ngClass]="!dragonfly[0].description.toString().startsWith('Lorem ipsum') ? '': 'disabled'" text-wrap *ngFor="let dragonfly of dragonfliesDataSorted; let i=index" (click)="openPage(dragonfly[0], this.criteria)">
+        <ion-item [ngClass]="!dragonfly[0].description.toString().startsWith('Lorem ipsum') ? '': 'disabled'" text-wrap *ngFor="let dragonfly of dragonfliesDataSorted; let i=index" (tap)="openPage(dragonfly[0], this.criteria)">
             <ion-thumbnail item-left class="thumbnail-dragonfly-list">
                 <img src="assets/img/{{dragonfly[0].headerPicture.url}} ">
             </ion-thumbnail>

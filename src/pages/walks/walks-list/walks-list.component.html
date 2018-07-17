@@ -1,6 +1,6 @@
 <ion-content>
     <ion-list>
-        <ion-item *ngFor="let walk of walksData" (click)="openPage(walk)">
+        <ion-item *ngFor="let walk of walksData" (tap)="openPage(walk)">
             <ion-thumbnail item-left>
                 <img src="assets/img/{{walk.pictures}} ">
             </ion-thumbnail>

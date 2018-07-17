@@ -8,7 +8,7 @@
 
 <ion-content>
     <ion-list>
-        <ion-item text-wrap *ngFor="let dragonfly of dragonfliesData" (click)="openPage(dragonfly)">
+        <ion-item text-wrap *ngFor="let dragonfly of dragonfliesData" (tap)="openPage(dragonfly)">
             <ion-thumbnail item-left class="thumbnail-dragonfly-list">
                 <img src="assets/img/{{dragonfly.headerPicture.url}} ">
             </ion-thumbnail>
