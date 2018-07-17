@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { NavController, ModalController } from 'ionic-angular';
+import { NavController, ModalController, Platform } from 'ionic-angular';
 
 import { OtherPage } from '../other/other.component';
 import { IdentifyPage } from '../identify/identify.component';
@@ -22,6 +22,7 @@ export class HomePage {
 
   constructor(private navCtrl: NavController,
               private storage: Storage,
+              private platform: Platform,
               private locationTracker:LocationTrackerProvider,
               private modalCtrl: ModalController) {
       
@@ -32,8 +33,14 @@ export class HomePage {
           this.storage.set('firstTimePopUpHome', false);
       }
     });
+
+    platform.ready().then(() => {
+      // Okay, so the platform is ready and our plugins are available.
+      this.locationTracker.startTracking();
+
+    });
     
-    this.locationTracker.startTracking();
+    
   }
 
   private displayModalInfo(): void {
