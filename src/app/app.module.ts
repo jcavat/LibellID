@@ -73,12 +73,12 @@ import { PressDirective } from '../pages/identify/press-directive';
     DragonflyDistributionTabPage
   ],
   imports: [
+    BrowserModule,
+    HttpModule,
     IonicModule.forRoot(MyApp,{
         tabsHideOnSubPages: true
     }),
-    IonicStorageModule.forRoot(),
-    BrowserModule,
-    HttpModule
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [

@@ -80,8 +80,8 @@ export class IdentifyPage {
 
             //parse lat long to geocod
             this.nativeGeocoder.reverseGeocode(this.latitude, this.longitude)
-                .then((result: NativeGeocoderReverseResult) => {
-                    this.region = result.administrativeArea;
+                .then((result: NativeGeocoderReverseResult[]) => {
+                    this.region = result[0].administrativeArea;
                 }).catch((error) => {
                     console.log(error);
                 });

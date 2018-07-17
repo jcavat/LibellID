@@ -41,17 +41,20 @@
     </div>
   </span>
   <div id="space-btns"></div>
-  <div id="div-btns">
-      <table>
-          <tr>
-
-              <td>
-                  <button ion-button full icon-left (click)="resetCriteria()"><ion-icon name="refresh"> Recommencer</ion-icon></button>
-              </td>
-              <td>
-                  <button ion-button full icon-left (click)="getSelectedValues()"><ion-icon name="search"> Voir</ion-icon></button>
-              </td>
-          </tr>
-      </table>
-  </div>
+  
 </ion-content>
+<ion-footer>
+    <div id="div-btns">
+        <table>
+            <tr>
+  
+                <td>
+                    <button ion-button full icon-left (click)="resetCriteria()"><ion-icon name="refresh"> Recommencer</ion-icon></button>
+                </td>
+                <td>
+                    <button ion-button full icon-left (click)="getSelectedValues()"><ion-icon name="search"> Voir</ion-icon></button>
+                </td>
+            </tr>
+        </table>
+    </div>
+  </ion-footer>

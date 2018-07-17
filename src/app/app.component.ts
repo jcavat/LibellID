@@ -4,7 +4,6 @@ import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { HomePage } from '../pages/home/home.component';
 import { JsonDataService } from '../providers/data-json.service';
-import { LocationTrackerProvider } from '../providers/location-tracker';
 
 
 @Component({
@@ -14,7 +13,7 @@ import { LocationTrackerProvider } from '../providers/location-tracker';
 export class MyApp {
   rootPage = HomePage;
 
-  constructor(platform: Platform, private locationTracker: LocationTrackerProvider) {
+  constructor(platform: Platform) {
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
