@@ -99,10 +99,10 @@
                 <value>1</value>
             </Data>
 		</ExtendedData>
-      <name>Au bord d'un ruisseau</name>
+      <name>Au bord d'une rivière</name>
       <description>
           <![CDATA[
-              <p>Ce ruisseau peut abriter une petite libellule aux reflets métalliques bleus et aux ailes foncées, le Caloptéryx éclatant.
+              <p>Cette rivière peut abriter une petite libellule aux reflets métalliques bleus et aux ailes foncées, le Caloptéryx éclatant.
             </p>
 			<img src="assets/img/calopteryx-eclatant-menu.jpg">
           ]]>
@@ -128,7 +128,7 @@
           ]]>
 	  </description>      
       <Point>
-        <coordinates>7.27759,46.66112</coordinates>
+        <coordinates>7.27739,46.66118</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -148,7 +148,7 @@
           ]]>
 	  </description>       
       <Point>
-        <coordinates>7.27689,46.66557</coordinates>
+        <coordinates>7.27680,46.66560</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -168,7 +168,7 @@
           ]]>
 	  </description>       
       <Point>
-        <coordinates>7.28087,46.66818</coordinates>
+        <coordinates>7.28073,46.66815</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -188,7 +188,7 @@
           ]]>
 	  </description>      
       <Point>
-        <coordinates>7.28465,46.67044</coordinates>
+        <coordinates>7.28454,46.67051</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -237,10 +237,10 @@
                 <value>8</value>
             </Data>
 		</ExtendedData>
-      <name>En traversant le ruisseau</name>
+      <name>En traversant la rivière</name>
       <description>
           <![CDATA[
-              <p>Ce ruisseau, tout comme celui du départ de la promenade, peut abriter une petite libellule aux reflets métalliques bleus et aux ailes foncées, le Caloptéryx éclatant.
+              <p>Cette rivière, tout comme celle du départ de la promenade, peut abriter une petite libellule aux reflets métalliques bleus et aux ailes foncées, le Caloptéryx éclatant.
             </p>
 			<img src="assets/img/calopteryx-eclatant-menu.jpg">
           ]]>
