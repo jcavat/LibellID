@@ -38,18 +38,18 @@ Install ionic
 Look at the documentation :[https://ionicframework.com/getting-started#cli]
 
 Clone repository
-git clone git@github.com:MichaelPolla/VESS.git
+`git clone git@github.com:MichaelPolla/VESS.git`
 
 Install npm package:
-npm install
+`npm install`
 
 Execute code
 
-ionic serve --lab (in browser)
+`ionic serve --lab` (in browser)
 OR
-ionic run android --livereload (for emulator)
+ionic run android --livereload` (for emulator)
 OR
-ionic run android --device (for connected device)
+`ionic run android --device` (for connected device)
 
 ## Run parser for libellID.json
 
