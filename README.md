@@ -33,14 +33,14 @@ Les Anisoptères sont robustes et se posent avec les ailes ouvertes, alors que l
 
 ## Installation
 ```
-##Install ionic  
+## Install ionic  
 
 Look at the documentation :[https://ionicframework.com/getting-started#cli]
 
-##Clone repository
+## Clone repository
 git clone git@github.com:MichaelPolla/VESS.git
 
-##Install npm package:
+## Install npm package:
 npm install
 
 ## Execute
