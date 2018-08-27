@@ -33,9 +33,16 @@ Les Anisoptères sont robustes et se posent avec les ailes ouvertes, alors que l
 
 ## Installation
 ```
-NOTE COMPLETE
+##
+install ionic : https://ionicframework.com/getting-started#cli
 
+##Clone repository
+git clone git@github.com:MichaelPolla/VESS.git
+
+##Install npm package:
 npm install
+
+## Execute
 ionic serve --lab (in browser)
 OR
 ionic run android --livereload (for emulator)
@@ -65,5 +72,4 @@ Execute parser before ionic run or ionic build with IOS
 `npm run-script parser_build ios`
 
 ```
-## License
 
