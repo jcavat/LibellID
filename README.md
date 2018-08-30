@@ -34,7 +34,10 @@ Les Anisoptères sont robustes et se posent avec les ailes ouvertes, alors que l
 ## Installation
 First, install ionic:
 
-Look at the documentation :[ionic framework](https://ionicframework.com/getting-started#cli)
+Look at the documentation :[Installation in ionic framework](https://ionicframework.com/getting-started#cli)
+
+Deploying:
+Look at the documentation : [Deploying in ionic framework](https://ionicframework.com/docs/intro/deploying/)
 
 Clone repository:
 
