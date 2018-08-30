@@ -39,7 +39,6 @@ Look at the documentation :[ionic framework](https://ionicframework.com/getting-
 Clone repository
 
 `git clone git@github.com:MichaelPolla/VESS.git`
-```
 Install npm package:
 `npm install`
 
@@ -73,5 +72,5 @@ Execute parser before ionic run or ionic build with IOS
 
 `npm run-script parser_build ios`
 
-```
+
 
