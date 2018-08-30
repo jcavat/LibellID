@@ -32,17 +32,17 @@ Les Anisoptères sont robustes et se posent avec les ailes ouvertes, alors que l
 | ![alt text](https://github.com/jcavat/LibellID/raw/master/src/assets/img/about2.png) | ![alt text](https://github.com/jcavat/LibellID/raw/master/src/assets/img/about3.jpg) |
 
 ## Installation
-Install ionic  
+First, install ionic:
 
 Look at the documentation :[ionic framework](https://ionicframework.com/getting-started#cli)
 
-Clone repository
+Clone repository:
 
 `git clone git@github.com:MichaelPolla/VESS.git`
 Install npm package:
 `npm install`
 
-Execute code
+Execute code:
 
 `ionic serve --lab` (in browser)
 OR
@@ -52,7 +52,7 @@ OR
 
 ## Run parser for libellID.json
 
-Execute parser
+Execute parser:
 
 `npm run-script parser`
 
@@ -60,13 +60,13 @@ Execute parser before ionic serve
 
 `npm run-script parser_serve`
 
-Execute parser before ionic run or ionic build with android
+Execute parser before ionic run or ionic build with android:
 
 `npm run-script parser_run android`
 
 `npm run-script parser_build android`
 
-Execute parser before ionic run or ionic build with IOS
+Execute parser before ionic run or ionic build with IOS:
 
 `npm run-script parser_run ios`
 
