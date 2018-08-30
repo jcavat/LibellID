@@ -86,7 +86,7 @@ if `npm install ios-deploy -g` fails, run: `sudo npm install --global --unsafe-p
 If you need to completely clean XCode cache, delete all the content of `Library/Developer/Xcode/DeriveData/`
 
 ## Deploying
-Deploying:
+
 Look at the documentation : [Deploying in ionic framework](https://ionicframework.com/docs/intro/deploying/)
 
 ## Run parser for libellID.json
