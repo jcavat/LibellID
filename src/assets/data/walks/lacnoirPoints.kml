@@ -99,44 +99,6 @@
                 <value>1</value>
             </Data>
 		</ExtendedData>
-      <name>Au bord d'une rivière</name>
-      <description>
-          <![CDATA[
-              <p>Cette rivière peut abriter une petite libellule aux reflets métalliques bleus et aux ailes foncées, le Caloptéryx éclatant.
-            </p>
-			<img src="assets/img/calopteryx-eclatant-menu.jpg">
-          ]]>
-	  </description>      
-      <Point>
-        <coordinates>7.27492,46.66212</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-        <ExtendedData>
-            <Data name="id">
-                <value>2</value>
-            </Data>
-		</ExtendedData>
-      <name>Certaines l'aiment...</name>
-      <description>
-          <![CDATA[
-              <p>Cette plage abrite une libellule bleu et noir qui se pose souvent sur les rochers ou les cailloux, l'Orthétrum réticulé.
-            </p>
-			<img src="assets/img/orthetrum-reticule-menu.jpg">
-              <p>Autres libellules potentielles: l'Agrion à larges pattes, l'Agrion élégant, l'Agrion jouvencelle, l'Agrion porte-coupe, la Grande Aeschne, l'Aeschne bleue, la Cordulie métallique et le Sympétrum à nervures rouges. 
-            </p>
-          ]]>
-	  </description>      
-      <Point>
-        <coordinates>7.27739,46.66118</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-        <ExtendedData>
-            <Data name="id">
-                <value>3</value>
-            </Data>
-		</ExtendedData>
       <name>Au coeur des herbes</name>
       <description>
           <![CDATA[
@@ -148,19 +110,19 @@
           ]]>
 	  </description>       
       <Point>
-        <coordinates>7.27680,46.66560</coordinates>
+        <coordinates>7.27670,46.66556</coordinates>
       </Point>
     </Placemark>
     <Placemark>
         <ExtendedData>
             <Data name="id">
-                <value>4</value>
+                <value>2</value>
             </Data>
 		</ExtendedData>
       <name>Au pied de la tour d'observation</name>
       <description>
           <![CDATA[
-              <p>En vous approchant de la rive, vous pourriez apercevoir une libellule vert métallisé, la Cordulie métallique.
+              <p>En vous approchant de la rive, vous pourriez apercevoir une libellule sombre, vert foncé métallisé, la Cordulie métallique.
             </p>
 			<img src="assets/img/cordulie-metal-walk.jpg">
               <p>Autres libellules potentielles: l'Agrion à larges pattes, l'Agrion élégant, l'Agrion jouvencelle, l'Agrion porte-coupe, la Grande Aeschne, l'Aeschne bleue, l'Orthétrum réticulé et le Sympétrum à nervures rouges.
@@ -174,13 +136,13 @@
     <Placemark>
         <ExtendedData>
             <Data name="id">
-                <value>5</value>
+                <value>3</value>
             </Data>
 		</ExtendedData>
       <name>Dans les roseaux</name>
       <description>
           <![CDATA[
-              <p>Dans les roseaux bordant le ponton se posent des Agrions élégants, petites libellules noires avec une tache bleue à leur extrémité.
+              <p>Dans les roseaux bordant la rampe se posent des Agrions élégants, petites libellules noires avec une tache bleue à leur extrémité.
             </p>
 			<img src="assets/img/agrion-elegant-walk.jpg">
               <p>Autres libellules potentielles: l'Agrion à larges pattes, l'Agrion jouvencelle, l'Agrion porte-coupe, la Grande Aeschne, l'Aeschne bleue, la Cordulie métallique, l'Orthétrum réticulé et le Sympétrum à nervures rouges.
@@ -188,33 +150,34 @@
           ]]>
 	  </description>      
       <Point>
-        <coordinates>7.28454,46.67051</coordinates>
+        <coordinates>7.28447,46.67069</coordinates>
       </Point>
     </Placemark>
     <Placemark>
         <ExtendedData>
             <Data name="id">
-                <value>6</value>
+                <value>4</value>
             </Data>
 		</ExtendedData>
       <name>A la plage</name>
       <description>
           <![CDATA[
-              <p>Prenez le temps d'observer les libellules qui volent par ici. Si vous n'avez pas encore vu l'Orthétrum réticulé, c'est l'occasion.
+              <p>Prenez le temps d'observez les libellules qui volent par ici. Cette plage abrite notamment une libellule bleu et noir qui se pose souvent au sol ou sur le ponton, l'Orthétrum réticulé.
             </p>
 			<img src="assets/img/orthetrum-reticule-menu.jpg">
+              >
               <p>Continuez jusqu'au départ du télésiège et prenez-le pour monter jusqu'à Riggisalp.
             </p>
           ]]>
 	  </description>      
       <Point>
-        <coordinates>7.28739,46.66905</coordinates>
+        <coordinates>7.28739,46.66937</coordinates>
       </Point>
     </Placemark>
     <Placemark>
         <ExtendedData>
             <Data name="id">
-                <value>7</value>
+                <value>5</value>
             </Data>
 		</ExtendedData>
       <name>L'étang de Riggisalp</name>
@@ -223,12 +186,50 @@
               <p>En ouvrant l'œil, vous apercevrez probablement des petites libellules bleu et noir, dont l'Agrion porte-coupe.
             </p>
 			<img src="assets/img/agrion-coupe-walk.jpg">
-              <p>Autres libellules potentielles: l'Aeschne bleue et la Cordulie métallique. 
+              <p>Autres libellules potentielles: l'Aeschne bleue, l'Aeschne des joncs et la Cordulie métallique. 
             </p>
           ]]>
 	  </description>      
       <Point>
-        <coordinates>7.30313,46.65288</coordinates>
+        <coordinates>7.30256,46.65313</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>6</value>
+            </Data>
+		</ExtendedData>
+      <name>Au bord d'une rivière</name>
+      <description>
+          <![CDATA[
+              <p>Cette rivière peut abriter une petite libellule aux reflets métalliques bleus et aux ailes foncées, le Caloptéryx éclatant.
+            </p>
+			<img src="assets/img/calopteryx-eclatant-menu.jpg">
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.29331,46.66950</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>7</value>
+            </Data>
+		</ExtendedData>
+      <name>Retour au Lac Noir</name>
+      <description>
+          <![CDATA[
+              <p>Arrêtez vous quelques minutes près du banc et cherchez une grande libellule brune aux ailes enfumées, la Grande Aeschne.
+            </p>
+			<img src="assets/img/aeschne-grande-menu.jpg">
+              <p>Autres libellules potentielles: l'Agrion à larges pattes, l'Agrion élégant, l'Agrion jouvencelle, l'Agrion porte-coupe, l'Aeschne bleue, la Cordulie métallique, l'Orthétrum réticulé et le Sympétrum à nervures rouges.
+            </p>
+          ]]>
+	  </description>      
+      <Point>
+        <coordinates>7.28751,46.66868</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -237,28 +238,10 @@
                 <value>8</value>
             </Data>
 		</ExtendedData>
-      <name>En traversant la rivière</name>
+      <name>Au bord de la pelouse</name>
       <description>
           <![CDATA[
-              <p>Cette rivière, tout comme celle du départ de la promenade, peut abriter une petite libellule aux reflets métalliques bleus et aux ailes foncées, le Caloptéryx éclatant.
-            </p>
-			<img src="assets/img/calopteryx-eclatant-menu.jpg">
-          ]]>
-	  </description>       
-      <Point>
-        <coordinates>7.29485,46.66835</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-        <ExtendedData>
-            <Data name="id">
-                <value>9</value>
-            </Data>
-		</ExtendedData>
-      <name>Retour au Lac Noir</name>
-      <description>
-          <![CDATA[
-              <p>Si vous n'avez pas encore vu une Cordulie métallique, profitez de cet arrêt pour l'observer.
+              <p>Si vous n'avez pas encore vu une Cordulie métallique, profitez de cet arrêt pour l'observer dans la végétation qui borde la pelouse .
             </p>
 			<img src="assets/img/cordulie-metal-walk.jpg">
               <p>Autres libellules potentielles: l'Agrion à larges pattes, l'Agrion élégant, l'Agrion jouvencelle, l'Agrion porte-coupe, la Grande Aeschne, l'Aeschne bleue, l'Orthétrum réticulé et le Sympétrum à nervures rouges.
@@ -266,27 +249,7 @@
           ]]>
 	  </description>      
       <Point>
-        <coordinates>7.2842,46.66616</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-        <ExtendedData>
-            <Data name="id">
-                <value>10</value>
-            </Data>
-		</ExtendedData>
-      <name>Gigantesque</name>
-      <description>
-          <![CDATA[
-              <p>Sous le regard du gigantesque dragon, cherchez une grande libellule brune aux ailes enfumées, la Grande Aeschne.
-            </p>
-			<img src="assets/img/aeschne-grande-menu.jpg">
-              <p>Autres libellules potentielles: le Caloptéryx éclatant, l'Agrion à larges pattes, l'Agrion élégant, l'Agrion jouvencelle, l'Agrion porte-coupe, l'Aeschne bleue, la Cordulie métallique, l'Orthétrum réticulé et le Sympétrum à nervures rouges.
-            </p>
-          ]]>
-	  </description>       
-      <Point>
-        <coordinates>7.27702,46.6598</coordinates>
+        <coordinates>7.28531,46.66613</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -305,7 +268,7 @@
           ]]>
 	  </description> 
       <Point>
-        <coordinates>7.27284,46.6634</coordinates>
+        <coordinates>7.27476,46.66607</coordinates>
       </Point>
     </Placemark>
 
