@@ -35,7 +35,7 @@ Les Anisoptères sont robustes et se posent avec les ailes ouvertes, alors que l
 
 1. Install [NodeJS](https://nodejs.org/en/).
 2. Install [Ionic](https://ionicframework.com/getting-started#cli).
-3. Clone this repository: `git clone https://github.com/MichaelPolla/VESS.git`.
+3. Clone this repository: `git clone https://github.com/jcavat/LibellID.git`.
 4. Go into the `app` folder (`cd /vess/app`) and run `npm install`.
 
 Mac: if you get the message `gyp: No Xcode or CLT version detected!`, you to need to execute this command line before `npm install`:
