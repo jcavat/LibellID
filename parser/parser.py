@@ -49,21 +49,24 @@ for dragonflie in dragonflies:
 
     ############################FLYPERIOD######################################
     #verif all number of value each flyperiod
-    flyPeriodDragonflie = dragonflie['flyPeriod']
-    if(len(flyPeriodDragonflie)!=8):
-        print(Color.BLUE+"Dragonflies "+dragonflieName+": "+Color.RED+"Warning, number of month in flyPeriod is not correct \n\r")
-        nbError=nbError+1
-
-    for tupleFlyPeriod in enumerate(flyPeriodDragonflie):
-        if(len(tupleFlyPeriod[1]) != nbWeekOfFlyPeriod):
-            print(Color.BLUE+"Dragonflies "+dragonflieName+": "+Color.RED+"Warning, number of week in flyPeriod is not correct \n\r")
+    if ('flyPeriod' not in dragonflie.keys()):
+        print(Color.BLUE+"Dragonflies "+dragonflieName+": "+Color.RED+"Warning, NO flyPeriod data found \n\r")
+    else:
+        flyPeriodDragonflie = dragonflie['flyPeriod']
+        if(len(flyPeriodDragonflie)!=8):
+            print(Color.BLUE+"Dragonflies "+dragonflieName+": "+Color.RED+"Warning, number of month in flyPeriod is not correct \n\r")
             nbError=nbError+1
 
+        for tupleFlyPeriod in enumerate(flyPeriodDragonflie):
+            if(len(tupleFlyPeriod[1]) != nbWeekOfFlyPeriod):
+                print(Color.BLUE+"Dragonflies "+dragonflieName+": "+Color.RED+"Warning, number of week in flyPeriod is not correct \n\r")
+                nbError=nbError+1
+
 if nbError>0:
-    print(Color.RED+"They are "+str(nbError)+" warning in libellID.json \n\r")
+    print(Color.RED+"There are "+str(nbError)+" warning(s) in libellID.json \n\r")
     #exit(1) #exit with error
     print("ERROR")
 else:
-    print(Color.GREEN+"No warning in libellID.json! : \n\r")
+    print(Color.GREEN+"No warning in libellID.json : \n\r")
     print("NO_ERROR")
     #exit(0) #exit without any error
