@@ -91,8 +91,11 @@ export class IdentifyResultPage {
     that.dragonfliesDataSorted.sort(function (a, b) {
       if (b[1] - a[1] != 0) {//score are not equal=>sort by score
         return b[1] - a[1];
-      } else { //alpabetic sort
-        return that.alphabeticSort(a[0].commonName, b[0].commonName);
+      } else {
+        // Sort generic dragonfly classes to end of list or sort the others by common name
+        let sortGeneric = that.sortGenericDragonfly(a[0],b[0]);
+        let sortAlphabetic = that.alphabeticSort(a[0].commonName, b[0].commonName);
+        return sortGeneric == 0 ? sortAlphabetic : sortGeneric;
       }
     });
 
@@ -150,6 +153,20 @@ export class IdentifyResultPage {
       return -1;
     if (a > b)
       return 1;
+  }
+
+  private sortGenericDragonfly(d1 : Dragonfly, d2: Dragonfly) : number {
+    let infoLevel1 = d1['info_level'][0];
+    let infoLevel2 = d2['info_level'][0];
+    if (infoLevel1 < infoLevel2) {
+      return 1;
+    }
+    else if(infoLevel1 > infoLevel2){
+      return -1;
+    }
+    else{
+      return 0;
+    }
   }
 
   private trueCount(arr: boolean[]): number {
