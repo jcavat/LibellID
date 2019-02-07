@@ -79,6 +79,38 @@ export class WalkInProgressPage {
       this.walkData = this.navParams.get("walk");
   }
 
+  // Draw walk path with arrows at the start of each segment
+  private pathStyle = function (feature) {
+    var geometry = feature.getGeometry();
+    var styles = [
+        // linestring
+        new ol.style.Style({
+            stroke: new ol.style.Stroke({
+                color: [100, 100, 100, 1],
+                width: 3
+            })
+        })
+    ];
+
+    geometry.forEachSegment(function (start, end) {
+        var dx = end[0] - start[0];
+        var dy = end[1] - start[1];
+        var rotation = Math.atan2(dy, dx);
+        // arrows
+        styles.push(new ol.style.Style({
+            geometry: new ol.geom.Point(start),
+            image: new ol.style.Icon({
+                src: 'assets/img/arrow.png',
+                anchor: [0.75, 0.5],
+                rotateWithView: true,
+                rotation: -rotation
+            })
+        }));
+    });
+
+    return styles;
+};
+
     private loadData(): void{
         this.mapInProgress = new ol.Map({
             target: 'mapInProgress',
@@ -107,12 +139,7 @@ export class WalkInProgressPage {
                     extractStyles: false
                 })
             }),
-            style: new ol.style.Style({
-                stroke: new ol.style.Stroke({
-                    color: [100,100,100,1],
-                    width: 3
-                })
-            })
+            style: this.pathStyle
         });
         that.kmlPoints = new ol.layer.Vector({
             source: new ol.source.Vector({
