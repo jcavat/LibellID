@@ -87,7 +87,8 @@
   "description": "libell: An Ionic project",
   "cordova": {
     "platforms": [
-      "ios"
+      "ios",
+      "android"
     ],
     "plugins": {
       "cordova-plugin-advanced-http": {},

@@ -102,7 +102,6 @@
     <allow-navigation href="http://10.136.41.18:8100" />
     <allow-navigation href="http://10.136.41.10:8100" />
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
-    <plugin name="com.megster.cordova.FileChooser" spec="https://github.com/don/cordova-filechooser.git" />
     <plugin name="cordova-plugin-nativegeocoder" spec="^3.0.0" />
     <plugin name="cordova-plugin-advanced-http" spec="^1.6.2" />
     <plugin name="cordova-plugin-vibration" spec="^3.0.1" />
@@ -123,5 +122,5 @@
     </plugin>
     <plugin name="cordova.plugins.diagnostic" spec="^3.9.2" />
     <engine name="ios" spec="4.5.4" />
-    <engine name="android" spec="7.1.1" />
+    <engine name="android" spec="^7.0.0" />
 </widget>
