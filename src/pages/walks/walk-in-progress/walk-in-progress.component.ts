@@ -177,13 +177,15 @@ export class WalkInProgressPage {
         that.mapInProgress.updateSize();
     }
     ionViewDidLoad(): void{
-    //Charger points GPS
-        if(Network.type != 'none'){
-            this.loadData();
-        }else{
+        /**
+         * Even if there's no connection available,
+         * the app allows the user to view the walking path without the map.
+         */
+        if(Network.type == 'none'){
             alert('Vous devez avoir une connexion internet pour afficher la carte.');
-            this.navCtrl.pop();
         }
+
+        this.loadData();
     }
     ionViewWillEnter():void{
         let that = this;
@@ -240,8 +242,8 @@ export class WalkInProgressPage {
         });
     }
     ionViewWillLeave(): void{
-        if(Network.type != 'none'){
+        //if(Network.type != 'none'){
             this.listenerPosition.unsubscribe();
-        }
+        //}
     }
 }

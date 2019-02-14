@@ -113,11 +113,15 @@ export class WalksMapPage {
     }
 
   ionViewDidLoad(): void{
-      if(Network.type != 'none'){
-          this.loadData();
-      }else{
-          alert('Vous devez avoir une connexion internet pour afficher la carte.');
-      }
+    /**
+     * Even if there's no connection available,
+     * the app allows the user to view the walking path without the map.
+     */
+    if(Network.type == 'none'){
+        alert('Vous devez avoir une connexion internet pour afficher la carte.');
+    }
+
+    this.loadData();
 
   }
 
