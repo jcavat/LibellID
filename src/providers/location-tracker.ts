@@ -35,7 +35,7 @@ export class LocationTrackerProvider {
       notificationText: "Active"
     };
 
-    this.backgroundGeolocation.configure(config).subscribe((location) => {
+    this.backgroundGeolocation.configure(config).then((location) => {
 
       console.log('BackgroundGeolocation:  ' + location.latitude + ',' + location.longitude);
 

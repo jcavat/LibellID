@@ -122,5 +122,5 @@
     </plugin>
     <plugin name="cordova.plugins.diagnostic" spec="^3.9.2" />
     <engine name="ios" spec="4.5.4" />
-    <engine name="android" spec="^7.0.0" />
+    <engine name="android" spec="^7.1.4" />
 </widget>
