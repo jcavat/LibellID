@@ -22,6 +22,24 @@ export class WalkInProgressPage {
   private closestFeature: ol.Feature;
   private alertHasShownForFeature: boolean = false;
   private mapInProgress: ol.Map;
+  private followUserOption : boolean = false;
+  private userPosition: [number, number];
+
+    public toggleFollowUser(){
+        this.followUserOption = !this.followUserOption;
+        if(this.followUserOption)
+            this.centerPositionAnimation(this.userPosition);
+    }
+
+    //Center the view on a position
+    private centerPositionAnimation(position: [number, number]){
+        if(position !== undefined && position[0] !== undefined && position[1] !== undefined){
+            this.mapInProgress.getView().animate({
+                center: position
+            });
+        }
+    }
+
   private positionFeature: ol.Feature = new ol.Feature({
           geometryName: 'position'
       }
@@ -138,7 +156,13 @@ export class WalkInProgressPage {
                 modal.present();
             }
         });
-        that.mapInProgress.getView().setCenter(ol.proj.transform([that.walkData.coords[1], that.walkData.coords[0]],'EPSG:4326', 'EPSG:3857'));
+
+        // Disable user tracking when map is panned
+        that.mapInProgress.on('pointerdrag', function (evt): void {
+            that.followUserOption = false;
+        });
+
+        that.mapInProgress.getView().setCenter(ol.proj.transform([that.walkData.coords[1], that.walkData.coords[0]], 'EPSG:4326', 'EPSG:3857'));
 
         that.positionVector = new ol.layer.Vector({
             map: that.mapInProgress,
@@ -181,20 +205,29 @@ export class WalkInProgressPage {
                     })
                 })
             );
-            that.positionFeature.setGeometry(new ol.geom.Point(ol.proj.transform([resp.coords.longitude, resp.coords.latitude],'EPSG:4326', 'EPSG:3857')));
+
+            that.userPosition = ol.proj.transform([resp.coords.longitude, resp.coords.latitude], 'EPSG:4326', 'EPSG:3857');
+            that.positionFeature.setGeometry(new ol.geom.Point(that.userPosition));
+            
         });
 
         this.listenerPosition = Geolocation.watchPosition({
             enableHighAccuracy: true
-        }).subscribe(function(resp): void{
-            that.positionFeature.setGeometry(new ol.geom.Point(ol.proj.transform([resp.coords.longitude, resp.coords.latitude],'EPSG:4326', 'EPSG:3857')));
+
+        }).subscribe(function (resp): void {
+            that.userPosition = ol.proj.transform([resp.coords.longitude, resp.coords.latitude],'EPSG:4326', 'EPSG:3857');
+            that.positionFeature.setGeometry(new ol.geom.Point(that.userPosition));
             let sourceVector: ol.source.Vector = that.kmlPoints.getSource();
-            if(that.closestFeature != sourceVector.getClosestFeatureToCoordinate(ol.proj.transform([resp.coords.longitude, resp.coords.latitude],'EPSG:4326', 'EPSG:3857'))){
-                that.closestFeature = sourceVector.getClosestFeatureToCoordinate(ol.proj.transform([resp.coords.longitude, resp.coords.latitude],'EPSG:4326', 'EPSG:3857'));
+            if (that.closestFeature != sourceVector.getClosestFeatureToCoordinate(that.userPosition)) {
+                that.closestFeature = sourceVector.getClosestFeatureToCoordinate(that.userPosition);
                 that.alertHasShownForFeature = false;
             }
 
-            if(that.closestFeature != null){
+            if(that.followUserOption){
+                that.centerPositionAnimation(that.userPosition);
+            }
+
+            if (that.closestFeature != null) {
                 let sphereDistance: ol.Sphere = new ol.Sphere(6378137);
                 // Distance = 10m.
                 if((sphereDistance.haversineDistance([resp.coords.longitude, resp.coords.latitude],ol.proj.transform((that.closestFeature.getGeometry() as ol.geom.Point).getCoordinates(),'EPSG:3857','EPSG:4326'))) < 12 && !that.alertHasShownForFeature){
