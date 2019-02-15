@@ -22,14 +22,12 @@ export class WalksMapPage {
 
     private loadData(): void{
       let that = this;
-      let iconStyle: ol.style.Style = new ol.style.Style({
-        image: new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
-          anchor: [0.5, 1],
-          anchorXUnits: 'fraction',
-          anchorYUnits: 'fraction',
-          src: 'assets/img/position.png'
-        }))
-      });
+      let positionIcon : ol.style.Icon = new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
+        anchor: [0.5, 1],
+        anchorXUnits: 'fraction',
+        anchorYUnits: 'fraction',
+        src: 'assets/img/position-full.png'
+      }));
         this.jsonDataService.walks().then(function(val){
            that.walksData = val as Walk[];
            let features: ol.Feature[] = new Array(that.walksData.length);
@@ -39,7 +37,20 @@ export class WalksMapPage {
                    'geometryName': that.walksData[i].name,
                    'walk': that.walksData[i]
                });
-               features[i].setStyle(iconStyle);
+               let iconStyle: ol.style.Style = new ol.style.Style({
+                image: positionIcon,
+                text: new ol.style.Text({
+                    text: ""+that.walksData[i].id,
+                    scale: 2.4,
+                    offsetY: -31,
+                    fill: new ol.style.Fill({color:'white'}),
+                    stroke: new ol.style.Stroke({color: 'black', width: 1})
+                }),
+                stroke: new ol.style.Stroke({
+                    color: [100,0,0,1]
+                })
+              });
+              features[i].setStyle(iconStyle);
 
            }
            let vectorSource: ol.source.Vector = new ol.source.Vector({
