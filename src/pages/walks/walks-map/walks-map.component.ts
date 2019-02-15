@@ -26,7 +26,7 @@ export class WalksMapPage {
         anchor: [0.5, 1],
         anchorXUnits: 'fraction',
         anchorYUnits: 'fraction',
-        src: 'assets/img/position.png'
+        src: 'assets/img/position-full.png'
       }));
         this.jsonDataService.walks().then(function(val){
            that.walksData = val as Walk[];
@@ -41,8 +41,10 @@ export class WalksMapPage {
                 image: positionIcon,
                 text: new ol.style.Text({
                     text: ""+that.walksData[i].id,
-                    scale: 2.5,
-                    offsetY: -60
+                    scale: 2.4,
+                    offsetY: -31,
+                    fill: new ol.style.Fill({color:'white'}),
+                    stroke: new ol.style.Stroke({color: 'black', width: 1})
                 }),
                 stroke: new ol.style.Stroke({
                     color: [100,0,0,1]
