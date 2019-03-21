@@ -98,10 +98,11 @@ export class WalkInProgressPage {
         var rotation = Math.atan2(dy, dx);
         // arrows
         styles.push(new ol.style.Style({
-            geometry: new ol.geom.Point(start),
+            geometry: new ol.geom.Point([start[0] + dx * 0.5, start[1] + dy * 0.5]),
             image: new ol.style.Icon({
                 src: 'assets/img/arrow.png',
-                anchor: [0.75, 0.5],
+                scale: 0.75,
+                anchor: [1, 0.5],
                 rotateWithView: true,
                 rotation: -rotation
             })
