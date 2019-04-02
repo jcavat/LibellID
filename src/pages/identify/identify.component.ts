@@ -18,8 +18,8 @@ import { Diagnostic } from '@ionic-native/diagnostic';
 })
 export class IdentifyPage {
     private criteria: Object[];
-    private useDate: boolean = true;
-    private usePosition: boolean = true;
+    private useDate: boolean = false;
+    private usePosition: boolean = false;
     private region: string = undefined;
     private latitude: number = undefined;
     private longitude: number = undefined;

@@ -37,8 +37,8 @@
     "@ionic/storage": "2.1.3",
     "@types/cordova-plugin-network-information": "0.0.3",
     "@types/openlayers": "4.1.1",
-    "cordova-android": "^7.0.0",
-    "cordova-ios": "4.5.4",
+    "cordova-android": "^7.1.4",
+    "cordova-ios": "4.5.5",
     "cordova-plugin-advanced-http": "^1.11.1",
     "cordova-plugin-compat": "^1.2.0",
     "cordova-plugin-file": "^6.0.1",
@@ -57,15 +57,17 @@
     "ionicons": "3.0.0",
     "oauth-1.0a": "^2.2.4",
     "oauth-request": "^0.1.0",
-    "openlayers": "4.2.0",
+    "openlayers": "^4.6.5",
     "python-shell": "^0.4.0",
     "rxjs": "5.1.1",
     "sw-toolbox": "3.4.0",
-    "typescript": "^2.3.4",
     "zone.js": "0.8.12"
   },
+  "optionalDependencies": {
+    "ios-deploy": "^1.9.4"
+  },
   "devDependencies": {
-    "@ionic/app-scripts": "1.3.7",
+    "@ionic/app-scripts": "~1.3.7",
     "@types/jasmine": "^2.5.47",
     "concurrently": "^3.2.0",
     "ionic": "3.20.0",
@@ -73,7 +75,7 @@
     "karma": "^1.6.0",
     "karma-chrome-launcher": "^2.0.0",
     "karma-jasmine": "^1.1.0",
-    "typescript": "2.2.1"
+    "typescript": "^2.3.4"
   },
   "cordovaPlugins": [
     "cordova-plugin-whitelist",
@@ -87,6 +89,7 @@
   "description": "libell: An Ionic project",
   "cordova": {
     "platforms": [
+      "android",
       "ios"
     ],
     "plugins": {

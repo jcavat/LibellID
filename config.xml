@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="104" id="ch.hepia.libellulID" ios-CFBundleIdentifier="ch.hepia.iti.libellulID" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="106" id="ch.hepia.libellulID" ios-CFBundleIdentifier="ch.hepia.iti.libellulID" version="1.0.6" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Libellul'ID</name>
     <description>Identifier des libellules et parcourir des itinéraires didactiques</description>
     <author email="hepia@hesge.ch" href="http://hepia.hesge.ch/">hepia</author>
@@ -102,8 +102,9 @@
     <allow-navigation href="http://10.136.41.18:8100" />
     <allow-navigation href="http://10.136.41.10:8100" />
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
-    <plugin name="com.megster.cordova.FileChooser" spec="https://github.com/don/cordova-filechooser.git" />
-    <plugin name="cordova-plugin-nativegeocoder" spec="^3.0.0" />
+    <plugin name="cordova-plugin-nativegeocoder" spec="^3.0.0">
+        <variable name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="Use geocoder service" />
+    </plugin>
     <plugin name="cordova-plugin-advanced-http" spec="^1.6.2" />
     <plugin name="cordova-plugin-vibration" spec="^3.0.1" />
     <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
@@ -122,6 +123,6 @@
         <variable name="CONTENT_AUTHORITY" value="$PACKAGE_NAME" />
     </plugin>
     <plugin name="cordova.plugins.diagnostic" spec="^3.9.2" />
-    <engine name="ios" spec="4.5.4" />
-    <engine name="android" spec="7.1.1" />
+    <engine name="android" spec="^7.1.4" />
+    <engine name="ios" spec="4.5.5" />
 </widget>
