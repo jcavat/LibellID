@@ -4,17 +4,30 @@
       Identifier
     </ion-title>
     <ion-buttons end>
-        <button ion-button icon-only (tap)="displayModalInfo(titleModalInfo,textModalInfo)">
-            <ion-icon name="help"></ion-icon>
-        </button>
-        <button ion-button icon-only (tap)="presentPopover($event)">
-            <ion-icon name="more"></ion-icon>
-        </button>
+      <button ion-button icon-only (tap)="displayModalInfo(titleModalInfo,textModalInfo)">
+        <ion-icon name="help"></ion-icon>
+      </button>
     </ion-buttons>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+  <h6 class="criter-name">Filtres</h6>
+  <div>
+    <div>
+      <ion-list>
+        <ion-item>
+          <ion-label>Filtrer par date</ion-label>
+          <ion-checkbox [(ngModel)]="this.useDate"></ion-checkbox>
+        </ion-item>
+        <ion-item>
+          <ion-label>Filtrer par altitude</ion-label>
+          <ion-checkbox [(ngModel)]="this.usePosition"></ion-checkbox>
+        </ion-item>
+      </ion-list>
+    </div>
+  </div>
+
   <span *ngFor="let criter of criteria">
     <h6 class="criter-name">{{criter.name}}</h6>
     <div>
