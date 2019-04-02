@@ -44,7 +44,7 @@
             </ion-item>
             <ion-item *ngIf="locationTracker.hasValues()== false">
                 <ion-label color="primary">Statut de la géolocalisation</ion-label>
-                <ion-icon name="refresh" item-end color="danger"></ion-icon>
+                <ion-icon name="ios-remove-circle-outline" item-end color="danger"></ion-icon>
             </ion-item>
         </div>
 
@@ -68,5 +68,5 @@
         </button>
         -->
     </ion-list>
-    <button ion-button block (click)="showConfirm()">Envoi</button>
+    <button ion-button block (click)="showConfirm()" [disabled]="dragonfly == undefined || !locationTracker.hasValues()">Envoi</button>
 </ion-content>
