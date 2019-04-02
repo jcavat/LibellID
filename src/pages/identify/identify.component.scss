@@ -1,83 +1,85 @@
-h6.criter-name{
+h6.criter-name {
   display: block;
   width: 100%;
   padding-top: 0.3em;
   padding-bottom: 0.3em;
   padding-left: 0.3em;
   padding-right: 0.3em;
-  background: rgba(254,201,46,0.3);
+  background: rgba(254, 201, 46, 0.3);
   //border-radius: 5px;
   margin-bottom: 0;
 }
-div.scroll-div{
-    td{
-        width: 25%!important;
-    }
+div.scroll-div {
+  td {
+    width: 25% !important;
+  }
 }
-table{
+table {
   width: 100%;
   table-layout: fixed;
-  .table-content{
+  .table-content {
     width: 100%;
-    td{
+    td {
       border: solid 1px black;
       //height: 4em;
       width: 33.3%;
       display: inline-block;
       padding: 3px;
       word-wrap: break-word;
-      background-color: rgba(247,247,247,1);
-      div{
-          height: 4em;
-          width: 100%;
-          white-space: normal;
+      background-color: rgba(247, 247, 247, 1);
+      div {
+        height: 4em;
+        width: 100%;
+        white-space: normal;
       }
-      img{
-          margin-bottom: -4px;
+      img {
+        margin-bottom: -4px;
       }
     }
-    .selected-value{
-      border: 4px solid rgb(96,96,96);
+    .selected-value {
+      border: 4px solid rgb(96, 96, 96);
       border-radius: 3px;
       padding: 0;
     }
   }
   margin-bottom: 0.5em;
 }
-#div-btns{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    table{
-        width: 100%;
-        margin: 0;
-        border-collapse: collapse;
-        tr{
-            width: 100%;
-            margin: 0!important;
-            padding: 0!important;
-            padding-bottom: -$content-padding!important;
-            height: auto;
-            td{
-                position: fixed;
-                bottom: 0!important;
-                margin: 0!important;
-                padding: 0!important;
-                width: 50%;
-                display: inline-block;
-                button{
-                    margin: 0!important;
-                }
-                .button{font-size: 0.8em;}
-                right: 0;
-            }
-            td:first-child{
-                left: 0;
-            }
+#div-btns {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  table {
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+    tr {
+      width: 100%;
+      margin: 0 !important;
+      padding: 0 !important;
+      padding-bottom: -$content-padding !important;
+      height: auto;
+      td {
+        position: fixed;
+        bottom: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 50%;
+        display: inline-block;
+        button {
+          margin: 0 !important;
         }
+        .button {
+          font-size: 0.8em;
+        }
+        right: 0;
+      }
+      td:first-child {
+        left: 0;
+      }
     }
+  }
 }
-#space-btns{
-    height: 3em;
+#space-btns {
+  height: 3em;
 }
