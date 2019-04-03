@@ -7,7 +7,7 @@ import { Utils } from '../../providers/utils';
 import { HTTP } from '@ionic-native/http';
 import { StatusBar, Splashscreen } from 'ionic-native';
 import { ObservationListPage } from './observation-input-list/observation-input-list.component';
-import { LocationTrackerProvider } from '../../providers/location-tracker';
+import { Geolocation } from '@ionic-native/geolocation';
 
 
 
@@ -26,6 +26,9 @@ export class ObservationInputPage {
   private defaultPicture: string;
   private date: string;
   private timestamp: number;
+  private latitude: number = undefined;
+  private longitude: number = undefined;
+  private altitude: number;
 
   constructor(private camera: Camera,
     private diagnostic:Diagnostic,
@@ -34,15 +37,9 @@ export class ObservationInputPage {
     private platform: Platform,
     private http: HTTP,
     public alertCtrl: AlertController,
-    private locationTracker: LocationTrackerProvider,
+    private geolocation: Geolocation,
     public toastCtrl: ToastController) {
 
-    platform.ready().then(() => {
-      platform.pause.subscribe(() => {
-        this.locationTracker.startTracking();
-      });
-
-    });
     this.dragonfly = navParams.get("dragonfly");
 
     this.diagnostic.isGpsLocationEnabled().then((isAvailable) => {
@@ -52,6 +49,18 @@ export class ObservationInputPage {
         
       }
     }).catch((e) => console.error(e));
+
+    this.geolocation.getCurrentPosition().then((resp) => {
+      this.latitude = resp.coords.latitude;
+      this.longitude = resp.coords.longitude;
+      this.altitude = resp.coords.altitude;
+      alert(resp.coords.latitude);
+      alert(resp.coords);
+      alert(this.altitude);
+    }).catch((error: any) => {
+        alert("La position GPS est introuvable, veuillez activez votre GPS");
+    });
+
   }
 
 
@@ -167,12 +176,12 @@ export class ObservationInputPage {
                   observers:
                     [{
                       '@id': '16189',
-                      coord_lat: this.locationTracker.getLatitude(),
-                      coord_lon: this.locationTracker.getLongitude(),
+                      coord_lat: this.latitude,
+                      coord_lon: this.longitude,
                       precision: 'precise',
                       estimation_code: 'EXACT_VALUE',
                       count: this.nbIndividus,
-                      altitude: this.locationTracker.getAltitude()
+                      altitude: this.altitude
                     }]
                 }]
             }
@@ -188,13 +197,20 @@ export class ObservationInputPage {
 
   };
 
+  hasGPSValues(): boolean {
+    if (this.longitude != undefined && this.latitude != undefined) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 
   showConfirm() {
-    console.log(this.locationTracker.getAltitude())
-    console.log(this.locationTracker.getLongitude())
-    console.log(this.locationTracker.getLatitude())
+    console.log(this.altitude)
+    console.log(this.longitude)
+    console.log(this.latitude)
 
-    if (this.dragonfly != undefined && this.locationTracker.hasValues()) {
+    if (this.dragonfly != undefined && this.hasGPSValues()) {
       let confirm = this.alertCtrl.create({
         title: 'Saisir une observation',
         message: 'Voulez vous saisir l\'observation de la libellule ' + this.dragonfly.commonName + '?',
@@ -208,7 +224,7 @@ export class ObservationInputPage {
           {
             text: 'Valider',
             handler: () => {
-              if (this.locationTracker.hasValues()) {
+              if (this.hasGPSValues()) {
                 this.addObservation();
                 this.navCtrl.popToRoot();
               } else {

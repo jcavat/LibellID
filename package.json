@@ -23,7 +23,6 @@
     "@angular/platform-browser": "4.1.2",
     "@angular/platform-browser-dynamic": "4.1.2",
     "@angular/platform-server": "4.1.2",
-    "@ionic-native/background-geolocation": "^4.7.0",
     "@ionic-native/camera": "^3.12.1",
     "@ionic-native/core": "^3.12.1",
     "@ionic-native/diagnostic": "^4.7.0",
@@ -43,7 +42,6 @@
     "cordova-plugin-compat": "^1.2.0",
     "cordova-plugin-file": "^6.0.1",
     "cordova-plugin-geolocation": "^2.4.3",
-    "cordova-plugin-mauron85-background-geolocation": "^2.3.5",
     "cordova-plugin-nativegeocoder": "^3.1.1",
     "cordova-plugin-photo-library": "^2.1.0",
     "cordova-plugin-splashscreen": "^5.0.2",
@@ -103,18 +101,7 @@
       },
       "cordova.plugins.diagnostic": {},
       "cordova-plugin-vibration": {},
-      "cordova-plugin-splashscreen": {},
-      "cordova-plugin-mauron85-background-geolocation": {
-        "GOOGLE_PLAY_SERVICES_VERSION": "11+",
-        "ANDROID_SUPPORT_LIBRARY_VERSION": "23+",
-        "ICON": "@mipmap/icon",
-        "SMALL_ICON": "@mipmap/icon",
-        "ACCOUNT_NAME": "@string/app_name",
-        "ACCOUNT_LABEL": "@string/app_name",
-        "ACCOUNT_TYPE": "$PACKAGE_NAME.account",
-        "CONTENT_AUTHORITY": "$PACKAGE_NAME",
-        "ALWAYS_USAGE_DESCRIPTION": "This app always requires location tracking"
-      }
+      "cordova-plugin-splashscreen": {}
     }
   }
 }
