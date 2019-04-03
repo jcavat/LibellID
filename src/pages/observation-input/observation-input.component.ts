@@ -16,22 +16,22 @@ import { Geolocation } from '@ionic-native/geolocation';
   templateUrl: 'observation-input.component.html'
 })
 export class ObservationInputPage {
-  private dragonfly: Dragonfly;
-  private dragonflyName: string;
-  private nbIndividus: number = 1
+  dragonfly: Dragonfly;
+  dragonflyName: string;
+  nbIndividus: number = 1
   private checked: boolean = false;
-  private imageFile: string;
-  private imageNamePath: string;
+  imageFile: string;
+  imageNamePath: string;
   private dirName: string;
   private defaultPicture: string;
-  private date: string;
+  date: string;
   private timestamp: number;
   private latitude: number = undefined;
   private longitude: number = undefined;
   private altitude: number;
 
   constructor(private camera: Camera,
-    private diagnostic:Diagnostic,
+    private diagnostic: Diagnostic,
     private navCtrl: NavController,
     private navParams: NavParams,
     private platform: Platform,
@@ -46,7 +46,7 @@ export class ObservationInputPage {
       if (!isAvailable) {
         alert("Votre position GPS n'est pas activé");
         this.diagnostic.switchToLocationSettings()
-        
+
       }
     }).catch((e) => console.error(e));
 
@@ -166,26 +166,26 @@ export class ObservationInputPage {
       url: request_data.url,
       headers: h,
       body:
+      {
+        data:
         {
-          data:
-            {
-              sightings:
+          sightings:
+            [{
+              date: { '@timestamp': this.timestamp },
+              species: { '@id': this.dragonfly.id },
+              observers:
                 [{
-                  date: { '@timestamp': this.timestamp },
-                  species: { '@id': this.dragonfly.id },
-                  observers:
-                    [{
-                      '@id': '16189',
-                      coord_lat: this.latitude,
-                      coord_lon: this.longitude,
-                      precision: 'precise',
-                      estimation_code: 'EXACT_VALUE',
-                      count: this.nbIndividus,
-                      altitude: this.altitude
-                    }]
+                  '@id': '16189',
+                  coord_lat: this.latitude,
+                  coord_lon: this.longitude,
+                  precision: 'precise',
+                  estimation_code: 'EXACT_VALUE',
+                  count: this.nbIndividus,
+                  altitude: this.altitude
                 }]
-            }
-        },
+            }]
+        }
+      },
       json: true
     };
 

@@ -20,11 +20,11 @@
                 <ion-label color="primary">Date</ion-label>
                 <ion-input type="text" value="{{date}}" disabled></ion-input>
             </ion-item>
-        
+
 
             <div class="item row">
                 <div col-7 class="col">
-                    <ion-item >
+                    <ion-item>
                         <ion-label color="primary">Nb individus</ion-label>
                         <ion-input *ngIf="!checked" type="number" min=0 [(ngModel)]="nbIndividus"></ion-input>
                     </ion-item>
@@ -32,7 +32,8 @@
                 <div class="col">
                     <ion-item>
                         <ion-label color="primary">Inconnu</ion-label>
-                        <ion-checkbox color="secondary" (ionChange)="unknownChecked()" [(ngModel)]="checked" checked="false" item-right></ion-checkbox>
+                        <ion-checkbox color="secondary" (ionChange)="unknownChecked()" [(ngModel)]="checked"
+                            checked="false" item-right></ion-checkbox>
                     </ion-item>
                 </div>
             </div>
@@ -68,5 +69,6 @@
         </button>
         -->
     </ion-list>
-    <button ion-button block (click)="showConfirm()" [disabled]="dragonfly == undefined || !this.hasGPSValues()">Envoi</button>
+    <button ion-button block (click)="showConfirm()"
+        [disabled]="dragonfly == undefined || !this.hasGPSValues()">Envoi</button>
 </ion-content>
