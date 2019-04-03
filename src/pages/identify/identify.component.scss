@@ -83,3 +83,19 @@ table {
 #space-btns {
   height: 3em;
 }
+
+.criter-value {
+  position: relative;
+  ion-icon {
+    display: none;
+  }
+  &.selected-value {
+    ion-icon {
+      color: black;
+      position: absolute;
+      bottom: 1px;
+      left: 6px;
+      display: block;
+    }
+  }
+}

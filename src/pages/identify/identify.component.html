@@ -35,6 +35,7 @@
         <table class="table-criteria">
           <tr class="table-content">
             <td *ngFor="let value of criter.values" class="criter-value" (press)="pressEvent(value)">
+              <ion-icon name="checkmark-circle-outline" color="success"></ion-icon>
               <img *ngIf="value.icon != 'icon.png'" src="assets/img/{{value.icon}}" alt="{{value.name}}">
               <div *ngIf="value.icon == 'icon.png'">{{value.name}}</div>
             </td>
@@ -45,6 +46,7 @@
         <table class="table-criteria">
           <tr class="table-content">
             <td *ngFor="let value of criter.values" class="criter-value" (press)="pressEvent(value)">
+              <ion-icon name="checkmark-circle-outline" color="success"></ion-icon>
               <img *ngIf="value.icon != 'icon.png'" src="assets/img/{{value.icon}}" alt="{{value.name}}">
               <div *ngIf="value.icon == 'icon.png'">{{value.name}}</div>
             </td>
