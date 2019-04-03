@@ -38,19 +38,20 @@
                 </div>
             </div>
 
-        <div class="item row">
-            <ion-item *ngIf="this.hasGPSValues()">
-                <ion-label color="primary">Statut de la géolocalisation</ion-label>
-                <ion-icon name="checkmark-circle" item-end color="secondary"></ion-icon>
-            </ion-item>
-            <ion-item *ngIf="this.hasGPSValues()== false">
-                <ion-label color="primary">Statut de la géolocalisation</ion-label>
-                <ion-icon name="ios-remove-circle-outline" item-end color="danger"></ion-icon>
-            </ion-item>
-        </div>
+            <div class="item row">
+                <ion-item>
+                    <ion-label color="primary" class="statut-label">Statut de la géolocalisation
+                    </ion-label>
+                    <ion-label *ngIf="fetchingGPS" class="statut-spinner">
+                        <ion-spinner></ion-spinner>
+                    </ion-label>
+                    <ion-icon *ngIf="!fetchingGPS"
+                        [name]="this.hasGPSValues() ? 'checkmark-circle' : 'ios-remove-circle-outline'" item-end
+                        [color]="this.hasGPSValues() ? 'secondary' : 'danger'"></ion-icon>
+                </ion-item>
+            </div>
+        </ion-item-group>
 
-    </ion-item-group>
-        
 
         <ion-item>
             <div *ngIf="imageFile!=null" class="centerContent">

@@ -29,6 +29,7 @@ export class ObservationInputPage {
   private latitude: number = undefined;
   private longitude: number = undefined;
   private altitude: number;
+  fetchingGPS: boolean = true;
 
   constructor(private camera: Camera,
     private diagnostic: Diagnostic,
@@ -54,11 +55,12 @@ export class ObservationInputPage {
       this.latitude = resp.coords.latitude;
       this.longitude = resp.coords.longitude;
       this.altitude = resp.coords.altitude;
-      alert(resp.coords.latitude);
-      alert(resp.coords);
-      alert(this.altitude);
+
+      this.fetchingGPS = false;
     }).catch((error: any) => {
-        alert("La position GPS est introuvable, veuillez activez votre GPS");
+      this.fetchingGPS = false;
+
+      alert("La position GPS est introuvable, veuillez activez votre GPS et revenir sur cette page");
     });
 
   }
