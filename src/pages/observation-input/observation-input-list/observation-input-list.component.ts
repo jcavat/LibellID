@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
 
-import { NavController, NavParams } from 'ionic-angular';
+import { App, ViewController } from 'ionic-angular';
 
 import { JsonDataService } from '../../../providers/data-json.service';
-import { DragonflyPage } from '../../dragonfly/dragonfly.component';
 import { Dragonfly } from '../../../app/classes/dragonfly/dragonfly';
-import { ObservationInputPage } from '../observation-input.component';
 
 
 @Component({
@@ -14,7 +12,11 @@ import { ObservationInputPage } from '../observation-input.component';
 export class ObservationListPage {
   private dragonfliesData: Dragonfly[];
 
-  constructor(private navCtrl: NavController, private jsonDataService: JsonDataService) {
+  constructor(
+    private jsonDataService: JsonDataService,
+    public viewCtrl: ViewController,
+    public appCtrl: App
+  ) {
     this.loadData();
   }
   ionViewDidLoad() {
@@ -33,7 +35,7 @@ export class ObservationListPage {
     });
   }
   private openPage(d: Dragonfly): void {
-    this.navCtrl.push(ObservationInputPage, { dragonfly: d });
+    this.viewCtrl.dismiss({ dragonfly: d });
   }
 
   private alphabeticSort(a, b) {

@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
 import { Diagnostic } from '@ionic-native/diagnostic';
-import { NavController, NavParams, AlertController, ToastController, Platform } from 'ionic-angular';
+import { NavController, NavParams, AlertController, ToastController, ModalController } from 'ionic-angular';
 import { Dragonfly } from '../../app/classes/dragonfly/dragonfly';
 import { Camera } from '@ionic-native/camera';
 import { Utils } from '../../providers/utils';
-import { HTTP } from '@ionic-native/http';
-import { StatusBar, Splashscreen } from 'ionic-native';
 import { ObservationListPage } from './observation-input-list/observation-input-list.component';
 import { Geolocation } from '@ionic-native/geolocation';
 
@@ -35,11 +33,10 @@ export class ObservationInputPage {
     private diagnostic: Diagnostic,
     private navCtrl: NavController,
     private navParams: NavParams,
-    private platform: Platform,
-    private http: HTTP,
     public alertCtrl: AlertController,
     private geolocation: Geolocation,
-    public toastCtrl: ToastController) {
+    public toastCtrl: ToastController,
+    public modalCtrl: ModalController) {
 
     this.dragonfly = navParams.get("dragonfly");
 
@@ -118,7 +115,12 @@ export class ObservationInputPage {
   }
 
   openDragonFlyList() {
-    this.navCtrl.push(ObservationListPage);
+    let listModal = this.modalCtrl.create(ObservationListPage);
+    listModal.onDidDismiss(data => {
+      this.dragonfly = data.dragonfly;
+      this.dragonflyName = this.dragonfly.commonName.toString();
+    });
+    listModal.present();
   }
 
   addObservation() {
@@ -208,10 +210,6 @@ export class ObservationInputPage {
   }
 
   showConfirm() {
-    console.log(this.altitude)
-    console.log(this.longitude)
-    console.log(this.latitude)
-
     if (this.dragonfly != undefined && this.hasGPSValues()) {
       let confirm = this.alertCtrl.create({
         title: 'Saisir une observation',
