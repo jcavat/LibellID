@@ -102,7 +102,7 @@
       <name>Dans le lit de la rivière</name>
       <description>
           <![CDATA[
-              <p>Vous vous trouvez dans le lit d'une rivière qui abrite une belle diversité animale et végétale.<br>
+              <p>Vous vous trouvez dans le lit d'une rivière qui abrite une grande biodiversité.<br>
 			Vous pourriez y observer une libellule typique des rivières, le Caloptéryx éclatant.
             </p>
 			<img src="assets/img/calopteryx-eclatant-menu.jpg">
@@ -111,7 +111,7 @@
           ]]>
 	  </description>       
       <Point>
-        <coordinates>6.08898,46.16947</coordinates>
+        <coordinates>6.0887,46.16919</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -137,7 +137,7 @@
                 <value>3</value>
             </Data>
 		</ExtendedData>
-      <name>Au bord de l'ancien canal</name>
+      <name>Ancien canal</name>
       <description>
           <![CDATA[
               <p>Essayez de repérer à proximité de ces portions de l'ancien canal où coulait l'Aire une grande libellule noir et jaune, le Gomphe à pinces. 
@@ -219,10 +219,10 @@
       <name>L'étang des Morilles</name>
       <description>
           <![CDATA[
-              <p>A défaut de morilles, vous pourrez observer ici beaucoup de libellules. Cherchez à observer l'Orthétrum à stylets blancs, une espèce en expansion en Suisse sous l'effet du réchauffement climatique.
+              <p>A défaut de morilles, vous pourrez observer ici beaucoup de libellules. Cherchez à observer l'Orthétrum à stylets blancs.
             </p>
 			<img src="assets/img/orthetrum-stylets-menu.jpg">
-              <p>Autres libellules potenties: l'Agrion élégant, l'Anax empereur, la Libellule écarlate, la Libellule à 4 taches, les Orthétrums brun et réticulé et le Sympétrum rouge sang.
+              <p>Autres libellules potentielles: l'Agrion élégant, l'Anax empereur, la Libellule écarlate, la Libellule à 4 taches, les Orthétrums brun et réticulé et le Sympétrum rouge sang.
             </p>
           ]]>
 	  </description>       
@@ -247,6 +247,24 @@
 	  </description>        
       <Point>
         <coordinates>6.08702,46.16923</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>A</value>
+            </Data>
+		</ExtendedData>
+      <name>Fin</name>
+     <description>
+          <![CDATA[
+              <p>Ici se termine cette promenade. <br>
+				Vous pouvez rejoindre les transports publiques à Lully ou retourner à votre point de départ en revenant sur vos pas ou en empruntant la rive gauche de l'Aire.
+            </p>
+          ]]> 
+	  </description>		  
+      <Point>
+        <coordinates>6.07659,46.15335</coordinates>
       </Point>
     </Placemark>
 
