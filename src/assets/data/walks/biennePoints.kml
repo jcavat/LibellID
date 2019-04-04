@@ -266,6 +266,24 @@
         <coordinates>7.21366,47.10164</coordinates>
       </Point>
     </Placemark>
+	<Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>A</value>
+            </Data>
+		</ExtendedData>
+      <name>Fin</name>
+     <description>
+          <![CDATA[
+              <p>Ici se termine cette promenade. <br>
+				Vous pouvez rejoindre la gare d'Ipsach par la Seestrasse ou revenir sur vos pas vers votre point de départ.
+            </p>
+          ]]> 
+	  </description>		  
+      <Point>
+        <coordinates>7.22874,47.12225</coordinates>
+      </Point>
+    </Placemark>
 
  </Document>
 </kml>

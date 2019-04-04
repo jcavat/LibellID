@@ -116,6 +116,23 @@
     <Placemark>
         <ExtendedData>
             <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Bifurquez à droite pour vous rendre au point d'observation 2, puis revenez sur vos pas.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.15942,47.25926</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+        <ExtendedData>
+            <Data name="id">
                 <value>2</value>
             </Data>
 		</ExtendedData>
@@ -213,7 +230,24 @@
         <coordinates>7.17358,47.25605</coordinates>
       </Point>
     </Placemark>
-    <Placemark>
+     <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Prenez le chemin vers la droite pour vous rendre au point d'observation 9, puis revenez sur vos pas pour rejoindre le point de départ de cette promenade.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.17430,47.26044</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
         <ExtendedData>
             <Data name="id">
                 <value>9</value>
@@ -289,6 +323,23 @@
 	  </description>       
       <Point>
         <coordinates>7.16826,47.25815</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>A</value>
+            </Data>
+		</ExtendedData>
+      <name>Fin</name>
+     <description>
+          <![CDATA[
+              <p>Ici se termine cette promenade.
+            </p>
+          ]]> 
+	  </description>		  
+      <Point>
+        <coordinates>7.16825,47.26227</coordinates>
       </Point>
     </Placemark>
 
