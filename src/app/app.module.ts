@@ -4,6 +4,7 @@ import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule} from '@angular/http';
+import { LinkyModule } from 'angular-linky';
 
 import { Camera } from '@ionic-native/camera';
 import { Diagnostic } from '@ionic-native/diagnostic';
@@ -74,7 +75,8 @@ import { PressDirective } from '../pages/identify/press-directive';
     IonicModule.forRoot(MyApp,{
         tabsHideOnSubPages: true
     }),
-    IonicStorageModule.forRoot()
+    IonicStorageModule.forRoot(),
+    LinkyModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

@@ -48,7 +48,7 @@
             <td width="20%">
                 <img src="assets/img/info.png" class="otherImg">
             </td>
-            <td>{{walk.info}}</td>
+            <td [innerHTML]="walk.info | linky"></td>
 
         </tr>
         <tr>
