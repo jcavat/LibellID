@@ -1,4 +1,4 @@
-{
+﻿{
   "dragonflies": [
   {
     "id": "2290",
@@ -2222,7 +2222,7 @@
 	  "canton": "BE",
       "accessibility": [3],
       "infrastructure": "Centre d'accueil, place de jeux.",
-    "info": "Sentier nature sur le thème de la libellule présenté par Jura bernois Tourisme. Infos : https://www.jurabernois.ch/.  Panneaux d'information.",
+	  "info": "Panneaux d'information. Sentier nature sur le thème de la libellule présenté par Jura bernois Tourisme. Infos: www.jurabernois.ch.",
       "access": "Car postal depuis Reconvilier (arrêt Bellelay-Poste), voiture.",
 	  "pictures": "bellelay.jpg",
       "pathKML": "bellelay.kml",
@@ -2241,7 +2241,7 @@
 	  "canton": "FR",
       "accessibility": [2,3],
       "infrastructure": "Restauration, tables de pique-nique, toilettes, bancs, place de jeux, plage.",
-	  "info": "Montée en télésiège payante. Horaires et infos: http://www.kaisereggbahnen-schwarzsee.ch Itinéraire en altitude avec dénivelé négatif.",
+	  "info": "Montée en télésiège payante. Horaires et infos: http://www.kaisereggbahnen-schwarzsee.ch. Itinéraire en altitude avec dénivelé négatif.",
       "access": "Bus depuis Fribourg, arrêt Schwarzsee-Bad ou voiture.",
 	  "pictures": "lacnoir.jpg",
       "pathKML": "lacnoir.kml",
