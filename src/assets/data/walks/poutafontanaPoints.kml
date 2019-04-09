@@ -235,6 +235,23 @@
     <Placemark>
         <ExtendedData>
             <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Continuez sur le chemin pour vous rendre aux points d'observations 8 et 9, puis revenez sur vos pas.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.43898,46.25205</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+        <ExtendedData>
+            <Data name="id">
                 <value>8</value>
             </Data>
 		</ExtendedData>

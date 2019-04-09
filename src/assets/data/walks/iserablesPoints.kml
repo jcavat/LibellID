@@ -133,6 +133,23 @@
     <Placemark>
         <ExtendedData>
             <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Continuez le chemin enface de vous pour vous rendre au point d'observation 2, puis revenez sur vos pas pour continuer cette promenade.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.28328,46.15299</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+        <ExtendedData>
+            <Data name="id">
                 <value>2</value>
             </Data>
 		</ExtendedData>
@@ -202,6 +219,24 @@
 	  </description>         
       <Point>
         <coordinates>7.25948,46.16473</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>A</value>
+            </Data>
+		</ExtendedData>
+      <name>Fin</name>
+     <description>
+          <![CDATA[
+              <p>Ici se termine cette promenade. <br>
+				Vous pouvez rejoindre Riddes via le téléphérique rejoindre Nendaz avec le train et le car postal.
+            </p>
+          ]]> 
+	  </description>		  
+      <Point>
+        <coordinates>7.24404,46.16428</coordinates>
       </Point>
     </Placemark>
 

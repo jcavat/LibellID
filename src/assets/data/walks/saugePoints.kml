@@ -281,6 +281,23 @@
         <coordinates>7.05161,46.9751</coordinates>
       </Point>
     </Placemark>
+	<Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>A</value>
+            </Data>
+		</ExtendedData>
+      <name>Fin</name>
+     <description>
+          <![CDATA[
+              <p>Ici se termine cette promenade. 
+			  </p>
+          ]]> 
+	  </description>		  
+      <Point>
+        <coordinates>7.05069,46.97471</coordinates>
+      </Point>
+    </Placemark>
 
  </Document>
 </kml>

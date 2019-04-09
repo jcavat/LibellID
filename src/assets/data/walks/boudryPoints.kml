@@ -192,6 +192,24 @@
         <coordinates>6.84001,46.94909</coordinates>
       </Point>
     </Placemark>
-
+<Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>A</value>
+            </Data>
+		</ExtendedData>
+      <name>Fin</name>
+     <description>
+          <![CDATA[
+              <p>Ici se termine cette promenade. <br>
+				Prenez sur la gauche pour rejoindre les transports publiques et votre point de départ.
+            </p>
+          ]]> 
+	  </description>		  
+      <Point>
+        <coordinates>6.84374,46.95185</coordinates>
+      </Point>
+    </Placemark>
+	
  </Document>
 </kml>
