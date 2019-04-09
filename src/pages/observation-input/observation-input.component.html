@@ -20,11 +20,11 @@
                 <ion-label color="primary">Date</ion-label>
                 <ion-input type="text" value="{{date}}" disabled></ion-input>
             </ion-item>
-        
+
 
             <div class="item row">
                 <div col-7 class="col">
-                    <ion-item >
+                    <ion-item>
                         <ion-label color="primary">Nb individus</ion-label>
                         <ion-input *ngIf="!checked" type="number" min=0 [(ngModel)]="nbIndividus"></ion-input>
                     </ion-item>
@@ -32,24 +32,26 @@
                 <div class="col">
                     <ion-item>
                         <ion-label color="primary">Inconnu</ion-label>
-                        <ion-checkbox color="secondary" (ionChange)="unknownChecked()" [(ngModel)]="checked" checked="false" item-right></ion-checkbox>
+                        <ion-checkbox color="secondary" (ionChange)="unknownChecked()" [(ngModel)]="checked"
+                            checked="false" item-right></ion-checkbox>
                     </ion-item>
                 </div>
             </div>
 
-        <div class="item row">
-            <ion-item *ngIf="locationTracker.hasValues()">
-                <ion-label color="primary">Statut de la géolocalisation</ion-label>
-                <ion-icon name="checkmark-circle" item-end color="secondary"></ion-icon>
-            </ion-item>
-            <ion-item *ngIf="locationTracker.hasValues()== false">
-                <ion-label color="primary">Statut de la géolocalisation</ion-label>
-                <ion-icon name="refresh" item-end color="danger"></ion-icon>
-            </ion-item>
-        </div>
+            <div class="item row">
+                <ion-item>
+                    <ion-label color="primary" class="statut-label">Statut de la géolocalisation
+                    </ion-label>
+                    <ion-label *ngIf="fetchingGPS" class="statut-spinner">
+                        <ion-spinner></ion-spinner>
+                    </ion-label>
+                    <ion-icon *ngIf="!fetchingGPS"
+                        [name]="this.hasGPSValues() ? 'checkmark-circle' : 'ios-remove-circle-outline'" item-end
+                        [color]="this.hasGPSValues() ? 'secondary' : 'danger'"></ion-icon>
+                </ion-item>
+            </div>
+        </ion-item-group>
 
-    </ion-item-group>
-        
 
         <ion-item>
             <div *ngIf="imageFile!=null" class="centerContent">
@@ -68,5 +70,6 @@
         </button>
         -->
     </ion-list>
-    <button ion-button block (click)="showConfirm()">Envoi</button>
+    <button ion-button block (click)="showConfirm()"
+        [disabled]="dragonfly == undefined || !this.hasGPSValues()">Envoi</button>
 </ion-content>

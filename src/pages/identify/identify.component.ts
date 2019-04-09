@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 
-import { NavController, PopoverController, ModalController } from 'ionic-angular';
-import { IdentifyPopover } from './identify-popover.component';
+import { NavController, ModalController } from 'ionic-angular';
 import { JsonDataService } from '../../providers/data-json.service';
 import { IdentifyResultPage } from './identify-result/identify-result.component';
 import { IdentifyModalInfo } from './identify-modal-info/identify-modal-info.component';
@@ -27,7 +26,6 @@ export class IdentifyPage {
     private titleModalInfo:string="";
     private textModalInfo:string="";
     constructor(private navCtrl: NavController,
-        private popoverCtrl: PopoverController,
         private jsonDataService: JsonDataService,
         private diagnostic: Diagnostic,
         private storage: Storage, private modalCtrl: ModalController,
@@ -38,19 +36,6 @@ export class IdentifyPage {
         this.textModalInfo= "<p>Cette rubrique vous permet d’identifier les libellules les plus communes de Suisse romande.</p> <p>Vous pouvez sélectionner <b>une ou plusieurs options</b>  pour chaque critère.</p> <p>Il n’est <b> pas</b> obligatoire de répondre à <b>tous</b> les critères.</p> <p>En maintenant le <b>doigt appuyé</b> sur une option, celle-ci s’affiche en plus grand avec une brève description.</p> <p>Pour visualiser <b> quelle libellule </b> correspond à vos réponses aux options, cliquez sur le bouton « Voir ».</p>"
             
         this.loadData();
-    }
-    private presentPopover(event): void {
-        let popover = this.popoverCtrl.create(IdentifyPopover, {
-            useDate: this.useDate,
-            usePosition: this.usePosition
-        });
-        popover.present({ ev: event });
-        popover.onDidDismiss(data => {
-            if (data != null) {
-                this.useDate = data.useDate;
-                this.usePosition = data.usePosition;
-            }
-        });
     }
 
     private loadData(): void {

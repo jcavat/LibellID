@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
 import { Diagnostic } from '@ionic-native/diagnostic';
-import { NavController, NavParams, AlertController, ToastController, Platform } from 'ionic-angular';
+import { NavController, NavParams, AlertController, ToastController, ModalController } from 'ionic-angular';
 import { Dragonfly } from '../../app/classes/dragonfly/dragonfly';
 import { Camera } from '@ionic-native/camera';
 import { Utils } from '../../providers/utils';
-import { HTTP } from '@ionic-native/http';
-import { StatusBar, Splashscreen } from 'ionic-native';
 import { ObservationListPage } from './observation-input-list/observation-input-list.component';
-import { LocationTrackerProvider } from '../../providers/location-tracker';
+import { Geolocation } from '@ionic-native/geolocation';
 
 
 
@@ -16,42 +14,52 @@ import { LocationTrackerProvider } from '../../providers/location-tracker';
   templateUrl: 'observation-input.component.html'
 })
 export class ObservationInputPage {
-  private dragonfly: Dragonfly;
-  private dragonflyName: string;
-  private nbIndividus: number = 1
+  dragonfly: Dragonfly;
+  dragonflyName: string;
+  nbIndividus: number = 1
   private checked: boolean = false;
-  private imageFile: string;
-  private imageNamePath: string;
+  imageFile: string;
+  imageNamePath: string;
   private dirName: string;
   private defaultPicture: string;
-  private date: string;
+  date: string;
   private timestamp: number;
+  private latitude: number = undefined;
+  private longitude: number = undefined;
+  private altitude: number;
+  fetchingGPS: boolean = true;
 
   constructor(private camera: Camera,
-    private diagnostic:Diagnostic,
+    private diagnostic: Diagnostic,
     private navCtrl: NavController,
     private navParams: NavParams,
-    private platform: Platform,
-    private http: HTTP,
     public alertCtrl: AlertController,
-    private locationTracker: LocationTrackerProvider,
-    public toastCtrl: ToastController) {
+    private geolocation: Geolocation,
+    public toastCtrl: ToastController,
+    public modalCtrl: ModalController) {
 
-    platform.ready().then(() => {
-      platform.pause.subscribe(() => {
-        this.locationTracker.startTracking();
-      });
-
-    });
     this.dragonfly = navParams.get("dragonfly");
 
     this.diagnostic.isGpsLocationEnabled().then((isAvailable) => {
       if (!isAvailable) {
         alert("Votre position GPS n'est pas activé");
         this.diagnostic.switchToLocationSettings()
-        
+
       }
     }).catch((e) => console.error(e));
+
+    this.geolocation.getCurrentPosition().then((resp) => {
+      this.latitude = resp.coords.latitude;
+      this.longitude = resp.coords.longitude;
+      this.altitude = resp.coords.altitude;
+
+      this.fetchingGPS = false;
+    }).catch((error: any) => {
+      this.fetchingGPS = false;
+
+      alert("La position GPS est introuvable, veuillez activez votre GPS et revenir sur cette page");
+    });
+
   }
 
 
@@ -107,7 +115,12 @@ export class ObservationInputPage {
   }
 
   openDragonFlyList() {
-    this.navCtrl.push(ObservationListPage);
+    let listModal = this.modalCtrl.create(ObservationListPage);
+    listModal.onDidDismiss(data => {
+      this.dragonfly = data.dragonfly;
+      this.dragonflyName = this.dragonfly.commonName.toString();
+    });
+    listModal.present();
   }
 
   addObservation() {
@@ -157,26 +170,26 @@ export class ObservationInputPage {
       url: request_data.url,
       headers: h,
       body:
+      {
+        data:
         {
-          data:
-            {
-              sightings:
+          sightings:
+            [{
+              date: { '@timestamp': this.timestamp },
+              species: { '@id': this.dragonfly.id },
+              observers:
                 [{
-                  date: { '@timestamp': this.timestamp },
-                  species: { '@id': this.dragonfly.id },
-                  observers:
-                    [{
-                      '@id': '16189',
-                      coord_lat: this.locationTracker.getLatitude(),
-                      coord_lon: this.locationTracker.getLongitude(),
-                      precision: 'precise',
-                      estimation_code: 'EXACT_VALUE',
-                      count: this.nbIndividus,
-                      altitude: this.locationTracker.getAltitude()
-                    }]
+                  '@id': '16189',
+                  coord_lat: this.latitude,
+                  coord_lon: this.longitude,
+                  precision: 'precise',
+                  estimation_code: 'EXACT_VALUE',
+                  count: this.nbIndividus,
+                  altitude: this.altitude
                 }]
-            }
-        },
+            }]
+        }
+      },
       json: true
     };
 
@@ -188,13 +201,16 @@ export class ObservationInputPage {
 
   };
 
+  hasGPSValues(): boolean {
+    if (this.longitude != undefined && this.latitude != undefined) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 
   showConfirm() {
-    console.log(this.locationTracker.getAltitude())
-    console.log(this.locationTracker.getLongitude())
-    console.log(this.locationTracker.getLatitude())
-
-    if (this.dragonfly != undefined && this.locationTracker.hasValues()) {
+    if (this.dragonfly != undefined && this.hasGPSValues()) {
       let confirm = this.alertCtrl.create({
         title: 'Saisir une observation',
         message: 'Voulez vous saisir l\'observation de la libellule ' + this.dragonfly.commonName + '?',
@@ -208,7 +224,7 @@ export class ObservationInputPage {
           {
             text: 'Valider',
             handler: () => {
-              if (this.locationTracker.hasValues()) {
+              if (this.hasGPSValues()) {
                 this.addObservation();
                 this.navCtrl.popToRoot();
               } else {

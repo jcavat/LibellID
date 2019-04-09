@@ -5,8 +5,6 @@ import { MyApp } from './app.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule} from '@angular/http';
 
-import { LocationTrackerProvider } from '../providers/location-tracker';
-import {BackgroundGeolocation} from "@ionic-native/background-geolocation";
 import { Camera } from '@ionic-native/camera';
 import { Diagnostic } from '@ionic-native/diagnostic';
 import { Geolocation } from '@ionic-native/geolocation';
@@ -18,7 +16,6 @@ import {IdentifyPage} from '../pages/identify/identify.component';
 import {IdentifyResultPage} from '../pages/identify/identify-result/identify-result.component';
 import {IdentifyModalInfo} from '../pages/identify/identify-modal-info/identify-modal-info.component';
 import {IdentifyModalCriter} from '../pages/identify/identify-modal-criter/identify-modal-criter.component';
-import {IdentifyPopover} from '../pages/identify/identify-popover.component';
 import {ObservationListPage} from '../pages/observation-input/observation-input-list/observation-input-list.component'
 import {WalksPage} from '../pages/walks/walks.component';
 import {WalksMapPage} from '../pages/walks/walks-map/walks-map.component';
@@ -50,7 +47,6 @@ import { PressDirective } from '../pages/identify/press-directive';
     HomeModalInfo,
     OtherPage,
     IdentifyPage,
-    IdentifyPopover,
     IdentifyResultPage,
     IdentifyModalInfo,
     IdentifyModalCriter,
@@ -87,7 +83,6 @@ import { PressDirective } from '../pages/identify/press-directive';
     HomeModalInfo,
     OtherPage,
     IdentifyPage,
-    IdentifyPopover,
     IdentifyResultPage,
     IdentifyModalInfo,
     IdentifyModalCriter,
@@ -110,11 +105,9 @@ import { PressDirective } from '../pages/identify/press-directive';
   ],
   providers: [
     Camera,
-    BackgroundGeolocation,
     Diagnostic,
     Geolocation,
     JsonDataService,
-    LocationTrackerProvider,
     File,
     HTTP,
     NativeGeocoder,

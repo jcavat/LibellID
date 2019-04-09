@@ -28,6 +28,7 @@ ion-modal.popup-info{
       top: auto;
       left: auto;
       background-color: color($colors, light);
+      overflow: auto;
     }
 
     z-index: $z-index-overlay-wrapper;

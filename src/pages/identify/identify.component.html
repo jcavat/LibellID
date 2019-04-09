@@ -4,57 +4,76 @@
       Identifier
     </ion-title>
     <ion-buttons end>
-        <button ion-button icon-only (tap)="displayModalInfo(titleModalInfo,textModalInfo)">
-            <ion-icon name="help"></ion-icon>
-        </button>
-        <button ion-button icon-only (tap)="presentPopover($event)">
-            <ion-icon name="more"></ion-icon>
-        </button>
+      <button ion-button icon-only (tap)="displayModalInfo(titleModalInfo,textModalInfo)">
+        <ion-icon name="help"></ion-icon>
+      </button>
     </ion-buttons>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+  <h6 class="criter-name">Filtres</h6>
+  <div>
+    <div>
+      <ion-list>
+        <ion-item>
+          <ion-label>Filtrer par date</ion-label>
+          <ion-checkbox [(ngModel)]="this.useDate"></ion-checkbox>
+        </ion-item>
+        <ion-item>
+          <ion-label>Filtrer par altitude</ion-label>
+          <ion-checkbox [(ngModel)]="this.usePosition"></ion-checkbox>
+        </ion-item>
+      </ion-list>
+    </div>
+  </div>
+
   <span *ngFor="let criter of criteria">
     <h6 class="criter-name">{{criter.name}}</h6>
     <div>
-        <div *ngIf="criter.name != 'Couleur(s) principale(s) du corps'">
-            <table class="table-criteria">
-              <tr class="table-content">
-                <td *ngFor="let value of criter.values" class="criter-value" (press)="pressEvent(value)">
-                    <img *ngIf="value.icon != 'icon.png'" src="assets/img/{{value.icon}}" alt="{{value.name}}">
-                    <div *ngIf="value.icon == 'icon.png'">{{value.name}}</div>
-                </td>
-              </tr>
-            </table>
-        </div>
-        <div *ngIf="criter.name == 'Couleur(s) principale(s) du corps'" class="scroll-div">
-            <table class="table-criteria">
-                <tr class="table-content">
-                  <td *ngFor="let value of criter.values" class="criter-value" (press)="pressEvent(value)">
-                      <img *ngIf="value.icon != 'icon.png'" src="assets/img/{{value.icon}}" alt="{{value.name}}">
-                      <div *ngIf="value.icon == 'icon.png'">{{value.name}}</div>
-                  </td>
-                </tr>
-              </table>
-        </div>
+      <div *ngIf="criter.name != 'Couleur(s) principale(s) du corps'">
+        <table class="table-criteria">
+          <tr class="table-content">
+            <td *ngFor="let value of criter.values" class="criter-value" (press)="pressEvent(value)">
+              <ion-icon name="checkmark-circle-outline" color="success"></ion-icon>
+              <img *ngIf="value.icon != 'icon.png'" src="assets/img/{{value.icon}}" alt="{{value.name}}">
+              <div *ngIf="value.icon == 'icon.png'">{{value.name}}</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div *ngIf="criter.name == 'Couleur(s) principale(s) du corps'" class="scroll-div">
+        <table class="table-criteria">
+          <tr class="table-content">
+            <td *ngFor="let value of criter.values" class="criter-value" (press)="pressEvent(value)">
+              <ion-icon name="checkmark-circle-outline" color="success"></ion-icon>
+              <img *ngIf="value.icon != 'icon.png'" src="assets/img/{{value.icon}}" alt="{{value.name}}">
+              <div *ngIf="value.icon == 'icon.png'">{{value.name}}</div>
+            </td>
+          </tr>
+        </table>
+      </div>
     </div>
   </span>
   <div id="space-btns"></div>
-  
+
 </ion-content>
 <ion-footer>
-    <div id="div-btns">
-        <table>
-            <tr>
-  
-                <td>
-                    <button ion-button full icon-left (click)="resetCriteria()"><ion-icon name="refresh"> Recommencer</ion-icon></button>
-                </td>
-                <td>
-                    <button ion-button full icon-left (click)="getSelectedValues()"><ion-icon name="search"> Voir</ion-icon></button>
-                </td>
-            </tr>
-        </table>
-    </div>
-  </ion-footer>
+  <div id="div-btns">
+    <table>
+      <tr>
+
+        <td>
+          <button ion-button full icon-left (click)="resetCriteria()">
+            <ion-icon name="refresh"> Recommencer</ion-icon>
+          </button>
+        </td>
+        <td>
+          <button ion-button full icon-left (click)="getSelectedValues()">
+            <ion-icon name="search"> Voir</ion-icon>
+          </button>
+        </td>
+      </tr>
+    </table>
+  </div>
+</ion-footer>
