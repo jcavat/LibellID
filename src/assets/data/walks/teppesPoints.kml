@@ -96,6 +96,24 @@
     <Placemark>
         <ExtendedData>
             <Data name="id">
+                <value>A</value>
+            </Data>
+		</ExtendedData>
+      <name>Fin</name>
+     <description>
+          <![CDATA[
+              <p>Ici se termine cette promenade. <br>
+				Vous pouvez rejoindre la gare de Russin par le chemin des Teppes-du-Biolay puis le chemin des Christophes ou revenir sur vos pas en direction de la Plaine.
+            </p>
+          ]]> 
+	  </description>		  
+      <Point>
+        <coordinates>6.02615,46.19361</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+        <ExtendedData>
+            <Data name="id">
                 <value>9</value>
             </Data>
 		</ExtendedData>
@@ -136,6 +154,23 @@
     <Placemark>
         <ExtendedData>
             <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Bifurquez à gauche pour vous rendre aux points d'observations 7 et 8 , puis revenez sur vos pas et continuez jusqu'au point 9 en amont du barrage.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.02654,46.18607</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+        <ExtendedData>
+            <Data name="id">
                 <value>6</value>
             </Data>
 		</ExtendedData>
@@ -170,7 +205,24 @@
         <coordinates>6.02003,46.18292</coordinates>
       </Point>
     </Placemark>
-    <Placemark>
+     <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Bifurquez à gauche pour vous rendre au point d'observation 5, puis revenez sur vos pas.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.02162,46.18294</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
         <ExtendedData>
             <Data name="id">
                 <value>4</value>
@@ -261,7 +313,7 @@
           ]]>
 	  </description>        
       <Point>
-        <coordinates>6.00132,46.17629</coordinates>
+        <coordinates>6.00112,46.17719</coordinates>
       </Point>
     </Placemark>
     <Placemark>

@@ -186,6 +186,23 @@
         <coordinates>6.11885,46.21128</coordinates>
       </Point>
     </Placemark>
+	<Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>A</value>
+            </Data>
+		</ExtendedData>
+      <name>Fin</name>
+     <description>
+          <![CDATA[
+              <p>Ici se termine cette promenade. 
+			  </p>
+          ]]> 
+	  </description>		  
+      <Point>
+        <coordinates>6.11915,46.21181</coordinates>
+      </Point>
+    </Placemark>
 
 
  </Document>

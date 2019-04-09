@@ -243,7 +243,25 @@
           ]]>
 	  </description>
       <Point>
-        <coordinates>6.12453,46.19171</coordinates>
+        <coordinates>6.12452,46.19178</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>A</value>
+            </Data>
+		</ExtendedData>
+      <name>Fin</name>
+     <description>
+          <![CDATA[
+              <p>Ici se termine cette promenade. <br>
+				Vous pouvez rejoindre Cayla et les arrêts de transports publiques en prenant un des chemins qui remontent à droite ou revenir sur vos pas pour rejoindre votre point de départ.
+            </p>
+          ]]> 
+	  </description>		  
+      <Point>
+        <coordinates>6.11657,46.20209</coordinates>
       </Point>
     </Placemark>
 

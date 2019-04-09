@@ -177,6 +177,23 @@
     <Placemark>
         <ExtendedData>
             <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Prenez le télésiège pour vous rendre au point d'observation 5, puis redescendez à pied pour continuer la balade.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>7.28757,46.66924</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+        <ExtendedData>
+            <Data name="id">
                 <value>5</value>
             </Data>
 		</ExtendedData>
@@ -269,6 +286,24 @@
 	  </description> 
       <Point>
         <coordinates>7.27476,46.66607</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>A</value>
+            </Data>
+		</ExtendedData>
+      <name>Fin</name>
+     <description>
+          <![CDATA[
+              <p>Ici se termine cette promenade. <br>
+				Vous pouvez rejoindre Gypsera en revenant sur vos pas ou continuer sur le chemin et boucler le tour du Lac pour rejoindre votre point de départ.
+            </p>
+          ]]> 
+	  </description>		  
+      <Point>
+        <coordinates>7.28559,46.66601</coordinates>
       </Point>
     </Placemark>
 

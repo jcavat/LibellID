@@ -130,6 +130,23 @@
       </Point>
     </Placemark>
     <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Suivez le chemin de droite pour vous rendre au point d'observation 2 au bord du lac, puis revenez sur vos pas.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.14777,46.22619</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
       <ExtendedData>
           <Data name="id">
               <value>1</value>
@@ -248,6 +265,23 @@
       </Point>
     </Placemark>
     <Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>i</value>
+            </Data>
+		</ExtendedData>
+      <name>Information</name>
+      <description>
+          <![CDATA[
+              <p>Bifurquez à droite pour vous rendre au point d'observation 3 et découvrir les jardins du château de Penthes puis revenez sur vos pas, pour une balade plus courte prenez directement à gauche en direction du point 4.
+            </p>
+          ]]>
+	  </description>       
+      <Point>
+        <coordinates>6.14666,46.22752</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
       <ExtendedData>
           <Data name="id">
               <value>3</value>
