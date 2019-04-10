@@ -17,8 +17,9 @@ import { Diagnostic } from '@ionic-native/diagnostic';
 })
 export class IdentifyPage {
     private criteria: Object[];
-    private useDate: boolean = false;
-    private usePosition: boolean = false;
+    useDate: boolean = false;
+    usePosition: boolean = false;
+    isGpsLocationEnabled: boolean = false;
     private region: string = undefined;
     private latitude: number = undefined;
     private longitude: number = undefined;
@@ -34,7 +35,7 @@ export class IdentifyPage {
 
         this.titleModalInfo="Aide à l’identification"
         this.textModalInfo= "<p>Cette rubrique vous permet d’identifier les libellules les plus communes de Suisse romande.</p> <p>Vous pouvez sélectionner <b>une ou plusieurs options</b>  pour chaque critère.</p> <p>Il n’est <b> pas</b> obligatoire de répondre à <b>tous</b> les critères.</p> <p>En maintenant le <b>doigt appuyé</b> sur une option, celle-ci s’affiche en plus grand avec une brève description.</p> <p>Pour visualiser <b> quelle libellule </b> correspond à vos réponses aux options, cliquez sur le bouton « Voir ».</p>"
-            
+   
         this.loadData();
     }
 
@@ -46,10 +47,11 @@ export class IdentifyPage {
             alert("Un problème est survenu")
         });
 
-
         this.diagnostic.isGpsLocationEnabled().then((isAvailable) => {
+            this.isGpsLocationEnabled = isAvailable;
             if (!isAvailable) {
-                alert("Votre position GPS n'est pas activé");
+                this.usePosition = false;
+                alert("Votre position GPS n'est pas activé, le filtre altitude est donc indisponible.");
                 this.diagnostic.switchToLocationSettings()
             }
 
@@ -58,6 +60,8 @@ export class IdentifyPage {
 
         //get geoloc
         this.geolocation.getCurrentPosition().then((resp) => {
+            this.isGpsLocationEnabled = true;
+
             this.latitude = resp.coords.latitude;
             this.longitude = resp.coords.longitude;
             this.altitude = resp.coords.altitude;
@@ -72,7 +76,9 @@ export class IdentifyPage {
                 });
 
         }).catch((error: any) => {
-            alert("La position GPS est introuvable, veuillez activez votre GPS");
+            this.isGpsLocationEnabled = false;
+            this.usePosition = false;
+            alert("La position GPS est introuvable, le filtre altitude est donc indisponible. Veuillez activez votre GPS.");
         });
     }
 

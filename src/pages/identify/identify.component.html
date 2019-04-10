@@ -22,7 +22,7 @@
         </ion-item>
         <ion-item>
           <ion-label>Filtrer par altitude</ion-label>
-          <ion-checkbox [(ngModel)]="this.usePosition"></ion-checkbox>
+          <ion-checkbox [(ngModel)]="this.usePosition" [disabled]="!this.isGpsLocationEnabled"></ion-checkbox>
         </ion-item>
       </ion-list>
     </div>
