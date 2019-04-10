@@ -242,8 +242,8 @@ export class WalkInProgressPage {
         });
 
         this.listenerPosition = Geolocation.watchPosition({
-            enableHighAccuracy: true
-
+            enableHighAccuracy: true,
+            maximumAge: 10000
         }).subscribe(function (resp): void {
             that.userPosition = ol.proj.transform([resp.coords.longitude, resp.coords.latitude], 'EPSG:4326', 'EPSG:3857');
             that.positionFeature.setGeometry(new ol.geom.Point(that.userPosition));
