@@ -9,10 +9,12 @@
 
 <ion-content>
   <div id="mapInProgress" #mapInProgress class="mapInProgress"></div>
-  <button ion-fab id="btn-follow-user" (click)="toggleFollowUser()" color="light">
-    <ion-icon name="locate" [color]="followUserOption ? 'primary' : 'dark'"></ion-icon>
-  </button>
-  <button ion-fab id="btn-identification" [navPush]="identifyPage" color="primary">
-    <ion-icon name="search" color="light"></ion-icon>
-  </button>
+  <div id="buttonsMapInProgress">
+    <button ion-fab (click)="toggleFollowUser()" color="light">
+      <ion-icon name="locate" [color]="followUserOption ? 'primary' : 'dark'"></ion-icon>
+    </button>
+    <button ion-fab id="btn-identification" [navPush]="identifyPage" color="primary">
+      <ion-icon name="search" color="light"></ion-icon>
+    </button>
+  </div>
 </ion-content>

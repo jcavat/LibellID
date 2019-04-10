@@ -3,15 +3,12 @@
   width: 100%;
   visibility: visible !important;
 }
-#btn-identification {
+#buttonsMapInProgress {
   position: absolute;
   bottom: 3%;
   right: 3%;
   font-size: 2rem;
-}
-#btn-follow-user {
-  position: absolute;
-  bottom: 9.5%;
-  right: 3%;
-  font-size: 2rem;
+  #btn-identification {
+    margin-top: 10px;
+  }
 }
