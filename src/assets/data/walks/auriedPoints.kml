@@ -306,6 +306,24 @@
         <coordinates>7.23395,46.90564</coordinates>
       </Point>
     </Placemark>
+	<Placemark>
+        <ExtendedData>
+            <Data name="id">
+                <value>A</value>
+            </Data>
+		</ExtendedData>
+      <name>Fin</name>
+     <description>
+          <![CDATA[
+              <p>Ici se termine cette promenade. <br>
+				Vous pouvez rejoindre Laupen et votre point de départ en empruntant le chemin qui longe le marais sur votre gauche.
+            </p>
+          ]]> 
+	  </description>		  
+      <Point>
+        <coordinates>7.21389,46.89470</coordinates>
+      </Point>
+    </Placemark>
 
  </Document>
 </kml>

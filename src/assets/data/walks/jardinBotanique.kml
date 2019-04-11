@@ -94,13 +94,6 @@
     </Style>
 
     <Placemark>
-      <name>Au château de Penthes</name>
-      
-      <Point>
-        <coordinates>6.14167,46.23213</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
       
       
       <LineString>
